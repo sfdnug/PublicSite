@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="日本語 (Japanese)" id="ja">
+    <reportcenter>
+      <report name="linkstatus">
+        <caption>リンク ステータス</caption>
+        <description>サイトのコンテンツで機能していないリンクを表示します。</description>
+        <heading>リンク ステータス</heading>
+        <info>
+          このレポートは、サイトのコンテンツで機能していないリンクを表示します。 レポート結果のリストからページを選択して、編集モードで開きます。
+        </info>
+      </report>
+    </reportcenter>
+    <shell>
+      <cms>
+        <brokenlinks>
+          <controller>
+            <tooltip>ページ タイプ:  {0}、ページ ID:  {1}</tooltip>
+            <webExceptions>
+              <fallback>接続エラー</fallback>
+              <status name="1">
+                <fallback>名前解決エラー</fallback>
+              </status>
+              <status name="2">
+                <fallback>接続エラー</fallback>
+              </status>
+              <status name="7">
+                <fallback>サーバー エラー</fallback>
+                <httpStatus name="400">無効な要求</httpStatus>
+                <httpStatus name="404">見つかりません</httpStatus>
+                <httpStatus name="503">ゲートウェイのタイムアウト</httpStatus>
+              </status>
+            </webExceptions>
+          </controller>
+          <index>
+            <info>このレポートには、接続できなかったリンクが表示されます。 この原因としては、ページが移動された、サイトがシャットダウンされた、その時点でターゲット リンクを読み取ることができなかった、などが考えられます。</info>
+            <itemsperpage>ページあたりの項目数</itemsperpage>
+            <name>リンク ステータス</name>
+            <recheck>再チェック</recheck>
+            <showreport>レポートの表示</showreport>
+            <table>
+              <brokensince>破損した日時</brokensince>
+              <brokenurl>破損した URL</brokenurl>
+              <lastchecked>最終チェック</lastchecked>
+              <linkstatus>リンク ステータス</linkstatus>
+              <pagename>ページ名</pagename>
+            </table>
+            <working>動作中です...</working>
+          </index>
+        </brokenlinks>
+        <directoryselector>
+          <directorylisting>
+            <directorytype>ディレクトリ</directorytype>
+          </directorylisting>
+          <folderselector>
+            <emptyfolder>このフォルダは空です。</emptyfolder>
+            <favoritesheading>お気に入り</favoritesheading>
+            <startingpointsheading>開始点</startingpointsheading>
+            <wherelabel>場所</wherelabel>
+          </folderselector>
+          <index>
+            <nameheading>名前</nameheading>
+            <sizeheading>サイズ</sizeheading>
+            <typeheading>タイプ</typeheading>
+          </index>
+        </directoryselector>
+        <externallinks>
+          <common>
+            <hits>リンク数</hits>
+            <host>Web アドレス</host>
+          </common>
+          <details>
+            <link>Web アドレス</link>
+            <page>ページ</page>
+          </details>
+          <errors>
+            <pagenumber>ページ番号は正である必要があります</pagenumber>
+            <pagesize>ページ サイズは正である必要があります</pagesize>
+          </errors>
+          <gadgettitle>外部リンク</gadgettitle>
+          <pager>
+            <info>項目数:  {0} - {1}/{2}</info>
+            <next>&gt;&gt;</next>
+            <prev>&lt;&lt;</prev>
+            <split>...</split>
+          </pager>
+          <settings>
+            <legend>設定</legend>
+            <pagesize>表示する項目数</pagesize>
+            <showdetails>詳細の表示</showdetails>
+          </settings>
+        </externallinks>
+        <hosting>
+          <fileupload>
+            <conflictingdirectory>新しいファイルと同じ名前のフォルダが既に存在します。</conflictingdirectory>
+            <fileexists>同じ名前のファイルが既に存在しますが、既存のファイルを置き換えるための十分なアクセス許可がありません。</fileexists>
+            <fileisnotimage>選択されたファイルはイメージではありません。</fileisnotimage>
+            <fileoverwriteconfirmation>同じ名前のファイルが既に存在します。 既存のファイルを置き換えますか?</fileoverwriteconfirmation>
+            <invaliddirectory>選択されたアップロード ディレクトリは存在しません。</invaliddirectory>
+            <permissiondenied>選択されたフォルダのファイルをアップロードするための十分なアクセス許可がありません。</permissiondenied>
+            <targetfilecheckedout>同じ名前のファイルが既に存在し、別のユーザーにチェックアウトされています。</targetfilecheckedout>
+          </fileupload>
+        </hosting>
+        <menu>
+          <admin>管理モード</admin>
+          <cms>CMS</cms>
+          <cmssettings>EPiServer CMS</cmssettings>
+          <edit>編集モード</edit>
+          <license>ご使用条件</license>
+          <logout>ログアウト</logout>
+          <mysettings>個人用設定</mysettings>
+          <reportcenter>レポート</reportcenter>
+          <selectasite>表示モードで表示するサイトの選択</selectasite>
+          <toviewmode>表示モード [{0}] へ</toviewmode>
+        </menu>
+        <mytasks>
+          <assignedto>割り当て先</assignedto>
+          <createnewtask>編集モードで作成</createnewtask>
+          <createnewtasktitle>編集モードからタスクを作成</createnewtasktitle>
+          <description>説明</description>
+          <duedate>期限</duedate>
+          <EmptySubjectWarning>タスクの件名が空です</EmptySubjectWarning>
+          <errors>
+            <settingsusergroupnames>正しいユーザー グループ名を指定してください。</settingsusergroupnames>
+          </errors>
+          <IncorrectTaskStatusWarning>指定されたステータスはタスクに対して有効ではありません</IncorrectTaskStatusWarning>
+          <InvalidDueDate>タスクの期限が無効です</InvalidDueDate>
+          <legend>タスクの追加</legend>
+          <mygroups>マイ グループ (コンマ区切り)</mygroups>
+          <pagetasks>ページ タスク</pagetasks>
+          <quickadd>簡易追加</quickadd>
+          <quickaddtitle>ダッシュボードからタスクを作成</quickaddtitle>
+          <settingsheading>設定</settingsheading>
+          <status>ステータス</status>
+          <subject>件名</subject>
+          <title>マイ タスク</title>
+          <tooltip>
+            <created>作成日</created>
+            <pageid>ページ ID</pageid>
+            <pagepath>パス</pagepath>
+          </tooltip>
+          <UnknownUserWarning>指定されたユーザーが見つかりません</UnknownUserWarning>
+        </mytasks>
+        <notchangedpages>
+          <errors>
+            <monthswithoutchanges>月数は 1 以上の整数である必要があります。</monthswithoutchanges>
+            <numberofitems>項目数は 1 以上の整数である必要があります。</numberofitems>
+          </errors>
+          <gadgettitle>変更されていないページ</gadgettitle>
+          <indexview>
+            <changedby>変更者</changedby>
+            <modified>変更日</modified>
+            <name>名前</name>
+            <status>ステータス</status>
+          </indexview>
+          <settingsview>
+            <invertsorting>降順でソート</invertsorting>
+            <legend>設定</legend>
+            <monthswithoutchanges>月数</monthswithoutchanges>
+            <numberofitems>表示する項目数</numberofitems>
+          </settingsview>
+        </notchangedpages>
+        <notesgadget>
+          <backgroundcolor>背景色</backgroundcolor>
+          <backgroundcolors>
+            <blue>青</blue>
+            <green>緑</green>
+            <orange>オレンジ</orange>
+            <pink>ピンク</pink>
+            <white>白</white>
+            <yellow>黄</yellow>
+          </backgroundcolors>
+          <textsize>テキスト サイズ</textsize>
+          <textsizes>
+            <big>大</big>
+            <normal>通常</normal>
+            <verybig>最大</verybig>
+          </textsizes>
+          <title>注意</title>
+        </notesgadget>
+        <pageinfo>
+          <modifiedby>変更者</modifiedby>
+          <modifieddate>変更日</modifieddate>
+          <pagelink>ID</pagelink>
+          <pagetype>ページ タイプ</pagetype>
+          <path>パス</path>
+        </pageinfo>
+        <quicklinks>
+          <addlink>リンクの追加</addlink>
+          <cmsedit>
+            <text>編集</text>
+            <tooltip>CMS の編集モードを開く</tooltip>
+          </cmsedit>
+          <cmslinkcategoryname>CMS</cmslinkcategoryname>
+          <contentguidecategoryname>簡易公開</contentguidecategoryname>
+          <deletelink>リンクの削除</deletelink>
+          <episerverworldforum>
+            <text>EPiServer World フォーラム</text>
+            <tooltip>EPiServer World 上のフォーラム</tooltip>
+          </episerverworldforum>
+          <linktitle>タイトル</linktitle>
+          <linkurl>Web アドレス</linkurl>
+          <managelinks>リンクの管理</managelinks>
+          <mylinkscategoryname>マイ リンク</mylinkscategoryname>
+          <nocategory>カテゴリなし</nocategory>
+          <title>クイック リンク</title>
+        </quicklinks>
+        <recentlychangedpages>
+          <common>
+            <byall>すべての変更</byall>
+            <byme>個人の変更</byme>
+            <heading>最近変更されたページ</heading>
+          </common>
+          <configure>
+            <defaultview>デフォルト表示</defaultview>
+            <heading>設定</heading>
+            <numberofitems>表示する項目数</numberofitems>
+          </configure>
+          <index>
+            <changedby>変更者</changedby>
+            <modified>保存日</modified>
+            <name>名前</name>
+            <status>ステータス</status>
+          </index>
+          <rss>
+            <description>サイト {0} に最近変更されたページがあります</description>
+          </rss>
+        </recentlychangedpages>
+        <rssgadget>
+          <errors>
+            <invalidfeed>"{0}" から返されたフィード コンテンツ内の XML エラーのため、フィードを読み取ることができませんでした。</invalidfeed>
+            <invaliditemstoshow>表示する項目数は正の整数である必要があります。</invaliditemstoshow>
+            <invaliduri>Web アドレスが無効です。 Web アドレスは http:// または https:// で始まる絶対 URL である必要があります。 </invaliduri>
+            <notafeed>Web アドレス [{0}] に有効な RSS またはアトム フィードが含まれていません。</notafeed>
+          </errors>
+          <loadingfeedmessage>フィードをロードしています...</loadingfeedmessage>
+          <settings>
+            <feedurl>フィード URL</feedurl>
+            <itemstoshow>表示する項目</itemstoshow>
+            <loadfeedtitle>フィードからタイトルを取り出す</loadfeedtitle>
+            <title>タイトル</title>
+          </settings>
+          <title>RSS フィード リーダー</title>
+        </rssgadget>
+        <search>
+          <files>
+            <category>ファイル</category>
+          </files>
+          <pages>
+            <category>ページ</category>
+            <id>ID</id>
+            <linkurl>Link URL</linkurl>
+            <tooltip>
+              <changed>変更日</changed>
+              <created>作成日</created>
+              <id>ID</id>
+              <linkurl>リンク URL</linkurl>
+              <pagetype>ページ タイプ</pagetype>
+            </tooltip>
+          </pages>
+        </search>
+        <uploadfile>
+          <controller>
+            <noresize>サイズを変更しないでください</noresize>
+          </controller>
+          <index>
+            <alttextlabel>代替テキスト</alttextlabel>
+            <imagelegend>イメージ</imagelegend>
+            <imagesizelabel>イメージのサイズ変更</imagesizelabel>
+            <savetolegend>保存先</savetolegend>
+            <selectlabel>ファイルの選択</selectlabel>
+            <uploadbutton>アップロードおよび挿入</uploadbutton>
+          </index>
+        </uploadfile>
+        <xformsviewer>
+          <autoupdatelevel>
+            <never>更新しない</never>
+            <normal>中 (10 分ごと)</normal>
+            <often>高 (60 秒ごと)</often>
+            <seldom>低 (60 分ごと)</seldom>
+          </autoupdatelevel>
+          <AutoupdateLevel>自動更新</AutoupdateLevel>
+          <chartperiodicity>
+            <day>1 日ごと</day>
+            <hour>1 時間ごと</hour>
+            <minute>1 分ごと</minute>
+            <month>1 か月ごと</month>
+            <week>1 週間ごと</week>
+          </chartperiodicity>
+          <ChartPeriodicityLabel>グラフの周期性</ChartPeriodicityLabel>
+          <ChartSettings>グラフ設定</ChartSettings>
+          <DemoMode>デモ モード</DemoMode>
+          <error>
+            <fields>フィールドが選択されていません</fields>
+            <formfields>フォーム フィールドの選択</formfields>
+            <numberofposts>項目数は 1 ～ 50 の間の整数である必要があります。</numberofposts>
+            <xformid>フォームの選択</xformid>
+          </error>
+          <GadgetTitle>フォーム ビューア</GadgetTitle>
+          <NoFieldsAvailable>使用できるフィールドがありません</NoFieldsAvailable>
+          <NoFormsAvailable>使用できるフォームがありません</NoFormsAvailable>
+          <NumberOfPosts>表示する項目数</NumberOfPosts>
+          <SelectFields>表示するフィールド</SelectFields>
+          <SelectXForm>フォームの選択</SelectXForm>
+          <settings>設定</settings>
+          <ShowChart>グラフの表示</ShowChart>
+          <ShowDate>項目の投稿日を表示</ShowDate>
+          <TableColumnPostedTime>投稿日</TableColumnPostedTime>
+        </xformsviewer>
+      </cms>
+      <common>
+        <buttons>
+          <cancel>キャンセル</cancel>
+          <save>保存</save>
+        </buttons>
+      </common>
+    </shell>
+  </language>
+</languages>

@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="svenska" id="sv">
+    <document>
+      <download>Ladda ner:</download>
+    </document>
+    <error>
+      <document>Sidegenskapen "Document path" är inte angiven.</document>
+      <mainmenucontainer>Den dynamiska egenskapen "MainMenuContainer" är inte angiven.</mainmenucontainer>
+    </error>
+    <form>
+      <numberofvotes>Röster: {0}</numberofvotes>
+      <postedmessage>Tack för din röst!</postedmessage>
+      <showform>Till formuläret</showform>
+      <showstat>Visa statistik</showstat>
+    </form>
+    <headings>
+      <heading name="News &amp; Calendar">
+        <description>Nyheter och Kalender</description>
+      </heading>
+      <heading name="SiteConfiguration">
+        <description>Inställningar</description>
+      </heading>
+    </headings>
+    <login>
+      <becomemember>Registrera</becomemember>
+      <editdetails>Mina inställningar</editdetails>
+      <email>Skriv din e-postadress:</email>
+      <error>
+        <loginfail>Inloggningen misslyckades. Lösenord eller användarnamn stämde inte.</loginfail>
+        <password>Du måste ange lösenord</password>
+        <username>Du måste ange användarnamn</username>
+      </error>
+      <forgotpassword>Glömt ditt lösenord?</forgotpassword>
+      <login>Logga in</login>
+      <logout>Logga ut</logout>
+      <password>Lösenord</password>
+    </login>
+    <navigation>
+      <help>Hjälp</help>
+      <listen>Lyssna</listen>
+      <readmore>Läs mer</readmore>
+      <search>Sök</search>
+      <skipnavigation>Gå till innehåll</skipnavigation>
+      <startpage>Start</startpage>
+      <startpagelinktitle>To start page</startpagelinktitle>
+    </navigation>
+    <news>
+      <morenews>Fler nyheter</morenews>
+      <publishdate>Publicerad</publishdate>
+      <writername>Skribent</writername>
+    </news>
+    <pagetypes>
+      <common>
+        <property name="ConfirmationMessage">
+          <caption>E-postmeddelande vid bekräftelse</caption>
+          <help>Ange en text som skickas i e-postmeddelande vid lyckad registrering</help>
+        </property>
+        <property name="ContactPage">
+          <caption>Kontaktsida</caption>
+          <help>Länk till sida med kontaktinformation</help>
+        </property>
+        <property name="Description">
+          <caption>Rubrik för RSS-källa</caption>
+          <help>Ange en rubrik för RSS-källa </help>
+        </property>
+        <property name="DocumentListRoot">
+          <caption>Startsida för dokumentlista</caption>
+          <help>Ange en föräldersida där dokumentlista ska hämtas. Om ingen sida är angiven visas ingen lista.</help>
+        </property>
+        <property name="DocumentPath">
+          <caption>Sökväg till Dokument</caption>
+          <help>Ange en sökväg till dokument som ska visas</help>
+        </property>
+        <property name="EmailBody">
+          <caption>Innehåll i e-postmeddelande</caption>
+          <help>Textinnehåll i e-posmeddelande som skickas till användaren</help>
+        </property>
+        <property name="EmailSender">
+          <caption>Avsändare för e-postmeddelande</caption>
+          <help>Ange adress som ska vara avsändare på e-postmeddelande som skickas</help>
+        </property>
+        <property name="EmailSubject">
+          <caption>Ämnesrad för e-postmeddelande</caption>
+          <help>Titel på e-postmeddelande som skickas</help>
+        </property>
+        <property name="EmbeddedObjectHeight">
+          <caption>Höjd på flashfilm</caption>
+          <help>Ange höjd på flashfilm i pixar</help>
+        </property>
+        <property name="EmbeddedObjectWidth">
+          <caption>Bredd på flashfilm</caption>
+          <help>Ange bredd på flashfilm i pixlar</help>
+        </property>
+        <property name="EmbeddedURL">
+          <caption>Sökväg till flashfilm</caption>
+          <help>Ange en adress till flashfilmen som ska visas</help>
+        </property>
+        <property name="EnableStatistics">
+          <caption>		Visa statistik på sidmallen</caption>
+          <help>			Visar resultatet av postningar för besökaren</help>
+        </property>
+        <property name="EPSUBSCRIBE">
+          <caption>Aktivera prenumeration</caption>
+          <help>Aktivera prenumeration för den här sidan</help>
+        </property>
+        <property name="EPSUBSCRIBE-EXCLUDE">
+          <caption>Blockera prenumeration för denna sida</caption>
+          <help>Markera denna ruta för att blockera prenumerationsutskick för den här sidan</help>
+        </property>
+        <property name="EPSUBSCRIBEHIDDEN">
+          <caption>Visa inte på prenumerationssidan</caption>
+          <help>Hides this page on the subscriptions page</help>
+        </property>
+        <property name="EPSUBSCRIBE-ROOT">
+          <caption>Startsida för prenumeration</caption>
+          <help>Ange en sida som ska vara första sidan som prenumeraitonsfunktionen använder för utskick</help>
+        </property>
+        <property name="EventsCount">
+          <caption>Antal händelser</caption>
+          <help>Ange ett heltal för de antal händelser som ska visas</help>
+        </property>
+        <property name="EventsRoot">
+          <caption>Hämta kalenderlistning från</caption>
+          <help>Ange en föräldersida som är startsida för kalender</help>
+        </property>
+        <property name="Heading">
+          <caption>Rubrik på sidan</caption>
+          <help>Rubrik på sidan. Om detta fält lämnas tomt kommer sidan namn att visas som rubrik på sidan istället.</help>
+        </property>
+        <property name="Image">
+          <caption>Konceptbild </caption>
+          <help>Ange en sökväg till bild som ska visas på startsidan (900*341 pixlar)</help>
+        </property>
+        <property name="IndexRoot">
+          <caption>Hämta webbkarta från</caption>
+          <help>Ange en sidan från vilken webbkarta ska skapa innehåll</help>
+        </property>
+        <property name="IsDocumentPageType">
+          <caption>Ladda upp fullständig HTML-version samt källdokument</caption>
+          <help>Markera detta alternativ för att kunna visa den fullständiga HTML-versionen</help>
+        </property>
+        <property name="LoginPage">
+          <caption>Inloggningssida</caption>
+          <help>Sida för inloggning för del av webbplatsen</help>
+        </property>
+        <property name="Logotype">
+          <caption>Logotyp</caption>
+          <help>Sökvägen till bild som ska användas som logotyp på webbplatsen</help>
+        </property>
+        <property name="MainBody">
+          <caption>Primärt innehåll</caption>
+          <help>Primärt innehåll kommer att visas i huvuddelen på sidan. Du kan skriva text, infoga bilder, skapa länkar m.m.</help>
+        </property>
+        <property name="MainIntro">
+          <caption>Puff-text</caption>
+          <help>Ange en lockande text om sidan som endast visas i listning</help>
+        </property>
+        <property name="MainListCount">
+          <caption>Antal sidor i lista</caption>
+          <help>Ange med ett heltal hur många sidor som ska visas i lista</help>
+        </property>
+        <property name="MainListRoot">
+          <caption>Hämta listning från</caption>
+          <help>Ange en föräldersida som ska vara startsida för listning. Om inget värde anges kommer ingen lista att visas. </help>
+        </property>
+        <property name="MainMenuContainer">
+          <caption>Visa menyer från</caption>
+          <help>Ange en plats i menyträdet från vilken sida du vill visa menyer på vald sida</help>
+        </property>
+        <property name="MetaAuthor">
+          <caption>Skribent</caption>
+          <help>Ange vem som ska stå som författare för texten som används av sökmotorer. Om inget värde ange på sidan kommer dynamisk egenskap användas istället. </help>
+        </property>
+        <property name="MetaDescription">
+          <caption>Beskrivning av sidan</caption>
+          <help>Ange en kortfattad beskrivning av sidans innehåll</help>
+        </property>
+        <property name="MetaKeywords">
+          <caption>Standardsökord för sidor</caption>
+          <help>Ange en kommaseparerad lista av sökord som matchar den här sidan</help>
+        </property>
+        <property name="NewsCount">
+          <caption>Antal nyheter</caption>
+          <help>Ange ett heltal för de antal nyheter som ska visas</help>
+        </property>
+        <property name="NewsRoot">
+          <caption>Hämta nyhetslistning från</caption>
+          <help>Ange en föräldersida som är startsida för nyheter</help>
+        </property>
+        <property name="PasswordChangeSuccessBody">
+          <caption>Lyckad ändring av lösenord</caption>
+          <help>Textmeddelande som visas vid lyckad ändring av lösenord</help>
+        </property>
+        <property name="PasswordLength">
+          <caption>Längd på lösenord</caption>
+          <help>Minsta tillåtna längd på lösenord</help>
+        </property>
+        <property name="PrivacyPage">
+          <caption>Integritets-sida</caption>
+          <help>Länk till sidan om integritet</help>
+        </property>
+        <property name="RootFolder">
+          <caption>Sökväg till katalog som ska visas</caption>
+          <help>Ange en sökvägen till den katalog som ska visas</help>
+        </property>
+        <property name="RssContainer">
+          <caption>Huvudsida för RSS</caption>
+          <help>Ange en föräldersida som är startsida för alla RSS-källor</help>
+        </property>
+        <property name="RssSource">
+          <caption>Sida för RSS-källa</caption>
+          <help>Ange en sida som ska vara huvudsida för RSS-källor från webbplatsen</help>
+        </property>
+        <property name="RssUrl">
+          <caption>Sökväg till RSS-källa</caption>
+          <help>Ange en adress till innehåll i RSS-format. Det är vanligen en internetadress.</help>
+        </property>
+        <property name="SearchPage">
+          <caption>Söksida</caption>
+          <help>Länk till söksida som används av snabbsök</help>
+        </property>
+        <property name="SearchRoot">
+          <caption>Startsida för sökning</caption>
+          <help>Ange från vilken sida sökfunktionen ska starta sökningen</help>
+        </property>
+        <property name="SecondaryBody">
+          <caption>Sekundärt innehåll</caption>
+          <help>Sekundärt innehåll kommer att visas i huvuddelen på sidan. Du kan skriva text, infoga bilder, skapa länkar m.m.</help>
+        </property>
+        <property name="SecondaryListCount">
+          <caption>Antal sidor i lista för andra listan</caption>
+          <help>Ange hur många sidor som ska visas i andra listan</help>
+        </property>
+        <property name="SecondaryListRoot">
+          <caption>Hämta andra listning från</caption>
+          <help>Ange en föräldersida som ska vara startsida för sekundär listning. Om inget värde anges kommer ingen lista att visas.  </help>
+        </property>
+        <property name="SitemapPage">
+          <caption>Webbkarta</caption>
+          <help>Länk till webbkarta</help>
+        </property>
+        <property name="SortFilesBy">
+          <caption>Sortera filer efter</caption>
+          <help>Ange hur filer ska sorteras vid visning på sidan</help>
+        </property>
+        <property name="SubscriptionMailBody">
+          <caption>Introduktionstext till prenumerationsutskick</caption>
+          <help>Ange texten som du vill inleda ditt prenumerations e-postmeddelande med. Meddelandet skickas ut till alla prenumeranter via e-post.</help>
+        </property>
+        <property name="SubscriptionMailFrom">
+          <caption>Avsändaradress för prenumerationsutskick</caption>
+          <help>E-postadressen som ska stå som avsändare på de e-postmeddelanden som skickas med prenumerationen.</help>
+        </property>
+        <property name="SubscriptionMailReadMore">
+          <caption>Text i prenumerationsutskick för länkar till sidor</caption>
+          <help>Denna text kommer att fungera som länk som användaren kan klicka på i prenumerationsmeddelanden.</help>
+        </property>
+        <property name="SubscriptionMailSubject">
+          <caption>Ämnesrad för prenumerationsutskick</caption>
+          <help>Det som anges här kommer att som ämne på prenumerationsutskicken.</help>
+        </property>
+        <property name="Thumbnail">
+          <caption>Miniatyrbild</caption>
+          <help>Sökväg till miniatyrbild som visas om sidan är en del av en listning </help>
+        </property>
+        <property name="XForm">
+          <caption>Formulär</caption>
+          <help>Ange vilket formulär som skall visas på sidan. Genom att klicka på knappen kan du skapa egna formulär</help>
+        </property>
+      </common>
+      <pagetype name="[Public] Demo page">
+        <description>Sida som samlar funktioner för att visa hur olika kontroller kan användas i en och samma mall.</description>
+        <name>[Publik] Demosida</name>
+      </pagetype>
+      <pagetype name="[Public] Document">
+        <description>Dokument publicerat från Microsoft Office</description>
+        <name>[Publik] Dokument</name>
+      </pagetype>
+      <pagetype name="[Public] Document list">
+        <description>Visar en lista med dokument som publicerats från Microsoft Office</description>
+        <name>[Publik] Dokumentlista</name>
+      </pagetype>
+      <pagetype name="[Public] File explorer">
+        <description>Sida som listar filer från en katalog på webbservern</description>
+        <name>[Publik] Fillistning</name>
+      </pagetype>
+      <pagetype name="[Public] Login">
+        <description>Sida med möjliggör inloggning på webbplatsen</description>
+        <name>[Publik] Inloggning</name>
+      </pagetype>
+      <pagetype name="[Public] News item">
+        <description>Sida för att skapa en enskild nyhet. Sidan visas inte i menyer</description>
+        <name>[Publik] Nyhetssida</name>
+      </pagetype>
+      <pagetype name="[Public] Registration">
+        <description>Sida där besökaren kan registrera sig själva på webbplatsen</description>
+        <name>[Publik] Registrera användare</name>
+      </pagetype>
+      <pagetype name="[Public] RSS source">
+        <description>Sida som visar information från EPiServer i RSS-format</description>
+        <name>[Publik] RSS-källa</name>
+      </pagetype>
+      <pagetype name="[Public] Search page">
+        <description>Sida för att söka information på webbplatsen, används både för snabbsök och avancerad sök</description>
+        <name>[Publik] Söksida</name>
+      </pagetype>
+      <pagetype name="[Public] SiteMap">
+        <description>Sida som visar innehållet på hela eller delar av webbplatsen</description>
+        <name>[Publik] Webbkarta</name>
+      </pagetype>
+      <pagetype name="[Public] Standard page">
+        <description>Vanlig informationssida, är den mest använda mall på webbplatsen. Den används för vanliga sidor, nyheter och händelser.</description>
+        <name>[Publik] Standardsida</name>
+      </pagetype>
+      <pagetype name="[Public] Start page">
+        <description>Sida som är huvudingången till webbplatsen som innehåller en primär och en sekundär del. Har listor över nyheter, artiklar och händelser.</description>
+        <name>[Publik] Startsida</name>
+      </pagetype>
+      <pagetype name="[Public] Subscription">
+        <description>Sida för besökaren att välja prenumerationsinformation</description>
+        <name>[Publik] Prenumeration</name>
+      </pagetype>
+      <pagetype name="[Public] XForm page">
+        <description>Sida som innehåller ett formulär</description>
+        <name>[Publik] Formulärsida</name>
+      </pagetype>
+    </pagetypes>
+    <register>
+      <confirmation>Tack</confirmation>
+      <error>
+        <email>Vänligen ange din e-postadress</email>
+        <firstname>Vänligen ange ditt förnamn</firstname>
+        <incorrectemail>E-postadressen du angivit är inte korrekt</incorrectemail>
+        <lastname>Vänligen ange ditt efternamn</lastname>
+        <password>Vänligen ange ett lösenord</password>
+        <passwordlength>Lösenordet du anget är för kort. Minsta längd: </passwordlength>
+        <passwordrepeat>Lösenorden du angett är inte lika</passwordrepeat>
+      </error>
+      <password>Skriv in lösenord</password>
+      <repeatpassword>Upprepa lösenord</repeatpassword>
+      <signupbutton>Anmäl</signupbutton>
+    </register>
+    <search>
+      <advancedsearch>Avancerad sök</advancedsearch>
+      <button>Sök</button>
+      <findsimilar>Hitta liknande</findsimilar>
+      <onlywholewords>Sök hela ord</onlywholewords>
+      <percentrelevancy>% relevans</percentrelevancy>
+      <relevancy>Relevans</relevancy>
+      <searchfiles>Sök bland dokument och filer</searchfiles>
+      <searchfor>Sök efter:</searchfor>
+      <searchresult>Sökresultat:</searchresult>
+      <searchstring>Sök här</searchstring>
+    </search>
+    <subscription>
+      <daily>Dagligen</daily>
+      <email>E-postadress</email>
+      <fastaspossible>Så snart som möjligt</fastaspossible>
+      <interval>Intervall</interval>
+      <monthly>Månatligen</monthly>
+      <subscribe>Prenumerera</subscribe>
+      <subscription>Prenumeration</subscription>
+      <weekly>Varje vecka</weekly>
+    </subscription>
+    <usersettings>
+      <changepassword>Ändra lösenord</changepassword>
+      <confirmpassword>Bekräfta lösenord</confirmpassword>
+      <email>E-postadress</email>
+      <firstname>Förnamn</firstname>
+      <lastname>Efternamn</lastname>
+      <mysettings>Mina inställningar</mysettings>
+      <newpassword>Nytt lösenord</newpassword>
+      <username>Användarnamn</username>
+    </usersettings>
+  </language>
+</languages>

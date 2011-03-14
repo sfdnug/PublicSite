@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="français" id="fr">
+    <document>
+      <download>Télécharger :</download>
+    </document>
+    <error>
+      <document>La propriété de page "Chemin de document" n'est pas définie.</document>
+      <mainmenucontainer>La propriété dynamique "MainMenuContainer" n'est pas définie.</mainmenucontainer>
+    </error>
+    <form>
+      <numberofvotes>Nombre de votes : {0}</numberofvotes>
+      <postedmessage>Merci d'avoir répondu !</postedmessage>
+      <showform>Au formulaire</showform>
+      <showstat>Afficher les statistiques</showstat>
+    </form>
+    <headings>
+      <heading name="News &amp; Calendar">
+        <description>Infos &amp; Calendrier</description>
+      </heading>
+      <heading name="SiteConfiguration">
+        <description>Configuration du site</description>
+      </heading>
+    </headings>
+    <login>
+      <becomemember>S'inscrire</becomemember>
+      <editdetails>Mes paramètres</editdetails>
+      <email>Saisissez votre adresse de messagerie :</email>
+      <error>
+        <loginfail>La connexion a échoué. Le nom d'utilisateur ou le mot de passe indiqué est incorrect.</loginfail>
+        <password>Vous devez saisir un mot de passe</password>
+        <username>Vous devez indiquer un nom d'utilisateur</username>
+      </error>
+      <forgotpassword>Vous avez oublié votre mot de passe ?</forgotpassword>
+      <login>Connexion</login>
+      <logout>Déconnexion</logout>
+      <password>Mot de passe</password>
+    </login>
+    <navigation>
+      <help>Aide</help>
+      <listen>Ecouter</listen>
+      <readmore>En savoir plus</readmore>
+      <search>Rechercher</search>
+      <skipnavigation>Accéder au contenu</skipnavigation>
+      <startpage>Démarrer</startpage>
+      <startpagelinktitle>Accéder à la page de démarrage</startpagelinktitle>
+    </navigation>
+    <news>
+      <morenews>Plus d'informations</morenews>
+      <publishdate>Publié</publishdate>
+      <writername>Auteur</writername>
+    </news>
+    <pagetypes>
+      <common>
+        <property name="ConfirmationMessage">
+          <caption>Message de confirmation</caption>
+          <help>Texte envoyé dans le message de confirmation.</help>
+        </property>
+        <property name="ContactPage">
+          <caption>Page Contact</caption>
+          <help>Lien vers la page contenant les informations de contact.</help>
+        </property>
+        <property name="Description">
+          <caption>En-tête de la source RSS</caption>
+          <help>Indiquez un en-tête pour la source RSS </help>
+        </property>
+        <property name="DocumentListRoot">
+          <caption>Page Liste de documents</caption>
+          <help>Spécifiez la page à partir de laquelle extraire la liste de documents. Si la page n'est pas définie, la liste ne s'affiche pas.</help>
+        </property>
+        <property name="DocumentPath">
+          <caption>Chemin du document</caption>
+          <help>Chemin d'accès au document.</help>
+        </property>
+        <property name="EmailBody">
+          <caption>Corps du message électronique</caption>
+          <help>Contenu de l'adresse de messagerie qui sera envoyé.</help>
+        </property>
+        <property name="EmailSender">
+          <caption>Expéditeur du message électronique</caption>
+          <help>Adresse de messagerie utilisée en tant qu'adresse de messagerie de l'expéditeur.</help>
+        </property>
+        <property name="EmailSubject">
+          <caption>Objet du message électronique</caption>
+          <help>Objet du message électronique à envoyer.</help>
+        </property>
+        <property name="EmbeddedObjectHeight">
+          <caption>Hauteur</caption>
+          <help>Indiquez la hauteur de la séquence flash en pixels.</help>
+        </property>
+        <property name="EmbeddedObjectWidth">
+          <caption>Largeur</caption>
+          <help>Indiquez la largeur de la séquence flash en pixels.</help>
+        </property>
+        <property name="EmbeddedURL">
+          <caption>Chemin d'accès de la séquence Flash</caption>
+          <help>Indiquez l’adresse de la séquence Flash</help>
+        </property>
+        <property name="EnableStatistics">
+          <caption>Afficher les statistiques</caption>
+          <help>Afficher les statistiques sur la page pour les visiteurs.</help>
+        </property>
+        <property name="EPSUBSCRIBE">
+          <caption>Activer l'abonnement</caption>
+          <help>Active un abonnement pour cette page</help>
+        </property>
+        <property name="EPSUBSCRIBE-EXCLUDE">
+          <caption>Bloquer l'abonnement pour cette page</caption>
+          <help>Cochez cette case pour bloquer les mises à jour d'abonnement pour cette page.</help>
+        </property>
+        <property name="EPSUBSCRIBEHIDDEN">
+          <caption>Ne pas afficher sur la page d'abonnement</caption>
+          <help>Masque cette page sur la page d'abonnement</help>
+        </property>
+        <property name="EPSUBSCRIBE-ROOT">
+          <caption>Page racine pour l'abonnement</caption>
+          <help>Indiquez une page de l'arborescence qui servira de point de départ pour l'abonnement.</help>
+        </property>
+        <property name="EventsCount">
+          <caption>Nombre d'événements</caption>
+          <help>Limite le nombre d'éléments.</help>
+        </property>
+        <property name="EventsRoot">
+          <caption>Page Liste des événements</caption>
+          <help>Renvoie à la page dont les enfants sont utilisés pour générer la liste des événements. Si elle n'est pas définie, la liste des événements n'est pas affichée.</help>
+        </property>
+        <property name="Heading">
+          <caption>En-tête</caption>
+          <help>Indiquez un en-tête présentant le titre principal de la page. Si cette propriété n'est pas définie, c'est le nom de la page qui sera utilisé comme en-tête.</help>
+        </property>
+        <property name="Image">
+          <caption>Image</caption>
+          <help>Indiquez l’image à afficher sur la page de démarrage (900*341 pixels)</help>
+        </property>
+        <property name="IndexRoot">
+          <caption>Page principale du plan du site</caption>
+          <help>Le plan du site est créé à partir de cette page.</help>
+        </property>
+        <property name="IsDocumentPageType">
+          <caption>Télécharger l'édition HTML complète et la copie du document source</caption>
+          <help>Sélectionnez cette option pour pouvoir afficher l'édition HTML complète</help>
+        </property>
+        <property name="LoginPage">
+          <caption>Page Connexion</caption>
+          <help>Spécifiez la page de connexion pour cette partie du site.</help>
+        </property>
+        <property name="Logotype">
+          <caption>Type de logo</caption>
+          <help>URL de l'image du logo.</help>
+        </property>
+        <property name="MainBody">
+          <caption>Corps principal</caption>
+          <help>Le corps principal s'affiche dans la zone de contenu principale de la page. Vous pouvez, par exemple, insérer du texte, des images et des tableaux à l'aide de l'éditeur XHTML.</help>
+        </property>
+        <property name="MainIntro">
+          <caption>Introduction</caption>
+          <help>Version abrégée du contenu des infos. Ce texte, si disponible, est utilisé dans la liste des infos.</help>
+        </property>
+        <property name="MainListCount">
+          <caption>Nombre d'éléments dans la liste principale</caption>
+          <help>Limite le nombre d'éléments.</help>
+        </property>
+        <property name="MainListRoot">
+          <caption>Page Liste principale</caption>
+          <help>Spécifiez la page à partir de laquelle vous voulez extraire la liste. La liste apparaîtra dans la zone de contenu principale. Si la page n'est pas définie, la liste ne s'affiche pas.</help>
+        </property>
+        <property name="MainMenuContainer">
+          <caption>Afficher les menus à partir de</caption>
+          <help>Spécifiez un emplacement dans l'arborescence des menus où les menus seront affichés sur la page sélectionnée</help>
+        </property>
+        <property name="MetaAuthor">
+          <caption>Auteur</caption>
+          <help>Indiquez l'auteur utilisé par les moteurs de recherche. A défaut, c'est la valeur de la propriété dynamique qui sera utilisée.</help>
+        </property>
+        <property name="MetaDescription">
+          <caption>Description de la page</caption>
+          <help>Décrivez le contenu de la page</help>
+        </property>
+        <property name="MetaKeywords">
+          <caption>Mots à rechercher standard pour les pages</caption>
+          <help>Spécifiez une liste avec une virgule comme séparateur pour les mots à rechercher correspondant à cette page</help>
+        </property>
+        <property name="NewsCount">
+          <caption>Nombre d'éléments de type Actualités</caption>
+          <help>Limite le nombre d'éléments.</help>
+        </property>
+        <property name="NewsRoot">
+          <caption>Page Liste des actualités</caption>
+          <help>Renvoie à la page dont les enfants sont utilisés pour générer la liste des actualités. Si elle n'est pas définie, la liste des actualités n'est pas affichée.</help>
+        </property>
+        <property name="PasswordChangeSuccessBody">
+          <caption>Succès de la modification du mot de passe</caption>
+          <help>Texte affiché en cas de réussite d'un changement de mot de passe.</help>
+        </property>
+        <property name="PasswordLength">
+          <caption>Longueur du mot de passe</caption>
+          <help>Le mot de passe le plus court autorisé.</help>
+        </property>
+        <property name="PrivacyPage">
+          <caption>Page Confidentialité</caption>
+          <help>Lien vers la page contenant les informations légales.</help>
+        </property>
+        <property name="RootFolder">
+          <caption>Chemin des dossiers</caption>
+          <help>L'arborescence des dossiers commence depuis cette page.</help>
+        </property>
+        <property name="RssContainer">
+          <caption>Conteneur RSS</caption>
+          <help>Le conteneur de toutes les pages source RSS</help>
+        </property>
+        <property name="RssSource">
+          <caption>Page source RSS</caption>
+          <help>Dans l’arborescence, spécifiez une page source du contenu RSS figurant sur ce site Web.</help>
+        </property>
+        <property name="RssUrl">
+          <caption>Rechercher le chemin d'accès de la source RSS</caption>
+          <help>Spécifiez le contenu de l’adresse au format RSS. Il s'agit généralement d'une adresse Web.</help>
+        </property>
+        <property name="SearchPage">
+          <caption>Page Recherche</caption>
+          <help>Lien vers la page de recherche pour cette partie du site.</help>
+        </property>
+        <property name="SearchRoot">
+          <caption>Page de recherche principale</caption>
+          <help>La recherche commence à partir de cette page.</help>
+        </property>
+        <property name="SecondaryBody">
+          <caption>Corps secondaire</caption>
+          <help>Le corps secondaire s'affiche dans la colonne de droite de la page. Vous pouvez utiliser à la fois du texte et des images pour la présentation Notez que la taille des images ne doit pas être supérieure à celle de la zone de droite.</help>
+        </property>
+        <property name="SecondaryListCount">
+          <caption>Nombre d'éléments de la liste supplémentaire dans la liste</caption>
+          <help>Limitez le nombre d’éléments dans la liste secondaire à cette valeur.</help>
+        </property>
+        <property name="SecondaryListRoot">
+          <caption>Page Liste supplémentaire</caption>
+          <help>Ce lien pointe vers la page parente qui sera utilisée pour générer une liste de pages dans la colonne de droite. Si la page n'est pas définie, la liste ne s'affiche pas.</help>
+        </property>
+        <property name="SitemapPage">
+          <caption>Page Plan du site</caption>
+          <help>Lien vers la page Plan du site.</help>
+        </property>
+        <property name="SortFilesBy">
+          <caption>Trier les fichiers par</caption>
+          <help>Ordre de tri de l'arborescence des dossiers.</help>
+        </property>
+        <property name="SubscriptionMailBody">
+          <caption>Texte d'introduction dans le message électronique d'abonnement</caption>
+          <help>Entrez le texte qui constituera le corps du message électronique d'abonnement.</help>
+        </property>
+        <property name="SubscriptionMailFrom">
+          <caption>Adresse de l'expéditeur du message électronique d'abonnement</caption>
+          <help>Adresse de messagerie utilisée en tant qu'expéditeur du message électronique d'abonnement.</help>
+        </property>
+        <property name="SubscriptionMailReadMore">
+          <caption>Texte de liaison dans le message électronique d'abonnement</caption>
+          <help>Ce texte crée le texte de liaison sur lequel l'utilisateur peut cliquer dans le message électronique d'abonnement.</help>
+        </property>
+        <property name="SubscriptionMailSubject">
+          <caption>Objet du message électronique d'abonnement</caption>
+          <help>Champ de l'objet du message électronique d'abonnement.</help>
+        </property>
+        <property name="Thumbnail">
+          <caption>Image miniature</caption>
+          <help>Image à afficher dans les listes de page à l'endroit où elle s'applique.</help>
+        </property>
+        <property name="XForm">
+          <caption>Formulaire</caption>
+          <help>Spécifiez le formulaire qui sera affiché sur cette page. En cliquant sur ce bouton, vous pouvez créer vos propres formulaires.</help>
+        </property>
+      </common>
+      <pagetype name="[Public] Demo page">
+        <description>Ce type de page rassemble les fonctions illustrant la manière dont les différents types de commandes et de technologies peuvent interagir avec EPiServer et inversement.</description>
+        <name>Page Démo [public]</name>
+      </pagetype>
+      <pagetype name="[Public] Document">
+        <description>Ce type de page permet de publier des documents à partir de Microsoft Office.</description>
+        <name>Document [public]</name>
+      </pagetype>
+      <pagetype name="[Public] Document list">
+        <description>Ce type de page permet d'afficher une liste de documents publiés à partir de Microsoft Office.</description>
+        <name>Liste de documents [public]</name>
+      </pagetype>
+      <pagetype name="[Public] File explorer">
+        <description>Ce type de page répertorie les fichiers d'un dossier du serveur Web.</description>
+        <name>Liste des fichiers [public]</name>
+      </pagetype>
+      <pagetype name="[Public] Login">
+        <description>Ce type de page permet de créer une page de connexion au site Web.</description>
+        <name>Connexion [public]</name>
+      </pagetype>
+      <pagetype name="[Public] News item">
+        <description>Ce type de page contient les données d'un élément de type Infos</description>
+        <name>Elément Actualités [public]</name>
+      </pagetype>
+      <pagetype name="[Public] Registration">
+        <description>Ce type de page permet aux visiteurs de s'inscrire eux-mêmes sur le site Web.</description>
+        <name>Inscription [public]</name>
+      </pagetype>
+      <pagetype name="[Public] RSS source">
+        <description>Ce type de page permet d'afficher des informations à partir d'EPiServer au format RSS.</description>
+        <name>Source RSS [public]</name>
+      </pagetype>
+      <pagetype name="[Public] Search page">
+        <description>Ce type de page affiche les résultats de la recherche effectuée via la barre de recherche rapide et une interface de recherche avancée.</description>
+        <name>Page de recherche [public]</name>
+      </pagetype>
+      <pagetype name="[Public] SiteMap">
+        <description>Ce type de page permet de créer la liste du contenu d'une partie ou de l'ensemble du site Web.</description>
+        <name>Plan du site [public]</name>
+      </pagetype>
+      <pagetype name="[Public] Standard page">
+        <description>Ce type de page est le plus utilisé sur le site Web. Il peut être utilisé pour les pages ordinaires aussi bien que pour les infos et les événements.</description>
+        <name>Page standard [public]</name>
+      </pagetype>
+      <pagetype name="[Public] Start page">
+        <description>La page de démarrage constitue l'accès principal au site Web. Elle contient un corps principal et un corps secondaire, ainsi que différentes listes pour les actualités, les articles et les événements.</description>
+        <name>Page de démarrage [public]</name>
+      </pagetype>
+      <pagetype name="[Public] Subscription">
+        <description>Ce type de page permet aux visiteurs de sélectionner des informations sur l'abonnement.</description>
+        <name>Abonnement [public]</name>
+      </pagetype>
+      <pagetype name="[Public] XForm page">
+        <description>Ce type de page permet d'ajouter un formulaire à la page standard.</description>
+        <name>Page Formulaire [public]</name>
+      </pagetype>
+    </pagetypes>
+    <register>
+      <confirmation>Merci</confirmation>
+      <error>
+        <email>Veuillez saisir votre adresse de messagerie</email>
+        <firstname>Veuillez saisir votre prénom</firstname>
+        <incorrectemail>L'adresse de messagerie que vous avez saisie est incorrecte.</incorrectemail>
+        <lastname>Veuillez saisir votre nom</lastname>
+        <password>Veuillez saisir un mot de passe</password>
+        <passwordlength>Le mot de passe que vous avez saisi est trop court. Longueur min. :</passwordlength>
+        <passwordrepeat>Les mots de passe que vous avez saisis ne correspondent pas</passwordrepeat>
+      </error>
+      <password>Entrer le mot de passe</password>
+      <repeatpassword>Répéter le mot de passe</repeatpassword>
+      <signupbutton>Valider</signupbutton>
+    </register>
+    <search>
+      <advancedsearch>Recherche avancée</advancedsearch>
+      <button>Rechercher</button>
+      <findsimilar>Recherche similaire</findsimilar>
+      <onlywholewords>Mot entier</onlywholewords>
+      <percentrelevancy>% de pertinence</percentrelevancy>
+      <relevancy>Pertinence</relevancy>
+      <searchfiles>Rechercher dans les fichiers</searchfiles>
+      <searchfor>Rechercher :</searchfor>
+      <searchresult>Résultat de la recherche :</searchresult>
+      <searchstring>Saisissez votre recherche ici</searchstring>
+    </search>
+    <subscription>
+      <daily>Tous les jours</daily>
+      <email>Adresse de messagerie</email>
+      <fastaspossible>Dès que possible</fastaspossible>
+      <interval>Intervalle</interval>
+      <monthly>Tous les mois</monthly>
+      <subscribe>S'abonner</subscribe>
+      <subscription>Abonnement</subscription>
+      <weekly>Toutes les semaines</weekly>
+    </subscription>
+    <usersettings>
+      <changepassword>Changer le mot de passe</changepassword>
+      <confirmpassword>Confirmer le mot de passe</confirmpassword>
+      <email>Adresse de messagerie</email>
+      <firstname>Prénom</firstname>
+      <lastname>Nom</lastname>
+      <mysettings>Mes paramètres</mysettings>
+      <newpassword>Nouveau mot de passe</newpassword>
+      <username>Nom de l'utilisateur</username>
+    </usersettings>
+  </language>
+</languages>

@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="dansk" id="da">
+    <document>
+      <download>Hent:</download>
+    </document>
+    <error>
+      <document>Sideegenskaben "Document path" er ikke angivet.</document>
+      <mainmenucontainer>Den dynamiske egenskab "MainMenuContainer" er ikke angivet.</mainmenucontainer>
+    </error>
+    <form>
+      <numberofvotes>Antal stemmer: {0}</numberofvotes>
+      <postedmessage>Tak for dit indlæg!</postedmessage>
+      <showform>Til formularen</showform>
+      <showstat>Vis statistik</showstat>
+    </form>
+    <headings>
+      <heading name="News &amp; Calendar">
+        <description>Nyheder og kalender</description>
+      </heading>
+      <heading name="SiteConfiguration">
+        <description>Webstedskonfiguration</description>
+      </heading>
+    </headings>
+    <login>
+      <becomemember>Registrer</becomemember>
+      <editdetails>Mine indstillinger</editdetails>
+      <email>Skriv din e-mail-adresse:</email>
+      <error>
+        <loginfail>Kunne ikke logge på. Det angivne brugernavn eller den angivne adgangskode var ikke korrekt.</loginfail>
+        <password>Du skal skrive en adgangskode</password>
+        <username>Du skal angive et brugernavn</username>
+      </error>
+      <forgotpassword>Glemt adgangskode?</forgotpassword>
+      <login>Log på</login>
+      <logout>Log af</logout>
+      <password>Adgangskode</password>
+    </login>
+    <navigation>
+      <help>Hjælp</help>
+      <listen>Lyt</listen>
+      <readmore>Læs mere</readmore>
+      <search>Søg</search>
+      <skipnavigation>Gå til indhold</skipnavigation>
+      <startpage>Start</startpage>
+      <startpagelinktitle>Sådan startes en side</startpagelinktitle>
+    </navigation>
+    <news>
+      <morenews>Flere nyheder</morenews>
+      <publishdate>Udgivet</publishdate>
+      <writername>Forfatter</writername>
+    </news>
+    <pagetypes>
+      <common>
+        <property name="ConfirmationMessage">
+          <caption>Bekræftelsesmeddelelse.</caption>
+          <help>Tekst, der sendes i bekræftelses-e-mailen.</help>
+        </property>
+        <property name="ContactPage">
+          <caption>Kontaktside</caption>
+          <help>Link til siden med kontaktoplysninger.</help>
+        </property>
+        <property name="Description">
+          <caption>Overskrift på RSS-kilde</caption>
+          <help>Angiv en overskrift på RSS-kilden </help>
+        </property>
+        <property name="DocumentListRoot">
+          <caption>Hent dokumentliste fra</caption>
+          <help>Angiv den side, som du vil hente dokumentlisten fra. Hvis der ikke angives en værdi, vises sidelisten ikke.</help>
+        </property>
+        <property name="DocumentPath">
+          <caption>Dokumentsti</caption>
+          <help>Sti til dokument.</help>
+        </property>
+        <property name="EmailBody">
+          <caption>E-mail-tekst</caption>
+          <help>Indhold af den e-mail-adresse, der sendes.</help>
+        </property>
+        <property name="EmailSender">
+          <caption>E-mail-afsender</caption>
+          <help>E-mail-adresse, der bliver brugt som afsenderadresse.</help>
+        </property>
+        <property name="EmailSubject">
+          <caption>E-mail-emne</caption>
+          <help>Emnet for den e-mail, der skal sendes.</help>
+        </property>
+        <property name="EmbeddedObjectHeight">
+          <caption>Flash-filmens højde</caption>
+          <help>Angiv Flash-filmens højde i pixel.</help>
+        </property>
+        <property name="EmbeddedObjectWidth">
+          <caption>Flash-filmens bredde</caption>
+          <help>Angiv Flash-filmens bredde i pixel.</help>
+        </property>
+        <property name="EmbeddedURL">
+          <caption>Sti til Flash-film</caption>
+          <help>Angiv adressen til Flash-filmen</help>
+        </property>
+        <property name="EnableStatistics">
+          <caption>Vis statistik</caption>
+          <help>Viser resultatet af posteringer for besøgende</help>
+        </property>
+        <property name="EPSUBSCRIBE">
+          <caption>Aktiver abonnement</caption>
+          <help>Aktiverer et abonnement for denne side</help>
+        </property>
+        <property name="EPSUBSCRIBE-EXCLUDE">
+          <caption>Bloker for abonnementer på denne side</caption>
+          <help>Marker dette afkrydsningsfelt for at blokere for abonnementsopdateringer på denne side.</help>
+        </property>
+        <property name="EPSUBSCRIBEHIDDEN">
+          <caption>Vis ikke på abonnementssiden</caption>
+          <help>Skjuler denne side på abonnementssiden</help>
+        </property>
+        <property name="EPSUBSCRIBE-ROOT">
+          <caption>Rodside for abonnement</caption>
+          <help>Angiv en side i træet, hvorfra abonnementet skal starte.</help>
+        </property>
+        <property name="EventsCount">
+          <caption>Antal hændelser</caption>
+          <help>Begrænser antallet af hændelser.</help>
+        </property>
+        <property name="EventsRoot">
+          <caption>Side for hændelsesliste</caption>
+          <help>Peger til den side, hvis underordnede sider bliver brugt til at generere hændelseslisten. Hvis der ikke angives en værdi, vises hændelseslisten ikke.</help>
+        </property>
+        <property name="Heading">
+          <caption>Overskrift</caption>
+          <help>Angiv en overskrift, som skal udgøre hovedtitlen på denne side. Hvis denne egenskab ikke indstilles, bruges sidens navn som overskrift i stedet for.</help>
+        </property>
+        <property name="Image">
+          <caption>Billede</caption>
+          <help>Angiv et billede, der skal vises på startsiden (900x341 pixel)</help>
+        </property>
+        <property name="IndexRoot">
+          <caption>Sitemap-rodside</caption>
+          <help>Kortet over webstedet oprettes med start fra denne side.</help>
+        </property>
+        <property name="IsDocumentPageType">
+          <caption>Overfør en fuldstændig HTML-version samt kildedokumentet</caption>
+          <help>Marker dette alternativ, hvis du vil vise den fuldstændige HTML-version</help>
+        </property>
+        <property name="LoginPage">
+          <caption>Logonside</caption>
+          <help>Angiv logonsiden for denne del af webstedet.</help>
+        </property>
+        <property name="Logotype">
+          <caption>Logotype</caption>
+          <help>URL-adressen til logotypebilledet.</help>
+        </property>
+        <property name="MainBody">
+          <caption>Primær tekst</caption>
+          <help>Den primære tekst vises i hovedindholdsområdet på siden. Du kan indsætte f.eks. tekst, billeder og tabeller ved hjælp af XHTML-editoren.</help>
+        </property>
+        <property name="MainIntro">
+          <caption>Indledning</caption>
+          <help>En kort udgave af nyhedsindholdet. Denne tekst bruges på nyhedslisten, hvis den er tilgængelig.</help>
+        </property>
+        <property name="MainListCount">
+          <caption>Antal primære listeelementer på listen</caption>
+          <help>Begrænser antallet af elementer.</help>
+        </property>
+        <property name="MainListRoot">
+          <caption>Side for hovedliste</caption>
+          <help>Vælg den side, som du vil hente listen fra. Listen vises i hovedindholdsområdet. Hvis der ikke angives en værdi, vises sidelisten ikke.</help>
+        </property>
+        <property name="MainMenuContainer">
+          <caption>Vis menuer fra</caption>
+          <help>Anfør det sted i menutræet, hvorfra du vil vise menuer på den valgte side</help>
+        </property>
+        <property name="MetaAuthor">
+          <caption>Forfatter</caption>
+          <help>Angiv forfatteren til tekst, der skal bruges af søgeprogrammer. Hvis der ikke angives en værdi, bruges værdien i den dynamiske egenskab i stedet for.</help>
+        </property>
+        <property name="MetaDescription">
+          <caption>Beskrivelse af siden</caption>
+          <help>Angiv en kort beskrivelse af sidens indhold</help>
+        </property>
+        <property name="MetaKeywords">
+          <caption>Standardsøgeord til sider</caption>
+          <help>Anfør, adskilt af et komma, en liste med søgeord, der matcher denne side</help>
+        </property>
+        <property name="NewsCount">
+          <caption>Antal nyheder</caption>
+          <help>Begrænser antallet af nyheder.</help>
+        </property>
+        <property name="NewsRoot">
+          <caption>Side for nyhedsliste</caption>
+          <help>Peger til den side, hvis underordnede sider bliver brugt til at generere nyhedslisten. Hvis der ikke angives en værdi, vises nyhedslisten ikke.</help>
+        </property>
+        <property name="PasswordChangeSuccessBody">
+          <caption>Adgangskoden er ændret</caption>
+          <help>Tekst, som vises, når en adgangskode er blevet ændret.</help>
+        </property>
+        <property name="PasswordLength">
+          <caption>Længde af adgangskode</caption>
+          <help>Den kortest tilladte adgangskode.</help>
+        </property>
+        <property name="PrivacyPage">
+          <caption>Side til personlige oplysninger</caption>
+          <help>Link til siden med juridiske oplysninger.</help>
+        </property>
+        <property name="RootFolder">
+          <caption>Mappesti</caption>
+          <help>Mappetræ starter på denne side.</help>
+        </property>
+        <property name="RssContainer">
+          <caption>Rss-container</caption>
+          <help>Containeren til alle rss-kildesider</help>
+        </property>
+        <property name="RssSource">
+          <caption>Rss-kildeside</caption>
+          <help>Angiv en side i det træ, der er kildeside for RSS-indholdet på dette websted.</help>
+        </property>
+        <property name="RssUrl">
+          <caption>Søgesti til RSS-kilde</caption>
+          <help>Angiv adresseindholdet i RSS-format. Det er normalt en webadresse.</help>
+        </property>
+        <property name="SearchPage">
+          <caption>Søgeside</caption>
+          <help>Link til søgesiden for denne del af webstedet.</help>
+        </property>
+        <property name="SearchRoot">
+          <caption>Søgerodside</caption>
+          <help>Søgning starter på denne side.</help>
+        </property>
+        <property name="SecondaryBody">
+          <caption>Sekundær tekst</caption>
+          <help>Den sekundære tekst vises i den højre kolonne på siden. Du kan bruge både tekst og billeder til layout. Bemærk, at billeder ikke må være større end området til højre.</help>
+        </property>
+        <property name="SecondaryListCount">
+          <caption>Antal sekundære listeelementer på listen</caption>
+          <help>Begræns antallet af elementer på den sekundære liste til denne værdi</help>
+        </property>
+        <property name="SecondaryListRoot">
+          <caption>Side for sekundær liste</caption>
+          <help>Dette link peger på den overordnede side, der skal bruges til at generere en sideliste i højre kolonne. Hvis der ikke angives en værdi, vises sidelisten ikke.</help>
+        </property>
+        <property name="SitemapPage">
+          <caption>Sitemap-side</caption>
+          <help>Link til sitemap-siden.</help>
+        </property>
+        <property name="SortFilesBy">
+          <caption>Sorter filer efter</caption>
+          <help>Sorteringsrækkefølge for mappetræ.</help>
+        </property>
+        <property name="SubscriptionMailBody">
+          <caption>Indledende tekst i e-mail om abonnement</caption>
+          <help>Skriv den tekst, som skal udgøre meddelelsesteksten i abonnements-e-mailen.</help>
+        </property>
+        <property name="SubscriptionMailFrom">
+          <caption>Afsenderadresse for e-mail om abonnement</caption>
+          <help>E-mail-adresse, der bliver brugt som afsender i abonnements-e-mailen.</help>
+        </property>
+        <property name="SubscriptionMailReadMore">
+          <caption>Linktekst i e-mail om abonnement</caption>
+          <help>Denne tekst vil udgøre den hyperlinktekst, som brugeren kan klikke på i abonnements-e-mailen.</help>
+        </property>
+        <property name="SubscriptionMailSubject">
+          <caption>Emne for e-mail om abonnement</caption>
+          <help>Dette er emnefeltet for abonnements-e-mailen.</help>
+        </property>
+        <property name="Thumbnail">
+          <caption>Miniaturebillede</caption>
+          <help>Billede, som skal vises, hvor det hører til på sidelisterne.</help>
+        </property>
+        <property name="XForm">
+          <caption>Formular</caption>
+          <help>Angiv, hvilken formular der skal vises på denne side. Du kan oprette dine egne formularer ved at klikke på knappen</help>
+        </property>
+      </common>
+      <pagetype name="[Public] Demo page">
+        <description>Denne sidetype indsamler funktioner, som viser, hvordan forskellige typer af kontrolelementer og teknologier kan arbejde sammen med EPiServer og omvendt.</description>
+        <name>[Offentlig] Demoside</name>
+      </pagetype>
+      <pagetype name="[Public] Document">
+        <description>Denne sidetype bruges til at udgive dokumenter fra Microsoft Office.</description>
+        <name>[Offentlig] Dokument</name>
+      </pagetype>
+      <pagetype name="[Public] Document list">
+        <description>Denne sidetype viser en liste over dokumenter, som er udgivet fra Microsoft Office.</description>
+        <name>[Offentlig] Dokumentliste</name>
+      </pagetype>
+      <pagetype name="[Public] File explorer">
+        <description>Denne sidetype viser filer fra en mappe på webserveren.</description>
+        <name>[Offentlig] Filliste</name>
+      </pagetype>
+      <pagetype name="[Public] Login">
+        <description>Denne sidetype bruges til at oprette en logonside til webstedet.</description>
+        <name>[Offentlig] Logon</name>
+      </pagetype>
+      <pagetype name="[Public] News item">
+        <description>Denne sidetype indeholder dataene for én nyhed.</description>
+        <name>[Offentlig] Nyhed</name>
+      </pagetype>
+      <pagetype name="[Public] Registration">
+        <description>Denne sidetype er det sted, hvor besøgende kan blive registreret på webstedet.</description>
+        <name>[Offentlig] Registrering</name>
+      </pagetype>
+      <pagetype name="[Public] RSS source">
+        <description>Denne sidetype viser oplysninger fra EPiServer i RSS-format.</description>
+        <name>[Offentlig] RSS-kilde</name>
+      </pagetype>
+      <pagetype name="[Public] Search page">
+        <description>Denne sidetype viser søgeresultaterne fra hurtigsøgningslinjen og en grænseflade til avanceret søgning.</description>
+        <name>[Offentlig] Søgeside</name>
+      </pagetype>
+      <pagetype name="[Public] SiteMap">
+        <description>Denne sidetype opretter en liste over indholdet på hele webstedet eller dele af det.</description>
+        <name>[Offentlig] Sitemap</name>
+      </pagetype>
+      <pagetype name="[Public] Standard page">
+        <description>Denne sidetype er den oftest anvendte side på webstedet. Den kan bruges til både almindelige sider og til nyheder og hændelser.</description>
+        <name>[Offentlig] Standardside</name>
+      </pagetype>
+      <pagetype name="[Public] Start page">
+        <description>Startsiden er hovedindgangen til webstedet og indeholder en primær og en sekundær tekst samt forskellige lister for nyheder, artikler og hændelser.</description>
+        <name>[Offentlig] Startside</name>
+      </pagetype>
+      <pagetype name="[Public] Subscription">
+        <description>Denne sidetype bruges til besøgende, som kan vælge abonnementsoplysninger.</description>
+        <name>[Offentlig] Abonnement</name>
+      </pagetype>
+      <pagetype name="[Public] XForm page">
+        <description>Denne sidetype udvider standardsiden med en formular.</description>
+        <name>[Offentlig] Formularside</name>
+      </pagetype>
+    </pagetypes>
+    <register>
+      <confirmation>Tak</confirmation>
+      <error>
+        <email>Skriv din e-mail-adresse</email>
+        <firstname>Skriv dit fornavn</firstname>
+        <incorrectemail>Den e-mail-adresse, du har angivet, er ikke korrekt</incorrectemail>
+        <lastname>Skriv dit efternavn</lastname>
+        <password>Skriv en adgangskode</password>
+        <passwordlength>Den adgangskode, du har angivet, er for kort. Min. længde: </passwordlength>
+        <passwordrepeat>De angivne adgangskoder er ikke identiske</passwordrepeat>
+      </error>
+      <password>Skriv adgangskode</password>
+      <repeatpassword>Gentag adgangskode</repeatpassword>
+      <signupbutton>Tilmeld dig</signupbutton>
+    </register>
+    <search>
+      <advancedsearch>Avanceret søgning</advancedsearch>
+      <button>Søg</button>
+      <findsimilar>Find lignende</findsimilar>
+      <onlywholewords>Kun hele ord</onlywholewords>
+      <percentrelevancy>% relevans</percentrelevancy>
+      <relevancy>Relevans</relevancy>
+      <searchfiles>Søg i filer</searchfiles>
+      <searchfor>Søg efter:</searchfor>
+      <searchresult>Søgeresultat:</searchresult>
+      <searchstring>Søg her</searchstring>
+    </search>
+    <subscription>
+      <daily>Daglig</daily>
+      <email>E-mail-adresse</email>
+      <fastaspossible>Så hurtigt som muligt</fastaspossible>
+      <interval>Interval</interval>
+      <monthly>Månedlig</monthly>
+      <subscribe>Abonner</subscribe>
+      <subscription>Abonnement</subscription>
+      <weekly>Hver uge</weekly>
+    </subscription>
+    <usersettings>
+      <changepassword>Skift adgangskode</changepassword>
+      <confirmpassword>Bekræft adgangskode</confirmpassword>
+      <email>E-mail-adresse</email>
+      <firstname>Fornavn</firstname>
+      <lastname>Efternavn</lastname>
+      <mysettings>Mine indstillinger</mysettings>
+      <newpassword>Ny adgangskode</newpassword>
+      <username>Brugernavn</username>
+    </usersettings>
+  </language>
+</languages>

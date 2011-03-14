@@ -1,0 +1,1 @@
+<%@ Page Language="c#" Inherits="EPiServer.Templates.Public.Pages.RssFeed" Codebehind="RssFeed.aspx.cs" %>

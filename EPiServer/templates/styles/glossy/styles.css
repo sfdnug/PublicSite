@@ -1,0 +1,982 @@
+/************************/
+/* GLOBAL               */
+/************************/
+body
+{
+	font: 76%/1.4 Georgia, serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: White;
+}
+
+body form
+{
+	width: 63em;
+	max-width: 1200px;
+	margin: 8px auto 18px auto;
+	background: url(images/PageBg.png) repeat-y left top;
+    text-align: left;
+    overflow: hidden;
+}
+
+#Page 
+{
+    position: relative;
+	background: url(images/PageBg.png) repeat-y right top;
+	padding: 0 0.5em;
+}
+
+a 
+{
+	color: #006ea0;
+}
+
+h1, h2, h3, h4 
+{
+	font-family: Georgia, serif;
+}
+
+h1 {font-weight: normal; font-size: 1.7em; line-height: 1.4em; padding: 0; margin: 0.2em 0;}
+h2 {font-weight: normal; font-style: italic; font-size: 1.4em; padding: 0; margin: 0.2em 0;}
+h3 {font-weight: bold; font-size: 1em; padding: 0; margin: 0.4em 0;}
+
+p 
+{
+    margin: 0 0 1em 0; 
+    padding: 0; 
+}
+
+.introduction 
+{
+    font-style:italic;
+}
+
+hr 
+{
+	margin: 0.5em 0;
+	height: 1px;
+	padding: 0;
+	background: #d7d7d7;
+	color: #d7d7d7;
+	border:0;
+}
+
+hr.clear 
+{
+    clear: both;
+}
+
+ul 
+{
+    padding: 0;
+    margin: 1.5em;
+}
+
+fieldset 
+{   
+	margin: 0 0 1em 0;
+	padding: 1em;
+}
+
+.hidden 
+{
+    display: none;
+}
+
+.error 
+{
+    color: Red;
+}
+
+.button
+{
+    border: 1px solid black;
+    color:White;
+    background: black url(images/buttonBg.png) repeat-x;
+}
+
+table
+{
+	font-size: 1em;
+	border-collapse: collapse;
+}
+
+th
+{
+	text-align: left;
+}
+
+/************************/
+/* HEADER               */
+/************************/
+#HeaderArea
+{
+	background: url(images/PageCornerRight.png) top right no-repeat;
+	margin: 0 -0.5em;
+}
+
+#Header
+{
+	position: relative;
+	background: url(images/PageCornerLeft.png) 0 0 no-repeat;
+	padding: 2px;
+	height: 60px;
+}
+
+#Logotype
+{
+	float: left;
+	margin: 18px 0px 0px 18px;
+}
+
+#Functions
+{
+	position: absolute;
+	top: 8px;
+	right: 2px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+	font-size: 0.8em;
+	line-height: 1.4em;
+}
+
+#Functions li
+{
+	display: block;
+	height: 1.6em;
+	float: left;
+	border-left: 1px solid #dee1e3;
+	padding: 0 1em;
+	overflow: visible;
+}
+
+#Functions li.first
+{
+	border-left: 0;
+}
+
+#Functions li a 
+{
+	display: block;
+	color: #3b3d41;
+	text-decoration: none;
+	float: left;
+	padding-left: 2em;
+}
+
+#Functions a:hover
+{
+	color: Black;
+	text-decoration: underline;
+}
+
+a.loginButton
+{
+	background: url(images/ButtonLogin.png) no-repeat;
+}
+
+a.logoutButton
+{
+	background: url(images/ButtonLogin.png) no-repeat;
+}
+
+a.rssButton
+{
+	background: url(images/ButtonRss.png) no-repeat;
+}
+
+a.sitemapButton
+{
+	background: url(images/ButtonSitemap.png) no-repeat;
+}
+
+a.languageButton, input.languageButton
+{
+	background: url(images/buttonLanguage.png) no-repeat;
+}
+
+input.languageButton 
+{
+    width: 20px;
+    float: left;
+    height: 1.6em;
+}
+
+select.languageButton 
+{
+    font-size: 1em;
+}
+
+/************************/
+/* MAINMENUAREA         */
+/************************/
+#MainMenuArea 
+{
+	position: relative;
+	height: 30px; 
+	background: url(images/MainMenuBg.png) no-repeat right top;
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+	color: White;
+	font-size: 1em;
+	line-height: 24px;
+	clear: both;
+	overflow: hidden;
+}
+
+#MainMenuArea ul 
+{
+	height: 30px;
+	width: 48em;
+	margin: 0;
+	padding: 0px 0px 0px 3px;
+	background: url(images/MainMenuLeft.png) no-repeat left top; 
+	list-style-type: none;
+	float: left;
+}
+
+#MainMenuArea li 
+{
+	display: block;
+	float: left;
+	margin: 2px 0px 2px 0px;
+	padding: 0px 3px 0px 0px;
+	height: 26px;
+	background: url(images/MainMenuDivider.png) no-repeat right top;
+	white-space: nowrap;
+}
+
+#MainMenuArea li.selected 
+{
+	background: url(images/MainMenuSelectedBg.png) no-repeat right top; 
+}
+
+#MainMenuArea li.selected a 
+{
+	display: block;
+	padding: 1px 15px;
+	background: url(images/MainMenuSelectedLeft.png) no-repeat left top; 
+}
+
+#MainMenuArea li a 
+{
+	display: block;
+	padding: 1px 16px;
+	text-decoration: none;
+	color: White;
+}
+
+#MainMenuArea li.unselected a:hover 
+{
+	background: url(images/MainMenuHoverBg.png) repeat-x;
+	border: 1px solid #3d3e41;
+	padding: 0px 15px;
+}
+
+
+/*************************/
+/* QUICKSEARCH           */
+/*************************/
+.QuickSearchArea
+{
+	position: absolute;
+	right: 0px;
+	margin: 5px 8px 0px 0px;
+}
+
+input.quickSearchField
+{
+	border: 1px solid Black;
+	float: left;
+	margin: 0px 2px 0px 0px;
+	width: 10em;
+}
+
+.quickSearchButton
+{
+	background: url(images/MainMenuSearchButton.png) no-repeat top left;
+	width: 23px;
+	height: 21px;
+	display: block; 
+	float: left;
+}
+
+/*************************/
+/* STAGEAREA             */
+/*************************/
+#StageArea
+{
+    width: 100%;
+    padding: 0.5em 0 1.5em 0;
+	overflow: hidden;
+}
+
+/*************************/
+/* BREADCRUMBS           */
+/*************************/
+#BreadCrumbsArea
+{
+	position: absolute;
+	left: 20.5em;
+	font-size: 0.8em;
+	font-family: Verdana, Arial, helvetica, Sans-Serif;
+	line-height: 2.5em;	
+}
+
+#BreadCrumbsArea a
+{
+    color: #3e3e3e;
+	text-decoration: none;
+}
+
+#BreadCrumbsArea a:hover
+{
+	text-decoration: underline;
+}
+
+/*************************/
+/* SUBMENUAREA           */
+/*************************/
+#SubMenuArea
+{
+	width: 14em;
+	float: left;
+	overflow: hidden;
+	color: #3e3e3e;
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+	padding-bottom: 2em;
+}
+
+#SubMenuArea a
+{
+	color: #3e3e3e;
+}
+
+#SubMenuArea a:hover
+{
+	color: Black;
+}
+
+#SubMenuArea ul
+{
+	padding: 0;
+	margin: 0 0.5em;
+	list-style-type: none;
+	line-height: 1em;	
+}
+
+#SubMenuArea ul ul
+{
+	margin: 0 0 0.6em 1.5em;
+	border: 0;
+}
+
+#SubMenuArea li
+{
+	border-bottom: 1px solid #d7d7d7;
+}
+
+#SubMenuArea li a, #SubMenuArea li span
+{
+	display: block;
+	padding: 0.5em 0.5em 0.5em 12px;
+	text-decoration: none;
+}
+
+#SubMenuArea li span 
+{
+	background-image: url(images/SubMenuSelected.png);
+	background-repeat: no-repeat;
+	background-position: 0.5em 0.5em;
+}
+
+#SubMenuArea li li span 
+{
+	background-position: 0.7em 0.2em;
+}
+
+#SubMenuArea li li a, #SubMenuArea li li span
+{
+	padding: 2px 0px 2px 15px;
+}
+
+#SubMenuArea li li
+{	
+	border-bottom-color: White;
+	font-size: 0.8em;
+}
+
+#SubMenuArea li li span
+{
+	font-weight: bold;
+}
+
+#SubMenuArea li li li
+{
+	font-size: 1em;
+}
+
+/*************************/
+/* CONTENTAREA           */
+/*************************/
+#MainContentArea
+{
+    /* IE 6 doesn't support min-height so the height is set instead, */
+    /* relying on that it will expand beyond it if needed */
+    height: 20em;
+    min-height: 20em;
+    margin-top: 1.5em;
+    background: url(images/pageDivider.png) repeat-y 32em;
+	width: 48em;
+	float: left;
+}
+
+/* IE 6 doesn't understand the > selector and ignores it */
+html>body #MainContentArea {height: auto;}
+
+#MainBodyArea
+{
+	width: 32em;
+	overflow: hidden;
+	float: left;
+}
+
+#MainBodyArea #MainBody
+{	
+	padding: 0 2em 2em;
+}
+
+#MainBodyArea .pageList
+{
+	padding: 0;
+}
+
+#MainBodyArea .pageList ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#SecondaryBodyArea
+{
+	width: 16em;
+	overflow: hidden;
+	float: left;
+}
+
+#SecondaryBodyArea #SecondaryBody
+{
+	margin: 0 1em;
+}
+
+/*************************/
+/* STARTPAGE             */
+/*************************/
+#StageArea.StartPage 
+{
+    position: relative;
+    background-image: none;
+    width: 100%;
+    padding-bottom: 0;
+	overflow: hidden;
+}
+
+#StageArea.StartPage #ImageArea 
+{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 18em;
+	clear: both;
+	background-color: #006ea0;
+	border-bottom: 0.6em solid #006ea0;
+}
+
+#StageArea.StartPage #SecondaryBodyArea 
+{
+	position: absolute;
+	top: 0em;
+	right: 0em;
+	width: 17em;
+	height: 18em;
+	padding: 2em;
+	color: White;
+	overflow: hidden;
+}
+
+#StageArea.StartPage .pageList
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+#StageArea.StartPage ul 
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#StageArea.StartPage #MainContentArea
+{
+    height: auto;
+	width: 100%;
+	min-height: 0;
+	padding: 1em 0;
+	margin: 0;
+	background-image: none;
+	overflow: hidden;
+}
+
+#StageArea.StartPage #MainBodyArea
+{
+	float: left;
+	width: 23em;
+	padding: 0 2em 0 1.5em;
+	border: 0;
+	overflow: hidden;
+}
+
+#StageArea.StartPage #NewsArea
+{
+	float: left;
+	width: 15.5em;
+	padding: 0 1em 1em 1em;
+	overflow: hidden;
+	border-left: 1px solid #d7d7d7;
+	border-right: 1px solid #d7d7d7;
+}
+
+#StageArea.StartPage #NewsArea li, 
+#StageArea.StartPage #EventsArea li
+{
+	margin: 0.5em 0;
+}
+
+#StageArea.StartPage #EventsArea
+{
+	float: left;
+	width: 15.5em;
+	padding: 0 1em;
+	overflow: hidden;
+}
+
+/*************************/
+/* LOGIN PAGE            */
+/*************************/
+.loginArea 
+{
+    width: 100%;
+}
+
+.loginArea label 
+{
+    display: block;
+    line-height: 1em;
+    width: 35%;
+}
+
+.loginArea input
+{
+    margin: 0.3em 0 1em 0;
+}
+
+/*************************/
+/* REGISTER PAGE         */
+/*************************/
+.registerArea 
+{
+    width: 100%;
+}
+
+.registerArea label 
+{
+    display: block;
+    line-height: 1em;
+}
+
+.registerArea input
+{
+    margin: 0.3em 0 1em 0;
+}
+
+/*************************/
+/* SUBSCRIPTION PAGE     */
+/*************************/
+.subscriptionArea 
+{
+    width: 100%;
+}
+
+.subscriptionArea label.topLabel 
+{
+    display: block;
+    line-height: 1em;
+}
+
+.subscriptionArea input, .subscriptionArea select
+{
+    margin: 0.3em 0 1.5em 0;
+}
+
+.subscriptionListArea input
+{
+    margin: 0 0.3em 0 0;
+}
+
+.subscriptionListArea td 
+{
+    vertical-align: text-bottom;
+    padding: 0.3em 0;
+}
+
+/*************************/
+/* SEARCH PAGE           */
+/*************************/
+#ResultArea 
+{
+    padding-top: 2em;
+}
+
+#ResultArea ol
+{
+    margin: 0;
+    padding-left: 2em;
+}
+
+#ResultArea li 
+{
+    margin: 0; 
+    padding: 0;
+}
+
+input.searchText 
+{
+    width: 75%;
+}
+
+/*************************/
+/* SITEMAP PAGE          */
+/*************************/
+#SiteMap ul 
+{
+    margin: 0;
+    padding: 0.2em 0;
+}
+
+#SiteMap ul ul
+{
+    padding: 0;
+    margin-left: 0.5em;
+}
+
+#SiteMap li
+{
+    margin: 0 0 0.5em 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.3em;
+}
+#SiteMap li a
+{
+    text-decoration: none;
+}
+
+#SiteMap li li
+{
+    margin: 0.2em 0;
+    padding-left: 1em;
+    background: url(images/SiteMapBullet.png) no-repeat;
+    font-size: 0.7em;
+}
+
+#SiteMap li li a
+{
+    text-decoration: underline;
+}
+
+#SiteMap li li li
+{
+    font-size: 1em;
+}
+
+/*************************/
+/* DOCUMENTS             */
+/*************************/
+#MainBody.documentList ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#MainBody.documentList li
+{
+    clear: both;
+}
+
+#MainBody.documentList .download 
+{
+    float: right;
+}
+
+#MainBody.documentList a
+{
+    padding: 0 0 2px 20px;
+}
+
+a.bmpExtension {background: url(images/extensions/bmp.gif) no-repeat; padding: 0 0 2px 20px; line-height: 2em;}
+a.docExtension, a.docxExtension {background: url(images/extensions/doc.gif) no-repeat; padding: 0 0 2px 20px; line-height: 2em;}
+a.gifExtension {background: url(images/extensions/gif.gif) no-repeat; padding: 0 0 2px 20px; line-height: 2em;}
+a.htmExtension, a.htmlExtension {background: url(images/extensions/htm.gif) no-repeat; padding: 0 0 2px 20px; line-height: 2em;}
+a.jpgExtension, a.jpegExtension {background: url(images/extensions/jpg.gif) no-repeat; padding: 0 0 2px 20px; line-height: 2em;}
+a.mp3Extension {background: url(images/extensions/mp3.gif) no-repeat; padding: 0 0 2px 20px; line-height: 2em;}
+a.mpgExtension {background: url(images/extensions/mpg.gif) no-repeat; padding: 0 0 2px 20px; line-height: 2em;}
+a.pdfExtension {background: url(images/extensions/pdf.gif) no-repeat; padding: 0 0 2px 20px; line-height: 2em;}
+a.pngExtension {background: url(images/extensions/png.gif) no-repeat; padding: 0 0 2px 20px; line-height: 2em;}
+a.pptExtension, a.pptxExtension {background: url(images/extensions/ppt.gif) no-repeat; padding: 0 0 2px 20px; line-height: 2em;}
+a.tifExtension, a.tiffExtension {background: url(images/extensions/tif.gif) no-repeat; padding: 0 0 2px 20px; line-height: 2em;}
+a.txtExtension {background: url(images/extensions/txt.gif) no-repeat; padding: 0 0 2px 20px; line-height: 2em;}
+a.wavExtension {background: url(images/extensions/wav.gif) no-repeat; padding: 0 0 2px 20px; line-height: 2em;}
+a.xlsExtension, a.xlsxExtension {background: url(images/extensions/xls.gif) no-repeat; padding: 0 0 2px 20px; line-height: 2em;}
+a.zipExtension {background: url(images/extensions/zip.gif) no-repeat; padding: 0 0 2px 20px; line-height: 2em;}
+
+/*************************/
+/* PAGELIST              */
+/*************************/
+.pageList ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.pageList li
+{
+    padding-bottom: 0.2em;
+	list-style-type: none;
+}
+
+.pageList h2
+{
+	margin: 0;
+}
+
+/*************************/
+/* FORMS                 */
+/*************************/
+.xForm {}
+
+.xForm h2
+{
+	padding: 1em 0;
+	margin: 0;
+}
+
+.xForm legend 
+{
+    color: Black;
+}
+
+.xForm input 
+{
+    float: left;
+}
+
+.xForm .heading
+{
+    font-weight: bold; 
+    font-size: 1em; 
+    padding: 0; 
+    margin: 0.4em 0em;
+}
+
+.xForm #id_matrix
+{
+    width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.xForm #id_matrix td
+{
+	border:0;
+	margin: 0;
+	padding: 0.2em 0;
+}
+
+span.xformvalidator
+{
+    color: Red;
+}
+
+.xForm .options 
+{
+    float: left;
+}
+
+.xForm label 
+{
+    margin-right: 0.5em;
+    float: left;
+}
+
+#id_matrix br 
+{
+    clear: both;
+}
+
+.thankyoumessage
+{
+	padding: 1em 0;
+	margin: 0;
+	font-weight: bold;
+}
+
+/*************************/
+/* FOOTERAREA            */
+/*************************/
+#FooterArea
+{
+	overflow: visible;
+	margin: 0 -0.5em;
+	clear: both;
+	background: #303233 url(images/FooterCornerRight.png) bottom right no-repeat;
+	font-family: Verdana, Arial, Sans-Serif;
+}
+
+#Footer 
+{
+	height: 30px;
+	background: url(images/FooterCornerLeft.png) bottom left no-repeat;
+}
+
+#FooterArea ul
+{
+	margin: 8px 0 0 0;
+	padding: 0;
+	list-style-type: none;
+	float: right;
+}
+
+#FooterArea ul li
+{
+	display: block;
+	float: left;
+	color: White;
+	border-left: solid 1px White;
+	padding: 0 0.8em;
+	font-size: 0.8em;
+}
+
+#FooterArea ul li.first
+{
+	border: 0;
+}
+
+#FooterArea a
+{
+	text-decoration: none;
+	color: White;
+}
+
+#FooterArea a:hover
+{
+	text-decoration: underline;
+}
+
+/**********************************/
+/*    Table classes for content   */
+/**********************************/
+table.table-classic
+{
+	border-collapse: collapse;
+	border: solid 0.1em #777777;
+}
+
+table.table-classic th
+{
+	border: solid 0.1em #777777;
+	background-color: #DADADA;
+	padding: 0.4em;
+}
+
+table.table-classic td
+{
+	border: solid 0.1em #777777;
+	padding: 0.2em 0.4em;
+}
+
+table.table-color
+{
+	border-collapse: collapse;
+	border: solid 0.1em #275569;
+}
+
+table.table-color th
+{
+	border: solid 0.1em #275569;
+	background-color: #4495b9;
+	color: White;
+	padding: 0.4em;
+}
+
+table.table-color td
+{
+	border: solid 0.1em #275569;
+	padding: 0.2em 0.4em;
+}
+
+th.cell-highlighted, td.cell-highlighted {}
+
+table.table-classic th.cell-highlighted
+{
+	background-color: #AAAAAA;
+}
+
+table.table-classic td.cell-highlighted
+{
+	background-color: #F0F0F0;
+}
+
+table.table-color th.cell-highlighted
+{
+	background-color: #377995;
+}
+
+table.table-color td.cell-highlighted
+{
+	background-color: #d1e6ef;
+}
+
+th.cell-leftaligned, td.cell-leftaligned
+{
+	text-align: left;
+}
+
+th.cell-rightaligned, td.cell-rightaligned
+{
+	text-align: right;
+}
+
+/**********************************/
+/*   Image  classes for content    */
+/**********************************/
+img.image-topleftfloat
+{
+    margin-right: 1em;
+    margin-bottom: 1em;
+	float: left;
+}
+
+img.image-toprightfloat
+{
+	float: right;
+	vertical-align: top;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}

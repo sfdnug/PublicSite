@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="中文 (Chinese)" id="zh-CN">
+    <document>
+      <download>下载:</download>
+    </document>
+    <error>
+      <document>未设置页属性“Document path”。</document>
+      <mainmenucontainer>未设置动态属性“MainMenuContainer”。</mainmenucontainer>
+    </error>
+    <form>
+      <numberofvotes>投票数: {0}</numberofvotes>
+      <postedmessage>感谢您的发布！</postedmessage>
+      <showform>至表单</showform>
+      <showstat>显示统计信息</showstat>
+    </form>
+    <headings>
+      <heading name="News &amp; Calendar">
+        <description>新闻和日历</description>
+      </heading>
+      <heading name="SiteConfiguration">
+        <description>站点配置</description>
+      </heading>
+    </headings>
+    <login>
+      <becomemember>注册</becomemember>
+      <editdetails>我的设置</editdetails>
+      <email>填写您的电子邮件地址:</email>
+      <error>
+        <loginfail>登录失败。 提供的用户名或密码不正确。</loginfail>
+        <password>您必须填写密码</password>
+        <username>您必须指定用户名</username>
+      </error>
+      <forgotpassword>忘记密码?</forgotpassword>
+      <login>登录</login>
+      <logout>注销</logout>
+      <password>密码</password>
+    </login>
+    <navigation>
+      <help>帮助</help>
+      <listen>收听</listen>
+      <readmore>了解更多信息</readmore>
+      <search>搜索</search>
+      <skipnavigation>转到内容</skipnavigation>
+      <startpage>启动</startpage>
+      <startpagelinktitle>启动页</startpagelinktitle>
+    </navigation>
+    <news>
+      <morenews>更多新闻</morenews>
+      <publishdate>发布时间</publishdate>
+      <writername>作者</writername>
+    </news>
+    <pagetypes>
+      <common>
+        <property name="ConfirmationMessage">
+          <caption>确认邮件</caption>
+          <help>要在确认电子邮件中发送的文本。</help>
+        </property>
+        <property name="ContactPage">
+          <caption>联系人页</caption>
+          <help>链接到包含联系人信息的页面。</help>
+        </property>
+        <property name="Description">
+          <caption>RSS 源的标题</caption>
+          <help>指定 RSS 源的标题 </help>
+        </property>
+        <property name="DocumentListRoot">
+          <caption>文章列表的获取位置</caption>
+          <help>指定要从中获取文章列表的页面。 如果未设置，则不会显示页面列表。</help>
+        </property>
+        <property name="DocumentPath">
+          <caption>文档路径</caption>
+          <help>文档路径。</help>
+        </property>
+        <property name="EmailBody">
+          <caption>电子邮件正文</caption>
+          <help>要发送的电子邮件地址内容。</help>
+        </property>
+        <property name="EmailSender">
+          <caption>电子邮件发件人</caption>
+          <help>用作发件人地址的电子邮件地址。</help>
+        </property>
+        <property name="EmailSubject">
+          <caption>电子邮件主题</caption>
+          <help>要发送的电子邮件的主题。</help>
+        </property>
+        <property name="EmbeddedObjectHeight">
+          <caption>Flash 影片的高度</caption>
+          <help>指定 Flash 影片的高度，以像素表示。</help>
+        </property>
+        <property name="EmbeddedObjectWidth">
+          <caption>Flash 影片的宽度</caption>
+          <help>指定 Flash 影片的宽度，以像素表示。</help>
+        </property>
+        <property name="EmbeddedURL">
+          <caption>Flash 影片的路径</caption>
+          <help>指定 Flash 影片的地址</help>
+        </property>
+        <property name="EnableStatistics">
+          <caption>显示统计信息</caption>
+          <help>在页上显示访问者统计信息。</help>
+        </property>
+        <property name="EPSUBSCRIBE">
+          <caption>激活订阅</caption>
+          <help>激活订阅该页</help>
+        </property>
+        <property name="EPSUBSCRIBE-EXCLUDE">
+          <caption>阻止订阅该页</caption>
+          <help>选中此复选框可阻止该页的订阅更新。</help>
+        </property>
+        <property name="EPSUBSCRIBEHIDDEN">
+          <caption>不要在订阅页上显示</caption>
+          <help>在订阅页上隐藏此页</help>
+        </property>
+        <property name="EPSUBSCRIBE-ROOT">
+          <caption>订阅根页</caption>
+          <help>在树中指定一个页面，作为订阅的起始页。</help>
+        </property>
+        <property name="EventsCount">
+          <caption>事件项数</caption>
+          <help>项数限制。</help>
+        </property>
+        <property name="EventsRoot">
+          <caption>事件列表页</caption>
+          <help>所链接页的子页将用于生成事件列表。 如果未设置，则不会显示事件列表。</help>
+        </property>
+        <property name="Heading">
+          <caption>标题</caption>
+          <help>指定将显示此页面主题的标题。 如果未设置此属性，则使用页面名称作为标题。</help>
+        </property>
+        <property name="Image">
+          <caption>图像</caption>
+          <help>指定起始页上将显示的图像(900*341 像素)</help>
+        </property>
+        <property name="IndexRoot">
+          <caption>站点地图根页</caption>
+          <help>将从此页开始创建站点地图。</help>
+        </property>
+        <property name="IsDocumentPageType">
+          <caption>上载源文档的完整 HTML 版本和副本</caption>
+          <help>选择此选项可显示完整 HTML 版本</help>
+        </property>
+        <property name="LoginPage">
+          <caption>登录页</caption>
+          <help>指定网站此部分的登录页面。</help>
+        </property>
+        <property name="Logotype">
+          <caption>徽标类型</caption>
+          <help>徽标类型图像的 URL。</help>
+        </property>
+        <property name="MainBody">
+          <caption>主要正文</caption>
+          <help>主要正文将显示在页面的主要内容区。 可以使用 XHTML 编辑器在其中插入文本、图像和表格等内容。</help>
+        </property>
+        <property name="MainIntro">
+          <caption>简介</caption>
+          <help>新闻内容的简短摘要。 此文本在适用情形下将用于新闻列表中。</help>
+        </property>
+        <property name="MainListCount">
+          <caption>列表中的主列表项数</caption>
+          <help>项数限制。</help>
+        </property>
+        <property name="MainListRoot">
+          <caption>主列表页</caption>
+          <help>指定要从中获取列表的页面。 此列表将显示在主要内容区。 如果未设置，则不会显示页面列表。</help>
+        </property>
+        <property name="MainMenuContainer">
+          <caption>开始显示菜单的位置</caption>
+          <help>在菜单树中指定一个位置，菜单将从此处显示在所选页上</help>
+        </property>
+        <property name="MetaAuthor">
+          <caption>作者</caption>
+          <help>指定搜索引擎将使用的文本的作者。 如果未设置，则改用动态属性中的值。</help>
+        </property>
+        <property name="MetaDescription">
+          <caption>页说明</caption>
+          <help>说明页的内容</help>
+        </property>
+        <property name="MetaKeywords">
+          <caption>页的标准搜索字</caption>
+          <help>指定与该页匹配的搜索字的逗号分隔列表</help>
+        </property>
+        <property name="NewsCount">
+          <caption>新闻项数</caption>
+          <help>项数限制。</help>
+        </property>
+        <property name="NewsRoot">
+          <caption>新闻列表页</caption>
+          <help>所链接页的子页将用于生成新闻列表。 如果未设置，则不会显示新闻列表。</help>
+        </property>
+        <property name="PasswordChangeSuccessBody">
+          <caption>密码更改成功</caption>
+          <help>密码更改成功时显示的正文文本。</help>
+        </property>
+        <property name="PasswordLength">
+          <caption>密码长度</caption>
+          <help>允许的最短密码。</help>
+        </property>
+        <property name="PrivacyPage">
+          <caption>隐私页</caption>
+          <help>链接到包含法律信息的页面。</help>
+        </property>
+        <property name="RootFolder">
+          <caption>文件夹路径</caption>
+          <help>文件夹树从此页开始。</help>
+        </property>
+        <property name="RssContainer">
+          <caption>RSS 容器</caption>
+          <help>所有 RSS 源页的容器</help>
+        </property>
+        <property name="RssSource">
+          <caption>RSS 源页面</caption>
+          <help>在树中指定一个页面，作为此网站上 RSS 内容的源页面。</help>
+        </property>
+        <property name="RssUrl">
+          <caption>搜索 RSS 源的路径</caption>
+          <help>指定 RSS 格式的地址内容。 通常为 Web 地址。</help>
+        </property>
+        <property name="SearchPage">
+          <caption>搜索页</caption>
+          <help>链接到网站此部分的搜索页面。</help>
+        </property>
+        <property name="SearchRoot">
+          <caption>搜索根页</caption>
+          <help>搜索从此页开始。</help>
+        </property>
+        <property name="SecondaryBody">
+          <caption>次要正文</caption>
+          <help>次要正文将显示在页面的右侧栏中。 可以使用文本和图像来设置布局。 请注意，图像大小不应超过右侧区域大小。</help>
+        </property>
+        <property name="SecondaryListCount">
+          <caption>列表中的次要列表项数</caption>
+          <help>将次要列表中的项数限定为此值。</help>
+        </property>
+        <property name="SecondaryListRoot">
+          <caption>次要列表页面</caption>
+          <help>此链接所指向的父页面将用于在右侧栏生成页面列表。 如果未设置，则不会显示页面列表。</help>
+        </property>
+        <property name="SitemapPage">
+          <caption>网站地图页面</caption>
+          <help>链接到网站地图页面。</help>
+        </property>
+        <property name="SortFilesBy">
+          <caption>文件排序方式</caption>
+          <help>文件夹树排序顺序。</help>
+        </property>
+        <property name="SubscriptionMailBody">
+          <caption>订阅电子邮件的简介文本</caption>
+          <help>输入订阅电子邮件的邮件正文。</help>
+        </property>
+        <property name="SubscriptionMailFrom">
+          <caption>订阅电子邮件的发件人地址</caption>
+          <help>订阅电子邮件的发件人的电子邮件地址。</help>
+        </property>
+        <property name="SubscriptionMailReadMore">
+          <caption>订阅电子邮件中的链接文本</caption>
+          <help>此文本将构成用户可在订阅电子邮件中单击的链接文本。</help>
+        </property>
+        <property name="SubscriptionMailSubject">
+          <caption>订阅电子邮件的主题</caption>
+          <help>这是订阅电子邮件的主题字段。</help>
+        </property>
+        <property name="Thumbnail">
+          <caption>缩略图</caption>
+          <help>要在页列表中显示的图像(如有)。</help>
+        </property>
+        <property name="XForm">
+          <caption>表单</caption>
+          <help>指定该页将显示的表单。 通过单击按钮，您可以创建自己的表单</help>
+        </property>
+      </common>
+      <pagetype name="[Public] Demo page">
+        <description>这种类型的页面汇集多种功能，用于演示不同类型的控件和技术如何与 EPiServer 进行交互。</description>
+        <name>[公共]演示页</name>
+      </pagetype>
+      <pagetype name="[Public] Document">
+        <description>这种类型的页面用于从 Microsoft Office 发布文档。</description>
+        <name>[公共]文档</name>
+      </pagetype>
+      <pagetype name="[Public] Document list">
+        <description>这种类型的页面用于显示从 Microsoft Office 发布的文档列表。</description>
+        <name>[公共]文档列表</name>
+      </pagetype>
+      <pagetype name="[Public] File explorer">
+        <description>这种类型的页面用于列出 Web 服务器上某个文件夹中的文件。</description>
+        <name>[公共]文件列表</name>
+      </pagetype>
+      <pagetype name="[Public] Login">
+        <description>这种类型的页面用于创建网站登录页面。</description>
+        <name>[公共]登录</name>
+      </pagetype>
+      <pagetype name="[Public] News item">
+        <description>这种类型的页面包含某条新闻的数据。</description>
+        <name>[公共]新闻项</name>
+      </pagetype>
+      <pagetype name="[Public] Registration">
+        <description>这种类型的页面供访问者在网站上注册。</description>
+        <name>[公共]注册</name>
+      </pagetype>
+      <pagetype name="[Public] RSS source">
+        <description>这种类型的页面以 RSS 格式显示来自 EPiServer 的信息。</description>
+        <name>[公共] RSS 源</name>
+      </pagetype>
+      <pagetype name="[Public] Search page">
+        <description>这种类型的页面用于显示快速搜索栏和高级搜索界面返回的搜索结果。</description>
+        <name>[公共]搜索页</name>
+      </pagetype>
+      <pagetype name="[Public] SiteMap">
+        <description>这种类型的页面用于创建网站全部或部分内容的列表。</description>
+        <name>[公共]网站地图</name>
+      </pagetype>
+      <pagetype name="[Public] Standard page">
+        <description>这种类型的页面是网站中最常用的一种页面。 它也可以用作普通页面以及新闻和活动页面。</description>
+        <name>[公共]标准页</name>
+      </pagetype>
+      <pagetype name="[Public] Start page">
+        <description>起始页是网站的主入口，其中包含主要正文和次要正文以及新闻列表、文章列表和事件列表等。</description>
+        <name>[公共]起始页</name>
+      </pagetype>
+      <pagetype name="[Public] Subscription">
+        <description>这种类型的页面供访问者选择订阅信息。</description>
+        <name>[公共]订阅</name>
+      </pagetype>
+      <pagetype name="[Public] XForm page">
+        <description>这种类型的页面用于通过表单扩展标准页面。</description>
+        <name>[公共]表单页</name>
+      </pagetype>
+    </pagetypes>
+    <register>
+      <confirmation>衷心感谢</confirmation>
+      <error>
+        <email>请输入您的电子邮件地址</email>
+        <firstname>请输入您的名字</firstname>
+        <incorrectemail>输入的电子邮件地址不正确</incorrectemail>
+        <lastname>请输入您的姓氏</lastname>
+        <password>请输入密码</password>
+        <passwordlength>输入的密码太短。 最小长度： </passwordlength>
+        <passwordrepeat>输入的密码不正确</passwordrepeat>
+      </error>
+      <password>输入密码</password>
+      <repeatpassword>重新输入密码</repeatpassword>
+      <signupbutton>注册</signupbutton>
+    </register>
+    <search>
+      <advancedsearch>高级搜索</advancedsearch>
+      <button>搜索</button>
+      <findsimilar>查找近似项</findsimilar>
+      <onlywholewords>全字匹配</onlywholewords>
+      <percentrelevancy>相关性百分比</percentrelevancy>
+      <relevancy>相关性</relevancy>
+      <searchfiles>在文件中搜索</searchfiles>
+      <searchfor>搜索:</searchfor>
+      <searchresult>搜索结果:</searchresult>
+      <searchstring>在此处搜索</searchstring>
+    </search>
+    <subscription>
+      <daily>每天一次</daily>
+      <email>电子邮件地址</email>
+      <fastaspossible>尽快</fastaspossible>
+      <interval>间隔</interval>
+      <monthly>每月一次</monthly>
+      <subscribe>订阅</subscribe>
+      <subscription>订阅</subscription>
+      <weekly>每周一次</weekly>
+    </subscription>
+    <usersettings>
+      <changepassword>更改密码</changepassword>
+      <confirmpassword>确认密码</confirmpassword>
+      <email>电子邮件地址</email>
+      <firstname>名字</firstname>
+      <lastname>姓氏</lastname>
+      <mysettings>我的设置</mysettings>
+      <newpassword>新密码</newpassword>
+      <username>用户名</username>
+    </usersettings>
+  </language>
+</languages>

@@ -1,0 +1,1211 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="Japanese" id="ja">
+    <admin>
+      <tinymce>
+        <plugins>
+          <advanced>
+            <advImage>
+              <description see="/tinymce/advimage/image_desc" />
+              <displayname see="/tinymce/advimage/image_desc" />
+            </advImage>
+            <advLink>
+              <description see="/tinymce/advlink/link_desc" />
+              <displayname see="/tinymce/advlink/link_desc" />
+            </advLink>
+            <anchor>
+              <description see="/tinymce/advanced/anchor_desc" />
+              <displayname see="/tinymce/advanced/anchor_desc" />
+            </anchor>
+            <backcolor>
+              <description see="/tinymce/advanced/backcolor_desc" />
+              <displayname see="/tinymce/advanced/backcolor_desc" />
+            </backcolor>
+            <backcolorpicker>
+              <description see="/tinymce/advanced/backcolor_desc" />
+              <displayname see="/tinymce/advanced/backcolor_desc" />
+            </backcolorpicker>
+            <bold>
+              <description see="/tinymce/simple/bold_desc" />
+              <displayname see="/tinymce/simple/bold_desc" />
+            </bold>
+            <bullist>
+              <description see="/tinymce/advanced/bullist_desc" />
+              <displayname see="/tinymce/advanced/bullist_desc" />
+            </bullist>
+            <charmap>
+              <description see="/tinymce/advanced/charmap_desc" />
+              <displayname see="/tinymce/advanced/charmap_desc" />
+            </charmap>
+            <cleanup>
+              <description see="/tinymce/advanced/cleanup_desc" />
+              <displayname see="/tinymce/advanced/cleanup_desc" />
+            </cleanup>
+            <code>
+              <description see="/tinymce/advanced/code" />
+              <displayname see="/tinymce/advanced/code" />
+            </code>
+            <copy>
+              <description see="/tinymce/advanced/copy_desc" />
+              <displayname see="/tinymce/advanced/copy_desc" />
+            </copy>
+            <cut>
+              <description see="/tinymce/advanced/cut_desc" />
+              <displayname see="/tinymce/advanced/cut_desc" />
+            </cut>
+            <fontselect>
+              <description see="/tinymce/advanced/fontdefault" />
+              <displayname see="/tinymce/advanced/fontdefault" />
+            </fontselect>
+            <fontsizeselect>
+              <description see="/tinymce/advanced/font_size" />
+              <displayname see="/tinymce/advanced/font_size" />
+            </fontsizeselect>
+            <forecolor>
+              <description see="/tinymce/advanced/forecolor_desc" />
+              <displayname see="/tinymce/advanced/forecolor_desc" />
+            </forecolor>
+            <forecolorpicker>
+              <description see="/tinymce/advanced/forecolor_desc" />
+              <displayname see="/tinymce/advanced/forecolor_desc" />
+            </forecolorpicker>
+            <formatselect>
+              <description see="/tinymce/advanced/block" />
+              <displayname see="/tinymce/advanced/block" />
+            </formatselect>
+            <help>
+              <description see="/tinymce/advanced/help_desc" />
+              <displayname see="/tinymce/advanced/help_desc" />
+            </help>
+            <hr>
+              <description see="/tinymce/advanced/hr_desc" />
+              <displayname see="/tinymce/advanced/hr_desc" />
+            </hr>
+            <image>
+              <description see="/tinymce/advanced/image_desc" />
+              <displayname see="/tinymce/advanced/image_desc" />
+            </image>
+            <indent>
+              <description see="/tinymce/advanced/indent_desc" />
+              <displayname see="/tinymce/advanced/indent_desc" />
+            </indent>
+            <italic>
+              <description see="/tinymce/simple/italic_desc" />
+              <displayname see="/tinymce/simple/italic_desc" />
+            </italic>
+            <justifycenter>
+              <description see="/tinymce/advanced/justifycenter_desc" />
+              <displayname see="/tinymce/advanced/justifycenter_desc" />
+            </justifycenter>
+            <justifyfull>
+              <description see="/tinymce/advanced/justifyfull_desc" />
+              <displayname see="/tinymce/advanced/justifyfull_desc" />
+            </justifyfull>
+            <justifyleft>
+              <description see="/tinymce/advanced/justifyleft_desc" />
+              <displayname see="/tinymce/advanced/justifyleft_desc" />
+            </justifyleft>
+            <justifyright>
+              <description see="/tinymce/advanced/justifyright_desc" />
+              <displayname see="/tinymce/advanced/justifyright_desc" />
+            </justifyright>
+            <link>
+              <description see="/tinymce/advanced/link_desc" />
+              <displayname see="/tinymce/advanced/link_desc" />
+            </link>
+            <numlist>
+              <description see="/tinymce/advanced/numlist_desc" />
+              <displayname see="/tinymce/advanced/numlist_desc" />
+            </numlist>
+            <outdent>
+              <description see="/tinymce/advanced/outdent_desc" />
+              <displayname see="/tinymce/advanced/outdent_desc" />
+            </outdent>
+            <paste>
+              <description see="/tinymce/advanced/paste_desc" />
+              <displayname see="/tinymce/advanced/paste_desc" />
+            </paste>
+            <redo>
+              <description see="/tinymce/advanced/redo_desc" />
+              <displayname see="/tinymce/advanced/redo_desc" />
+            </redo>
+            <removeformat>
+              <description see="/tinymce/advanced/removeformat_desc" />
+              <displayname see="/tinymce/advanced/removeformat_desc" />
+            </removeformat>
+            <strikethrough>
+              <description see="/tinymce/simple/striketrough_desc" />
+              <displayname see="/tinymce/simple/striketrough_desc" />
+            </strikethrough>
+            <styleselect>
+              <description see="/tinymce/advanced/style_select" />
+              <displayname see="/tinymce/advanced/style_select" />
+            </styleselect>
+            <sub>
+              <description see="/tinymce/advanced/sub_desc" />
+              <displayname see="/tinymce/advanced/sub_desc" />
+            </sub>
+            <sup>
+              <description see="/tinymce/advanced/sup_desc" />
+              <displayname see="/tinymce/advanced/sup_desc" />
+            </sup>
+            <underline>
+              <description see="/tinymce/simple/underline_desc" />
+              <displayname see="/tinymce/simple/underline_desc" />
+            </underline>
+            <undo>
+              <description see="/tinymce/advanced/undo_desc" />
+              <displayname see="/tinymce/advanced/undo_desc" />
+            </undo>
+            <unlink>
+              <description see="/tinymce/advanced/unlink_desc" />
+              <displayname see="/tinymce/advanced/unlink_desc" />
+            </unlink>
+            <visualaid>
+              <description see="/tinymce/advanced/visualaid_desc" />
+              <displayname see="/tinymce/advanced/visualaid_desc" />
+            </visualaid>
+          </advanced>
+          <directionality>
+            <ltr>
+              <description see="/tinymce/directionality/ltr_desc" />
+              <displayname see="/tinymce/directionality/ltr_desc" />
+            </ltr>
+            <rtl>
+              <description see="/tinymce/directionality/rtl_desc" />
+              <displayname see="/tinymce/directionality/rtl_desc" />
+            </rtl>
+          </directionality>
+          <fullscreen>
+            <fullscreen>
+              <description see="/tinymce/fullscreen/desc" />
+              <displayname see="/tinymce/fullscreen/desc" />
+            </fullscreen>
+          </fullscreen>
+          <insertdatetime>
+            <insertdate>
+              <description see="/tinymce/insertdatetime/insertdate_desc" />
+              <displayname see="/tinymce/insertdatetime/insertdate_desc" />
+            </insertdate>
+            <inserttime>
+              <description see="/tinymce/insertdatetime/inserttime_desc" />
+              <displayname see="/tinymce/insertdatetime/inserttime_desc" />
+            </inserttime>
+          </insertdatetime>
+          <layer>
+            <absolute>
+              <description see="/tinymce/layer/absolute_desc" />
+              <displayname see="/tinymce/layer/absolute_desc" />
+            </absolute>
+            <insertLayer>
+              <description see="/tinymce/layer/insertlayer_desc" />
+              <displayname see="/tinymce/layer/insertlayer_desc" />
+            </insertLayer>
+            <movebackward>
+              <description see="/tinymce/layer/backward_desc" />
+              <displayname see="/tinymce/layer/backward_desc" />
+            </movebackward>
+            <moveforward>
+              <description see="/tinymce/layer/forward_desc" />
+              <displayname see="/tinymce/layer/forward_desc" />
+            </moveforward>
+          </layer>
+          <media>
+            <media>
+              <description see="/tinymce/media/desc" />
+              <displayname see="/tinymce/media/desc" />
+            </media>
+          </media>
+          <nonbreaking>
+            <nonbreaking>
+              <description see="/tinymce/nonbreaking/nonbreaking_desc" />
+              <displayname see="/tinymce/nonbreaking/nonbreaking_desc" />
+            </nonbreaking>
+          </nonbreaking>
+          <paste>
+            <pastetext>
+              <description see="/tinymce/paste/paste_text_desc" />
+              <displayname see="/tinymce/paste/paste_text_desc" />
+            </pastetext>
+            <pasteword>
+              <description see="/tinymce/paste/paste_word_desc" />
+              <displayname see="/tinymce/paste/paste_word_desc" />
+            </pasteword>
+            <selectall>
+              <description see="/tinymce/paste/selectall_desc" />
+              <displayname see="/tinymce/paste/selectall_desc" />
+            </selectall>
+          </paste>
+          <preview>
+            <preview>
+              <description see="/tinymce/preview/preview_desc" />
+              <displayname see="/tinymce/preview/preview_desc" />
+            </preview>
+          </preview>
+          <print>
+            <print>
+              <description see="/tinymce/print/print_desc" />
+              <displayname see="/tinymce/print/print_desc" />
+            </print>
+          </print>
+          <searchreplace>
+            <replace>
+              <description see="/tinymce/searchreplace/replace_desc" />
+              <displayname see="/tinymce/searchreplace/replace_desc" />
+            </replace>
+            <search>
+              <description see="/tinymce/searchreplace/search_desc" />
+              <displayname see="/tinymce/searchreplace/search_desc" />
+            </search>
+          </searchreplace>
+          <style>
+            <styleprops>
+              <description see="/tinymce/style/desc" />
+              <displayname see="/tinymce/style/desc" />
+            </styleprops>
+          </style>
+          <table>
+            <cell_props>
+              <description see="/tinymce/table/cell_desc" />
+              <displayname see="/tinymce/table/cell_desc" />
+            </cell_props>
+            <col_after>
+              <description see="/tinymce/table/col_after_desc" />
+              <displayname see="/tinymce/table/col_after_desc" />
+            </col_after>
+            <col_before>
+              <description see="/tinymce/table/col_before_desc" />
+              <displayname see="/tinymce/table/col_before_desc" />
+            </col_before>
+            <delete_col>
+              <description see="/tinymce/table/delete_col_desc" />
+              <displayname see="/tinymce/table/delete_col_desc" />
+            </delete_col>
+            <delete_row>
+              <description see="/tinymce/table/delete_row_desc" />
+              <displayname see="/tinymce/table/delete_row_desc" />
+            </delete_row>
+            <delete_table>
+              <description see="/tinymce/table/del" />
+              <displayname see="/tinymce/table/del" />
+            </delete_table>
+            <merge_cells>
+              <description see="/tinymce/table/merge_cells_desc" />
+              <displayname see="/tinymce/table/merge_cells_desc" />
+            </merge_cells>
+            <row_after>
+              <description see="/tinymce/table/row_after_desc" />
+              <displayname see="/tinymce/table/row_after_desc" />
+            </row_after>
+            <row_before>
+              <description see="/tinymce/table/row_before_desc" />
+              <displayname see="/tinymce/table/row_before_desc" />
+            </row_before>
+            <row_props>
+              <description see="/tinymce/table/row_desc" />
+              <displayname see="/tinymce/table/row_desc" />
+            </row_props>
+            <split_cells>
+              <description see="/tinymce/table/split_cells_desc" />
+              <displayname see="/tinymce/table/split_cells_desc" />
+            </split_cells>
+            <table>
+              <description see="/tinymce/table/desc" />
+              <displayname see="/tinymce/table/desc" />
+            </table>
+            <tablecontrols>
+              <description see="/tinymce/table/desc" />
+              <displayname see="/tinymce/table/desc" />
+            </tablecontrols>
+          </table>
+          <xhtmlxtras>
+            <abbr>
+              <description see="/tinymce/xhtmlxtras/abbr_desc" />
+              <displayname see="/tinymce/xhtmlxtras/abbr_desc" />
+            </abbr>
+            <acronym>
+              <description see="/tinymce/xhtmlxtras/acronym_desc" />
+              <displayname see="/tinymce/xhtmlxtras/acronym_desc" />
+            </acronym>
+            <attribs>
+              <description see="/tinymce/xhtmlxtras/attribs_desc" />
+              <displayname see="/tinymce/xhtmlxtras/attribs_desc" />
+            </attribs>
+            <cite>
+              <description see="/tinymce/xhtmlxtras/cite_desc" />
+              <displayname see="/tinymce/xhtmlxtras/cite_desc" />
+            </cite>
+            <del>
+              <description see="/tinymce/xhtmlxtras/del_desc" />
+              <displayname see="/tinymce/xhtmlxtras/del_desc" />
+            </del>
+            <ins>
+              <description see="/tinymce/xhtmlxtras/ins_desc" />
+              <displayname see="/tinymce/xhtmlxtras/ins_desc" />
+            </ins>
+          </xhtmlxtras>
+        </plugins>
+      </tinymce>
+    </admin>
+    <tinymce>
+      <advanced>
+        <address>住所</address>
+        <anchor_delta_height />
+        <anchor_delta_width />
+        <anchor_desc>アンカーの挿入/編集</anchor_desc>
+        <backcolor_desc>背景色</backcolor_desc>
+        <backcolorpicker_desc see="#backcolor_desc" />
+        <block>フォーマット</block>
+        <blockquote>引用</blockquote>
+        <blockquote_desc>引用</blockquote_desc>
+        <bold_desc>太字 (Ctrl+B)</bold_desc>
+        <bullist_desc>番号なしリスト</bullist_desc>
+        <charmap_delta_height />
+        <charmap_delta_width />
+        <charmap_desc>特殊文字</charmap_desc>
+        <cleanup_desc>コード整形</cleanup_desc>
+        <clipboard_msg>コピー/切り取り/貼り付けはMozilla及びFirefoxでは使用できません。\n詳細はこちら</clipboard_msg>
+        <code>ソースコード</code>
+        <code_desc>HTMLソース編集</code_desc>
+        <colorpicker_delta_height />
+        <colorpicker_delta_width />
+        <copy_desc>コピー</copy_desc>
+        <custom1_desc>説明文を入力してください。</custom1_desc>
+        <cut_desc>切り取り</cut_desc>
+        <dd>語句説明</dd>
+        <div>Div</div>
+        <dt>語句定義</dt>
+        <font_size>フォントサイズ</font_size>
+        <fontdefault>フォント</fontdefault>
+        <fontselect_desc see="#fontdefault" />
+        <fontsizeselect_desc see="#font_size" />
+        <forecolor_desc>文字色</forecolor_desc>
+        <forecolorpicker_desc see="#forecolor_desc" />
+        <formatselect_desc see="#block" />
+        <h1>見出し1</h1>
+        <h2>見出し2</h2>
+        <h3>見出し3</h3>
+        <h4>見出し4</h4>
+        <h5>見出し5</h5>
+        <h6>見出し6</h6>
+        <help_desc>ヘルプ</help_desc>
+        <hr_desc>水平線</hr_desc>
+        <image_delta_height />
+        <image_delta_width />
+        <image_desc>画像の挿入/編集</image_desc>
+        <image_props_desc>画像のプロパティ</image_props_desc>
+        <indent_desc>インデント</indent_desc>
+        <italic_desc>斜体 (Ctrl+I)</italic_desc>
+        <justifycenter_desc>中央揃え</justifycenter_desc>
+        <justifyfull_desc>均等割付</justifyfull_desc>
+        <justifyleft_desc>左揃え</justifyleft_desc>
+        <justifyright_desc>右揃え</justifyright_desc>
+        <link_delta_height />
+        <link_delta_width />
+        <link_desc>リンクの挿入/編集</link_desc>
+        <more_colors>その他の色</more_colors>
+        <newdocument>編集中のデータを破棄してもよろしいですか？</newdocument>
+        <newdocument_desc>新規作成</newdocument_desc>
+        <numlist_desc>番号つきリスト</numlist_desc>
+        <outdent_desc>インデント解除</outdent_desc>
+        <paragraph>段落</paragraph>
+        <paste_desc>貼り付け</paste_desc>
+        <path>パス</path>
+        <pre>整形済み</pre>
+        <redo_desc>やり直す (Ctrl+Y)</redo_desc>
+        <removeformat_desc>フォーマット解除</removeformat_desc>
+        <samp>コードサンプル</samp>
+        <strikethrough_desc see="#striketrough_desc" />
+        <striketrough_desc>打消し線</striketrough_desc>
+        <style_select>スタイル</style_select>
+        <styleselect_desc see="#style_select" />
+        <sub_desc>下付き</sub_desc>
+        <sup_desc>上付き</sup_desc>
+        <toolbar_focus>ツールボタンへジャンプ - Alt+Q, エディタにジャンプ - Alt-Z, エレメントパスへジャンプ - Alt-X</toolbar_focus>
+        <underline_desc>下線 (Ctrl+U)</underline_desc>
+        <undo_desc>元に戻す (Ctrl+Z)</undo_desc>
+        <unlink_desc>リンク解除</unlink_desc>
+        <visualaid_desc>ガイドラインと非表示項目の表示切替</visualaid_desc>
+      </advanced>
+      <advanced_dlg>
+        <about_author>作者</about_author>
+        <about_general>詳細</about_general>
+        <about_help>ヘルプ</about_help>
+        <about_license>ライセンス</about_license>
+        <about_loaded>読込済みプラグイン</about_loaded>
+        <about_plugin>プラグイン</about_plugin>
+        <about_plugins>プラグイン</about_plugins>
+        <about_title>TinyMCEについて</about_title>
+        <about_version>バージョン</about_version>
+        <anchor_name>アンカー名</anchor_name>
+        <anchor_title>アンカーの挿入/編集</anchor_title>
+        <charmap_title>特殊文字</charmap_title>
+        <code_title>HTMLソースエディタ</code_title>
+        <code_wordwrap>折り返し</code_wordwrap>
+        <colorpicker_color>カラー:</colorpicker_color>
+        <colorpicker_name>名前:</colorpicker_name>
+        <colorpicker_named_tab>既定色</colorpicker_named_tab>
+        <colorpicker_named_title>既定色</colorpicker_named_title>
+        <colorpicker_palette_tab>パレット</colorpicker_palette_tab>
+        <colorpicker_palette_title>パレット</colorpicker_palette_title>
+        <colorpicker_picker_tab>カラーピッカー</colorpicker_picker_tab>
+        <colorpicker_picker_title>カラーピッカー</colorpicker_picker_title>
+        <colorpicker_title>色の選択</colorpicker_title>
+        <image_align>配置</image_align>
+        <image_align_baseline>Baseline</image_align_baseline>
+        <image_align_bottom>Bottom</image_align_bottom>
+        <image_align_left>Left</image_align_left>
+        <image_align_middle>Middle</image_align_middle>
+        <image_align_right>Right</image_align_right>
+        <image_align_textbottom>Text bottom</image_align_textbottom>
+        <image_align_texttop>Text top</image_align_texttop>
+        <image_align_top>Top</image_align_top>
+        <image_alt>画像の説明</image_alt>
+        <image_border>枠線</image_border>
+        <image_dimensions>サイズ</image_dimensions>
+        <image_hspace>左右余白</image_hspace>
+        <image_list>一覧から選ぶ</image_list>
+        <image_src>画像URL</image_src>
+        <image_title>画像の挿入/編集</image_title>
+        <image_vspace>上下余白</image_vspace>
+        <link_is_email>メールアドレスが入力されました。リンクにmailto:を付加しますか？</link_is_email>
+        <link_is_external>リンクにhttp://を付加しますか？</link_is_external>
+        <link_list>一覧から選ぶ</link_list>
+        <link_target>ターゲット</link_target>
+        <link_target_blank>新しいウインドウで開く</link_target_blank>
+        <link_target_same>同じウインドウで開く</link_target_same>
+        <link_title>リンクの挿入/編集</link_title>
+        <link_titlefield>タイトル</link_titlefield>
+        <link_url>リンクURL</link_url>
+      </advanced_dlg>
+      <advhr>
+        <advhr_desc>水平線</advhr_desc>
+        <delta_height />
+        <delta_width />
+      </advhr>
+      <advhr_dlg>
+        <noshade>影なし</noshade>
+        <size>高さ</size>
+        <width>幅</width>
+      </advhr_dlg>
+      <advimage>
+        <delta_height />
+        <delta_width />
+        <image_desc>画像の挿入/編集</image_desc>
+      </advimage>
+      <advimage_dlg>
+        <align>配置</align>
+        <align_baseline>Baseline</align_baseline>
+        <align_bottom>Bottom</align_bottom>
+        <align_left>Left</align_left>
+        <align_middle>Middle</align_middle>
+        <align_right>Right</align_right>
+        <align_textbottom>Text bottom</align_textbottom>
+        <align_texttop>Text top</align_texttop>
+        <align_top>Top</align_top>
+        <alt>画像の説明</alt>
+        <alt_image>画像切替を行う</alt_image>
+        <border>枠線</border>
+        <classes>クラス</classes>
+        <constrain_proportions>縦横比の保存</constrain_proportions>
+        <dialog_title>画像の挿入/編集</dialog_title>
+        <dimensions>サイズ</dimensions>
+        <example_img>Appearance preview image</example_img>
+        <general>一般</general>
+        <hspace>左右余白</hspace>
+        <id>Id</id>
+        <image_list>一覧から選ぶ</image_list>
+        <langcode>言語コード</langcode>
+        <langdir>文章の方向</langdir>
+        <list>一覧から選ぶ</list>
+        <long_desc>詳細説明リンク</long_desc>
+        <ltr>左から右</ltr>
+        <map>イメージマップ</map>
+        <misc>その他</misc>
+        <missing_alt>画像の説明文が入力されていません。目の不自由な方やテキストブラウザを利用されている方へ配慮し、画像説明を入力することをお薦めします。</missing_alt>
+        <mouseout>マウスアウト時</mouseout>
+        <mouseover>マウスオーバー時</mouseover>
+        <preview>プレビュー</preview>
+        <rtl>右から左</rtl>
+        <src>画像URL</src>
+        <style>スタイル</style>
+        <swap_image>ロールオーバー効果</swap_image>
+        <tab_advanced>上級者向け</tab_advanced>
+        <tab_appearance>表示</tab_appearance>
+        <tab_general>一般</tab_general>
+        <title>タイトル</title>
+        <vspace>上下余白</vspace>
+      </advimage_dlg>
+      <advlink>
+        <delta_height />
+        <delta_width />
+        <link_desc>リンクの挿入/編集</link_desc>
+      </advlink>
+      <advlink_dlg>
+        <accesskey>アクセスキー</accesskey>
+        <advanced_props>上級者向け</advanced_props>
+        <advanced_tab>上級者向け</advanced_tab>
+        <anchor_names>アンカー</anchor_names>
+        <classes>クラス</classes>
+        <encoding>ターゲットの文字エンコーディング</encoding>
+        <event_props>イベント</event_props>
+        <events_tab>イベント</events_tab>
+        <general_props>一般</general_props>
+        <general_tab>一般</general_tab>
+        <id>ID</id>
+        <is_email>メールアドレスが入力されました。リンクにmailto:を付加しますか？</is_email>
+        <is_external>リンクにhttp://を付加しますか？</is_external>
+        <langcode>言語コード</langcode>
+        <langdir>文章の方向</langdir>
+        <link_list>一覧から選ぶ</link_list>
+        <list>一覧から選ぶ</list>
+        <ltr>左から右</ltr>
+        <mime>ターゲットのMIMEタイプ</mime>
+        <popup>Javascriptポップアップ</popup>
+        <popup_dependent>Dependent (Mozilla/Firefoxのみ)</popup_dependent>
+        <popup_location>アドレスバーを表示</popup_location>
+        <popup_menubar>メニューバーを表示</popup_menubar>
+        <popup_name>ウインドウ名</popup_name>
+        <popup_opts>オプション</popup_opts>
+        <popup_position>位置 (X/Y)</popup_position>
+        <popup_props>ポップアップ</popup_props>
+        <popup_resizable>ウインドウのサイズ変更を許可する</popup_resizable>
+        <popup_return>'return false'を挿入する</popup_return>
+        <popup_scrollbars>スクロールバーを表示</popup_scrollbars>
+        <popup_size>サイズ</popup_size>
+        <popup_statusbar>ステータスバーを表示</popup_statusbar>
+        <popup_tab>ポップアップ</popup_tab>
+        <popup_toolbar>ツールバーを表示</popup_toolbar>
+        <popup_url>ポップアップURL</popup_url>
+        <rel>このページのターゲットに対する関係</rel>
+        <rev>ターゲットのこのページに対する関係</rev>
+        <rtl>右から左</rtl>
+        <style>スタイル</style>
+        <tabindex>タブインデックス</tabindex>
+        <target>ターゲット</target>
+        <target_blank>新しいウインドウで開く</target_blank>
+        <target_langcode>ターゲットの言語</target_langcode>
+        <target_name>ターゲット名</target_name>
+        <target_parent>親ウインドウ/親フレームで開く</target_parent>
+        <target_same>このウインドウ/フレームで開く</target_same>
+        <target_top>トップのフレームで開く</target_top>
+        <title>リンクの挿入/編集</title>
+        <titlefield>タイトル</titlefield>
+        <url>リンクURL</url>
+      </advlink_dlg>
+      <autosave>
+        <unload_msg>他のページへ移動すると編集データはすべて破棄されます。</unload_msg>
+      </autosave>
+      <common>
+        <apply>適用</apply>
+        <browse>参照</browse>
+        <cancel>キャンセル</cancel>
+        <class_name>クラス</class_name>
+        <clipboard_msg>コピー/切り取り/貼り付けはMozilla及びFirefoxでは使用できません。\n詳細はこちら</clipboard_msg>
+        <clipboard_no_support>クリップボード操作はお使いのブラウザには対応しておりません。代わりにキーボードのショートカットキーをお使い下さい。</clipboard_no_support>
+        <close>閉じる</close>
+        <edit_confirm>WYSIWYGモードに切り替えますか？</edit_confirm>
+        <insert>挿入</insert>
+        <invalid_data>エラー: 入力に誤りがあります。（赤字の項目）</invalid_data>
+        <more_colors>その他の色</more_colors>
+        <not_set>-- 未設定 --</not_set>
+        <popup_blocked>ポップアップがブロックされました。すべての機能をご利用になるにはポップアップを許可して下さい。</popup_blocked>
+        <update>更新</update>
+      </common>
+      <contextmenu>
+        <align>配置</align>
+        <center>中央揃え</center>
+        <full>均等割付</full>
+        <left>左揃え</left>
+        <right>右揃え</right>
+      </contextmenu>
+      <directionality>
+        <ltr_desc>左から右</ltr_desc>
+        <rtl_desc>右から左</rtl_desc>
+      </directionality>
+      <emotions>
+        <delta_height />
+        <delta_width />
+        <emotions_desc>表情アイコン</emotions_desc>
+      </emotions>
+      <emotions_dlg>
+        <cool>Cool</cool>
+        <cry>Cry</cry>
+        <desc>表情アイコン</desc>
+        <embarassed>Embarassed</embarassed>
+        <emotions_dlg_desc see="#desc" />
+        <foot_in_mouth>Foot in mouth</foot_in_mouth>
+        <frown>Frown</frown>
+        <innocent>Innocent</innocent>
+        <kiss>Kiss</kiss>
+        <laughing>Laughing</laughing>
+        <money_mouth>Money mouth</money_mouth>
+        <sealed>Sealed</sealed>
+        <smile>Smile</smile>
+        <surprised>Surprised</surprised>
+        <title>表情アイコンの挿入</title>
+        <tongue_out>Tongue out</tongue_out>
+        <undecided>Undecided</undecided>
+        <wink>Wink</wink>
+        <yell>Yell</yell>
+      </emotions_dlg>
+      <fullpage>
+        <delta_height />
+        <delta_width />
+        <desc>ページ設定</desc>
+        <fullpage_desc see="#desc" />
+      </fullpage>
+      <fullpage_dlg>
+        <active_color>リンク色(active)</active_color>
+        <add>エレメント追加</add>
+        <add_base>Base要素</add_base>
+        <add_comment>Commentノード</add_comment>
+        <add_link>Link要素</add_link>
+        <add_meta>Meta要素</add_meta>
+        <add_script>Script要素</add_script>
+        <add_style>Style要素</add_style>
+        <add_title>Title要素</add_title>
+        <advanced_props>上級者向け</advanced_props>
+        <advanced_tab>上級者向け</advanced_tab>
+        <appearance_bgprops>背景のプロパティ</appearance_bgprops>
+        <appearance_linkprops>リンク色</appearance_linkprops>
+        <appearance_marginprops>余白</appearance_marginprops>
+        <appearance_style>スタイル設定</appearance_style>
+        <appearance_tab>表示</appearance_tab>
+        <appearance_textprops>文字もプロパティ</appearance_textprops>
+        <author>作者</author>
+        <base_element>Base要素</base_element>
+        <bgcolor>背景色</bgcolor>
+        <bgimage>背景画像</bgimage>
+        <bottom_margin>下余白</bottom_margin>
+        <charset>Charset</charset>
+        <comment_element>Comment</comment_element>
+        <content>Content</content>
+        <copyright>コピーライト</copyright>
+        <defer>Defer</defer>
+        <doctypes>DOCTYPE</doctypes>
+        <encoding>文字エンコーディング</encoding>
+        <font_face>フォント</font_face>
+        <font_size>文字サイズ</font_size>
+        <fontface>フォント</fontface>
+        <fontsize>文字サイズ</fontsize>
+        <general_props>一般</general_props>
+        <head_elements>Head要素</head_elements>
+        <hover_color>リンク色(hover)</hover_color>
+        <href>Href</href>
+        <hreflang>Href lang</hreflang>
+        <info>インフォメーション</info>
+        <langcode>言語コード</langcode>
+        <langdir>文章の方向</langdir>
+        <langprops>言語とエンコーディング</langprops>
+        <language>Language</language>
+        <left_margin>左余白</left_margin>
+        <link_color>リンク色</link_color>
+        <link_element>Link要素</link_element>
+        <ltr>左から右</ltr>
+        <media>Media</media>
+        <meta_description>説明</meta_description>
+        <meta_element>Meta要素</meta_element>
+        <meta_index_follow>このページとリンク先の巡回を許可</meta_index_follow>
+        <meta_index_nofollow>このページの巡回を許可、リンク先の巡回を禁止</meta_index_nofollow>
+        <meta_keywords>キーワード</meta_keywords>
+        <meta_noindex_follow>このページの巡回を禁止、リンク先の巡回を許可</meta_noindex_follow>
+        <meta_noindex_nofollow>このページとリンク先の巡回を禁止</meta_noindex_nofollow>
+        <meta_props>メタ情報</meta_props>
+        <meta_robots>検索ロボット制御</meta_robots>
+        <meta_tab>一般</meta_tab>
+        <meta_title>タイトル</meta_title>
+        <movedown>選択要素を下へ移動</movedown>
+        <moveup>選択要素を上へ移動</moveup>
+        <name>Name</name>
+        <properties>Properties</properties>
+        <rel>Rel</rel>
+        <remove>選択要素の削除</remove>
+        <rev>Rev</rev>
+        <right_margin>右余白</right_margin>
+        <rtl>右から左</rtl>
+        <script_element>Script要素</script_element>
+        <src>src</src>
+        <style>スタイル</style>
+        <style_element>Style要素</style_element>
+        <stylesheet>スタイルシート</stylesheet>
+        <target>Target</target>
+        <text_color>文字色</text_color>
+        <textcolor>色</textcolor>
+        <title>ページ設定</title>
+        <title_element>Title要素</title_element>
+        <top_margin>上余白</top_margin>
+        <type>Type</type>
+        <value>Value</value>
+        <visited_color>リンク色(visited)</visited_color>
+        <xml_pi>XML宣言</xml_pi>
+      </fullpage_dlg>
+      <fullscreen>
+        <desc>フルスクリーン</desc>
+        <fullscreen_desc see="#desc" />
+      </fullscreen>
+      <iespell>
+        <download>ieSpellが見つかりません。今すぐインストールしますか？</download>
+        <iespell_desc>スペルチェック</iespell_desc>
+      </iespell>
+      <insertdatetime>
+        <date_fmt>%Y-%m-%d</date_fmt>
+        <day_long>日曜日,月曜日,火曜日,水曜日,木曜日,金曜日,土曜日,日曜日</day_long>
+        <day_short>(日),(月),(火),(水),(木),(金),(土),(日)</day_short>
+        <insertdate_desc>日付の挿入</insertdate_desc>
+        <inserttime_desc>時刻の挿入</inserttime_desc>
+        <months_long>January,February,March,April,May,June,July,August,September,October,November,December</months_long>
+        <months_short>Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec</months_short>
+        <time_fmt>%H:%M:%S</time_fmt>
+      </insertdatetime>
+      <layer>
+        <absolute_desc>絶対位置指定の切替</absolute_desc>
+        <backward_desc>背面へ移動</backward_desc>
+        <content>新規レイヤー</content>
+        <forward_desc>前面へ移動</forward_desc>
+        <insertlayer_desc>新規レイヤーの挿入</insertlayer_desc>
+        <movebackward_desc see="#backward_desc" />
+        <moveforward_desc see="#forward_desc" />
+      </layer>
+      <media>
+        <delta_height />
+        <delta_width />
+        <desc>埋め込みメディアの挿入/編集</desc>
+        <edit>埋め込みメディアの編集</edit>
+        <media_desc see="#desc" />
+      </media>
+      <media_dlg>
+        <advanced>上級者向け</advanced>
+        <align>配置</align>
+        <align_bottom>下</align_bottom>
+        <align_bottom_left>左下</align_bottom_left>
+        <align_bottom_right>右下</align_bottom_right>
+        <align_center>中央</align_center>
+        <align_left>左</align_left>
+        <align_right>右</align_right>
+        <align_top>上</align_top>
+        <align_top_left>左上</align_top_left>
+        <align_top_right>右上</align_top_right>
+        <autogotourl>autogotourl</autogotourl>
+        <autohref>自動読込</autohref>
+        <autostart>自動再生</autostart>
+        <balance>ステレオのバランス</balance>
+        <base>Base</base>
+        <baseurl>Base URL</baseurl>
+        <bgcolor>背景色</bgcolor>
+        <cache>キャッシュ</cache>
+        <captioningid>キャプション表示要素ID</captioningid>
+        <center>センタリング</center>
+        <class_name>クラス</class_name>
+        <console>コンソール</console>
+        <constrain_proportions>縦横比を保存</constrain_proportions>
+        <controller>コントローラ表示</controller>
+        <controls>コントローラ表示</controls>
+        <correction>No correction</correction>
+        <currentmarker>マーカー番号</currentmarker>
+        <currentposition>再生位置（秒単位）</currentposition>
+        <defaultframe>デフォルトフレーム</defaultframe>
+        <enabled>有効にする</enabled>
+        <enablejavascript>JavaScriptを有効にする</enablejavascript>
+        <endtime>終了フレーム</endtime>
+        <file>ファイル/URL</file>
+        <flash_options>Flashオプション</flash_options>
+        <flashvars>Flashvars</flashvars>
+        <flv_autostart>自動再生</flv_autostart>
+        <flv_buffer>バッファ秒数</flv_buffer>
+        <flv_defaultvolume>音量</flv_defaultvolume>
+        <flv_hiddengui>コントローラ非表示</flv_hiddengui>
+        <flv_jscallback>JSコールバック</flv_jscallback>
+        <flv_loop>繰り返し再生</flv_loop>
+        <flv_options>Flash videoオプション</flv_options>
+        <flv_scalemode>伸縮モード</flv_scalemode>
+        <flv_showscalemodes>伸縮切替ボタン表示</flv_showscalemodes>
+        <flv_smoothvideo>スムージング</flv_smoothvideo>
+        <flv_startimage>初期画像URL</flv_startimage>
+        <flv_starttime>開始フレーム</flv_starttime>
+        <fullscreen>フルスクリーン</fullscreen>
+        <general>一般</general>
+        <hidden>非表示</hidden>
+        <href>リンク先URL</href>
+        <hspace>左右余白</hspace>
+        <id>ID</id>
+        <imagestatus>ステータス表示</imagestatus>
+        <invokeurls>URLを開く</invokeurls>
+        <kioskmode>Kioskモード</kioskmode>
+        <list>一覧から選ぶ</list>
+        <liveconnect>SWLiveConnect</liveconnect>
+        <loop>繰り返し再生</loop>
+        <maintainaspect>縦横比保存</maintainaspect>
+        <menu>メニューを表示</menu>
+        <mute>ミュート</mute>
+        <name>名前</name>
+        <nojava>Javaを禁止</nojava>
+        <numloop>繰り返し回数</numloop>
+        <play>自動再生</play>
+        <playcount>再生回数</playcount>
+        <playeveryframe>全フレーム再生</playeveryframe>
+        <prefetch>プリフェッチ</prefetch>
+        <preview>プレビュー</preview>
+        <progress>Progress</progress>
+        <qt_options>Quicktimeオプション</qt_options>
+        <qt_stream_warn>rtspストリーミングリソースを「上級者向け」タブの「QT Src」欄に入力してください。\nまた、「Src」欄にはストリーミングではないバージョーンを入力してください。</qt_stream_warn>
+        <qtsrc>QT Src</qtsrc>
+        <qtsrcchokespeed>再生データレート</qtsrcchokespeed>
+        <quality>品質</quality>
+        <rate>再生レート</rate>
+        <rmp_options>Real media playerオプション</rmp_options>
+        <salign>SAlign</salign>
+        <scale>伸縮</scale>
+        <scriptcallbacks>コールバックイベント</scriptcallbacks>
+        <shockwave_options>Shockwaveオプション</shockwave_options>
+        <shuffle>シャッフル</shuffle>
+        <size>サイズ</size>
+        <sound>サウンド</sound>
+        <starttime>開始フレーム</starttime>
+        <stretchtofit>自動サイズ変更</stretchtofit>
+        <swstretchhalign>水平位置</swstretchhalign>
+        <swstretchstyle>伸縮</swstretchstyle>
+        <swstretchvalign>垂直位置</swstretchvalign>
+        <target>ターゲット</target>
+        <targetcache>ターゲットキャッシュ</targetcache>
+        <title>埋め込みメディアの挿入/編集</title>
+        <type>タイプ</type>
+        <uimode>UI表示モード</uimode>
+        <windowlessvideo>windowlessモード</windowlessvideo>
+        <wmode>WMode</wmode>
+        <wmp_options>Windows media playerオプション</wmp_options>
+        <volume>音量</volume>
+        <vspace>上下余白</vspace>
+      </media_dlg>
+      <nonbreaking>
+        <nonbreaking_desc>改行なしスペースの挿入</nonbreaking_desc>
+      </nonbreaking>
+      <pagebreak>
+        <desc>改ページ挿入</desc>
+        <pagebreak_desc see="#desc" />
+      </pagebreak>
+      <paste>
+        <paste_text_desc>テキストとして貼り付け</paste_text_desc>
+        <paste_word_desc>Wordから貼り付け</paste_word_desc>
+        <pastetext_desc see="#paste_text_desc" />
+        <pasteword_desc see="#paste_word_desc" />
+        <selectall_desc>全て選択</selectall_desc>
+      </paste>
+      <paste_dlg>
+        <text_linebreaks>改行を保持する</text_linebreaks>
+        <text_title>キーボードでCTRL+Vと入力しテキストを貼り付けてください。</text_title>
+        <word_title>キーボードでCTRL+Vと入力しテキストを貼り付けてください。</word_title>
+      </paste_dlg>
+      <preview>
+        <preview_desc>プレビュー</preview_desc>
+      </preview>
+      <print>
+        <print_desc>印刷</print_desc>
+      </print>
+      <save>
+        <cancel_desc>全ての変更を破棄</cancel_desc>
+        <save_desc>保存</save_desc>
+      </save>
+      <searchreplace>
+        <delta_height />
+        <delta_width />
+        <replace_desc>検索/置換</replace_desc>
+        <search_desc>検索</search_desc>
+      </searchreplace>
+      <searchreplace_dlg>
+        <allreplaced>全て置換されました。</allreplaced>
+        <direction>方向</direction>
+        <down>下へ</down>
+        <findnext>次へ</findnext>
+        <findwhat>検索文字列</findwhat>
+        <mcase>大文字/小文字を区別する</mcase>
+        <notfound>最後まで検索しましたが、検索文字列が見つかりませんでした。</notfound>
+        <replace>置換</replace>
+        <replace_title>検索/置換</replace_title>
+        <replaceall>全て置換</replaceall>
+        <replacewith>置換文字列</replacewith>
+        <search_title>検索</search_title>
+        <searchnext_desc>再検索</searchnext_desc>
+        <up>上へ</up>
+      </searchreplace_dlg>
+      <simple>
+        <bold_desc>太字 (Ctrl+B)</bold_desc>
+        <bullist_desc>番号なしリスト</bullist_desc>
+        <cleanup_desc>コード整形</cleanup_desc>
+        <italic_desc>斜体 (Ctrl+I)</italic_desc>
+        <numlist_desc>番号つきリスト</numlist_desc>
+        <redo_desc>やり直す (Ctrl+Y)</redo_desc>
+        <striketrough_desc>打消し線</striketrough_desc>
+        <underline_desc>下線 (Ctrl+U)</underline_desc>
+        <undo_desc>元に戻す (Ctrl+Z)</undo_desc>
+      </simple>
+      <spellchecker>
+        <desc>スペルチェックOn/Off</desc>
+        <ignore_word>この単語を無視</ignore_word>
+        <ignore_words>全て無視</ignore_words>
+        <langs>言語</langs>
+        <menu>スペルチェック設定</menu>
+        <no_mpell>スペルミスは見つかりませんでした。</no_mpell>
+        <no_sug>候補は有りません。</no_sug>
+        <spellchecker_desc see="#desc" />
+        <sug>候補</sug>
+        <wait>しばらくお待ちください...</wait>
+      </spellchecker>
+      <style>
+        <delta_height />
+        <delta_width />
+        <desc>CSS編集</desc>
+        <style_desc see="#desc" />
+        <styleprops_desc see="#desc" />
+      </style>
+      <style_dlg>
+        <apply>適用</apply>
+        <background_attachment>Attachment</background_attachment>
+        <background_color>背景色</background_color>
+        <background_hpos>水平位置</background_hpos>
+        <background_image>背景画像</background_image>
+        <background_repeat>繰り返し</background_repeat>
+        <background_tab>背景</background_tab>
+        <background_vpos>垂直位置</background_vpos>
+        <block_display>ディスプレイ</block_display>
+        <block_letterspacing>文字間隔</block_letterspacing>
+        <block_tab>ブロック</block_tab>
+        <block_text_align>水平配置</block_text_align>
+        <block_text_indent>インデント</block_text_indent>
+        <block_vertical_alignment>垂直配置</block_vertical_alignment>
+        <block_whitespace>空白文字</block_whitespace>
+        <block_wordspacing>単語感覚</block_wordspacing>
+        <border_tab>枠線</border_tab>
+        <bottom>下</bottom>
+        <box_clear>回り込み解除</box_clear>
+        <box_float>回り込み</box_float>
+        <box_height>高さ</box_height>
+        <box_tab>ボックス</box_tab>
+        <box_width>幅</box_width>
+        <bullet_image>マーカー画像</bullet_image>
+        <clip>切り抜き</clip>
+        <color>色</color>
+        <height>高さ</height>
+        <left>左</left>
+        <list_tab>リスト</list_tab>
+        <list_type>マーカー種類</list_type>
+        <margin>マージン</margin>
+        <overflow>オーバーフロー</overflow>
+        <padding>パディング</padding>
+        <placement>位置</placement>
+        <position>マーカー表示位置</position>
+        <positioning_tab>ポジション</positioning_tab>
+        <positioning_type>配置方法</positioning_type>
+        <right>右</right>
+        <same>全て同じにする</same>
+        <style>スタイル</style>
+        <text_blink>点滅</text_blink>
+        <text_case>大文字/小文字</text_case>
+        <text_color>色</text_color>
+        <text_decoration>装飾</text_decoration>
+        <text_font>フォント</text_font>
+        <text_lineheight>行高さ</text_lineheight>
+        <text_none>なし</text_none>
+        <text_overline>上線</text_overline>
+        <text_props>Text</text_props>
+        <text_size>サイズ</text_size>
+        <text_striketrough>打消し線</text_striketrough>
+        <text_style>スタイル</text_style>
+        <text_tab>文字</text_tab>
+        <text_underline>下線</text_underline>
+        <text_variant>変形</text_variant>
+        <text_weight>太さ</text_weight>
+        <title>CSS編集</title>
+        <top>上</top>
+        <width>幅</width>
+        <visibility>表示</visibility>
+        <zindex>Z-Index</zindex>
+      </style_dlg>
+      <table>
+        <cell>セル</cell>
+        <cell_desc>セルのプロパティ</cell_desc>
+        <cell_props_desc see="#cell_desc" />
+        <cellprops_delta_height />
+        <cellprops_delta_width />
+        <col>列</col>
+        <col_after_desc>列を右に挿入</col_after_desc>
+        <col_before_desc>列を左に挿入</col_before_desc>
+        <copy_row_desc>行のコピー</copy_row_desc>
+        <cut_row_desc>行の切り取り</cut_row_desc>
+        <del>表を削除</del>
+        <delete_col_desc>列を削除</delete_col_desc>
+        <delete_row_desc>行を削除</delete_row_desc>
+        <delete_table_desc see="#del" />
+        <desc>表を挿入</desc>
+        <merge_cells_delta_height />
+        <merge_cells_delta_width />
+        <merge_cells_desc>セルを結合</merge_cells_desc>
+        <paste_row_after_desc>行を下に貼り付け</paste_row_after_desc>
+        <paste_row_before_desc>行を上に貼り付け</paste_row_before_desc>
+        <props_desc>表のプロパティ</props_desc>
+        <row>行</row>
+        <row_after_desc>行を下に挿入</row_after_desc>
+        <row_before_desc>行を上に挿入</row_before_desc>
+        <row_desc>行のプロパティ</row_desc>
+        <row_props_desc see="#row_desc" />
+        <rowprops_delta_height />
+        <rowprops_delta_width />
+        <split_cells_desc>セルの結合を解除</split_cells_desc>
+        <table_delta_height />
+        <table_delta_width />
+        <table_desc see="#desc" />
+        <tablecontrols_desc see="#desc" />
+      </table>
+      <table_dlg>
+        <advanced_props>上級者向け</advanced_props>
+        <advanced_tab>上級者向け</advanced_tab>
+        <align>配置</align>
+        <align_bottom>下揃え</align_bottom>
+        <align_default>デフォルト</align_default>
+        <align_left>左揃え</align_left>
+        <align_middle>中央揃え</align_middle>
+        <align_right>右揃え</align_right>
+        <align_top>上揃え</align_top>
+        <bgcolor>背景色</bgcolor>
+        <bgimage>背景画像</bgimage>
+        <border>枠線</border>
+        <bordercolor>枠線の色</bordercolor>
+        <caption>表に見出しを付ける</caption>
+        <cell_all>全てのセルの更新</cell_all>
+        <cell_cell>選択セルの更新</cell_cell>
+        <cell_limit>セルの最大数を超えました。</cell_limit>
+        <cell_row>行内のセルの更新</cell_row>
+        <cell_title>セルのプロパティ</cell_title>
+        <cell_type>セル種別</cell_type>
+        <cellpadding>Cellpadding</cellpadding>
+        <cellspacing>Cellspacing</cellspacing>
+        <col_limit>列の最大数を超えました。</col_limit>
+        <colgroup>列グループ</colgroup>
+        <cols>列</cols>
+        <frame>セル枠線</frame>
+        <frame_all>全て</frame_all>
+        <frame_cols>列</frame_cols>
+        <frame_groups>グループ毎</frame_groups>
+        <frame_none>なし</frame_none>
+        <frame_rows>行</frame_rows>
+        <general_props>一般</general_props>
+        <general_tab>一般</general_tab>
+        <height>高さ</height>
+        <id>ID</id>
+        <langcode>言語コード</langcode>
+        <langdir>文章の方向</langdir>
+        <ltr>左から右</ltr>
+        <merge_cells_title>セルの結合</merge_cells_title>
+        <mime>ターゲットのMIMEタイプ</mime>
+        <missing_scope>表のスコープ属性を設定していませんがよろしいですか？</missing_scope>
+        <row_all>全ての行の更新</row_all>
+        <row_even>偶数行の更新</row_even>
+        <row_limit>行の最大数を超えました。</row_limit>
+        <row_odd>奇数行の更新</row_odd>
+        <row_row>選択行の更新</row_row>
+        <row_title>行のプロパティ</row_title>
+        <rowgroup>行グループ</rowgroup>
+        <rows>行</rows>
+        <rowtype>行</rowtype>
+        <rtl>右から左</rtl>
+        <rules>表の外枠</rules>
+        <rules_above>上</rules_above>
+        <rules_below>下</rules_below>
+        <rules_border>上下左右(border)</rules_border>
+        <rules_box>上下左右(box)</rules_box>
+        <rules_hsides>上下</rules_hsides>
+        <rules_lhs>左</rules_lhs>
+        <rules_rhs>右</rules_rhs>
+        <rules_void>なし</rules_void>
+        <rules_vsides>左右</rules_vsides>
+        <scope>スコープ</scope>
+        <style>スタイル</style>
+        <summary>サマリー</summary>
+        <tbody>表ボディ</tbody>
+        <td>日付</td>
+        <tfoot>表フッタ</tfoot>
+        <th>ヘッダ</th>
+        <thead>表ヘッダ</thead>
+        <title>表の挿入/編集</title>
+        <valign>垂直方向の配置</valign>
+        <width>幅</width>
+      </table_dlg>
+      <template>
+        <desc>テンプレートの挿入</desc>
+        <template_desc see="#desc" />
+      </template>
+      <template_dlg>
+        <cdate_format>%Y-%m-%d %H:%M:%S</cdate_format>
+        <day_long>日曜日,月曜日,火曜日,水曜日,木曜日,金曜日,土曜日,日曜日</day_long>
+        <day_short>(日),(月),(火),(水),(木),(金),(土),(日)</day_short>
+        <desc>テンプレートの挿入</desc>
+        <desc_label>説明</desc_label>
+        <label>テンプレート</label>
+        <mdate_format>%Y-%m-%d %H:%M:%S</mdate_format>
+        <months_long>January,February,March,April,May,June,July,August,September,October,November,December</months_long>
+        <months_short>Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec</months_short>
+        <preview>プレビュー</preview>
+        <select>テンプレートを選択</select>
+        <template_dlg_desc see="#desc" />
+        <title>テンプレート</title>
+        <warning>警告：テンプレートを上書きすると以前のデータは失われます。</warning>
+      </template_dlg>
+      <visualchars>
+        <desc>制御文字の表示</desc>
+        <visualchars_desc see="#desc" />
+      </visualchars>
+      <xhtmlxtras>
+        <abbr_delta_height />
+        <abbr_delta_width />
+        <abbr_desc>略語</abbr_desc>
+        <acronym_delta_height />
+        <acronym_delta_width />
+        <acronym_desc>頭字語</acronym_desc>
+        <attribs_delta_height />
+        <attribs_delta_width />
+        <attribs_desc>属性の挿入/編集</attribs_desc>
+        <cite_delta_height />
+        <cite_delta_width />
+        <cite_desc>引用</cite_desc>
+        <del_delta_height />
+        <del_delta_width />
+        <del_desc>削除</del_desc>
+        <ins_delta_height />
+        <ins_delta_width />
+        <ins_desc>挿入</ins_desc>
+      </xhtmlxtras>
+      <xhtmlxtras_dlg>
+        <attrib_tab>属性</attrib_tab>
+        <attribs_title>属性の挿入/削除</attribs_title>
+        <attribute_attrib_tab>属性</attribute_attrib_tab>
+        <attribute_events_tab>イベント</attribute_events_tab>
+        <attribute_label_accesskey>アクセスキー</attribute_label_accesskey>
+        <attribute_label_cite>引用</attribute_label_cite>
+        <attribute_label_class>クラス</attribute_label_class>
+        <attribute_label_datetime>日付/時刻</attribute_label_datetime>
+        <attribute_label_id>ID</attribute_label_id>
+        <attribute_label_langcode>言語</attribute_label_langcode>
+        <attribute_label_langdir>文章の方向</attribute_label_langdir>
+        <attribute_label_style>スタイル</attribute_label_style>
+        <attribute_label_tabindex>タブインデックス</attribute_label_tabindex>
+        <attribute_label_title>タイトル</attribute_label_title>
+        <attribute_option_ltr>左から右</attribute_option_ltr>
+        <attribute_option_rtl>右から左</attribute_option_rtl>
+        <events_tab>イベント</events_tab>
+        <fieldset_attrib_tab>エレメントの属性</fieldset_attrib_tab>
+        <fieldset_events_tab>エレメントのイベント</fieldset_events_tab>
+        <fieldset_general_tab>一般</fieldset_general_tab>
+        <general_tab>一般</general_tab>
+        <insert_date>現在の日付/時刻を挿入</insert_date>
+        <option_ltr>左から右</option_ltr>
+        <option_rtl>右から左</option_rtl>
+        <remove>Remove</remove>
+        <title_abbr_element>略語エレメント</title_abbr_element>
+        <title_acronym_element>頭字語エレメント</title_acronym_element>
+        <title_cite_element>引用エレメント</title_cite_element>
+        <title_del_element>エレメントを削除</title_del_element>
+        <title_ins_element>エレメントを挿入</title_ins_element>
+      </xhtmlxtras_dlg>
+    </tinymce>
+  </language>
+</languages>

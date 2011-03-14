@@ -1,0 +1,1211 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="Dutch" id="nl">
+    <admin>
+      <tinymce>
+        <plugins>
+          <advanced>
+            <advImage>
+              <description see="/tinymce/advimage/image_desc" />
+              <displayname see="/tinymce/advimage/image_desc" />
+            </advImage>
+            <advLink>
+              <description see="/tinymce/advlink/link_desc" />
+              <displayname see="/tinymce/advlink/link_desc" />
+            </advLink>
+            <anchor>
+              <description see="/tinymce/advanced/anchor_desc" />
+              <displayname see="/tinymce/advanced/anchor_desc" />
+            </anchor>
+            <backcolor>
+              <description see="/tinymce/advanced/backcolor_desc" />
+              <displayname see="/tinymce/advanced/backcolor_desc" />
+            </backcolor>
+            <backcolorpicker>
+              <description see="/tinymce/advanced/backcolor_desc" />
+              <displayname see="/tinymce/advanced/backcolor_desc" />
+            </backcolorpicker>
+            <bold>
+              <description see="/tinymce/simple/bold_desc" />
+              <displayname see="/tinymce/simple/bold_desc" />
+            </bold>
+            <bullist>
+              <description see="/tinymce/advanced/bullist_desc" />
+              <displayname see="/tinymce/advanced/bullist_desc" />
+            </bullist>
+            <charmap>
+              <description see="/tinymce/advanced/charmap_desc" />
+              <displayname see="/tinymce/advanced/charmap_desc" />
+            </charmap>
+            <cleanup>
+              <description see="/tinymce/advanced/cleanup_desc" />
+              <displayname see="/tinymce/advanced/cleanup_desc" />
+            </cleanup>
+            <code>
+              <description see="/tinymce/advanced/code" />
+              <displayname see="/tinymce/advanced/code" />
+            </code>
+            <copy>
+              <description see="/tinymce/advanced/copy_desc" />
+              <displayname see="/tinymce/advanced/copy_desc" />
+            </copy>
+            <cut>
+              <description see="/tinymce/advanced/cut_desc" />
+              <displayname see="/tinymce/advanced/cut_desc" />
+            </cut>
+            <fontselect>
+              <description see="/tinymce/advanced/fontdefault" />
+              <displayname see="/tinymce/advanced/fontdefault" />
+            </fontselect>
+            <fontsizeselect>
+              <description see="/tinymce/advanced/font_size" />
+              <displayname see="/tinymce/advanced/font_size" />
+            </fontsizeselect>
+            <forecolor>
+              <description see="/tinymce/advanced/forecolor_desc" />
+              <displayname see="/tinymce/advanced/forecolor_desc" />
+            </forecolor>
+            <forecolorpicker>
+              <description see="/tinymce/advanced/forecolor_desc" />
+              <displayname see="/tinymce/advanced/forecolor_desc" />
+            </forecolorpicker>
+            <formatselect>
+              <description see="/tinymce/advanced/block" />
+              <displayname see="/tinymce/advanced/block" />
+            </formatselect>
+            <help>
+              <description see="/tinymce/advanced/help_desc" />
+              <displayname see="/tinymce/advanced/help_desc" />
+            </help>
+            <hr>
+              <description see="/tinymce/advanced/hr_desc" />
+              <displayname see="/tinymce/advanced/hr_desc" />
+            </hr>
+            <image>
+              <description see="/tinymce/advanced/image_desc" />
+              <displayname see="/tinymce/advanced/image_desc" />
+            </image>
+            <indent>
+              <description see="/tinymce/advanced/indent_desc" />
+              <displayname see="/tinymce/advanced/indent_desc" />
+            </indent>
+            <italic>
+              <description see="/tinymce/simple/italic_desc" />
+              <displayname see="/tinymce/simple/italic_desc" />
+            </italic>
+            <justifycenter>
+              <description see="/tinymce/advanced/justifycenter_desc" />
+              <displayname see="/tinymce/advanced/justifycenter_desc" />
+            </justifycenter>
+            <justifyfull>
+              <description see="/tinymce/advanced/justifyfull_desc" />
+              <displayname see="/tinymce/advanced/justifyfull_desc" />
+            </justifyfull>
+            <justifyleft>
+              <description see="/tinymce/advanced/justifyleft_desc" />
+              <displayname see="/tinymce/advanced/justifyleft_desc" />
+            </justifyleft>
+            <justifyright>
+              <description see="/tinymce/advanced/justifyright_desc" />
+              <displayname see="/tinymce/advanced/justifyright_desc" />
+            </justifyright>
+            <link>
+              <description see="/tinymce/advanced/link_desc" />
+              <displayname see="/tinymce/advanced/link_desc" />
+            </link>
+            <numlist>
+              <description see="/tinymce/advanced/numlist_desc" />
+              <displayname see="/tinymce/advanced/numlist_desc" />
+            </numlist>
+            <outdent>
+              <description see="/tinymce/advanced/outdent_desc" />
+              <displayname see="/tinymce/advanced/outdent_desc" />
+            </outdent>
+            <paste>
+              <description see="/tinymce/advanced/paste_desc" />
+              <displayname see="/tinymce/advanced/paste_desc" />
+            </paste>
+            <redo>
+              <description see="/tinymce/advanced/redo_desc" />
+              <displayname see="/tinymce/advanced/redo_desc" />
+            </redo>
+            <removeformat>
+              <description see="/tinymce/advanced/removeformat_desc" />
+              <displayname see="/tinymce/advanced/removeformat_desc" />
+            </removeformat>
+            <strikethrough>
+              <description see="/tinymce/simple/striketrough_desc" />
+              <displayname see="/tinymce/simple/striketrough_desc" />
+            </strikethrough>
+            <styleselect>
+              <description see="/tinymce/advanced/style_select" />
+              <displayname see="/tinymce/advanced/style_select" />
+            </styleselect>
+            <sub>
+              <description see="/tinymce/advanced/sub_desc" />
+              <displayname see="/tinymce/advanced/sub_desc" />
+            </sub>
+            <sup>
+              <description see="/tinymce/advanced/sup_desc" />
+              <displayname see="/tinymce/advanced/sup_desc" />
+            </sup>
+            <underline>
+              <description see="/tinymce/simple/underline_desc" />
+              <displayname see="/tinymce/simple/underline_desc" />
+            </underline>
+            <undo>
+              <description see="/tinymce/advanced/undo_desc" />
+              <displayname see="/tinymce/advanced/undo_desc" />
+            </undo>
+            <unlink>
+              <description see="/tinymce/advanced/unlink_desc" />
+              <displayname see="/tinymce/advanced/unlink_desc" />
+            </unlink>
+            <visualaid>
+              <description see="/tinymce/advanced/visualaid_desc" />
+              <displayname see="/tinymce/advanced/visualaid_desc" />
+            </visualaid>
+          </advanced>
+          <directionality>
+            <ltr>
+              <description see="/tinymce/directionality/ltr_desc" />
+              <displayname see="/tinymce/directionality/ltr_desc" />
+            </ltr>
+            <rtl>
+              <description see="/tinymce/directionality/rtl_desc" />
+              <displayname see="/tinymce/directionality/rtl_desc" />
+            </rtl>
+          </directionality>
+          <fullscreen>
+            <fullscreen>
+              <description see="/tinymce/fullscreen/desc" />
+              <displayname see="/tinymce/fullscreen/desc" />
+            </fullscreen>
+          </fullscreen>
+          <insertdatetime>
+            <insertdate>
+              <description see="/tinymce/insertdatetime/insertdate_desc" />
+              <displayname see="/tinymce/insertdatetime/insertdate_desc" />
+            </insertdate>
+            <inserttime>
+              <description see="/tinymce/insertdatetime/inserttime_desc" />
+              <displayname see="/tinymce/insertdatetime/inserttime_desc" />
+            </inserttime>
+          </insertdatetime>
+          <layer>
+            <absolute>
+              <description see="/tinymce/layer/absolute_desc" />
+              <displayname see="/tinymce/layer/absolute_desc" />
+            </absolute>
+            <insertLayer>
+              <description see="/tinymce/layer/insertlayer_desc" />
+              <displayname see="/tinymce/layer/insertlayer_desc" />
+            </insertLayer>
+            <movebackward>
+              <description see="/tinymce/layer/backward_desc" />
+              <displayname see="/tinymce/layer/backward_desc" />
+            </movebackward>
+            <moveforward>
+              <description see="/tinymce/layer/forward_desc" />
+              <displayname see="/tinymce/layer/forward_desc" />
+            </moveforward>
+          </layer>
+          <media>
+            <media>
+              <description see="/tinymce/media/desc" />
+              <displayname see="/tinymce/media/desc" />
+            </media>
+          </media>
+          <nonbreaking>
+            <nonbreaking>
+              <description see="/tinymce/nonbreaking/nonbreaking_desc" />
+              <displayname see="/tinymce/nonbreaking/nonbreaking_desc" />
+            </nonbreaking>
+          </nonbreaking>
+          <paste>
+            <pastetext>
+              <description see="/tinymce/paste/paste_text_desc" />
+              <displayname see="/tinymce/paste/paste_text_desc" />
+            </pastetext>
+            <pasteword>
+              <description see="/tinymce/paste/paste_word_desc" />
+              <displayname see="/tinymce/paste/paste_word_desc" />
+            </pasteword>
+            <selectall>
+              <description see="/tinymce/paste/selectall_desc" />
+              <displayname see="/tinymce/paste/selectall_desc" />
+            </selectall>
+          </paste>
+          <preview>
+            <preview>
+              <description see="/tinymce/preview/preview_desc" />
+              <displayname see="/tinymce/preview/preview_desc" />
+            </preview>
+          </preview>
+          <print>
+            <print>
+              <description see="/tinymce/print/print_desc" />
+              <displayname see="/tinymce/print/print_desc" />
+            </print>
+          </print>
+          <searchreplace>
+            <replace>
+              <description see="/tinymce/searchreplace/replace_desc" />
+              <displayname see="/tinymce/searchreplace/replace_desc" />
+            </replace>
+            <search>
+              <description see="/tinymce/searchreplace/search_desc" />
+              <displayname see="/tinymce/searchreplace/search_desc" />
+            </search>
+          </searchreplace>
+          <style>
+            <styleprops>
+              <description see="/tinymce/style/desc" />
+              <displayname see="/tinymce/style/desc" />
+            </styleprops>
+          </style>
+          <table>
+            <cell_props>
+              <description see="/tinymce/table/cell_desc" />
+              <displayname see="/tinymce/table/cell_desc" />
+            </cell_props>
+            <col_after>
+              <description see="/tinymce/table/col_after_desc" />
+              <displayname see="/tinymce/table/col_after_desc" />
+            </col_after>
+            <col_before>
+              <description see="/tinymce/table/col_before_desc" />
+              <displayname see="/tinymce/table/col_before_desc" />
+            </col_before>
+            <delete_col>
+              <description see="/tinymce/table/delete_col_desc" />
+              <displayname see="/tinymce/table/delete_col_desc" />
+            </delete_col>
+            <delete_row>
+              <description see="/tinymce/table/delete_row_desc" />
+              <displayname see="/tinymce/table/delete_row_desc" />
+            </delete_row>
+            <delete_table>
+              <description see="/tinymce/table/del" />
+              <displayname see="/tinymce/table/del" />
+            </delete_table>
+            <merge_cells>
+              <description see="/tinymce/table/merge_cells_desc" />
+              <displayname see="/tinymce/table/merge_cells_desc" />
+            </merge_cells>
+            <row_after>
+              <description see="/tinymce/table/row_after_desc" />
+              <displayname see="/tinymce/table/row_after_desc" />
+            </row_after>
+            <row_before>
+              <description see="/tinymce/table/row_before_desc" />
+              <displayname see="/tinymce/table/row_before_desc" />
+            </row_before>
+            <row_props>
+              <description see="/tinymce/table/row_desc" />
+              <displayname see="/tinymce/table/row_desc" />
+            </row_props>
+            <split_cells>
+              <description see="/tinymce/table/split_cells_desc" />
+              <displayname see="/tinymce/table/split_cells_desc" />
+            </split_cells>
+            <table>
+              <description see="/tinymce/table/desc" />
+              <displayname see="/tinymce/table/desc" />
+            </table>
+            <tablecontrols>
+              <description see="/tinymce/table/desc" />
+              <displayname see="/tinymce/table/desc" />
+            </tablecontrols>
+          </table>
+          <xhtmlxtras>
+            <abbr>
+              <description see="/tinymce/xhtmlxtras/abbr_desc" />
+              <displayname see="/tinymce/xhtmlxtras/abbr_desc" />
+            </abbr>
+            <acronym>
+              <description see="/tinymce/xhtmlxtras/acronym_desc" />
+              <displayname see="/tinymce/xhtmlxtras/acronym_desc" />
+            </acronym>
+            <attribs>
+              <description see="/tinymce/xhtmlxtras/attribs_desc" />
+              <displayname see="/tinymce/xhtmlxtras/attribs_desc" />
+            </attribs>
+            <cite>
+              <description see="/tinymce/xhtmlxtras/cite_desc" />
+              <displayname see="/tinymce/xhtmlxtras/cite_desc" />
+            </cite>
+            <del>
+              <description see="/tinymce/xhtmlxtras/del_desc" />
+              <displayname see="/tinymce/xhtmlxtras/del_desc" />
+            </del>
+            <ins>
+              <description see="/tinymce/xhtmlxtras/ins_desc" />
+              <displayname see="/tinymce/xhtmlxtras/ins_desc" />
+            </ins>
+          </xhtmlxtras>
+        </plugins>
+      </tinymce>
+    </admin>
+    <tinymce>
+      <advanced>
+        <address>Adres</address>
+        <anchor_delta_height />
+        <anchor_delta_width />
+        <anchor_desc>Anker invoegen/bewerken</anchor_desc>
+        <backcolor_desc>Tekstmarkeringskleur</backcolor_desc>
+        <backcolorpicker_desc see="#backcolor_desc" />
+        <block>Opmaak</block>
+        <blockquote>Citaat</blockquote>
+        <blockquote_desc>Citaat</blockquote_desc>
+        <bold_desc>Vet (Ctrl+B)</bold_desc>
+        <bullist_desc>Opsommingstekens</bullist_desc>
+        <charmap_delta_height />
+        <charmap_delta_width />
+        <charmap_desc>Symbool invoegen</charmap_desc>
+        <cleanup_desc>Code opruimen</cleanup_desc>
+        <clipboard_msg>Kopiëren/knippen/plakken is niet beschikbaar in Mozilla en Firefox.\nWilt u meer informatie over deze beperking?</clipboard_msg>
+        <code>Code</code>
+        <code_desc>HTML bron bewerken</code_desc>
+        <colorpicker_delta_height />
+        <colorpicker_delta_width />
+        <copy_desc>Kopiëren</copy_desc>
+        <custom1_desc>Uw eigen beschrijving hier</custom1_desc>
+        <cut_desc>Knippen</cut_desc>
+        <dd>Definitiebeschrijving</dd>
+        <div>Div</div>
+        <dt>Definitieterm</dt>
+        <font_size>Tekengrootte</font_size>
+        <fontdefault>Lettertype</fontdefault>
+        <fontselect_desc see="#fontdefault" />
+        <fontsizeselect_desc see="#font_size" />
+        <forecolor_desc>Tekstkleur</forecolor_desc>
+        <forecolorpicker_desc see="#forecolor_desc" />
+        <formatselect_desc see="#block" />
+        <h1>Kop 1</h1>
+        <h2>Kop 2</h2>
+        <h3>Kop 3</h3>
+        <h4>Kop 4</h4>
+        <h5>Kop 5</h5>
+        <h6>Kop 6</h6>
+        <help_desc>Help</help_desc>
+        <hr_desc>Scheidingslijn invoegen</hr_desc>
+        <image_delta_height />
+        <image_delta_width />
+        <image_desc>Afbeelding invoegen/bewerken</image_desc>
+        <image_props_desc>Afbeeldingseigenschappen</image_props_desc>
+        <indent_desc>Inspringing vergroten</indent_desc>
+        <italic_desc>Cursief (Ctrl+I)</italic_desc>
+        <justifycenter_desc>Centreren</justifycenter_desc>
+        <justifyfull_desc>Uitvullen</justifyfull_desc>
+        <justifyleft_desc>Links uitlijnen</justifyleft_desc>
+        <justifyright_desc>Rechts uitlijnen</justifyright_desc>
+        <link_delta_height />
+        <link_delta_width />
+        <link_desc>Link invoegen/bewerken</link_desc>
+        <more_colors>Meer kleuren</more_colors>
+        <newdocument>Weet u zeker dat u alle inhoud wilt wissen?</newdocument>
+        <newdocument_desc>Nieuw document</newdocument_desc>
+        <numlist_desc>Nummering</numlist_desc>
+        <outdent_desc>Inspringing verkleinen</outdent_desc>
+        <paragraph>Alinea</paragraph>
+        <paste_desc>Plakken</paste_desc>
+        <path>Pad</path>
+        <pre>Vaste opmaak</pre>
+        <redo_desc>Herhalen (Ctrl+Y)</redo_desc>
+        <removeformat_desc>Opmaak verwijderen</removeformat_desc>
+        <samp>Codevoorbeeld</samp>
+        <strikethrough_desc see="#striketrough_desc" />
+        <striketrough_desc>Doorhalen</striketrough_desc>
+        <style_select>Stijlen</style_select>
+        <styleselect_desc see="#style_select" />
+        <sub_desc>Subscript</sub_desc>
+        <sup_desc>Superscript</sup_desc>
+        <toolbar_focus>Spring naar werkbalk - Alt+Q, Spring naar tekst - Alt-Z, Spring naar elementpad - Alt-X</toolbar_focus>
+        <underline_desc>Onderstrepen (Ctrl+U)</underline_desc>
+        <undo_desc>Ongedaan maken (Ctrl+Z)</undo_desc>
+        <unlink_desc>Link verwijderen</unlink_desc>
+        <visualaid_desc>Hulplijnen weergeven</visualaid_desc>
+      </advanced>
+      <advanced_dlg>
+        <about_author>Auteur</about_author>
+        <about_general>Info</about_general>
+        <about_help>Help</about_help>
+        <about_license>Licentie</about_license>
+        <about_loaded>Geladen Invoegtoepassingen</about_loaded>
+        <about_plugin>Invoegtoepassing</about_plugin>
+        <about_plugins>Invoegtoepassingen</about_plugins>
+        <about_title>Over TinyMCE</about_title>
+        <about_version>Versie</about_version>
+        <anchor_name>Ankernaam</anchor_name>
+        <anchor_title>Anker invoegen/bewerken</anchor_title>
+        <charmap_title>Symbolen</charmap_title>
+        <code_title>HTML Bron</code_title>
+        <code_wordwrap>Automatische terugloop</code_wordwrap>
+        <colorpicker_color>Kleur:</colorpicker_color>
+        <colorpicker_name>Naam:</colorpicker_name>
+        <colorpicker_named_tab>Benoemd</colorpicker_named_tab>
+        <colorpicker_named_title>Benoemde kleuren</colorpicker_named_title>
+        <colorpicker_palette_tab>Palet</colorpicker_palette_tab>
+        <colorpicker_palette_title>Paletkleuren</colorpicker_palette_title>
+        <colorpicker_picker_tab>Alle kleuren</colorpicker_picker_tab>
+        <colorpicker_picker_title>Alle kleuren</colorpicker_picker_title>
+        <colorpicker_title>Kleuren</colorpicker_title>
+        <image_align>Uitlijning</image_align>
+        <image_align_baseline>Basislijn</image_align_baseline>
+        <image_align_bottom>Onder</image_align_bottom>
+        <image_align_left>Links</image_align_left>
+        <image_align_middle>Midden</image_align_middle>
+        <image_align_right>Rechts</image_align_right>
+        <image_align_textbottom>Onderkant tekst</image_align_textbottom>
+        <image_align_texttop>Bovenkant tekst</image_align_texttop>
+        <image_align_top>Boven</image_align_top>
+        <image_alt>Beschrijving</image_alt>
+        <image_border>Rand</image_border>
+        <image_dimensions>Afmetingen</image_dimensions>
+        <image_hspace>Horizontale ruimte</image_hspace>
+        <image_list>Lijst</image_list>
+        <image_src>Bestand/URL</image_src>
+        <image_title>Afbeelding invoegen/bewerken</image_title>
+        <image_vspace>Verticale ruimte</image_vspace>
+        <link_is_email>De ingevoerde URL lijkt op een e-mailadres. Wilt u de vereiste mailto: tekst voorvoegen?</link_is_email>
+        <link_is_external>De ingevoerde URL lijkt op een externe link. Wilt u de vereiste http:// tekst voorvoegen?</link_is_external>
+        <link_list>Link lijst</link_list>
+        <link_target>Doel</link_target>
+        <link_target_blank>Link in een nieuw venster openen</link_target_blank>
+        <link_target_same>Link in hetzelfde venster openen</link_target_same>
+        <link_title>Link invoegen/bewerken</link_title>
+        <link_titlefield>Titel</link_titlefield>
+        <link_url>URL</link_url>
+      </advanced_dlg>
+      <advhr>
+        <advhr_desc>Scheidingslijn</advhr_desc>
+        <delta_height />
+        <delta_width />
+      </advhr>
+      <advhr_dlg>
+        <noshade>Geen schaduw</noshade>
+        <size>Hoogte</size>
+        <width>Breedte</width>
+      </advhr_dlg>
+      <advimage>
+        <delta_height />
+        <delta_width />
+        <image_desc>Afbeelding invoegen/bewerken</image_desc>
+      </advimage>
+      <advimage_dlg>
+        <align>Uitlijning</align>
+        <align_baseline>Basislijn</align_baseline>
+        <align_bottom>Onder</align_bottom>
+        <align_left>Links</align_left>
+        <align_middle>Midden</align_middle>
+        <align_right>Rechts</align_right>
+        <align_textbottom>Onderkant tekst</align_textbottom>
+        <align_texttop>Bovenkant tekst</align_texttop>
+        <align_top>Boven</align_top>
+        <alt>Beschrijving</alt>
+        <alt_image>Alternatieve afbeeldingen</alt_image>
+        <border>Rand</border>
+        <classes>Klasses</classes>
+        <constrain_proportions>Verhouding behouden</constrain_proportions>
+        <dialog_title>Afbeelding invoegen/bewerken</dialog_title>
+        <dimensions>Afmetingen</dimensions>
+        <example_img>Voorbeeldweergave</example_img>
+        <general>Algemeen</general>
+        <hspace>Horizontale ruimte</hspace>
+        <id>Id</id>
+        <image_list>Lijst</image_list>
+        <langcode>Taalcode</langcode>
+        <langdir>Taalrichting</langdir>
+        <list>Lijst</list>
+        <long_desc>Uitgebreide beschrijving</long_desc>
+        <ltr>Van links naar rechts</ltr>
+        <map>Afbeeldingsplattegrond</map>
+        <misc>Diversen</misc>
+        <missing_alt>Wilt u de afbeelding zonder beschrijving invoegen? De afbeelding wordt dan mogelijk niet opgemerkt door mensen met een visuele handicap, of welke zonder afbeeldingen browsen.</missing_alt>
+        <mouseout>Bij muis uit</mouseout>
+        <mouseover>Bij muis over</mouseover>
+        <preview>Voorbeeld</preview>
+        <rtl>Van rechts naar links</rtl>
+        <src>Bestand/URL</src>
+        <style>Stijl</style>
+        <swap_image>Afbeelding wisselen</swap_image>
+        <tab_advanced>Geavanceerd</tab_advanced>
+        <tab_appearance>Weergave</tab_appearance>
+        <tab_general>Algemeen</tab_general>
+        <title>Titel</title>
+        <vspace>Verticale ruimte</vspace>
+      </advimage_dlg>
+      <advlink>
+        <delta_height />
+        <delta_width />
+        <link_desc>Link invoegen/bewerken</link_desc>
+      </advlink>
+      <advlink_dlg>
+        <accesskey>Toegangstoets</accesskey>
+        <advanced_props>Geavanceerde eigenschappen</advanced_props>
+        <advanced_tab>Geavanceerd</advanced_tab>
+        <anchor_names>Ankers</anchor_names>
+        <classes>Klassen</classes>
+        <encoding>Taalcodering</encoding>
+        <event_props>Gebeurtenissen</event_props>
+        <events_tab>Gebeurtenissen</events_tab>
+        <general_props>Algemene eigenschappen</general_props>
+        <general_tab>Algemeen</general_tab>
+        <id>Id</id>
+        <is_email>De ingevoerde URL lijkt op een e-mailadres. Wilt u de vereiste mailto: tekst voorvoegen?</is_email>
+        <is_external>De ingevoerde URL lijkt op een externe link. Wilt u de vereiste http:// tekst voorvoegen?</is_external>
+        <langcode>Taalcode</langcode>
+        <langdir>Taalrichting</langdir>
+        <link_list>Lijst</link_list>
+        <list>Lijst</list>
+        <ltr>Van links naar rechts</ltr>
+        <mime>MIME type</mime>
+        <popup>Javascript popup</popup>
+        <popup_dependent>Afhankelijk (Alleen Mozilla/Firefox)</popup_dependent>
+        <popup_location>Lokatiebalk weergeven</popup_location>
+        <popup_menubar>Menubalk weergeven</popup_menubar>
+        <popup_name>Venstertitel</popup_name>
+        <popup_opts>Opties</popup_opts>
+        <popup_position>Positie (X/Y)</popup_position>
+        <popup_props>Popup eigenschappen</popup_props>
+        <popup_resizable>Aanpasbaar venster</popup_resizable>
+        <popup_return>'return false' invoegen</popup_return>
+        <popup_scrollbars>Scrollbalken weergeven</popup_scrollbars>
+        <popup_size>Grootte</popup_size>
+        <popup_statusbar>Statusbalk weergeven</popup_statusbar>
+        <popup_tab>Popup</popup_tab>
+        <popup_toolbar>Werkbalk weergeven</popup_toolbar>
+        <popup_url>Popup URL</popup_url>
+        <rel>Relatie van pagina tot doel</rel>
+        <rev>Relatie van doel tot pagina</rev>
+        <rtl>Van rechts naar links</rtl>
+        <style>Stijl</style>
+        <tabindex>Tabvolgorde</tabindex>
+        <target>Doel</target>
+        <target_blank>In nieuw venster openen</target_blank>
+        <target_langcode>Taal</target_langcode>
+        <target_name>Doel</target_name>
+        <target_parent>In bovenliggend venster / frame openen</target_parent>
+        <target_same>In dit venster / frame openen</target_same>
+        <target_top>In bovenste frame openen (vervangt gehele pagina)</target_top>
+        <title>Link invoegen/bewerken</title>
+        <titlefield>Titel</titlefield>
+        <url>URL</url>
+      </advlink_dlg>
+      <autosave>
+        <unload_msg>De wijzigingen zullen verloren gaan als u nu deze pagina verlaat.</unload_msg>
+      </autosave>
+      <common>
+        <apply>Toepassen</apply>
+        <browse>Bladeren</browse>
+        <cancel>Annuleren</cancel>
+        <class_name>Klasse</class_name>
+        <clipboard_msg>Kopiëren/knippen/plakken is niet beschikbaar in Mozilla en Firefox.\nWilt u meer informatie over deze beperking?</clipboard_msg>
+        <clipboard_no_support>Kopiëren/knippen/plakken wordt niet ondersteund door uw browser, gebruik hiervoor de sneltoetsen.</clipboard_no_support>
+        <close>Sluiten</close>
+        <edit_confirm>Weet u zeker dat u tekst in WYSIWYG mode wilt bewerken in dit tekstveld?</edit_confirm>
+        <insert>Invoegen</insert>
+        <invalid_data>Fout: Er zijn ongeldige waardes ingevoerd, deze zijn rood gemarkeerd.</invalid_data>
+        <more_colors>Meer kleuren</more_colors>
+        <not_set>- Standaard -</not_set>
+        <popup_blocked>U zult uw popup-blocker tijdelijk moeten uitschakelen voor deze website om gebruik te kunnen maken van alle functies van deze teksteditor.</popup_blocked>
+        <update>Bijwerken</update>
+      </common>
+      <contextmenu>
+        <align>Uitlijning</align>
+        <center>Centreren</center>
+        <full>Uitvullen</full>
+        <left>Links</left>
+        <right>Rechts</right>
+      </contextmenu>
+      <directionality>
+        <ltr_desc>Van links naar rechts</ltr_desc>
+        <rtl_desc>Van rechts naar links</rtl_desc>
+      </directionality>
+      <emotions>
+        <delta_height />
+        <delta_width />
+        <emotions_desc>Emoties</emotions_desc>
+      </emotions>
+      <emotions_dlg>
+        <cool>Stoer</cool>
+        <cry>Huilen</cry>
+        <desc>Emoties</desc>
+        <embarassed>Schamen</embarassed>
+        <emotions_dlg_desc see="#desc" />
+        <foot_in_mouth>Verstomd</foot_in_mouth>
+        <frown>Wenkbrauw ophalen</frown>
+        <innocent>Onschuldig</innocent>
+        <kiss>Zoenen</kiss>
+        <laughing>Lachen</laughing>
+        <money_mouth>Hebberig</money_mouth>
+        <sealed>Afgesloten</sealed>
+        <smile>Lachen</smile>
+        <surprised>Verrast</surprised>
+        <title>Emotie invoegen</title>
+        <tongue_out>Tong uitsteken</tongue_out>
+        <undecided>Onbeslist</undecided>
+        <wink>Knipogen</wink>
+        <yell>Roepen</yell>
+      </emotions_dlg>
+      <fullpage>
+        <delta_height />
+        <delta_width />
+        <desc>Documenteigenschappen</desc>
+        <fullpage_desc see="#desc" />
+      </fullpage>
+      <fullpage_dlg>
+        <active_color>Actieve kleur</active_color>
+        <add>Nieuw element toevoegen</add>
+        <add_base>Basiselement</add_base>
+        <add_comment>Opmerkingknooppunt</add_comment>
+        <add_link>Linkelement</add_link>
+        <add_meta>Meta-element</add_meta>
+        <add_script>Scriptelement</add_script>
+        <add_style>Stijlelement</add_style>
+        <add_title>Titelelement</add_title>
+        <advanced_props>Geavanceerd</advanced_props>
+        <advanced_tab>Geavanceerd</advanced_tab>
+        <appearance_bgprops>Achtergrondeigenschappen</appearance_bgprops>
+        <appearance_linkprops>Linkkleuren</appearance_linkprops>
+        <appearance_marginprops>Bodymarge</appearance_marginprops>
+        <appearance_style>Stijlblad en stijleigenschappen</appearance_style>
+        <appearance_tab>Weergave</appearance_tab>
+        <appearance_textprops>Teksteigenschappen</appearance_textprops>
+        <author>Auteur</author>
+        <base_element>Basiselement</base_element>
+        <bgcolor>Achtergrondkleur</bgcolor>
+        <bgimage>Achtergrondafbeelding</bgimage>
+        <bottom_margin>Ondermarge</bottom_margin>
+        <charset>Karakterset</charset>
+        <comment_element>Opmerking</comment_element>
+        <content>Inhoud</content>
+        <copyright>Copyright</copyright>
+        <defer>Uitstellen</defer>
+        <doctypes>Doctype</doctypes>
+        <encoding>Karaktercodering</encoding>
+        <font_face>Lettertype</font_face>
+        <font_size>Tekengrootte</font_size>
+        <fontface>Lettertype</fontface>
+        <fontsize>Tekengrootte</fontsize>
+        <general_props>Algemeen</general_props>
+        <head_elements>Kopelementen</head_elements>
+        <hover_color>Hoverkleur</hover_color>
+        <href>Href</href>
+        <hreflang>Href taal</hreflang>
+        <info>Informatie</info>
+        <langcode>Taalcode</langcode>
+        <langdir>Taalrichting</langdir>
+        <langprops>Taal en codering</langprops>
+        <language>Taal</language>
+        <left_margin>Linkermarge</left_margin>
+        <link_color>Linkkleur</link_color>
+        <link_element>Linkelement</link_element>
+        <ltr>Van links naar rechts</ltr>
+        <media>Media</media>
+        <meta_description>Beschrijving</meta_description>
+        <meta_element>Meta-element</meta_element>
+        <meta_index_follow>Links indexeren en volgen</meta_index_follow>
+        <meta_index_nofollow>Links indexeren maar niet volgen</meta_index_nofollow>
+        <meta_keywords>Sleutelwoorden</meta_keywords>
+        <meta_noindex_follow>Links volgen maar niet indexeren</meta_noindex_follow>
+        <meta_noindex_nofollow>Links niet indexeren en niet volgen</meta_noindex_nofollow>
+        <meta_props>Meta informatie</meta_props>
+        <meta_robots>Robots</meta_robots>
+        <meta_tab>Algemeen</meta_tab>
+        <meta_title>Titel</meta_title>
+        <movedown>Geselecteerde elementen omlaag verplaatsen</movedown>
+        <moveup>Geselecteerde elementen omhoog verplaatsen</moveup>
+        <name>Naam</name>
+        <properties>Eigenschappen</properties>
+        <rel>Rel</rel>
+        <remove>Geselecteerde elementen verwijderen</remove>
+        <rev>Rev</rev>
+        <right_margin>Rechtermarge</right_margin>
+        <rtl>Van rechts naar links</rtl>
+        <script_element>Scriptelement</script_element>
+        <src>Bron</src>
+        <style>Stijl</style>
+        <style_element>Stijlelement</style_element>
+        <stylesheet>Stijlblad</stylesheet>
+        <target>Doel</target>
+        <text_color>Tekstkleur</text_color>
+        <textcolor>Kleur</textcolor>
+        <title>Documenteigenschappen</title>
+        <title_element>Titelelement</title_element>
+        <top_margin>Bovenmarge</top_margin>
+        <type>Type</type>
+        <value>Waarde</value>
+        <visited_color>Bezocht kleur</visited_color>
+        <xml_pi>XML toewijzing</xml_pi>
+      </fullpage_dlg>
+      <fullscreen>
+        <desc>Volledig scherm</desc>
+        <fullscreen_desc see="#desc" />
+      </fullscreen>
+      <iespell>
+        <download>ieSpell niet gevonden. Wilt u deze nu installeren?</download>
+        <iespell_desc>Spellingcontrole</iespell_desc>
+      </iespell>
+      <insertdatetime>
+        <date_fmt>%d-%m-%Y</date_fmt>
+        <day_long>Zondag,Maandag,Dinsdag,Woensdag,Donderdag,Vrijdag,Zaterdag,Zondag</day_long>
+        <day_short>zo,ma,di,wo,do,vr,za,zo</day_short>
+        <insertdate_desc>Datum invoegen</insertdate_desc>
+        <inserttime_desc>Tijd invoegen</inserttime_desc>
+        <months_long>Januari,Februari,Maart,April,Mei,Juni,Juli,Augustus,September,Oktober,November,December</months_long>
+        <months_short>Jan,Feb,Mar,Apr,Mei,Jun,Jul,Aug,Sep,Okt,Nov,Dec</months_short>
+        <time_fmt>%H:%M:%S</time_fmt>
+      </insertdatetime>
+      <layer>
+        <absolute_desc>Absoluut positioneren inschakelen</absolute_desc>
+        <backward_desc>Vorige laag</backward_desc>
+        <content>Nieuwe laag...</content>
+        <forward_desc>Volgende laag</forward_desc>
+        <insertlayer_desc>Nieuwe laag invoegen</insertlayer_desc>
+        <movebackward_desc see="#backward_desc" />
+        <moveforward_desc see="#forward_desc" />
+      </layer>
+      <media>
+        <delta_height />
+        <delta_width />
+        <desc>Media invoegen/bewerken</desc>
+        <edit>Media bewerken</edit>
+        <media_desc see="#desc" />
+      </media>
+      <media_dlg>
+        <advanced>Geavanceerd</advanced>
+        <align>Uitlijning</align>
+        <align_bottom>Onder</align_bottom>
+        <align_bottom_left>Linksonder</align_bottom_left>
+        <align_bottom_right>Rechtsonder</align_bottom_right>
+        <align_center>Centreren</align_center>
+        <align_left>Links</align_left>
+        <align_right>Rechts</align_right>
+        <align_top>Boven</align_top>
+        <align_top_left>Linksboven</align_top_left>
+        <align_top_right>Rechtsboven</align_top_right>
+        <autogotourl>Automatisch naar URL</autogotourl>
+        <autohref>AutoHREF</autohref>
+        <autostart>Automatisch afspelen</autostart>
+        <balance>Balans</balance>
+        <base>Basis</base>
+        <baseurl>BasisURL</baseurl>
+        <bgcolor>Achtergrond</bgcolor>
+        <cache>Cache</cache>
+        <captioningid>Ondertiteling id</captioningid>
+        <center>Centreren</center>
+        <class_name>Klasse</class_name>
+        <console>Console</console>
+        <constrain_proportions>Verhouding bewaren</constrain_proportions>
+        <controller>Controller</controller>
+        <controls>Bediening</controls>
+        <correction>Geen correctie</correction>
+        <currentmarker>Huidige markering</currentmarker>
+        <currentposition>Huidige positie</currentposition>
+        <defaultframe>Standaard frame</defaultframe>
+        <enabled>Ingeschakeld</enabled>
+        <enablejavascript>JavaScript Inschakelen</enablejavascript>
+        <endtime>Eindtijd</endtime>
+        <file>Bestand/URL</file>
+        <flash_options>Flash opties</flash_options>
+        <flashvars>Variabelen</flashvars>
+        <flv_autostart>Automatisch afspelen</flv_autostart>
+        <flv_buffer>Buffer</flv_buffer>
+        <flv_defaultvolume>Standaard volume</flv_defaultvolume>
+        <flv_hiddengui>GUI verbergen</flv_hiddengui>
+        <flv_jscallback>JS Callback</flv_jscallback>
+        <flv_loop>Herhalen</flv_loop>
+        <flv_options>Flash video-opties</flv_options>
+        <flv_scalemode>Schaalmodus</flv_scalemode>
+        <flv_showscalemodes>Schaalmodus weergeven</flv_showscalemodes>
+        <flv_smoothvideo>Soepele video</flv_smoothvideo>
+        <flv_startimage>Startafbeelding</flv_startimage>
+        <flv_starttime>Starttijd</flv_starttime>
+        <fullscreen>Volledig scherm</fullscreen>
+        <general>Algemeen</general>
+        <hidden>Verborgen</hidden>
+        <href>HREF</href>
+        <hspace>H-Ruimte</hspace>
+        <id>Id</id>
+        <imagestatus>Afbeeldingstatus</imagestatus>
+        <invokeurls>URLs laden</invokeurls>
+        <kioskmode>Kioskmodus</kioskmode>
+        <list>Lijst</list>
+        <liveconnect>SWLiveConnect</liveconnect>
+        <loop>Herhalen</loop>
+        <maintainaspect>Verhouding bewaren</maintainaspect>
+        <menu>Menu Weergeven</menu>
+        <mute>Geluid dempen</mute>
+        <name>Naam</name>
+        <nojava>Geen java</nojava>
+        <numloop>Aantal herhalingen</numloop>
+        <play>Automatisch afspelen</play>
+        <playcount>Afspeelteller</playcount>
+        <playeveryframe>Elk frame afspelen</playeveryframe>
+        <prefetch>Voorladen</prefetch>
+        <preview>Voorbeeld</preview>
+        <progress>Voortgang</progress>
+        <qt_options>Quicktime opties</qt_options>
+        <qt_stream_warn>Gestreamde RTSP bronnen dienen op het tabblad geavanceerd bij Quicktime bron te worden opgegeven.\nDe niet-gestreamde versie kan dan bij het tabblad algemeen worden opgegeven.</qt_stream_warn>
+        <qtsrc>Quicktime bron</qtsrc>
+        <qtsrcchokespeed>Chokesnelheid</qtsrcchokespeed>
+        <quality>Kwaliteit</quality>
+        <rate>Snelheid</rate>
+        <rmp_options>Real mediaspeler opties</rmp_options>
+        <salign>Schaaluitlijning</salign>
+        <scale>Schaal</scale>
+        <scriptcallbacks>Script callbacks</scriptcallbacks>
+        <shockwave_options>Shockwave opties</shockwave_options>
+        <shuffle>Willekeurige volgorde</shuffle>
+        <size>Afmetingen</size>
+        <sound>Geluid</sound>
+        <starttime>Starttijd</starttime>
+        <stretchtofit>Passend maken</stretchtofit>
+        <swstretchhalign>H-Schaal</swstretchhalign>
+        <swstretchstyle>Schaal</swstretchstyle>
+        <swstretchvalign>V-Schaal</swstretchvalign>
+        <target>Doel</target>
+        <targetcache>Doelcache</targetcache>
+        <title>Media invoegen/bewerken</title>
+        <type>Type</type>
+        <uimode>UI Modus</uimode>
+        <windowlessvideo>Video zonder venster</windowlessvideo>
+        <wmode>WMode</wmode>
+        <wmp_options>Windows mediaspeler opties</wmp_options>
+        <volume>Volume</volume>
+        <vspace>V-Ruimte</vspace>
+      </media_dlg>
+      <nonbreaking>
+        <nonbreaking_desc>Open ruimte invoegen</nonbreaking_desc>
+      </nonbreaking>
+      <pagebreak>
+        <desc>Pagina-einde invoegen</desc>
+        <pagebreak_desc see="#desc" />
+      </pagebreak>
+      <paste>
+        <paste_text_desc>Als platte tekst plakken</paste_text_desc>
+        <paste_word_desc>Vanuit Word plakken</paste_word_desc>
+        <pastetext_desc see="#paste_text_desc" />
+        <pasteword_desc see="#paste_word_desc" />
+        <selectall_desc>Alles selecteren</selectall_desc>
+      </paste>
+      <paste_dlg>
+        <text_linebreaks>Regelafbreking bewaren</text_linebreaks>
+        <text_title>Gebruik Ctrl+V om tekst in het venster te plakken.</text_title>
+        <word_title>Gebruik Ctrl+V om tekst in het venster te plakken.</word_title>
+      </paste_dlg>
+      <preview>
+        <preview_desc>Voorbeeld</preview_desc>
+      </preview>
+      <print>
+        <print_desc>Afdrukken</print_desc>
+      </print>
+      <save>
+        <cancel_desc>Alle wijzigingen annuleren</cancel_desc>
+        <save_desc>Opslaan</save_desc>
+      </save>
+      <searchreplace>
+        <delta_height />
+        <delta_width />
+        <replace_desc>Zoeken/Vervangen</replace_desc>
+        <search_desc>Zoeken</search_desc>
+      </searchreplace>
+      <searchreplace_dlg>
+        <allreplaced>Alle instanties van de zoekterm zijn vervangen.</allreplaced>
+        <direction>Richting</direction>
+        <down>Omlaag</down>
+        <findnext>Zoeken</findnext>
+        <findwhat>Zoeken naar</findwhat>
+        <mcase>Identieke hoofdletters/kleine letters</mcase>
+        <notfound>Het doorzoeken is voltooid. De zoekterm kon niet meer worden gevonden.</notfound>
+        <replace>Vervangen</replace>
+        <replace_title>Zoeken/Vervangen</replace_title>
+        <replaceall>Alles verv.</replaceall>
+        <replacewith>Vervangen door</replacewith>
+        <search_title>Zoeken</search_title>
+        <searchnext_desc>Opnieuw zoeken</searchnext_desc>
+        <up>Omhoog</up>
+      </searchreplace_dlg>
+      <simple>
+        <bold_desc>Vet (Ctrl+B)</bold_desc>
+        <bullist_desc>Opsommingstekens</bullist_desc>
+        <cleanup_desc>Code opruimen</cleanup_desc>
+        <italic_desc>Cursief (Ctrl+I)</italic_desc>
+        <numlist_desc>Nummering</numlist_desc>
+        <redo_desc>Herhalen (Ctrl+Y)</redo_desc>
+        <striketrough_desc>Doorhalen</striketrough_desc>
+        <underline_desc>Onderstrepen (Ctrl+U)</underline_desc>
+        <undo_desc>Ongedaan maken (Ctrl+Z)</undo_desc>
+      </simple>
+      <spellchecker>
+        <desc>Spellingcontrole</desc>
+        <ignore_word>Woord negeren</ignore_word>
+        <ignore_words>Alles negeren</ignore_words>
+        <langs>Talen</langs>
+        <menu>Instellingen spellingcontrole</menu>
+        <no_mpell>Geen spelfouten gevonden.</no_mpell>
+        <no_sug>Geen suggesties</no_sug>
+        <spellchecker_desc see="#desc" />
+        <sug>Suggesties</sug>
+        <wait>Een ogenblik geduld…</wait>
+      </spellchecker>
+      <style>
+        <delta_height />
+        <delta_width />
+        <desc>CSS Stijl bewerken</desc>
+        <style_desc see="#desc" />
+        <styleprops_desc see="#desc" />
+      </style>
+      <style_dlg>
+        <apply>Toepassen</apply>
+        <background_attachment>Bijlage</background_attachment>
+        <background_color>Achtergrondkleur</background_color>
+        <background_hpos>Horizontale positie</background_hpos>
+        <background_image>Achtergrondafbeelding</background_image>
+        <background_repeat>Herhalen</background_repeat>
+        <background_tab>Achtergrond</background_tab>
+        <background_vpos>Verticale positie</background_vpos>
+        <block_display>Weergave</block_display>
+        <block_letterspacing>Letterruimte</block_letterspacing>
+        <block_tab>Blok</block_tab>
+        <block_text_align>Tekstuitlijning</block_text_align>
+        <block_text_indent>Inspringen</block_text_indent>
+        <block_vertical_alignment>Verticale uitlijning</block_vertical_alignment>
+        <block_whitespace>Witruimte</block_whitespace>
+        <block_wordspacing>Woordruimte</block_wordspacing>
+        <border_tab>Rand</border_tab>
+        <bottom>Onder</bottom>
+        <box_clear>Vrijhouden</box_clear>
+        <box_float>Zweven</box_float>
+        <box_height>Hoogte</box_height>
+        <box_tab>Box</box_tab>
+        <box_width>Breedte</box_width>
+        <bullet_image>Opsommingsteken</bullet_image>
+        <clip>Clip</clip>
+        <color>Kleur</color>
+        <height>Hoogte</height>
+        <left>Links</left>
+        <list_tab>Lijst</list_tab>
+        <list_type>Type</list_type>
+        <margin>Marge</margin>
+        <overflow>Overvloeien</overflow>
+        <padding>Opening</padding>
+        <placement>Plaatsing</placement>
+        <position>Positie</position>
+        <positioning_tab>Positionering</positioning_tab>
+        <positioning_type>Type</positioning_type>
+        <right>Rechts</right>
+        <same>Alles hetzelfde</same>
+        <style>Stijl</style>
+        <text_blink>Knipperen</text_blink>
+        <text_case>Hoofdlettergebruik</text_case>
+        <text_color>Kleur</text_color>
+        <text_decoration>Decoratie</text_decoration>
+        <text_font>Lettertype</text_font>
+        <text_lineheight>Lijnhoogte</text_lineheight>
+        <text_none>Niets</text_none>
+        <text_overline>Overhalen</text_overline>
+        <text_props>Tekst</text_props>
+        <text_size>Tekengrootte</text_size>
+        <text_striketrough>Doorhalen</text_striketrough>
+        <text_style>Stijl</text_style>
+        <text_tab>Tekst</text_tab>
+        <text_underline>Onderstrepen</text_underline>
+        <text_variant>Variant</text_variant>
+        <text_weight>Gewicht</text_weight>
+        <title>CSS Stijl bewerken</title>
+        <top>Boven</top>
+        <width>Breedte</width>
+        <visibility>Zichtbaarheid</visibility>
+        <zindex>Z-index</zindex>
+      </style_dlg>
+      <table>
+        <cell>Cel</cell>
+        <cell_desc>Cel-eigenschappen</cell_desc>
+        <cell_props_desc see="#cell_desc" />
+        <cellprops_delta_height />
+        <cellprops_delta_width />
+        <col>Kolom</col>
+        <col_after_desc>Kolom rechts invoegen</col_after_desc>
+        <col_before_desc>Kolom links invoegen</col_before_desc>
+        <copy_row_desc>Rij kopiëren</copy_row_desc>
+        <cut_row_desc>Rij knippen</cut_row_desc>
+        <del>Tabel verwijderen</del>
+        <delete_col_desc>Kolom verwijderen</delete_col_desc>
+        <delete_row_desc>Rij verwijderen</delete_row_desc>
+        <delete_table_desc see="#del" />
+        <desc>Nieuwe tabel invoegen</desc>
+        <merge_cells_delta_height />
+        <merge_cells_delta_width />
+        <merge_cells_desc>Cellen samenvoegen</merge_cells_desc>
+        <paste_row_after_desc>Rij onder plakken</paste_row_after_desc>
+        <paste_row_before_desc>Rij boven plakken</paste_row_before_desc>
+        <props_desc>Tabeleigenschappen</props_desc>
+        <row>Rij</row>
+        <row_after_desc>Rij onder invoegen</row_after_desc>
+        <row_before_desc>Rij boven invoegen</row_before_desc>
+        <row_desc>Rij-eigenschappen</row_desc>
+        <row_props_desc see="#row_desc" />
+        <rowprops_delta_height />
+        <rowprops_delta_width />
+        <split_cells_desc>Cellen splitsen</split_cells_desc>
+        <table_delta_height />
+        <table_delta_width />
+        <table_desc see="#desc" />
+        <tablecontrols_desc see="#desc" />
+      </table>
+      <table_dlg>
+        <advanced_props>Geavanceerde eigenschappen</advanced_props>
+        <advanced_tab>Geavanceerd</advanced_tab>
+        <align>Uitlijning</align>
+        <align_bottom>Onder</align_bottom>
+        <align_default>Standaard</align_default>
+        <align_left>Links</align_left>
+        <align_middle>Centreren</align_middle>
+        <align_right>Rechts</align_right>
+        <align_top>Boven</align_top>
+        <bgcolor>Achtergrondkleur</bgcolor>
+        <bgimage>Achtergrondafbeelding</bgimage>
+        <border>Rand</border>
+        <bordercolor>Randkleur</bordercolor>
+        <caption>Tabelbeschrijving</caption>
+        <cell_all>Alle cellen in tabel bijwerken</cell_all>
+        <cell_cell>Huidige cel bijwerken</cell_cell>
+        <cell_limit>U heeft het maximale aantal cellen van {$cells} overschreden.</cell_limit>
+        <cell_row>Alle cellen in rij bijwerken</cell_row>
+        <cell_title>Celeigenschappen</cell_title>
+        <cell_type>Celtype</cell_type>
+        <cellpadding>Ruimte in cel</cellpadding>
+        <cellspacing>Ruimte om cel</cellspacing>
+        <col_limit>U heeft het maximale aantal kolommen van {$cols} overschreden.</col_limit>
+        <colgroup>Kolomgroep</colgroup>
+        <cols>Kolommen</cols>
+        <frame>Frame</frame>
+        <frame_all>Alles</frame_all>
+        <frame_cols>Kolommen</frame_cols>
+        <frame_groups>Groepen</frame_groups>
+        <frame_none>Geen</frame_none>
+        <frame_rows>Rijen</frame_rows>
+        <general_props>Algemene eigenschappen</general_props>
+        <general_tab>Algemeen</general_tab>
+        <height>Hoogte</height>
+        <id>Id</id>
+        <langcode>Taalcode</langcode>
+        <langdir>Taalrichting</langdir>
+        <ltr>Van links naar rechts</ltr>
+        <merge_cells_title>Cellen samenvoegen</merge_cells_title>
+        <mime>Doel MIME type</mime>
+        <missing_scope>Weet u zeker dat u door wilt gaan met het toewijzen van een kop zonder een bereik op te geven? Mensen met een visuele handicap kunnen hierdoor waarschijnlijk slecht bij de gegevens.</missing_scope>
+        <row_all>Alle rijen bijwerken</row_all>
+        <row_even>Even rijen bijwerken</row_even>
+        <row_limit>U heeft hebt het maximale aantal rijen van {$rows} overschreden.</row_limit>
+        <row_odd>Oneven rijen bijwerken</row_odd>
+        <row_row>Huidige rij bijwerken</row_row>
+        <row_title>Rij-eigenschappen</row_title>
+        <rowgroup>Rijgroep</rowgroup>
+        <rows>Rijen</rows>
+        <rowtype>Rijtype</rowtype>
+        <rtl>Van rechts naar links</rtl>
+        <rules>Hulplijnen</rules>
+        <rules_above>Boven</rules_above>
+        <rules_below>Onder</rules_below>
+        <rules_border>Rand</rules_border>
+        <rules_box>Box</rules_box>
+        <rules_hsides>Horizontale zijden</rules_hsides>
+        <rules_lhs>Linkerzijkant</rules_lhs>
+        <rules_rhs>Rechterzijkant</rules_rhs>
+        <rules_void>Geen</rules_void>
+        <rules_vsides>Verticale zijden</rules_vsides>
+        <scope>Bereik</scope>
+        <style>Stijl</style>
+        <summary>Samenvatting</summary>
+        <tbody>Tabellichaam</tbody>
+        <td>Gegevens</td>
+        <tfoot>Tabelvoet</tfoot>
+        <th>Kop</th>
+        <thead>Tabelkop</thead>
+        <title>Tabel invoegen/bewerken</title>
+        <valign>Verticale uitlijning</valign>
+        <width>Breedte</width>
+      </table_dlg>
+      <template>
+        <desc>Voorgedefinieerd sjabloon invoegen</desc>
+        <template_desc see="#desc" />
+      </template>
+      <template_dlg>
+        <cdate_format>%d-%m-%Y %H:%M:%S</cdate_format>
+        <day_long>Zondag,Maandag,Dinsdag,Woensdag,Donderdag,Vrijdag,Zaterdag,Zondag</day_long>
+        <day_short>zo,ma,di,wo,do,vr,za,zo</day_short>
+        <desc>Voorgedefinieerd sjabloon invoegen</desc>
+        <desc_label>Beschrijving</desc_label>
+        <label>Sjabloon</label>
+        <mdate_format>%d-%m-%Y %H:%M:%S</mdate_format>
+        <months_long>Januari,Februari,Maart,April,Mei,Juni,Juli,Augustus,September,Oktober,November,December</months_long>
+        <months_short>Jan,Feb,Mar,Apr,Mei,Jun,Jul,Aug,Sep,Okt,Nov,Dec</months_short>
+        <preview>Voorbeeld</preview>
+        <select>Selecteer een sjabloon</select>
+        <template_dlg_desc see="#desc" />
+        <title>Sjablonen</title>
+        <warning>Waarschuwing: het bijwerken van een sjabloon met een andere kan het verlies van informatie tot gevolg hebben.</warning>
+      </template_dlg>
+      <visualchars>
+        <desc>Zichtbare symbolen</desc>
+        <visualchars_desc see="#desc" />
+      </visualchars>
+      <xhtmlxtras>
+        <abbr_delta_height />
+        <abbr_delta_width />
+        <abbr_desc>Afkorting</abbr_desc>
+        <acronym_delta_height />
+        <acronym_delta_width />
+        <acronym_desc>Synoniem</acronym_desc>
+        <attribs_delta_height />
+        <attribs_delta_width />
+        <attribs_desc>Attributen invoegen/bewerken</attribs_desc>
+        <cite_delta_height />
+        <cite_delta_width />
+        <cite_desc>Citaat</cite_desc>
+        <del_delta_height />
+        <del_delta_width />
+        <del_desc>Verwijderd</del_desc>
+        <ins_delta_height />
+        <ins_delta_width />
+        <ins_desc>Ingevoegd</ins_desc>
+      </xhtmlxtras>
+      <xhtmlxtras_dlg>
+        <attrib_tab>Attributen</attrib_tab>
+        <attribs_title>Attributen Invoegen/bewerken</attribs_title>
+        <attribute_attrib_tab>Attributen</attribute_attrib_tab>
+        <attribute_events_tab>Gebeurtenissen</attribute_events_tab>
+        <attribute_label_accesskey>Toegangstoets</attribute_label_accesskey>
+        <attribute_label_cite>Citaat</attribute_label_cite>
+        <attribute_label_class>Klasse</attribute_label_class>
+        <attribute_label_datetime>Datum/Tijd</attribute_label_datetime>
+        <attribute_label_id>ID</attribute_label_id>
+        <attribute_label_langcode>Taal</attribute_label_langcode>
+        <attribute_label_langdir>Tekstrichting</attribute_label_langdir>
+        <attribute_label_style>Stijl</attribute_label_style>
+        <attribute_label_tabindex>Tabvolgorde</attribute_label_tabindex>
+        <attribute_label_title>Titel</attribute_label_title>
+        <attribute_option_ltr>Van links naar rechts</attribute_option_ltr>
+        <attribute_option_rtl>Van rechts naar links</attribute_option_rtl>
+        <events_tab>Gebeurtenissen</events_tab>
+        <fieldset_attrib_tab>Elementattributen</fieldset_attrib_tab>
+        <fieldset_events_tab>Element Gebeurtenissen</fieldset_events_tab>
+        <fieldset_general_tab>Algemene instellingen</fieldset_general_tab>
+        <general_tab>Algemeen</general_tab>
+        <insert_date>Huidige datum/tijd invoegen</insert_date>
+        <option_ltr>Van links naar rechts</option_ltr>
+        <option_rtl>Van rechts naar links</option_rtl>
+        <remove>Verwijderen</remove>
+        <title_abbr_element>Afkorting</title_abbr_element>
+        <title_acronym_element>Synoniem</title_acronym_element>
+        <title_cite_element>Citaat</title_cite_element>
+        <title_del_element>Verwijderingselement</title_del_element>
+        <title_ins_element>Invoegingselement</title_ins_element>
+      </xhtmlxtras_dlg>
+    </tinymce>
+  </language>
+</languages>

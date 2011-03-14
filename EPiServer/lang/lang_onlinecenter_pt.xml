@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="Português" id="pt">
+    <reportcenter>
+      <report name="linkstatus">
+        <caption>Estado da ligação</caption>
+        <description>Apresenta ligações no conteúdo do site que não estão a funcionar.</description>
+        <heading>Estado da ligação</heading>
+        <info>
+          Este relatório apresenta ligações no conteúdo do site que não estão a funcionar. Seleccione uma página da lista de resultados de relatório para a abrir no modo de edição.
+        </info>
+      </report>
+    </reportcenter>
+    <shell>
+      <cms>
+        <brokenlinks>
+          <controller>
+            <tooltip>Tipo de página: {0}, ID da página: {1}</tooltip>
+            <webExceptions>
+              <fallback>Erro de ligação</fallback>
+              <status name="1">
+                <fallback>Falha na resolução de nomes</fallback>
+              </status>
+              <status name="2">
+                <fallback>Falha na ligação</fallback>
+              </status>
+              <status name="7">
+                <fallback>Erro do servidor</fallback>
+                <httpStatus name="400">Pedido inválido</httpStatus>
+                <httpStatus name="404">Não encontrado</httpStatus>
+                <httpStatus name="503">Tempo excedido no gateway</httpStatus>
+              </status>
+            </webExceptions>
+          </controller>
+          <index>
+            <info>Este relatório apresenta as ligações que não foi possível contactar. Isto pode dever-se, por exemplo, ao realojamento de um página, ao encerramento de um site ou a não ter sido possível ler as ligações alvo neste momento.</info>
+            <itemsperpage>Itens por página</itemsperpage>
+            <name>Estado da ligação</name>
+            <recheck>Verificar novamente</recheck>
+            <showreport>Mostrar relatório</showreport>
+            <table>
+              <brokensince>Não funcional desde</brokensince>
+              <brokenurl>URL não funcional</brokenurl>
+              <lastchecked>Última verificação</lastchecked>
+              <linkstatus>Estado da ligação</linkstatus>
+              <pagename>Nome da página</pagename>
+            </table>
+            <working>A processar...</working>
+          </index>
+        </brokenlinks>
+        <directoryselector>
+          <directorylisting>
+            <directorytype>Directório</directorytype>
+          </directorylisting>
+          <folderselector>
+            <emptyfolder>Esta pasta está vazia.</emptyfolder>
+            <favoritesheading>Favoritos</favoritesheading>
+            <startingpointsheading>Pontos de início</startingpointsheading>
+            <wherelabel>Onde</wherelabel>
+          </folderselector>
+          <index>
+            <nameheading>Nome</nameheading>
+            <sizeheading>Tamanho</sizeheading>
+            <typeheading>Tipo</typeheading>
+          </index>
+        </directoryselector>
+        <externallinks>
+          <common>
+            <hits>Número de ligações</hits>
+            <host>Endereço Web</host>
+          </common>
+          <details>
+            <link>Endereço Web</link>
+            <page>Página</page>
+          </details>
+          <errors>
+            <pagenumber>O número da página deve ser positivo</pagenumber>
+            <pagesize>O tamanho da página deve ser positivo</pagesize>
+          </errors>
+          <gadgettitle>Ligações externas</gadgettitle>
+          <pager>
+            <info>Itens: {0} - {1} de {2}</info>
+            <next>&gt;&gt;</next>
+            <prev>&lt;&lt;</prev>
+            <split>...</split>
+          </pager>
+          <settings>
+            <legend>Definições</legend>
+            <pagesize>Número de itens para visualização</pagesize>
+            <showdetails>Mostrar detalhes</showdetails>
+          </settings>
+        </externallinks>
+        <hosting>
+          <fileupload>
+            <conflictingdirectory>Já existe uma pasta com um nome igual ao do ficheiro novo.</conflictingdirectory>
+            <fileexists>Já existe um ficheiro com o mesmo nome e não tem as permissões necessárias para substituir o ficheiro existente</fileexists>
+            <fileisnotimage>O ficheiro seleccionado não é uma imagem.</fileisnotimage>
+            <fileoverwriteconfirmation>Já existe um ficheiro com o mesmo nome. Substituir o ficheiro existente?</fileoverwriteconfirmation>
+            <invaliddirectory>O directório para exportação seleccionado não existe.</invaliddirectory>
+            <permissiondenied>Não tem as permissões necessárias para exportar ficheiros para a pasta seleccionada</permissiondenied>
+            <targetfilecheckedout>Já existe um ficheiro com o mesmo nome e esse ficheiro está reservado para outro utilizador</targetfilecheckedout>
+          </fileupload>
+        </hosting>
+        <menu>
+          <admin>Modo de administração</admin>
+          <cms>CMS</cms>
+          <cmssettings>EPiServer CMS</cmssettings>
+          <edit>Modo de edição</edit>
+          <license>Contrato de licença</license>
+          <logout>Terminar sessão</logout>
+          <mysettings>As minhas definições</mysettings>
+          <reportcenter>Relatórios</reportcenter>
+          <selectasite>Seleccionar site para apresentar no modo de visualização</selectasite>
+          <toviewmode>Para modo de visualização [{0}]</toviewmode>
+        </menu>
+        <mytasks>
+          <assignedto>Atribuir a</assignedto>
+          <createnewtask>Criar em modo de edição</createnewtask>
+          <createnewtasktitle>Criar tarefa no modo de edição</createnewtasktitle>
+          <description>Descrição</description>
+          <duedate>Prazo</duedate>
+          <EmptySubjectWarning>Assunto da tarefa em branco</EmptySubjectWarning>
+          <errors>
+            <settingsusergroupnames>Especifique nomes correctos de grupos de utilizadores.</settingsusergroupnames>
+          </errors>
+          <IncorrectTaskStatusWarning>O estado especificado não é válido para a tarefa</IncorrectTaskStatusWarning>
+          <InvalidDueDate>O prazo da tarefa não é válido</InvalidDueDate>
+          <legend>Adicionar tarefa</legend>
+          <mygroups>Os meus grupos (separados por vírgulas)</mygroups>
+          <pagetasks>Tarefas da página</pagetasks>
+          <quickadd>Adição rápida</quickadd>
+          <quickaddtitle>Criar tarefa no painel</quickaddtitle>
+          <settingsheading>Definições</settingsheading>
+          <status>Estado</status>
+          <subject>Assunto</subject>
+          <title>As minhas tarefas</title>
+          <tooltip>
+            <created>Criado</created>
+            <pageid>ID da página</pageid>
+            <pagepath>Caminho</pagepath>
+          </tooltip>
+          <UnknownUserWarning>Não é possível localizar o utilizador especificado</UnknownUserWarning>
+        </mytasks>
+        <notchangedpages>
+          <errors>
+            <monthswithoutchanges>O número de meses deve ser um número inteiro maior que zero.</monthswithoutchanges>
+            <numberofitems>O número de itens deve ser um número inteiro maior que zero.</numberofitems>
+          </errors>
+          <gadgettitle>Páginas não alteradas</gadgettitle>
+          <indexview>
+            <changedby>Alterado por</changedby>
+            <modified>Alterado</modified>
+            <name>Nome</name>
+            <status>Estado</status>
+          </indexview>
+          <settingsview>
+            <invertsorting>Ordem decrescente</invertsorting>
+            <legend>Definições</legend>
+            <monthswithoutchanges>Número de meses</monthswithoutchanges>
+            <numberofitems>Número de itens para visualização</numberofitems>
+          </settingsview>
+        </notchangedpages>
+        <notesgadget>
+          <backgroundcolor>Cor de fundo</backgroundcolor>
+          <backgroundcolors>
+            <blue>Azul</blue>
+            <green>Verde</green>
+            <orange>Cor-de-laranja</orange>
+            <pink>Cor-de-rosa</pink>
+            <white>Branco</white>
+            <yellow>Amarelo</yellow>
+          </backgroundcolors>
+          <textsize>Tamanho do texto</textsize>
+          <textsizes>
+            <big>Grande</big>
+            <normal>Normal</normal>
+            <verybig>Maior</verybig>
+          </textsizes>
+          <title>Notas</title>
+        </notesgadget>
+        <pageinfo>
+          <modifiedby>Alterado por</modifiedby>
+          <modifieddate>Alterado</modifieddate>
+          <pagelink>ID</pagelink>
+          <pagetype>Tipo de página</pagetype>
+          <path>Caminho</path>
+        </pageinfo>
+        <quicklinks>
+          <addlink>Adicionar ligação</addlink>
+          <cmsedit>
+            <text>Editar</text>
+            <tooltip>Abrir modo de edição CMS</tooltip>
+          </cmsedit>
+          <cmslinkcategoryname>CMS</cmslinkcategoryname>
+          <contentguidecategoryname>Publicação rápida</contentguidecategoryname>
+          <deletelink>Eliminar ligação</deletelink>
+          <episerverworldforum>
+            <text>EPiServer World Forum</text>
+            <tooltip>O fórum no EPiServer World</tooltip>
+          </episerverworldforum>
+          <linktitle>Título</linktitle>
+          <linkurl>Endereço Web</linkurl>
+          <managelinks>Gerir ligações</managelinks>
+          <mylinkscategoryname>As minhas ligações</mylinkscategoryname>
+          <nocategory>Nenhuma categoria</nocategory>
+          <title>Ligações rápidas</title>
+        </quicklinks>
+        <recentlychangedpages>
+          <common>
+            <byall>Todas as alterações</byall>
+            <byme>As minhas alterações</byme>
+            <heading>Páginas alteradas recentemente</heading>
+          </common>
+          <configure>
+            <defaultview>Vista predefinida</defaultview>
+            <heading>Definições</heading>
+            <numberofitems>Número de itens para visualização</numberofitems>
+          </configure>
+          <index>
+            <changedby>Alterado por</changedby>
+            <modified>Guardado</modified>
+            <name>Nome</name>
+            <status>Estado</status>
+          </index>
+          <rss>
+            <description>Estas são as páginas alteradas mais recentemente no site {0}</description>
+          </rss>
+        </recentlychangedpages>
+        <rssgadget>
+          <errors>
+            <invalidfeed>Não foi possível ler o feed devido a um erro de XML no conteúdo do feed devolvido por "{0}".</invalidfeed>
+            <invaliditemstoshow>O número de itens mostrado deve ser um número inteiro positivo.</invaliditemstoshow>
+            <invaliduri>Endereço Web inválido. O endereço Web deve ser um URL absoluto que comece por http:// ou https://. </invaliduri>
+            <notafeed>O endereço Web [{0}] não contém um RSS ou um feed Atom válido.</notafeed>
+          </errors>
+          <loadingfeedmessage>A carregar o feed...</loadingfeedmessage>
+          <settings>
+            <feedurl>URL do feed</feedurl>
+            <itemstoshow>Itens a mostrar</itemstoshow>
+            <loadfeedtitle>Obter título do feed</loadfeedtitle>
+            <title>Título</title>
+          </settings>
+          <title>Leitor de feeds RSS</title>
+        </rssgadget>
+        <search>
+          <files>
+            <category>Ficheiros</category>
+          </files>
+          <pages>
+            <category>Páginas</category>
+            <id>ID</id>
+            <linkurl>Link URL</linkurl>
+            <tooltip>
+              <changed>Alterado</changed>
+              <created>Criado</created>
+              <id>ID</id>
+              <linkurl>URL da ligação</linkurl>
+              <pagetype>Tipo de página</pagetype>
+            </tooltip>
+          </pages>
+        </search>
+        <uploadfile>
+          <controller>
+            <noresize>Não redimensionar</noresize>
+          </controller>
+          <index>
+            <alttextlabel>Texto alt.</alttextlabel>
+            <imagelegend>Imagem</imagelegend>
+            <imagesizelabel>Redimensionar imagem</imagesizelabel>
+            <savetolegend>Guardar para</savetolegend>
+            <selectlabel>Seleccionar ficheiro</selectlabel>
+            <uploadbutton>Exportar e inserir</uploadbutton>
+          </index>
+        </uploadfile>
+        <xformsviewer>
+          <autoupdatelevel>
+            <never>Nunca</never>
+            <normal>Normal (10 em 10 minutos)</normal>
+            <often>Frequente (60 em 60 segundos)</often>
+            <seldom>Rara (60 em 60 minutos)</seldom>
+          </autoupdatelevel>
+          <AutoupdateLevel>Actualização automática</AutoupdateLevel>
+          <chartperiodicity>
+            <day>Por dia</day>
+            <hour>Por hora</hour>
+            <minute>Por minuto</minute>
+            <month>Por mês</month>
+            <week>Por semana</week>
+          </chartperiodicity>
+          <ChartPeriodicityLabel>Periodicidade do gráfico</ChartPeriodicityLabel>
+          <ChartSettings>Definições do gráfico</ChartSettings>
+          <DemoMode>Modo de demonstração</DemoMode>
+          <error>
+            <fields>Campos não seleccionados</fields>
+            <formfields>Seleccionar campos do formulário</formfields>
+            <numberofposts>O número de itens deve ser entre 1 e 50</numberofposts>
+            <xformid>Seleccionar um formulário</xformid>
+          </error>
+          <GadgetTitle>Visualizador de formulários</GadgetTitle>
+          <NoFieldsAvailable>Sem campos disponíveis</NoFieldsAvailable>
+          <NoFormsAvailable>Sem formulários disponíveis</NoFormsAvailable>
+          <NumberOfPosts>Número de itens para visualização</NumberOfPosts>
+          <SelectFields>Campos para visualização</SelectFields>
+          <SelectXForm>Seleccionar formulário</SelectXForm>
+          <settings>Definições</settings>
+          <ShowChart>Visualizar gráfico</ShowChart>
+          <ShowDate>Visualizar data de publicação do item</ShowDate>
+          <TableColumnPostedTime>Publicado</TableColumnPostedTime>
+        </xformsviewer>
+      </cms>
+      <common>
+        <buttons>
+          <cancel>Cancelar</cancel>
+          <save>Guardar</save>
+        </buttons>
+      </common>
+    </shell>
+  </language>
+</languages>

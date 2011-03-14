@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="Deutsh" id="de">
+    <document>
+      <download>Download:</download>
+    </document>
+    <error>
+      <document>Die Seiteneigenschaft "Dokumentenpfad" ist nicht eingestellt.</document>
+      <mainmenucontainer>Die dynamische Eigenschaft "MainMenuContainer" ist nicht eingestellt.</mainmenucontainer>
+    </error>
+    <form>
+      <numberofvotes>Abstimmungsergebnis: {0}</numberofvotes>
+      <postedmessage>Vielen Dank für Ihren Beitrag!</postedmessage>
+      <showform>Zum Formular</showform>
+      <showstat>Statistik zeigen</showstat>
+    </form>
+    <headings>
+      <heading name="News &amp; Calendar">
+        <description>Nachrichten und Kalender</description>
+      </heading>
+      <heading name="SiteConfiguration">
+        <description>Konfiguration der Website</description>
+      </heading>
+    </headings>
+    <login>
+      <becomemember>Registrieren</becomemember>
+      <editdetails>Meine Einstellungen</editdetails>
+      <email>Geben Sie Ihre E-Mail-Adresse an:</email>
+      <error>
+        <loginfail>Fehler bei Anmeldung. Der angegebene Benutzername oder das Kennwort war falsch.</loginfail>
+        <password>Tragen Sie ein Kennwort ein.</password>
+        <username>Geben Sie einen Benutzernamen an.</username>
+      </error>
+      <forgotpassword>Kennwort vergessen?</forgotpassword>
+      <login>Anmelden</login>
+      <logout>Abmelden</logout>
+      <password>Kennwort</password>
+    </login>
+    <navigation>
+      <help>Hilfe</help>
+      <listen>Anhören</listen>
+      <readmore>Weitere Informationen</readmore>
+      <search>Suchen</search>
+      <skipnavigation>Zum Inhalt wechseln</skipnavigation>
+      <startpage>Starten</startpage>
+      <startpagelinktitle>Zur Startseite</startpagelinktitle>
+    </navigation>
+    <news>
+      <morenews>Weitere Nachrichten</morenews>
+      <publishdate>Veröffentlicht</publishdate>
+      <writername>Autor</writername>
+    </news>
+    <pagetypes>
+      <common>
+        <property name="ConfirmationMessage">
+          <caption>Bestätigungsmitteilung</caption>
+          <help>Text, der in der Bestätigungs-E-Mail gesendet wird.</help>
+        </property>
+        <property name="ContactPage">
+          <caption>Kontaktseite</caption>
+          <help>Link zur Seite mit Kontaktinformationen.</help>
+        </property>
+        <property name="Description">
+          <caption>Überschrift für RSS-Quelle</caption>
+          <help>Geben Sie eine Überschrift für eine RSS-Quelle an </help>
+        </property>
+        <property name="DocumentListRoot">
+          <caption>Dokumentliste abrufen von</caption>
+          <help>Geben Sie die Seite an, von der Sie die Dokumentauflistung abrufen möchten. Wenn die Einstellung fehlt, wird die Seitenliste nicht gezeigt.</help>
+        </property>
+        <property name="DocumentPath">
+          <caption>Dokumentpfad</caption>
+          <help>Pfad zum Dokument.</help>
+        </property>
+        <property name="EmailBody">
+          <caption>E-Mail-Textbereich</caption>
+          <help>Inhalt der E-Mail-Adresse, die gesendet wird.</help>
+        </property>
+        <property name="EmailSender">
+          <caption>E-Mail-Absender</caption>
+          <help>E-Mail-Adresse, die als Absenderadresse verwendet wird.</help>
+        </property>
+        <property name="EmailSubject">
+          <caption>E-Mail-Betreff</caption>
+          <help>Betreff der E-Mail, die gesendet wird.</help>
+        </property>
+        <property name="EmbeddedObjectHeight">
+          <caption>Höhe des Flash-Films</caption>
+          <help>Geben Sie die Höhe des Flash-Films in Pixel an.</help>
+        </property>
+        <property name="EmbeddedObjectWidth">
+          <caption>Breite des Flash-Films</caption>
+          <help>Geben Sie die Breite des Flash-Films in Pixel an.</help>
+        </property>
+        <property name="EmbeddedURL">
+          <caption>Pfad zu Flashfilm</caption>
+          <help>Geben Sie die Adresse des Flashfilms an</help>
+        </property>
+        <property name="EnableStatistics">
+          <caption>Statistik zeigen</caption>
+          <help>Es wird die Statistik auf der Seite für Besucher angezeigt.</help>
+        </property>
+        <property name="EPSUBSCRIBE">
+          <caption>Abonnement aktivieren</caption>
+          <help>Ein Abonnement für diese Seite aktivieren</help>
+        </property>
+        <property name="EPSUBSCRIBE-EXCLUDE">
+          <caption>Abonnement für diese Seite sperren</caption>
+          <help>Aktivieren Sie dieses Kontrollkästchen, um eine Verlängerung des Abonnements für diese Seite zu sperren.</help>
+        </property>
+        <property name="EPSUBSCRIBEHIDDEN">
+          <caption>Nicht auf der Abonnementseite anzeigen</caption>
+          <help>Diese Seite auf der Abonnementseite ausblenden</help>
+        </property>
+        <property name="EPSUBSCRIBE-ROOT">
+          <caption>Stammseite für Abonnement</caption>
+          <help>Geben Sie eine Seite in der Übersicht an, von der aus das Abonnement startet.</help>
+        </property>
+        <property name="EventsCount">
+          <caption>Anzahl der Ereignisobjekte</caption>
+          <help>Begrenzt die Anzahl der Objekte.</help>
+        </property>
+        <property name="EventsRoot">
+          <caption>Seite mit Ereignisliste</caption>
+          <help>Zeigt auf die Seite, aus deren untergeordneten Seiten die Ereignisliste zusammengestellt wird. Falls nicht aktiviert, wird die Ereignisliste nicht gezeigt.</help>
+        </property>
+        <property name="Heading">
+          <caption>Überschrift</caption>
+          <help>Geben Sie eine Überschrift an, die als Haupttitel über dieser Seite steht. Wenn diese Eigenschaft nicht festgelegt ist, wird der Seitenname als Überschrift gewählt.</help>
+        </property>
+        <property name="Image">
+          <caption>Bild</caption>
+          <help>Geben Sie ein Bild an, das auf der Startseite angezeigt werden soll (900 x 341 Pixel).</help>
+        </property>
+        <property name="IndexRoot">
+          <caption>Sitemap-Stammseite</caption>
+          <help>Die Sitemap wird von dieser Seite ausgehend erstellt.</help>
+        </property>
+        <property name="IsDocumentPageType">
+          <caption>HTML-Gesamtfassung und Kopie des Quelldokuments uploaden</caption>
+          <help>Wählen Sie diese Option aus, wenn Sie die HTML-Gesamtfassung anzeigen möchten.</help>
+        </property>
+        <property name="LoginPage">
+          <caption>Anmeldeseite</caption>
+          <help>Geben Sie die Anmeldeseite für diesen Teil der Website ein.</help>
+        </property>
+        <property name="Logotype">
+          <caption>Logotyp</caption>
+          <help>Der URL zum Logotyp-Bild.</help>
+        </property>
+        <property name="MainBody">
+          <caption>Zentraler Textbereich</caption>
+          <help>Der zentrale Textbereich wird im Bereich des zentralen Inhalts der Seite gezeigt. Sie können beispielsweise Bilder und Tabellen mit dem XHTML-Editor einfügen.</help>
+        </property>
+        <property name="MainIntro">
+          <caption>Einleitung</caption>
+          <help>Kurzversion des Nachrichteninhalts. Dieser Text wird in Nachrichtenauflistungen verwendet, falls verfügbar.</help>
+        </property>
+        <property name="MainListCount">
+          <caption>Anzahl der Hauptlistenobjekte in der Liste</caption>
+          <help>Begrenzt die Anzahl der Objekte.</help>
+        </property>
+        <property name="MainListRoot">
+          <caption>Seite mit untergeordneter Liste</caption>
+          <help>Geben Sie die Seite an, von der Sie die Auflistung abrufen möchten. Die Liste wird im Bereich des zentralen Inhalts gezeigt. Wenn die Einstellung fehlt, wird die Seitenliste nicht gezeigt.</help>
+        </property>
+        <property name="MainMenuContainer">
+          <caption>Menüs anzeigen von</caption>
+          <help>Geben Sie einen Punkt innerhalb des Baumstrukturmenüs an, von dem aus Menüs auf der ausgewählten Seite angezeigt werden sollen.</help>
+        </property>
+        <property name="MetaAuthor">
+          <caption>Autor</caption>
+          <help>Geben Sie den Autor des Textes an, der von Suchmaschinen verwendet wird. Liegt diese Angabe nicht vor, wird der Wert in der dynamischen Eigenschaft verwendet.</help>
+        </property>
+        <property name="MetaDescription">
+          <caption>Seitenbeschreibung</caption>
+          <help>Beschreiben Sie den Inhalt der Seite.</help>
+        </property>
+        <property name="MetaKeywords">
+          <caption>Standardsuchbegriffe für Seiten</caption>
+          <help>Geben Sie durch Kommas getrennt die Suchbegriffe an, die als Seitentreffen gelten sollen.</help>
+        </property>
+        <property name="NewsCount">
+          <caption>Anzahl der Nachrichtenobjekte</caption>
+          <help>Begrenzt die Anzahl der Objekte.</help>
+        </property>
+        <property name="NewsRoot">
+          <caption>Seite mit Nachrichtenliste</caption>
+          <help>Zeigt auf die Seite, aus deren untergeordneten Seiten die Nachrichtenliste zusammengestellt wird. Falls nicht aktiviert, wird die Nachrichtenliste nicht gezeigt.</help>
+        </property>
+        <property name="PasswordChangeSuccessBody">
+          <caption>Kennwortänderung erfolgreich</caption>
+          <help>Textbereich, der bei erfolgreicher Änderung des Kennworts angezeigt wird.</help>
+        </property>
+        <property name="PasswordLength">
+          <caption>Kennwortlänge</caption>
+          <help>Das kürzeste zulässige Kennwort.</help>
+        </property>
+        <property name="PrivacyPage">
+          <caption>Seite mit Datenschutzhinweisen</caption>
+          <help>Link zur Seite mit rechtlichen Hinweisen.</help>
+        </property>
+        <property name="RootFolder">
+          <caption>Ordnerpfad</caption>
+          <help>Ordnerbaumstruktur startet von dieser Seite aus.</help>
+        </property>
+        <property name="RssContainer">
+          <caption>Rss-Container</caption>
+          <help>Der Container für alle Rss-Quellseiten</help>
+        </property>
+        <property name="RssSource">
+          <caption>Rss-Quellseite</caption>
+          <help>Geben Sie eine Seite in der Übersicht an, die eine Quellseite von RSS-Inhalt auf dieser Website ist.</help>
+        </property>
+        <property name="RssUrl">
+          <caption>Suchpfad zu RSS-Quelle</caption>
+          <help>Geben Sie den Inhalt der Adresse im RSS-Format ein. In der Regel handelt es sich um eine Web-Adresse.</help>
+        </property>
+        <property name="SearchPage">
+          <caption>Suchseite</caption>
+          <help>Link zur Suchseite für diesen Teil der Website.</help>
+        </property>
+        <property name="SearchRoot">
+          <caption>Stammseite für Suche</caption>
+          <help>Suche startet von dieser Seite aus.</help>
+        </property>
+        <property name="SecondaryBody">
+          <caption>Untergeordneter Textbereich</caption>
+          <help>Der untergeordnete Textbereich wird in der rechten Spalte der Seite gezeigt. Sie können sowohl Text als auch Bilder für das Layout verwenden. Beachten Sie, dass Bilder nicht größer als der rechte Bereich sein dürfen.</help>
+        </property>
+        <property name="SecondaryListCount">
+          <caption>Anzahl der Objekte in der untergeordneten Liste auf der Liste</caption>
+          <help>Die Anzahl der Objekte in der untergeordneten Liste auf diesen Wert beschränken</help>
+        </property>
+        <property name="SecondaryListRoot">
+          <caption>Seite mit Zusatzliste</caption>
+          <help>Dieser Link zeigt auf die übergeordnete Seite, anhand derer eine Seitenliste in der rechten Spalte zusammengestellt wird. Wenn die Einstellung fehlt, wird die Seitenliste nicht gezeigt.</help>
+        </property>
+        <property name="SitemapPage">
+          <caption>Sitemap-Seite</caption>
+          <help>Link zur Sitemap-Seite.</help>
+        </property>
+        <property name="SortFilesBy">
+          <caption>Dateien sortieren nach</caption>
+          <help>Sortierreihenfolge für Ordnerstruktur.</help>
+        </property>
+        <property name="SubscriptionMailBody">
+          <caption>Einführungstext in Abonnement-E-Mail</caption>
+          <help>Geben Sie den Text ein, der die zentrale Nachrichtenaussage in der Abonnement-E-Mail bilden soll.</help>
+        </property>
+        <property name="SubscriptionMailFrom">
+          <caption>Absenderadresse der Abonnement-E-Mail</caption>
+          <help>E-Mail-Adresse, die in der Abonnement-E-Mail als Absender verwendet wird.</help>
+        </property>
+        <property name="SubscriptionMailReadMore">
+          <caption>Link-Text in der Abonnement-E-Mail</caption>
+          <help>Dieser Text bildet den Link-Text, auf den der Benutzer in der Abonnement-E-Mail klicken kann.</help>
+        </property>
+        <property name="SubscriptionMailSubject">
+          <caption>Betreff der Abonnement-E-Mail</caption>
+          <help>Das Betrefffeld der Abonnement-E-Mail.</help>
+        </property>
+        <property name="Thumbnail">
+          <caption>Miniaturbild</caption>
+          <help>Bildanzeige in Seitenlisten, soweit zutreffend.</help>
+        </property>
+        <property name="XForm">
+          <caption>Formular</caption>
+          <help>Geben Sie das Formular an, das auf dieser Seite angezeigt werden soll. Durch Klicken auf die Schaltfläche können Sie Ihre eigenen Formulare erstellen.</help>
+        </property>
+      </common>
+      <pagetype name="[Public] Demo page">
+        <description>Dieser Seitentyp beinhaltet Funktionen, die aufzeigen, wie verschiedene Typen von Steuerungen und Technologien mit EPiServer interagieren können und umgekehrt.</description>
+        <name>[Öffentlich] Demoseite</name>
+      </pagetype>
+      <pagetype name="[Public] Document">
+        <description>Mit diesem Seitentyp werden Dokumente aus Microsoft Office veröffentlicht.</description>
+        <name>[Öffentlich] Dokument</name>
+      </pagetype>
+      <pagetype name="[Public] Document list">
+        <description>Dieser Seitentyp zeigt eine Liste von Dokumenten, die aus Microsoft Office veröffentlicht wurden.</description>
+        <name>[Öffentlich] Dokumentliste</name>
+      </pagetype>
+      <pagetype name="[Public] File explorer">
+        <description>Dieser Seitentyp führt Dateien aus einem Ordner auf dem Webserver auf.</description>
+        <name>[Öffentlich] Dateiauflistung</name>
+      </pagetype>
+      <pagetype name="[Public] Login">
+        <description>Mit diesem Seitentyp wird eine Anmeldeseite für die Website eingerichtet.</description>
+        <name>[Öffentlich] Anmeldung</name>
+      </pagetype>
+      <pagetype name="[Public] News item">
+        <description>Dieser Seitentyp enthält die Daten für ein Nachrichtenobjekt.</description>
+        <name>[Öffentlich] Nachrichtenobjekt</name>
+      </pagetype>
+      <pagetype name="[Public] Registration">
+        <description>Bei diesem Seitentyp können sich Besucher auf der Website registrieren.</description>
+        <name>[Öffentlich] Registrierung</name>
+      </pagetype>
+      <pagetype name="[Public] RSS source">
+        <description>Dieser Seitentyp zeigt Informationen des EPiServers im RSS-Format.</description>
+        <name>[Öffentlich] RSS-Quelle</name>
+      </pagetype>
+      <pagetype name="[Public] Search page">
+        <description>Dieser Seitentyp zeigt das Suchergebnis von der Schnellsucheleiste und eine Oberfläche für die erweiterte Suche.</description>
+        <name>[Öffentlich] Suchseite</name>
+      </pagetype>
+      <pagetype name="[Public] SiteMap">
+        <description>Dieser Seitentyp erstellt eine Liste des Inhalts auf der gesamten oder einem Teil der Website.</description>
+        <name>[Öffentlich] Sitemap</name>
+      </pagetype>
+      <pagetype name="[Public] Standard page">
+        <description>Dieser Seitentyp ist die am häufigsten verwendete Seite auf der Website. Er kann sowohl für allgemeine Seiten als auch für Nachrichten und Ereignisse verwendet werden.</description>
+        <name>[Öffentlich] Standardseite</name>
+      </pagetype>
+      <pagetype name="[Public] Start page">
+        <description>Die Startseite ist der Hauptzugang zur Website, die einen zentralen und einen untergeordneten Bereich sowie unterschiedliche Auflistungen für Nachrichten, Artikel und Ereignisse enthält.</description>
+        <name>[Öffentlich] Startseite</name>
+      </pagetype>
+      <pagetype name="[Public] Subscription">
+        <description>Dieser Seitentyp wird für Besucher zum Auswählen von Abonnementinfos verwendet.</description>
+        <name>[Öffentlich] Abonnement</name>
+      </pagetype>
+      <pagetype name="[Public] XForm page">
+        <description>Dieser Seitetyp erweitert die Standardseite um ein Formular.</description>
+        <name>[Öffentlich] Formularseite</name>
+      </pagetype>
+    </pagetypes>
+    <register>
+      <confirmation>Vielen Dank.</confirmation>
+      <error>
+        <email>Bitte geben Sie Ihre E-Mail-Adresse ein.</email>
+        <firstname>Bitte geben Sie Ihren Vornamen ein.</firstname>
+        <incorrectemail>Die eingegebene E-Mail-Adresse ist falsch.</incorrectemail>
+        <lastname>Bitte geben Sie Ihren Nachnamen ein.</lastname>
+        <password>Bitte geben Sie ein Kennwort ein.</password>
+        <passwordlength>Das eingegebene Kennwort ist zu kurz. Mindestlänge: </passwordlength>
+        <passwordrepeat>Die eingegebenen Kennwörter stimmen nicht überein.</passwordrepeat>
+      </error>
+      <password>Kennwort eingeben</password>
+      <repeatpassword>Kennwort wiederholen</repeatpassword>
+      <signupbutton>Anmelden</signupbutton>
+    </register>
+    <search>
+      <advancedsearch>Erweiterte Suche</advancedsearch>
+      <button>Suchen</button>
+      <findsimilar>Ähnliche suchen</findsimilar>
+      <onlywholewords>Nur ganzes Wort suchen</onlywholewords>
+      <percentrelevancy>% Relevanz</percentrelevancy>
+      <relevancy>Relevanz</relevancy>
+      <searchfiles>In Dateien suchen</searchfiles>
+      <searchfor>Suchen nach:</searchfor>
+      <searchresult>Suchergebnis:</searchresult>
+      <searchstring>Hier suchen</searchstring>
+    </search>
+    <subscription>
+      <daily>Täglich</daily>
+      <email>E-Mail-Adresse</email>
+      <fastaspossible>Schnellstmöglich</fastaspossible>
+      <interval>Zeitraum</interval>
+      <monthly>Monatlich</monthly>
+      <subscribe>Abonnieren</subscribe>
+      <subscription>Abonnement</subscription>
+      <weekly>Wöchentlich</weekly>
+    </subscription>
+    <usersettings>
+      <changepassword>Kennwort ändern</changepassword>
+      <confirmpassword>Kennwort bestätigen</confirmpassword>
+      <email>E-Mail-Adresse</email>
+      <firstname>Vorname</firstname>
+      <lastname>Nachname</lastname>
+      <mysettings>Meine Einstellungen</mysettings>
+      <newpassword>Neues Kennwort</newpassword>
+      <username>Benutzername</username>
+    </usersettings>
+  </language>
+</languages>

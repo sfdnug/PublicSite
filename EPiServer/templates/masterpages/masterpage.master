@@ -1,0 +1,105 @@
+<%@ Master Language="C#" AutoEventWireup="False" CodeBehind="MasterPage.master.cs"
+    Inherits="EPiServer.Templates.Public.MasterPages.MasterPage" %>
+
+<%@ Register TagPrefix="UserGroup" TagName="MainMenu" Src="~/Templates/Public/Units/Static/MainMenu.ascx" %>
+<%@ Register TagPrefix="UserGroup" Namespace="EPiServer.Templates.Public.Units.Static" %>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8">
+    <title>Sioux Falls Developer Group</title>
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="/Templates/Styles/Site.css">
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:100">
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700">
+    <asp:ContentPlaceHolder ID="HeaderRegion" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<form runat="server">
+    <div id="layout-wrapper" class="tripel-123">
+        <header class="group" id="layout-header">
+        <div id="header">
+            <div class="zone zone-header">
+                <h1 id="branding"><a href="./">Sioux Falls .NET User Group</a></h1>
+            <div class="user-display">
+                <span class="user-actions"><a href="/util/login.aspx">Sign In</a></span>
+            </div>
+        </div>
+        </div>
+        </header>
+        <div class="group" id="layout-navigation">
+            <div class="zone zone-navigation">
+                <UserGroup:MainMenu runat="server"></UserGroup:MainMenu>
+            </div>
+        </div>
+        <div class="group" id="layout-main">
+            <div class="group" id="layout-content">
+                <div class="group" id="content">
+                    <div class="zone zone-content">
+                        <article class="content-item page">
+                            <header>
+                            <h1><asp:ContentPlaceHolder runat="server" ID="PageTitleRegion" /></h1>
+                            </header>
+    <%--<p>The Sioux Falls .NET User Group is a group of developers and other IT professionals from Sioux Falls, SD and the surround area who regularly work with Microsoft technologies.</p>
+<p>You can view upcoming events and group discussions on our <a target="_blank" href="http://www.linkedin.com/groups?mostPopular=&amp;gid=3048585">Linkedin page</a>.</p>
+<p><a target="_blank" href="http://www.linkedin.com/groups?mostPopular=&amp;gid=3048585"><img alt="" src="/Media/images/linkedin.png"></a></p>--%>
+                            <asp:ContentPlaceHolder runat="server" ID="MainRegion" />
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="group" id="layout-tripel">
+            <asp:ContentPlaceHolder runat="server" ID="WidgetRegion"></asp:ContentPlaceHolder>
+            <div id="tripel-first">
+                <div class="zone zone-tripel-first">
+                    <article class="widget-html-widget widget">
+                        <header>
+                            <h1>First Leader Aside</h1>
+                        </header>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a nibh ut tortor dapibus vestibulum. Aliquam vel sem nibh. Suspendisse vel condimentum tellus.</p>
+                    </article>
+                </div>
+            </div>
+            <div id="tripel-second">
+                <div class="zone zone-tripel-second">
+                    <article class="widget-html-widget widget">
+                        <header>
+                            <h1>Second Leader Aside</h1>
+                        </header>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a nibh ut tortor dapibus vestibulum. Aliquam vel sem nibh. Suspendisse vel condimentum tellus.</p>
+                    </article>
+                </div>
+            </div>
+            <div id="tripel-third">
+                <div class="zone zone-tripel-third">
+                    <article class="widget-html-widget widget">
+                    <header>
+                        <h1>Third Leader Aside</h1>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a nibh ut tortor dapibus vestibulum. Aliquam vel sem nibh. Suspendisse vel condimentum tellus.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    <div class="group" id="layout-footer">
+    <footer id="footer">
+        <div class="group" id="footer-sig">
+            <div class="zone zone-footer">
+                <div class="credits">
+                    <span class="poweredby">Powered by <a target="_blank" href="http://www.episerver.com">EPiServer</a></span>
+                    <span class="copyright">&copy; Sioux Falls Developers Group 2010.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+        </div>
+    </div>
+    </form>
+    <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+    <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
+</body>
+</html>

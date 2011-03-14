@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="English" id="en">
+    <document>
+      <download>Download:</download>
+    </document>
+    <error>
+      <document>The page property "Document path" is not set.</document>
+      <mainmenucontainer>The dynamic property "MainMenuContainer" is not set.</mainmenucontainer>
+    </error>
+    <form>
+      <numberofvotes>Number of votes: {0}</numberofvotes>
+      <postedmessage>Thank you for your post!</postedmessage>
+      <showform>To the form</showform>
+      <showstat>Show statistics</showstat>
+    </form>
+    <headings>
+      <heading name="News &amp; Calendar">
+        <description>News &amp; Calendar</description>
+      </heading>
+      <heading name="SiteConfiguration">
+        <description>Site Configuration</description>
+      </heading>
+    </headings>
+    <login>
+      <becomemember>Register</becomemember>
+      <editdetails>My settings</editdetails>
+      <email>Write your e-mail address:</email>
+      <error>
+        <loginfail>Log in failed. The supplied user name or password were incorrect.</loginfail>
+        <password>You must fill in a password</password>
+        <username>You must specify a user name</username>
+      </error>
+      <forgotpassword>Forgot password?</forgotpassword>
+      <login>Log in</login>
+      <logout>Log out</logout>
+      <password>Password</password>
+    </login>
+    <navigation>
+      <help>Help</help>
+      <listen>Listen</listen>
+      <readmore>Read more</readmore>
+      <search>Search</search>
+      <skipnavigation>Go to content</skipnavigation>
+      <startpage>Start</startpage>
+      <startpagelinktitle>To start page</startpagelinktitle>
+    </navigation>
+    <news>
+      <morenews>More news</morenews>
+      <publishdate>Published</publishdate>
+      <writername>Author</writername>
+    </news>
+    <pagetypes>
+      <common>
+        <property name="ConfirmationMessage">
+          <caption>Confirmation message</caption>
+          <help>Text that will be sent in the confirmation e-mail.</help>
+        </property>
+        <property name="ContactPage">
+          <caption>Contact page</caption>
+          <help>Link to the page with contact information.</help>
+        </property>
+        <property name="Description">
+          <caption>Heading for RSS source</caption>
+          <help>Specify a heading for RSS source </help>
+        </property>
+        <property name="DocumentListRoot">
+          <caption>Fetch document list from</caption>
+          <help>Specify the page you want to fetch the document listing from. If not set, the page list will not be shown.</help>
+        </property>
+        <property name="DocumentPath">
+          <caption>Path to document</caption>
+          <help>Path to a copy of the source document</help>
+        </property>
+        <property name="EmailBody">
+          <caption>E-mail body</caption>
+          <help>Content of the e-mail address that will be sent.</help>
+        </property>
+        <property name="EmailSender">
+          <caption>E-mail sender</caption>
+          <help>E-mail address that will be used as sender address.</help>
+        </property>
+        <property name="EmailSubject">
+          <caption>E-mail subject</caption>
+          <help>Subject of the e-mail to be sent.</help>
+        </property>
+        <property name="EmbeddedObjectHeight">
+          <caption>Height of the flash movie</caption>
+          <help>Specify the height of the flash movie in pixels.</help>
+        </property>
+        <property name="EmbeddedObjectWidth">
+          <caption>Width of the flash movie</caption>
+          <help>Specify the width of the flash movie in pixels.</help>
+        </property>
+        <property name="EmbeddedURL">
+          <caption>Path to flash movie</caption>
+          <help>Specify the address to the Flash movie</help>
+        </property>
+        <property name="EnableStatistics">
+          <caption>Show statistics</caption>
+          <help>Show statistics on page for visitors.</help>
+        </property>
+        <property name="EPSUBSCRIBE">
+          <caption>Activate subscription</caption>
+          <help>Activates a subscription for this page</help>
+        </property>
+        <property name="EPSUBSCRIBE-EXCLUDE">
+          <caption>Block subscription for this page</caption>
+          <help>Select this check box to block subscription updates for this page.</help>
+        </property>
+        <property name="EPSUBSCRIBEHIDDEN">
+          <caption>Do not show on the subscription page</caption>
+          <help>Hides this page on the subscriptions page</help>
+        </property>
+        <property name="EPSUBSCRIBE-ROOT">
+          <caption>Root page for Subscription</caption>
+          <help>Specify a page in the tree from where the subscription will start.</help>
+        </property>
+        <property name="EventsCount">
+          <caption>Number of Event items</caption>
+          <help>Using an integer, specify the number of pages to be displayed in the listing</help>
+        </property>
+        <property name="EventsRoot">
+          <caption>Fetch Event list from</caption>
+          <help>Specify a page whose children will be used to generate the event list. If not set the news list will not be shown.</help>
+        </property>
+        <property name="Heading">
+          <caption>Heading</caption>
+          <help>Specify a heading that will present the main title of this page. If this property is not set, the page name will be used as a heading instead.</help>
+        </property>
+        <property name="Image">
+          <caption>Image</caption>
+          <help>Specify an image that will be shown on the startpage (900*341 pixels)</help>
+        </property>
+        <property name="IndexRoot">
+          <caption>Display content from page</caption>
+          <help>Specify the page from which the site map will start</help>
+        </property>
+        <property name="IsDocumentPageType">
+          <caption>Upload complete HTML edition and copy of source document</caption>
+          <help>Select this option to be able to display the complete HTML edition</help>
+        </property>
+        <property name="LoginPage">
+          <caption>Login page</caption>
+          <help>Specify the login page for this part of the site.</help>
+        </property>
+        <property name="Logotype">
+          <caption>Logotype</caption>
+          <help>Specify the path to the logotype image shown in the top of the website</help>
+        </property>
+        <property name="MainBody">
+          <caption>Main body</caption>
+          <help>The main body will be shown in the main content area of the page. You can insert for example text, images and tables, using the XHTML-editor.</help>
+        </property>
+        <property name="MainIntro">
+          <caption>Introduction</caption>
+          <help>Short version of the news content. This text will be used in news listings if available.</help>
+        </property>
+        <property name="MainListCount">
+          <caption>Display number of pages in the main list</caption>
+          <help>Using an integer, specify the number of pages to be displayed in the listing</help>
+        </property>
+        <property name="MainListRoot">
+          <caption>Fetch main listing from</caption>
+          <help>Specify the page from which you want to fetch the listing. The list will be shown in the main content area. If not set the page list will not be shown.</help>
+        </property>
+        <property name="MainMenuContainer">
+          <caption>Display menus from</caption>
+          <help>Specify a place in the menu tree from where menus will be displayed on the selected page</help>
+        </property>
+        <property name="MetaAuthor">
+          <caption>Writer</caption>
+          <help>Specify the author of text that will be used by search engines. If not set, the value in the dynamic property will be used instead.</help>
+        </property>
+        <property name="MetaDescription">
+          <caption>Page description</caption>
+          <help>Describe the content of the page</help>
+        </property>
+        <property name="MetaKeywords">
+          <caption>Standard search words for pages</caption>
+          <help>Specify a comma-separated list of search words that match this page</help>
+        </property>
+        <property name="NewsCount">
+          <caption>Number of News items</caption>
+          <help>Using an integer, specify the number of pages to be displayed in the listing</help>
+        </property>
+        <property name="NewsRoot">
+          <caption>Fetch News list from</caption>
+          <help>Specify a page whose children will be used to generate the news list. If not set the news list will not be shown.</help>
+        </property>
+        <property name="PasswordChangeSuccessBody">
+          <caption>Password change success</caption>
+          <help>Body text shown when a password change succeeds</help>
+        </property>
+        <property name="PasswordLength">
+          <caption>Password length</caption>
+          <help>The shortest allowed password</help>
+        </property>
+        <property name="PrivacyPage">
+          <caption>Privacy page</caption>
+          <help>Link to the page with legal information.</help>
+        </property>
+        <property name="RootFolder">
+          <caption>Search path to folder to be displayed</caption>
+          <help>Specify the address of the folder, the content of which is to be displayed in the list</help>
+        </property>
+        <property name="RssContainer">
+          <caption>RSS Main Page</caption>
+          <help>Specify a main page for all RSS source pages</help>
+        </property>
+        <property name="RssSource">
+          <caption>RSS source page</caption>
+          <help>Specify a page in the tree that is a source page of RSS content on this website.</help>
+        </property>
+        <property name="RssUrl">
+          <caption>Search path to RSS source</caption>
+          <help>Specify the address content in RSS format. This is usually a web address.</help>
+        </property>
+        <property name="SearchPage">
+          <caption>Search page</caption>
+          <help>Link to the search page for this part of the site.</help>
+        </property>
+        <property name="SearchRoot">
+          <caption>Start page for the search</caption>
+          <help>Specify the start page for search. If this field is left empty, the search will start from the start page</help>
+        </property>
+        <property name="SecondaryBody">
+          <caption>Secondary body</caption>
+          <help>The secondary body will be shown in the right column of the page. You can use both text and images for layout. Note that images should not be larger than the right area.</help>
+        </property>
+        <property name="SecondaryListCount">
+          <caption>Display number of pages in the secondary list</caption>
+          <help>Number of secondary list items in the list.</help>
+        </property>
+        <property name="SecondaryListRoot">
+          <caption>Fetch secondary listing from</caption>
+          <help>Specify the page you want to fetch the listing from. The list will be shown in the right column. If it is not set the page list will not be shown.</help>
+        </property>
+        <property name="SitemapPage">
+          <caption>Site map page</caption>
+          <help>Link to the site map page.</help>
+        </property>
+        <property name="SortFilesBy">
+          <caption>Sort files by</caption>
+          <help>Select how the list is to be sorted</help>
+        </property>
+        <property name="SubscriptionMailBody">
+          <caption>Introduction text in subscription e-mail</caption>
+          <help>Enter the text that will be the message body for the subscription e-mail.</help>
+        </property>
+        <property name="SubscriptionMailFrom">
+          <caption>Sender address for subscription e-mail</caption>
+          <help>E-mail address that will be used as sender for the subscription e-mail.</help>
+        </property>
+        <property name="SubscriptionMailReadMore">
+          <caption>Link text in the subscription e-mail</caption>
+          <help>This text will build the link text that the user can click on in the subcription e-mail.</help>
+        </property>
+        <property name="SubscriptionMailSubject">
+          <caption>Subject for subscription e-mail</caption>
+          <help>This is the subject field for the subscription e-mail.</help>
+        </property>
+        <property name="Thumbnail">
+          <caption>Thumbnail image</caption>
+          <help>Specify an image to be shown in page listings where it applies</help>
+        </property>
+        <property name="XForm">
+          <caption>Form</caption>
+          <help>Specify the form that will be shown on this page. By clicking the button, you can create your own forms</help>
+        </property>
+      </common>
+      <pagetype name="[Public] Demo page">
+        <description>This page type gathers functions to show how different types of controls and technologies can interact with EPiServer and vice versa.</description>
+        <name>[Public] Demo page</name>
+      </pagetype>
+      <pagetype name="[Public] Document">
+        <description>This page type is used to publish documents from Microsoft Office.</description>
+        <name>[Public] Document</name>
+      </pagetype>
+      <pagetype name="[Public] Document list">
+        <description>This page type displays a list of documents published from Microsoft Office.</description>
+        <name>[Public] Document list</name>
+      </pagetype>
+      <pagetype name="[Public] File explorer">
+        <description>This page type lists files from a folder on the web server.</description>
+        <name>[Public] File listing</name>
+      </pagetype>
+      <pagetype name="[Public] Login">
+        <description>This page type is used to create a login page to the website.</description>
+        <name>[Public] Login</name>
+      </pagetype>
+      <pagetype name="[Public] News item">
+        <description>This page type contains the data for one news item.</description>
+        <name>[Public] News item</name>
+      </pagetype>
+      <pagetype name="[Public] Registration">
+        <description>This page type is where visitors can register themselves on the website.</description>
+        <name>[Public] Registration</name>
+      </pagetype>
+      <pagetype name="[Public] RSS source">
+        <description>This page type displays information from EPiServer in RSS format.</description>
+        <name>[Public] RSS source</name>
+      </pagetype>
+      <pagetype name="[Public] Search page">
+        <description>This page type displays the search result from the quick search bar and an interface for advanced search.</description>
+        <name>[Public] Search page</name>
+      </pagetype>
+      <pagetype name="[Public] SiteMap">
+        <description>This page type creates a list of the content on all or part of the website.</description>
+        <name>[Public] Site map</name>
+      </pagetype>
+      <pagetype name="[Public] Standard page">
+        <description>This page type is the most commonly used page on the website. It can be used for ordinary pages as well as for news and events.</description>
+        <name>[Public] Standard page</name>
+      </pagetype>
+      <pagetype name="[Public] Start page">
+        <description>The start page is the main entrance to the website containing a main and secondary body as well as different listings for news, articles and events.</description>
+        <name>[Public] Start page</name>
+      </pagetype>
+      <pagetype name="[Public] Subscription">
+        <description>This page type is used for visitors to select subscription information.</description>
+        <name>[Public] Subscription</name>
+      </pagetype>
+      <pagetype name="[Public] XForm page">
+        <description>This page type extends the standard page with a form.</description>
+        <name>[Public] Form page</name>
+      </pagetype>
+    </pagetypes>
+    <register>
+      <confirmation>Thank you</confirmation>
+      <error>
+        <email>Please enter your e-mail address</email>
+        <firstname>Please enter your first name</firstname>
+        <incorrectemail>The e-mail address you've entered is incorrect</incorrectemail>
+        <lastname>Please enter your last name</lastname>
+        <password>Please enter a password</password>
+        <passwordlength>The password you've entered is too short. Min length:</passwordlength>
+        <passwordrepeat>The passwords you've entered do not match</passwordrepeat>
+      </error>
+      <password>Enter password</password>
+      <repeatpassword>Repeat password</repeatpassword>
+      <signupbutton>Sign up</signupbutton>
+    </register>
+    <search>
+      <advancedsearch>Advanced Search</advancedsearch>
+      <button>Search</button>
+      <findsimilar>Find Similar</findsimilar>
+      <onlywholewords>Match whole word</onlywholewords>
+      <percentrelevancy>% relevancy</percentrelevancy>
+      <relevancy>Relevancy</relevancy>
+      <searchfiles>Search in files</searchfiles>
+      <searchfor>Search for:</searchfor>
+      <searchresult>Search result:</searchresult>
+      <searchstring>Search here</searchstring>
+    </search>
+    <subscription>
+      <daily>Daily</daily>
+      <email>E-mail address</email>
+      <fastaspossible>As soon as possible</fastaspossible>
+      <interval>Interval</interval>
+      <monthly>Monthly</monthly>
+      <subscribe>Subscribe</subscribe>
+      <subscription>Subscription</subscription>
+      <weekly>Weekly</weekly>
+    </subscription>
+    <usersettings>
+      <changepassword>Change password</changepassword>
+      <confirmpassword>Confirm password</confirmpassword>
+      <email>E-mail address</email>
+      <firstname>First name</firstname>
+      <lastname>Last name</lastname>
+      <mysettings>My settings</mysettings>
+      <newpassword>New password</newpassword>
+      <username>User name</username>
+    </usersettings>
+  </language>
+</languages>

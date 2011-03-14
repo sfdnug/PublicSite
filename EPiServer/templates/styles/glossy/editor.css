@@ -1,0 +1,153 @@
+/* Example of Editor CSS rules working with TinyMCE and EPiServer CMS 5 Editor */
+/* ------ Text items -------- */
+body
+{
+    margin: 0;
+    padding-bottom: 0;
+    font: 76%/1.4 Georgia, serif;
+}
+p 
+{
+    margin: 0 0 1em 0; 
+    padding: 0; 
+}
+h1
+{
+    font-weight: normal; 
+    font-size: 1.7em; 
+    line-height: 1.4em; 
+    padding: 0; 
+    margin: 0.2em 0;
+	EditMenuName: Heading 1;
+}
+h2
+{
+    font-weight: normal; 
+    font-style: italic; 
+    font-size: 1.4em; 
+    padding: 0; 
+    margin: 0.2em 0em;
+	EditMenuName: Heading 2;
+}
+h3
+{
+	font-weight: bold; 
+	font-size: 1em; 
+	padding: 0; 
+	margin: 0.4em 0em;
+	EditMenuName: Heading 3;
+}
+.introduction
+{
+	font-style: italic;
+	EditMenuName: Introduction;
+}
+hr
+{
+	margin: 0.5em 0;
+	height: 1px;
+	padding: 0;
+	background:#d7d7d7;
+	color: #d7d7d7;
+	border:0;
+}
+
+/* ------ Links -------- */
+a
+{
+	color: #006ea0;
+	text-decoration: underline;
+}
+
+/* --------- Image format ----------- */
+img.image-topleftfloat
+{
+    margin-right: 1em;
+    margin-bottom: 1em;
+    EditMenuName: Top left;
+	float: left;
+}
+img.image-toprightfloat
+{
+	float: right;
+	vertical-align: top;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    EditMenuName: Top right;
+}
+
+/* --------- Table format ----------- */
+table
+{
+	font-size: 1em;
+	border-collapse: collapse;
+}
+th
+{
+	text-align: left;
+}
+table.table-classic
+{
+	border-collapse: collapse;
+	border: solid 0.1em #777777;
+	EditMenuName: Classic;
+}
+table.table-classic th
+{
+	border: solid 0.1em #777777;
+	background-color: #DADADA;
+	padding: 0.4em;
+}
+table.table-classic td
+{
+	border: solid 0.1em #777777;
+	padding: 0.2em 0.4em;
+}
+table.table-color
+{
+	border-collapse: collapse;
+	border: solid 0.1em #275569;
+	EditMenuName: Color;
+}
+table.table-color th
+{
+	border: solid 0.1em #275569;
+	background-color: #4495b9;
+	color: White;
+	padding: 0.4em;
+}
+table.table-color td
+{
+	border: solid 0.1em #275569;
+	padding: 0.2em 0.4em;
+}
+th.cell-highlighted, td.cell-highlighted
+{
+    EditMenuName: Highlighted;
+}
+table.table-classic th.cell-highlighted
+{
+	background-color: #AAAAAA;
+}
+table.table-classic td.cell-highlighted
+{
+	background-color: #F0F0F0;
+}
+table.table-color th.cell-highlighted
+{
+	background-color: #377995;
+}
+table.table-color td.cell-highlighted
+{
+	background-color: #d1e6ef;
+}
+th.cell-leftaligned, td.cell-leftaligned
+{
+	text-align: left;
+	EditMenuName: Left aligned;
+}
+th.cell-rightaligned, td.cell-rightaligned
+{
+	text-align: right;
+	EditMenuName: Right aligned;
+}

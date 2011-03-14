@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="English" id="en">
+    <login>
+      <currentuser>Current user:</currentuser>
+    </login>
+    <search>
+      <nosearchresult>No matching results were found</nosearchresult>
+    </search>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Global Files">
+          <name>Global Files</name>
+        </virtualpathroot>
+        <virtualpathroot name="Documents">
+          <name>Documents</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+  </language>
+  <language name="Svenska" id="sv">
+    <login>
+      <currentuser>Inloggad användare:</currentuser>
+    </login>
+    <search>
+      <nosearchresult>Din sökning gav inga träffar</nosearchresult>
+    </search>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Global Files">
+          <name>Globala filer</name>
+        </virtualpathroot>
+        <virtualpathroot name="Documents">
+          <name>Dokument</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+  </language>
+  <language name="Dansk" id="da">
+    <login>
+      <currentuser>Current user:</currentuser>
+    </login>
+    <search>
+      <nosearchresult>No matching results were found</nosearchresult>
+    </search>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Global Files">
+          <name>Global Files</name>
+        </virtualpathroot>
+        <virtualpathroot name="Documents">
+          <name>Documents</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+  </language>
+  <language name="Deutsch" id="de">
+    <login>
+      <currentuser>Current user:</currentuser>
+    </login>
+    <search>
+      <nosearchresult>No matching results were found</nosearchresult>
+    </search>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Global Files">
+          <name>Global Files</name>
+        </virtualpathroot>
+        <virtualpathroot name="Documents">
+          <name>Documents</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+  </language>
+  <language name="Español" id="es">
+    <login>
+      <currentuser>Current user:</currentuser>
+    </login>
+    <search>
+      <nosearchresult>No matching results were found</nosearchresult>
+    </search>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Global Files">
+          <name>Global Files</name>
+        </virtualpathroot>
+        <virtualpathroot name="Documents">
+          <name>Documents</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+  </language>
+  <language name="Suomi" id="fi">
+    <login>
+      <currentuser>Current user:</currentuser>
+    </login>
+    <search>
+      <nosearchresult>No matching results were found</nosearchresult>
+    </search>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Global Files">
+          <name>Global Files</name>
+        </virtualpathroot>
+        <virtualpathroot name="Documents">
+          <name>Documents</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+  </language>
+  <language name="Français" id="fr">
+    <login>
+      <currentuser>Current user:</currentuser>
+    </login>
+    <search>
+      <nosearchresult>No matching results were found</nosearchresult>
+    </search>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Global Files">
+          <name>Global Files</name>
+        </virtualpathroot>
+        <virtualpathroot name="Documents">
+          <name>Documents</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+  </language>
+  <language name="日本語 (Japanese)" id="ja">
+    <login>
+      <currentuser>Current user:</currentuser>
+    </login>
+    <search>
+      <nosearchresult>No matching results were found</nosearchresult>
+    </search>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Global Files">
+          <name>Global Files</name>
+        </virtualpathroot>
+        <virtualpathroot name="Documents">
+          <name>Documents</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+  </language>
+  <language name="Norsk" id="no">
+    <login>
+      <currentuser>Current user:</currentuser>
+    </login>
+    <search>
+      <nosearchresult>No matching results were found</nosearchresult>
+    </search>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Global Files">
+          <name>Global Files</name>
+        </virtualpathroot>
+        <virtualpathroot name="Documents">
+          <name>Documents</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+  </language>
+  <language name="Português" id="pt">
+    <login>
+      <currentuser>Current user:</currentuser>
+    </login>
+    <search>
+      <nosearchresult>No matching results were found</nosearchresult>
+    </search>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Global Files">
+          <name>Global Files</name>
+        </virtualpathroot>
+        <virtualpathroot name="Documents">
+          <name>Documents</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+  </language>
+  <language name="中文 (Chinese)" id="zh-CN">
+    <login>
+      <currentuser>Current user:</currentuser>
+    </login>
+    <search>
+      <nosearchresult>No matching results were found</nosearchresult>
+    </search>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Global Files">
+          <name>Global Files</name>
+        </virtualpathroot>
+        <virtualpathroot name="Documents">
+          <name>Documents</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+  </language>
+  <language name="Nederlands" id="nl">
+    <login>
+      <currentuser>Current user:</currentuser>
+    </login>
+    <search>
+      <nosearchresult>No matching results were found</nosearchresult>
+    </search>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Global Files">
+          <name>Global Files</name>
+        </virtualpathroot>
+        <virtualpathroot name="Documents">
+          <name>Documents</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+  </language>
+</languages>

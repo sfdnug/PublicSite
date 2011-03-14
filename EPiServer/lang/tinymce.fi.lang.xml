@@ -1,0 +1,1211 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="Finnish" id="fi">
+    <admin>
+      <tinymce>
+        <plugins>
+          <advanced>
+            <advImage>
+              <description see="/tinymce/advimage/image_desc" />
+              <displayname see="/tinymce/advimage/image_desc" />
+            </advImage>
+            <advLink>
+              <description see="/tinymce/advlink/link_desc" />
+              <displayname see="/tinymce/advlink/link_desc" />
+            </advLink>
+            <anchor>
+              <description see="/tinymce/advanced/anchor_desc" />
+              <displayname see="/tinymce/advanced/anchor_desc" />
+            </anchor>
+            <backcolor>
+              <description see="/tinymce/advanced/backcolor_desc" />
+              <displayname see="/tinymce/advanced/backcolor_desc" />
+            </backcolor>
+            <backcolorpicker>
+              <description see="/tinymce/advanced/backcolor_desc" />
+              <displayname see="/tinymce/advanced/backcolor_desc" />
+            </backcolorpicker>
+            <bold>
+              <description see="/tinymce/simple/bold_desc" />
+              <displayname see="/tinymce/simple/bold_desc" />
+            </bold>
+            <bullist>
+              <description see="/tinymce/advanced/bullist_desc" />
+              <displayname see="/tinymce/advanced/bullist_desc" />
+            </bullist>
+            <charmap>
+              <description see="/tinymce/advanced/charmap_desc" />
+              <displayname see="/tinymce/advanced/charmap_desc" />
+            </charmap>
+            <cleanup>
+              <description see="/tinymce/advanced/cleanup_desc" />
+              <displayname see="/tinymce/advanced/cleanup_desc" />
+            </cleanup>
+            <code>
+              <description see="/tinymce/advanced/code" />
+              <displayname see="/tinymce/advanced/code" />
+            </code>
+            <copy>
+              <description see="/tinymce/advanced/copy_desc" />
+              <displayname see="/tinymce/advanced/copy_desc" />
+            </copy>
+            <cut>
+              <description see="/tinymce/advanced/cut_desc" />
+              <displayname see="/tinymce/advanced/cut_desc" />
+            </cut>
+            <fontselect>
+              <description see="/tinymce/advanced/fontdefault" />
+              <displayname see="/tinymce/advanced/fontdefault" />
+            </fontselect>
+            <fontsizeselect>
+              <description see="/tinymce/advanced/font_size" />
+              <displayname see="/tinymce/advanced/font_size" />
+            </fontsizeselect>
+            <forecolor>
+              <description see="/tinymce/advanced/forecolor_desc" />
+              <displayname see="/tinymce/advanced/forecolor_desc" />
+            </forecolor>
+            <forecolorpicker>
+              <description see="/tinymce/advanced/forecolor_desc" />
+              <displayname see="/tinymce/advanced/forecolor_desc" />
+            </forecolorpicker>
+            <formatselect>
+              <description see="/tinymce/advanced/block" />
+              <displayname see="/tinymce/advanced/block" />
+            </formatselect>
+            <help>
+              <description see="/tinymce/advanced/help_desc" />
+              <displayname see="/tinymce/advanced/help_desc" />
+            </help>
+            <hr>
+              <description see="/tinymce/advanced/hr_desc" />
+              <displayname see="/tinymce/advanced/hr_desc" />
+            </hr>
+            <image>
+              <description see="/tinymce/advanced/image_desc" />
+              <displayname see="/tinymce/advanced/image_desc" />
+            </image>
+            <indent>
+              <description see="/tinymce/advanced/indent_desc" />
+              <displayname see="/tinymce/advanced/indent_desc" />
+            </indent>
+            <italic>
+              <description see="/tinymce/simple/italic_desc" />
+              <displayname see="/tinymce/simple/italic_desc" />
+            </italic>
+            <justifycenter>
+              <description see="/tinymce/advanced/justifycenter_desc" />
+              <displayname see="/tinymce/advanced/justifycenter_desc" />
+            </justifycenter>
+            <justifyfull>
+              <description see="/tinymce/advanced/justifyfull_desc" />
+              <displayname see="/tinymce/advanced/justifyfull_desc" />
+            </justifyfull>
+            <justifyleft>
+              <description see="/tinymce/advanced/justifyleft_desc" />
+              <displayname see="/tinymce/advanced/justifyleft_desc" />
+            </justifyleft>
+            <justifyright>
+              <description see="/tinymce/advanced/justifyright_desc" />
+              <displayname see="/tinymce/advanced/justifyright_desc" />
+            </justifyright>
+            <link>
+              <description see="/tinymce/advanced/link_desc" />
+              <displayname see="/tinymce/advanced/link_desc" />
+            </link>
+            <numlist>
+              <description see="/tinymce/advanced/numlist_desc" />
+              <displayname see="/tinymce/advanced/numlist_desc" />
+            </numlist>
+            <outdent>
+              <description see="/tinymce/advanced/outdent_desc" />
+              <displayname see="/tinymce/advanced/outdent_desc" />
+            </outdent>
+            <paste>
+              <description see="/tinymce/advanced/paste_desc" />
+              <displayname see="/tinymce/advanced/paste_desc" />
+            </paste>
+            <redo>
+              <description see="/tinymce/advanced/redo_desc" />
+              <displayname see="/tinymce/advanced/redo_desc" />
+            </redo>
+            <removeformat>
+              <description see="/tinymce/advanced/removeformat_desc" />
+              <displayname see="/tinymce/advanced/removeformat_desc" />
+            </removeformat>
+            <strikethrough>
+              <description see="/tinymce/simple/striketrough_desc" />
+              <displayname see="/tinymce/simple/striketrough_desc" />
+            </strikethrough>
+            <styleselect>
+              <description see="/tinymce/advanced/style_select" />
+              <displayname see="/tinymce/advanced/style_select" />
+            </styleselect>
+            <sub>
+              <description see="/tinymce/advanced/sub_desc" />
+              <displayname see="/tinymce/advanced/sub_desc" />
+            </sub>
+            <sup>
+              <description see="/tinymce/advanced/sup_desc" />
+              <displayname see="/tinymce/advanced/sup_desc" />
+            </sup>
+            <underline>
+              <description see="/tinymce/simple/underline_desc" />
+              <displayname see="/tinymce/simple/underline_desc" />
+            </underline>
+            <undo>
+              <description see="/tinymce/advanced/undo_desc" />
+              <displayname see="/tinymce/advanced/undo_desc" />
+            </undo>
+            <unlink>
+              <description see="/tinymce/advanced/unlink_desc" />
+              <displayname see="/tinymce/advanced/unlink_desc" />
+            </unlink>
+            <visualaid>
+              <description see="/tinymce/advanced/visualaid_desc" />
+              <displayname see="/tinymce/advanced/visualaid_desc" />
+            </visualaid>
+          </advanced>
+          <directionality>
+            <ltr>
+              <description see="/tinymce/directionality/ltr_desc" />
+              <displayname see="/tinymce/directionality/ltr_desc" />
+            </ltr>
+            <rtl>
+              <description see="/tinymce/directionality/rtl_desc" />
+              <displayname see="/tinymce/directionality/rtl_desc" />
+            </rtl>
+          </directionality>
+          <fullscreen>
+            <fullscreen>
+              <description see="/tinymce/fullscreen/desc" />
+              <displayname see="/tinymce/fullscreen/desc" />
+            </fullscreen>
+          </fullscreen>
+          <insertdatetime>
+            <insertdate>
+              <description see="/tinymce/insertdatetime/insertdate_desc" />
+              <displayname see="/tinymce/insertdatetime/insertdate_desc" />
+            </insertdate>
+            <inserttime>
+              <description see="/tinymce/insertdatetime/inserttime_desc" />
+              <displayname see="/tinymce/insertdatetime/inserttime_desc" />
+            </inserttime>
+          </insertdatetime>
+          <layer>
+            <absolute>
+              <description see="/tinymce/layer/absolute_desc" />
+              <displayname see="/tinymce/layer/absolute_desc" />
+            </absolute>
+            <insertLayer>
+              <description see="/tinymce/layer/insertlayer_desc" />
+              <displayname see="/tinymce/layer/insertlayer_desc" />
+            </insertLayer>
+            <movebackward>
+              <description see="/tinymce/layer/backward_desc" />
+              <displayname see="/tinymce/layer/backward_desc" />
+            </movebackward>
+            <moveforward>
+              <description see="/tinymce/layer/forward_desc" />
+              <displayname see="/tinymce/layer/forward_desc" />
+            </moveforward>
+          </layer>
+          <media>
+            <media>
+              <description see="/tinymce/media/desc" />
+              <displayname see="/tinymce/media/desc" />
+            </media>
+          </media>
+          <nonbreaking>
+            <nonbreaking>
+              <description see="/tinymce/nonbreaking/nonbreaking_desc" />
+              <displayname see="/tinymce/nonbreaking/nonbreaking_desc" />
+            </nonbreaking>
+          </nonbreaking>
+          <paste>
+            <pastetext>
+              <description see="/tinymce/paste/paste_text_desc" />
+              <displayname see="/tinymce/paste/paste_text_desc" />
+            </pastetext>
+            <pasteword>
+              <description see="/tinymce/paste/paste_word_desc" />
+              <displayname see="/tinymce/paste/paste_word_desc" />
+            </pasteword>
+            <selectall>
+              <description see="/tinymce/paste/selectall_desc" />
+              <displayname see="/tinymce/paste/selectall_desc" />
+            </selectall>
+          </paste>
+          <preview>
+            <preview>
+              <description see="/tinymce/preview/preview_desc" />
+              <displayname see="/tinymce/preview/preview_desc" />
+            </preview>
+          </preview>
+          <print>
+            <print>
+              <description see="/tinymce/print/print_desc" />
+              <displayname see="/tinymce/print/print_desc" />
+            </print>
+          </print>
+          <searchreplace>
+            <replace>
+              <description see="/tinymce/searchreplace/replace_desc" />
+              <displayname see="/tinymce/searchreplace/replace_desc" />
+            </replace>
+            <search>
+              <description see="/tinymce/searchreplace/search_desc" />
+              <displayname see="/tinymce/searchreplace/search_desc" />
+            </search>
+          </searchreplace>
+          <style>
+            <styleprops>
+              <description see="/tinymce/style/desc" />
+              <displayname see="/tinymce/style/desc" />
+            </styleprops>
+          </style>
+          <table>
+            <cell_props>
+              <description see="/tinymce/table/cell_desc" />
+              <displayname see="/tinymce/table/cell_desc" />
+            </cell_props>
+            <col_after>
+              <description see="/tinymce/table/col_after_desc" />
+              <displayname see="/tinymce/table/col_after_desc" />
+            </col_after>
+            <col_before>
+              <description see="/tinymce/table/col_before_desc" />
+              <displayname see="/tinymce/table/col_before_desc" />
+            </col_before>
+            <delete_col>
+              <description see="/tinymce/table/delete_col_desc" />
+              <displayname see="/tinymce/table/delete_col_desc" />
+            </delete_col>
+            <delete_row>
+              <description see="/tinymce/table/delete_row_desc" />
+              <displayname see="/tinymce/table/delete_row_desc" />
+            </delete_row>
+            <delete_table>
+              <description see="/tinymce/table/del" />
+              <displayname see="/tinymce/table/del" />
+            </delete_table>
+            <merge_cells>
+              <description see="/tinymce/table/merge_cells_desc" />
+              <displayname see="/tinymce/table/merge_cells_desc" />
+            </merge_cells>
+            <row_after>
+              <description see="/tinymce/table/row_after_desc" />
+              <displayname see="/tinymce/table/row_after_desc" />
+            </row_after>
+            <row_before>
+              <description see="/tinymce/table/row_before_desc" />
+              <displayname see="/tinymce/table/row_before_desc" />
+            </row_before>
+            <row_props>
+              <description see="/tinymce/table/row_desc" />
+              <displayname see="/tinymce/table/row_desc" />
+            </row_props>
+            <split_cells>
+              <description see="/tinymce/table/split_cells_desc" />
+              <displayname see="/tinymce/table/split_cells_desc" />
+            </split_cells>
+            <table>
+              <description see="/tinymce/table/desc" />
+              <displayname see="/tinymce/table/desc" />
+            </table>
+            <tablecontrols>
+              <description see="/tinymce/table/desc" />
+              <displayname see="/tinymce/table/desc" />
+            </tablecontrols>
+          </table>
+          <xhtmlxtras>
+            <abbr>
+              <description see="/tinymce/xhtmlxtras/abbr_desc" />
+              <displayname see="/tinymce/xhtmlxtras/abbr_desc" />
+            </abbr>
+            <acronym>
+              <description see="/tinymce/xhtmlxtras/acronym_desc" />
+              <displayname see="/tinymce/xhtmlxtras/acronym_desc" />
+            </acronym>
+            <attribs>
+              <description see="/tinymce/xhtmlxtras/attribs_desc" />
+              <displayname see="/tinymce/xhtmlxtras/attribs_desc" />
+            </attribs>
+            <cite>
+              <description see="/tinymce/xhtmlxtras/cite_desc" />
+              <displayname see="/tinymce/xhtmlxtras/cite_desc" />
+            </cite>
+            <del>
+              <description see="/tinymce/xhtmlxtras/del_desc" />
+              <displayname see="/tinymce/xhtmlxtras/del_desc" />
+            </del>
+            <ins>
+              <description see="/tinymce/xhtmlxtras/ins_desc" />
+              <displayname see="/tinymce/xhtmlxtras/ins_desc" />
+            </ins>
+          </xhtmlxtras>
+        </plugins>
+      </tinymce>
+    </admin>
+    <tinymce>
+      <advanced>
+        <address>Osoite</address>
+        <anchor_delta_height />
+        <anchor_delta_width />
+        <anchor_desc>Lisää/Muokkaa ankkuri</anchor_desc>
+        <backcolor_desc>Valitse taustan väri</backcolor_desc>
+        <backcolorpicker_desc see="#backcolor_desc" />
+        <block>Muotoilu</block>
+        <blockquote>Pitkä lainaus</blockquote>
+        <blockquote_desc>Pitkä lainaus</blockquote_desc>
+        <bold_desc>Lihavoitu (Ctrl+B)</bold_desc>
+        <bullist_desc>Järjestämätön lista</bullist_desc>
+        <charmap_delta_height />
+        <charmap_delta_width />
+        <charmap_desc>Lisää erikoismerkki</charmap_desc>
+        <cleanup_desc>Siisti sekainen koodi</cleanup_desc>
+        <clipboard_msg>Kopioi/Leikkaa/Liitä -painikkeet eivät toimi Mozilla ja Firefox -selaimilla. Voit kuitenkin käyttää näppäinyhdistelmiä kopioimiseen (ctrl+c), leikkaamiseen (ctrl+x) ja liittämiseen (ctrl+v). Haluatko lisää tietoa?</clipboard_msg>
+        <code>Koodi</code>
+        <code_desc>Muokkaa HTML-koodia</code_desc>
+        <colorpicker_delta_height />
+        <colorpicker_delta_width />
+        <copy_desc>Kopioi</copy_desc>
+        <custom1_desc>Oma kuvauksesi tähän</custom1_desc>
+        <cut_desc>Leikkaa</cut_desc>
+        <dd>Määrittelyn kuvaus</dd>
+        <div>Div</div>
+        <dt>Määrittelyn ehto </dt>
+        <font_size>Kirjasinkoko</font_size>
+        <fontdefault>Kirjasin</fontdefault>
+        <fontselect_desc see="#fontdefault" />
+        <fontsizeselect_desc see="#font_size" />
+        <forecolor_desc>Valitse tekstin väri</forecolor_desc>
+        <forecolorpicker_desc see="#forecolor_desc" />
+        <formatselect_desc see="#block" />
+        <h1>Otsikko 1</h1>
+        <h2>Otsikko 2</h2>
+        <h3>Otsikko 3</h3>
+        <h4>Otsikko 4</h4>
+        <h5>Otsikko 5</h5>
+        <h6>Otsikko 6</h6>
+        <help_desc>Ohje</help_desc>
+        <hr_desc>Lisää vaakasuora viivain</hr_desc>
+        <image_delta_height />
+        <image_delta_width />
+        <image_desc>Lisää/muuta kuva</image_desc>
+        <image_props_desc>Kuvan ominaisuudet</image_props_desc>
+        <indent_desc>Sisennä</indent_desc>
+        <italic_desc>Kursivoitu (Ctrl+I)</italic_desc>
+        <justifycenter_desc>Keskitetty</justifycenter_desc>
+        <justifyfull_desc>Tasattu</justifyfull_desc>
+        <justifyleft_desc>Tasaus vasemmalle</justifyleft_desc>
+        <justifyright_desc>Tasaus oikealle</justifyright_desc>
+        <link_delta_height />
+        <link_delta_width />
+        <link_desc>Lisää/muuta linkki</link_desc>
+        <more_colors>Enemmän värejä</more_colors>
+        <newdocument>Haluatko varmasti tyhjentää kaiken sisällön?</newdocument>
+        <newdocument_desc>Uusi tiedosto</newdocument_desc>
+        <numlist_desc>Järjestetty lista</numlist_desc>
+        <outdent_desc>Loitonna</outdent_desc>
+        <paragraph>Kappale</paragraph>
+        <paste_desc>Liitä</paste_desc>
+        <path>Polku</path>
+        <pre>Esimuotoiltu (pre)</pre>
+        <redo_desc>Tee uudelleen (Ctrl+Y)</redo_desc>
+        <removeformat_desc>Poista muotoilu</removeformat_desc>
+        <samp>Koodiesimerkki</samp>
+        <strikethrough_desc see="#striketrough_desc" />
+        <striketrough_desc>Yliviivattu</striketrough_desc>
+        <style_select>Tyylit</style_select>
+        <styleselect_desc see="#style_select" />
+        <sub_desc>Alaindeksi</sub_desc>
+        <sup_desc>Yläindeksi</sup_desc>
+        <toolbar_focus>Siirry työkaluihin - Alt+Q, Siirry tekstieditoriin - Alt-Z, Siirry elementin polkuun - Alt-X</toolbar_focus>
+        <underline_desc>Alleviivattu (Ctrl+U)</underline_desc>
+        <undo_desc>Peru (Ctrl+Z)</undo_desc>
+        <unlink_desc>Poista linkki</unlink_desc>
+        <visualaid_desc>Suuntaviivat/Näkymättömät elementit</visualaid_desc>
+      </advanced>
+      <advanced_dlg>
+        <about_author>Kirjoittaja</about_author>
+        <about_general>Tietoja</about_general>
+        <about_help>Ohje</about_help>
+        <about_license>Lisenssi</about_license>
+        <about_loaded>Ladatut lisäosat</about_loaded>
+        <about_plugin>Lisäosa</about_plugin>
+        <about_plugins>Lisäosat</about_plugins>
+        <about_title>Tietoja TinyMCE:stä</about_title>
+        <about_version>Versio</about_version>
+        <anchor_name>Ankkurin nimi</anchor_name>
+        <anchor_title>Liitä/muokkaa ankkuria</anchor_title>
+        <charmap_title>Valitse erikoismerkki</charmap_title>
+        <code_title>HTML-koodin muokkaus</code_title>
+        <code_wordwrap>Automaattinen rivinvaihto</code_wordwrap>
+        <colorpicker_color>Väri:</colorpicker_color>
+        <colorpicker_name>Nimi:</colorpicker_name>
+        <colorpicker_named_tab>Nimetty</colorpicker_named_tab>
+        <colorpicker_named_title>Nimetyt värit</colorpicker_named_title>
+        <colorpicker_palette_tab>Paletti</colorpicker_palette_tab>
+        <colorpicker_palette_title>Väripaletti</colorpicker_palette_title>
+        <colorpicker_picker_tab>Valitsin</colorpicker_picker_tab>
+        <colorpicker_picker_title>Värin valitsin</colorpicker_picker_title>
+        <colorpicker_title>Valitse väri</colorpicker_title>
+        <image_align>Tasaus</image_align>
+        <image_align_baseline>Tekstin tasossa</image_align_baseline>
+        <image_align_bottom>Alas</image_align_bottom>
+        <image_align_left>Vasemmalle</image_align_left>
+        <image_align_middle>Keskelle</image_align_middle>
+        <image_align_right>Oikealle</image_align_right>
+        <image_align_textbottom>Tekstin alaosaan</image_align_textbottom>
+        <image_align_texttop>Tekstin yläosaan</image_align_texttop>
+        <image_align_top>Ylös</image_align_top>
+        <image_alt>Kuvan kuvaus</image_alt>
+        <image_border>Reunus</image_border>
+        <image_dimensions>Mitat</image_dimensions>
+        <image_hspace>Vaakasuuntainen tila</image_hspace>
+        <image_list>Kuvalista</image_list>
+        <image_src>Kuvan osoite</image_src>
+        <image_title>Lisää/muokkaa kuvaa</image_title>
+        <image_vspace>Pystysuuntainen tila</image_vspace>
+        <link_is_email>Antamasi osoite näyttää olevan sähköpostiosoite. Haluatko lisätä siihen mailto:-etuliitteen?</link_is_email>
+        <link_is_external>Antamasi osoite näyttää johtavan ulkopuoliselle sivustolle. Haluatko lisätä linkin eteen http://-etuliitteen? (suositus)</link_is_external>
+        <link_list>Linkkilista</link_list>
+        <link_target>Kohde</link_target>
+        <link_target_blank>Avaa linkki uuteen ikkunaan</link_target_blank>
+        <link_target_same>Avaa linkki samassa ikkunassa</link_target_same>
+        <link_title>Lisää/muuta linkki</link_title>
+        <link_titlefield>Otsikko</link_titlefield>
+        <link_url>Linkin osoite</link_url>
+      </advanced_dlg>
+      <advhr>
+        <advhr_desc>Vaakatasoviivain</advhr_desc>
+        <delta_height />
+        <delta_width />
+      </advhr>
+      <advhr_dlg>
+        <noshade>Ei varjoa</noshade>
+        <size>Korkeus</size>
+        <width>Leveys</width>
+      </advhr_dlg>
+      <advimage>
+        <delta_height />
+        <delta_width />
+        <image_desc>Lisää/muokkaa kuvaa</image_desc>
+      </advimage>
+      <advimage_dlg>
+        <align>Tasaus</align>
+        <align_baseline>Rivillä</align_baseline>
+        <align_bottom>Alhaalla</align_bottom>
+        <align_left>Vasemmalla</align_left>
+        <align_middle>Keskellä</align_middle>
+        <align_right>Oikealla</align_right>
+        <align_textbottom>Teksti alhaalla</align_textbottom>
+        <align_texttop>Teksti ylhäällä</align_texttop>
+        <align_top>Ylhäällä</align_top>
+        <alt>Kuvan kuvaus</alt>
+        <alt_image>Vaihtoehtoinen kuva</alt_image>
+        <border>Kehys</border>
+        <classes>Luokat</classes>
+        <constrain_proportions>Säilytä mittasuhteet</constrain_proportions>
+        <dialog_title>Lisää/muokkaa kuvaa</dialog_title>
+        <dimensions>Mitat</dimensions>
+        <example_img>Ulkoasun esikatselukuva</example_img>
+        <general>Yleiset</general>
+        <hspace>vaakasuora tila</hspace>
+        <id>Id</id>
+        <image_list>Kuvalista</image_list>
+        <langcode>Kielen koodi</langcode>
+        <langdir>Kielen suunta</langdir>
+        <list>Kuvalista</list>
+        <long_desc>Pitkän kuvauksen linkki</long_desc>
+        <ltr>Vasemmalta oikealle</ltr>
+        <map>Kuvakartta</map>
+        <misc>Sekalaiset</misc>
+        <missing_alt>Haluatko varmasti jatkaa lisäämättä kuvausta? Kuvauksen puuttuminen saattaa häiritä sellaisia, jotka käyttävät tekstipohjaista selainta tai ovat kytkeneet kuvien näkymisen pois päältä.</missing_alt>
+        <mouseout>mouseoutille</mouseout>
+        <mouseover>mouseoverille</mouseover>
+        <preview>Esikatselu</preview>
+        <rtl>Oikealta vasemmalle</rtl>
+        <src>Kuvan URL</src>
+        <style>Tyyli</style>
+        <swap_image>Vaihda kuva</swap_image>
+        <tab_advanced>Edistynyt</tab_advanced>
+        <tab_appearance>Näkyminen</tab_appearance>
+        <tab_general>Yleiset</tab_general>
+        <title>Otsikko</title>
+        <vspace>pystysuora tila</vspace>
+      </advimage_dlg>
+      <advlink>
+        <delta_height />
+        <delta_width />
+        <link_desc>Lisää/muokkaa linkkiä</link_desc>
+      </advlink>
+      <advlink_dlg>
+        <accesskey>Pikanäppäin</accesskey>
+        <advanced_props>Edistyneet asetukset</advanced_props>
+        <advanced_tab>Edistynyt</advanced_tab>
+        <anchor_names>Ankkurit</anchor_names>
+        <classes>Luokat</classes>
+        <encoding>Kohteen merkistökoodaus</encoding>
+        <event_props>Tapahtumat (events)</event_props>
+        <events_tab>Tapahtumat</events_tab>
+        <general_props>Yleiset asetukset</general_props>
+        <general_tab>Yleiset</general_tab>
+        <id>Id</id>
+        <is_email>Syöttämäsi URL näyttää olevan sähköpostiosoite, haluatko lisätä mailto:-etuliitteen?</is_email>
+        <is_external>Syöttämäsi URL näyttää olevan sivuston ulkoinen osoite, haluatko lisätä http://-etuliitteen?</is_external>
+        <langcode>Kielen koodi</langcode>
+        <langdir>Kielen suunta</langdir>
+        <link_list>Linkkilista</link_list>
+        <list>Linkkilista</list>
+        <ltr>Vasemmalta oikealle</ltr>
+        <mime>Kohteen MIME-tyyppi</mime>
+        <popup>Javascript ponnahdusikkuna</popup>
+        <popup_dependent>Riippuvainen (vain Mozilla/Firefox)</popup_dependent>
+        <popup_location>Näytä sijaintipalkki</popup_location>
+        <popup_menubar>Näytä valikkopalkki</popup_menubar>
+        <popup_name>Ikkunan nimi</popup_name>
+        <popup_opts>Valinta</popup_opts>
+        <popup_position>Sijainti (X/Y)</popup_position>
+        <popup_props>Ponnahdusikkunan asetukset</popup_props>
+        <popup_resizable>Tee ikkunan koko muokattavaksi</popup_resizable>
+        <popup_return>Lisää 'return false'</popup_return>
+        <popup_scrollbars>Näytä vierityspalkit</popup_scrollbars>
+        <popup_size>Koko</popup_size>
+        <popup_statusbar>Näytä tilapalkki</popup_statusbar>
+        <popup_tab>Ponnahdusikkuna</popup_tab>
+        <popup_toolbar>Näytä työkalut</popup_toolbar>
+        <popup_url>Ponnahdusikkunan URL</popup_url>
+        <rel>Sivun suhde kohteeseen</rel>
+        <rev>Kohteen suhde sivuun</rev>
+        <rtl>Oikealta vasemmalle</rtl>
+        <style>Tyyli</style>
+        <tabindex>Tabulaattori-indeksi</tabindex>
+        <target>Kohde (target)</target>
+        <target_blank>Avaa uudessa ikkunassa</target_blank>
+        <target_langcode>Kohteen kieli</target_langcode>
+        <target_name>Kohteen nimi</target_name>
+        <target_parent>Avaa ylemmässä ikkunassa</target_parent>
+        <target_same>Avaa tässä ikkunassa</target_same>
+        <target_top>Avaa ylimmässä ruudussa (korvaa kaikki ruudut)</target_top>
+        <title>Lisää/muokkaa linkkiä</title>
+        <titlefield>Otsikko</titlefield>
+        <url>Linkin URL</url>
+      </advlink_dlg>
+      <autosave>
+        <unload_msg>Tekemäsi muutokset menetetään jos poistut tältä sivulta.</unload_msg>
+      </autosave>
+      <common>
+        <apply>Käytä</apply>
+        <browse>Selaa</browse>
+        <cancel>Peruuta</cancel>
+        <class_name>Luokka</class_name>
+        <clipboard_msg>Kopioi/Leikkaa/Liitä ei ole käytettävissä Mozilla ja Firefox -selaimilla.\nHaluatko lisätietoa tästä ongelmasta?</clipboard_msg>
+        <clipboard_no_support>Selaimesi ei ole tuettu, käytä sen sijaan näppäinoikoteitä.</clipboard_no_support>
+        <close>Sulje</close>
+        <edit_confirm>Haluatko käyttää WYSIWYG-tilaa tässä tekstikentässä?</edit_confirm>
+        <insert>Lisää</insert>
+        <invalid_data>Virhe: Syötit virheellisiä arvoja, ne näkyvät punaisina.</invalid_data>
+        <more_colors>Enemmän värejä</more_colors>
+        <not_set>-- Ei määritetty --</not_set>
+        <popup_blocked>Sinulla on käytössäsi ohjelma, joka estää ponnahdusikkunoiden näytön. Sinun täytyy kytkeä ponnahdusikkunoiden esto pois päältä voidaksesi hyödyntää täysin tätä työkalua.</popup_blocked>
+        <update>Päivitä</update>
+      </common>
+      <contextmenu>
+        <align>Tasaus</align>
+        <center>Keskelle</center>
+        <full>Molemmille puolille</full>
+        <left>Vasemmalle</left>
+        <right>Oikealle</right>
+      </contextmenu>
+      <directionality>
+        <ltr_desc>Suunta vasemmalta oikealle</ltr_desc>
+        <rtl_desc>Suunta oikealta vasemmalle</rtl_desc>
+      </directionality>
+      <emotions>
+        <delta_height />
+        <delta_width />
+        <emotions_desc>Hymiöt</emotions_desc>
+      </emotions>
+      <emotions_dlg>
+        <cool>Cool</cool>
+        <cry>Itku</cry>
+        <desc>Hymiöt</desc>
+        <embarassed>Nolostunut</embarassed>
+        <emotions_dlg_desc see="#desc" />
+        <foot_in_mouth>Jalka suussa</foot_in_mouth>
+        <frown>Otsan rypistys</frown>
+        <innocent>Viaton</innocent>
+        <kiss>Pusu</kiss>
+        <laughing>Nauru</laughing>
+        <money_mouth>Klink Klink (raha)</money_mouth>
+        <sealed>Tukittu</sealed>
+        <smile>Hymy</smile>
+        <surprised>Yllättynyt</surprised>
+        <title>Lisää hymiö</title>
+        <tongue_out>Kieli ulkona</tongue_out>
+        <undecided>Päättämätön</undecided>
+        <wink>Silmänisku</wink>
+        <yell>Huuto</yell>
+      </emotions_dlg>
+      <fullpage>
+        <delta_height />
+        <delta_width />
+        <desc>Tiedoston asetukset</desc>
+        <fullpage_desc see="#desc" />
+      </fullpage>
+      <fullpage_dlg>
+        <active_color>Aktiivinen väri</active_color>
+        <add>Lisää uusi elementti</add>
+        <add_base>Base-elementti</add_base>
+        <add_comment>Yleinen elementti</add_comment>
+        <add_link>Linkkielementti</add_link>
+        <add_meta>Meta-elementti</add_meta>
+        <add_script>Script-elementti</add_script>
+        <add_style>Tyylielementti</add_style>
+        <add_title>Otsikkoelementti</add_title>
+        <advanced_props>Edistynyt</advanced_props>
+        <advanced_tab>Edistynyt</advanced_tab>
+        <appearance_bgprops>Taustan asetukset</appearance_bgprops>
+        <appearance_linkprops>Linkkien värit</appearance_linkprops>
+        <appearance_marginprops>Body marginaalit</appearance_marginprops>
+        <appearance_style>Tyylitiedosto ja tyylin asetukset</appearance_style>
+        <appearance_tab>Ulkoasu</appearance_tab>
+        <appearance_textprops>Tekstin asetukset</appearance_textprops>
+        <author>Kirjoittaja</author>
+        <base_element>Base-elementti</base_element>
+        <bgcolor>Taustan väri</bgcolor>
+        <bgimage>Taustakuva</bgimage>
+        <bottom_margin>Alamarginaali</bottom_margin>
+        <charset>Kirjasintyyppi</charset>
+        <comment_element>Kommentti</comment_element>
+        <content>Sisältö</content>
+        <copyright>Copyright</copyright>
+        <defer>Mukautuminen</defer>
+        <doctypes>Dokumenttityypit</doctypes>
+        <encoding>Tekstin koodaus</encoding>
+        <font_face>Fontti</font_face>
+        <font_size>Fonttikoko</font_size>
+        <fontface>Fontti</fontface>
+        <fontsize>Fonttikoko</fontsize>
+        <general_props>Yleinen</general_props>
+        <head_elements>Pääelementti</head_elements>
+        <hover_color>Hover väri</hover_color>
+        <href>Href</href>
+        <hreflang>Href kieli</hreflang>
+        <info>Informaatio</info>
+        <langcode>Kielen koodi</langcode>
+        <langdir>Kielen suunta</langdir>
+        <langprops>Kieli ja koodaus</langprops>
+        <language>Kieli</language>
+        <left_margin>Vasen marginaali</left_margin>
+        <link_color>Linkin väri</link_color>
+        <link_element>Linkkielementti</link_element>
+        <ltr>Vasemmalta oikealle</ltr>
+        <media>Media</media>
+        <meta_description>Kuvaus</meta_description>
+        <meta_element>Meta-elementti</meta_element>
+        <meta_index_follow>Indeksoi ja seuraa linkkejä</meta_index_follow>
+        <meta_index_nofollow>Indeksoi, mutta älä seuraa linkkejä</meta_index_nofollow>
+        <meta_keywords>Avainsanat</meta_keywords>
+        <meta_noindex_follow>Älä indeksoi, mutta seuraa linkkejä.</meta_noindex_follow>
+        <meta_noindex_nofollow>Älä indeksoi, äläkä seuraa linkkejä</meta_noindex_nofollow>
+        <meta_props>Meta tiedot</meta_props>
+        <meta_robots>Robotit</meta_robots>
+        <meta_tab>Yleinen</meta_tab>
+        <meta_title>Otsikko</meta_title>
+        <movedown>Siirrä valittua elementtiä alas</movedown>
+        <moveup>Siirrä valittua elementtiä ylös</moveup>
+        <name>Nimi</name>
+        <properties>Asetukset</properties>
+        <rel>Rel</rel>
+        <remove>Poista valittu elementti</remove>
+        <rev>Rev</rev>
+        <right_margin>Oikea marginaali</right_margin>
+        <rtl>Oikealta vasemmalle</rtl>
+        <script_element>Script-elementti</script_element>
+        <src>Lähde</src>
+        <style>Tyyli</style>
+        <style_element>Tyylielementti</style_element>
+        <stylesheet>Tyylitiedosto</stylesheet>
+        <target>Kohde</target>
+        <text_color>Tekstin väri</text_color>
+        <textcolor>Väri</textcolor>
+        <title>Tiedoston asetukset</title>
+        <title_element>Otsikkoelementti</title_element>
+        <top_margin>Ylämarginaali</top_margin>
+        <type>Tyyppi</type>
+        <value>Arvo</value>
+        <visited_color>Vierailtu väri</visited_color>
+        <xml_pi>XML Ilmoitus</xml_pi>
+      </fullpage_dlg>
+      <fullscreen>
+        <desc>Kokoruututila</desc>
+        <fullscreen_desc see="#desc" />
+      </fullscreen>
+      <iespell>
+        <download>ieSpell-ohjelmaa ei havaittu. Haluatko asentaa sen nyt?</download>
+        <iespell_desc>Oikeinkirjoituksen tarkistus</iespell_desc>
+      </iespell>
+      <insertdatetime>
+        <date_fmt>%d.%m.%Y</date_fmt>
+        <day_long>sunnuntai,maanantai,tiistai,keskiviikko,torstai,perjantai,lauantai,sunnuntai</day_long>
+        <day_short>su,ma,ti,ke,to,pe,la,su</day_short>
+        <insertdate_desc>Lisää päivämäärä</insertdate_desc>
+        <inserttime_desc>Lisää kellonaika</inserttime_desc>
+        <months_long>Tammikuu,Helmikuu,Maaliskuu,Huhtikuu,Toukokuu,Kesäkuu,Heinäkuu,Elokuu,Syyskuu,Lokakuu,Marraskuu,Joulukuu</months_long>
+        <months_short>Tammi,Helmi,Maalis,Huhti,Touko,Kesä,Heinä,Elo,Syys,Loka,Marras,Joulu</months_short>
+        <time_fmt>%H:%M:%S</time_fmt>
+      </insertdatetime>
+      <layer>
+        <absolute_desc>Absoluuttinen sijainti</absolute_desc>
+        <backward_desc>Siirrä taaksepäin</backward_desc>
+        <content>Uusi taso...</content>
+        <forward_desc>Siirrä eteenpäin</forward_desc>
+        <insertlayer_desc>Lisää uusi taso</insertlayer_desc>
+        <movebackward_desc see="#backward_desc" />
+        <moveforward_desc see="#forward_desc" />
+      </layer>
+      <media>
+        <delta_height />
+        <delta_width />
+        <desc>Lisää/muokkaa upotettua mediaa</desc>
+        <edit>Muokkaa upotettua mediaa</edit>
+        <media_desc see="#desc" />
+      </media>
+      <media_dlg>
+        <advanced>Edistyneet</advanced>
+        <align>Tasaus</align>
+        <align_bottom>Alhaalla</align_bottom>
+        <align_bottom_left>Ala-vasemmalla</align_bottom_left>
+        <align_bottom_right>Ala-oikealla</align_bottom_right>
+        <align_center>Keskellä</align_center>
+        <align_left>Vasemmalla</align_left>
+        <align_right>Oikealla</align_right>
+        <align_top>Ylhäällä</align_top>
+        <align_top_left>Ylä-vasemmalla</align_top_left>
+        <align_top_right>Ylä-oikealla</align_top_right>
+        <autogotourl>Mene automaattisesti URL:iin</autogotourl>
+        <autohref>AutoHREF</autohref>
+        <autostart>Automaattinen aloitus</autostart>
+        <balance>Tasapaino</balance>
+        <base>Perusta</base>
+        <baseurl>Perus URL-osoitteet</baseurl>
+        <bgcolor>Tausta</bgcolor>
+        <cache>Välimuisti</cache>
+        <captioningid>Otsikointi-id</captioningid>
+        <center>Keskitä</center>
+        <class_name>Luokka</class_name>
+        <console>Konsolie</console>
+        <constrain_proportions>Säilytä mittasuhteet</constrain_proportions>
+        <controller>Ohjain</controller>
+        <controls>Kontrollit</controls>
+        <correction>Ei korjausta</correction>
+        <currentmarker>Tämänhetkinen merkki</currentmarker>
+        <currentposition>Tämänhetkinen sijainti</currentposition>
+        <defaultframe>Oletusruutu</defaultframe>
+        <enabled>Päällä</enabled>
+        <enablejavascript>Salli JavaScript</enablejavascript>
+        <endtime>Lopetusaika</endtime>
+        <file>Tiedosto/URL</file>
+        <flash_options>Flashin asetukset</flash_options>
+        <flashvars>Flash-muuttujat</flashvars>
+        <flv_autostart>Automaattinen aloitus</flv_autostart>
+        <flv_buffer>Puskuri</flv_buffer>
+        <flv_defaultvolume>Oletusäänenpaine</flv_defaultvolume>
+        <flv_hiddengui>Piilotettu käyttöliittymä</flv_hiddengui>
+        <flv_jscallback>JS takaisinkutsu</flv_jscallback>
+        <flv_loop>Silmukka</flv_loop>
+        <flv_options>Flash videon asetukset</flv_options>
+        <flv_scalemode>Skaalausmoodi</flv_scalemode>
+        <flv_showscalemodes>Näytä skaalausmoodit</flv_showscalemodes>
+        <flv_smoothvideo>Smoothi video</flv_smoothvideo>
+        <flv_startimage>Aloituskuva</flv_startimage>
+        <flv_starttime>Aloitusaika</flv_starttime>
+        <fullscreen>Kokoruutu</fullscreen>
+        <general>Yleiset</general>
+        <hidden>Piilotettu</hidden>
+        <href>Href</href>
+        <hspace>Vaakatason tila</hspace>
+        <id>Id</id>
+        <imagestatus>Kuvan tila</imagestatus>
+        <invokeurls>Kutsu URL-osoitteet</invokeurls>
+        <kioskmode>Kioskitila</kioskmode>
+        <list>Lista</list>
+        <liveconnect>SWLiveConnect</liveconnect>
+        <loop>Silmukka</loop>
+        <maintainaspect>Säilytä kuvasuhde</maintainaspect>
+        <menu>Näytä valikko</menu>
+        <mute>Hiljennys</mute>
+        <name>Nimi</name>
+        <nojava>Ei Javaa</nojava>
+        <numloop>Toistojen määrä</numloop>
+        <play>Automaattinen toisto</play>
+        <playcount>Toistolaskin</playcount>
+        <playeveryframe>Toista jokainen ruutu</playeveryframe>
+        <prefetch>Esinouda</prefetch>
+        <preview>Esikatselu</preview>
+        <progress>Eteneminen</progress>
+        <qt_options>Quicktimen asetukset</qt_options>
+        <qt_stream_warn>Streamatut rtsp-resurssit tulisi lisätä QT Src -kenttään edistynyt-välilehdelle.\nSinun kannattaa lisätä myös ei-streamattu versio Src-kenttään.</qt_stream_warn>
+        <qtsrc>QT Src</qtsrc>
+        <qtsrcchokespeed>Choke-nopeus</qtsrcchokespeed>
+        <quality>Laatu</quality>
+        <rate>Rate</rate>
+        <rmp_options>Real media playerin asetukset</rmp_options>
+        <salign>SAlign</salign>
+        <scale>Skaala</scale>
+        <scriptcallbacks>Skriptin takaisinkutsut</scriptcallbacks>
+        <shockwave_options>Shockwaven asetukset</shockwave_options>
+        <shuffle>Sekoita</shuffle>
+        <size>Mitat</size>
+        <sound>Ääni</sound>
+        <starttime>Aloitusaika</starttime>
+        <stretchtofit>Venytä sopimaan</stretchtofit>
+        <swstretchhalign>Venytä horisontaalisesti</swstretchhalign>
+        <swstretchstyle>Venytystyyli</swstretchstyle>
+        <swstretchvalign>Venytä vertikaalisesti</swstretchvalign>
+        <target>Kohde</target>
+        <targetcache>Kohteen välimuisti</targetcache>
+        <title>Lisää/muokkaa upotettua mediaa</title>
+        <type>Tyyppi</type>
+        <uimode>UI-moodi</uimode>
+        <windowlessvideo>Ikkunaton video</windowlessvideo>
+        <wmode>WMode</wmode>
+        <wmp_options>Windows media playerin asetukset</wmp_options>
+        <volume>Äänen voimakkuus</volume>
+        <vspace>Pystytason tila</vspace>
+      </media_dlg>
+      <nonbreaking>
+        <nonbreaking_desc>Lisää tyhjä merkki (nbsp)</nonbreaking_desc>
+      </nonbreaking>
+      <pagebreak>
+        <desc>Lisää sivunvaihto.</desc>
+        <pagebreak_desc see="#desc" />
+      </pagebreak>
+      <paste>
+        <paste_text_desc>Liitä pelkkänä tekstinä</paste_text_desc>
+        <paste_word_desc>Liitä Wordistä</paste_word_desc>
+        <pastetext_desc see="#paste_text_desc" />
+        <pasteword_desc see="#paste_word_desc" />
+        <selectall_desc>Valitse kaikki</selectall_desc>
+      </paste>
+      <paste_dlg>
+        <text_linebreaks>Säilytä rivinvaihdot</text_linebreaks>
+        <text_title>Paina CTRL+V liittääksesi sisällön ikkunaan.</text_title>
+        <word_title>Paina CTRL+V liittääksesi sisällön ikkunaan.</word_title>
+      </paste_dlg>
+      <preview>
+        <preview_desc>Esikatselu</preview_desc>
+      </preview>
+      <print>
+        <print_desc>Tulosta</print_desc>
+      </print>
+      <save>
+        <cancel_desc>Peruuta kaikki muutokset</cancel_desc>
+        <save_desc>Tallenna</save_desc>
+      </save>
+      <searchreplace>
+        <delta_height />
+        <delta_width />
+        <replace_desc>Etsi ja korvaa</replace_desc>
+        <search_desc>Etsi</search_desc>
+      </searchreplace>
+      <searchreplace_dlg>
+        <allreplaced>Kaikki löydetyt merkkijonot korvattiin.</allreplaced>
+        <direction>Suunta</direction>
+        <down>Alas</down>
+        <findnext>Etsi seuraavaa</findnext>
+        <findwhat>Etsitään</findwhat>
+        <mcase>Huomioi isot ja pienet kirjaimet</mcase>
+        <notfound>Haku on valmis. Haettua tekstiä ei löytynyt.</notfound>
+        <replace>Korvaa</replace>
+        <replace_title>Etsi ja korvaa</replace_title>
+        <replaceall>Korvaa kaikki</replaceall>
+        <replacewith>Korvataan</replacewith>
+        <search_title>Haku</search_title>
+        <searchnext_desc>Etsi uudestaan</searchnext_desc>
+        <up>Ylös</up>
+      </searchreplace_dlg>
+      <simple>
+        <bold_desc>Lihavointi (Ctrl+B)</bold_desc>
+        <bullist_desc>Järjestämätön lista</bullist_desc>
+        <cleanup_desc>Siisti sekainen koodi</cleanup_desc>
+        <italic_desc>Kursivointi (Ctrl+I)</italic_desc>
+        <numlist_desc>Järjestetty lista</numlist_desc>
+        <redo_desc>Tee uudestaan (Ctrl+Y)</redo_desc>
+        <striketrough_desc>Yliviivaus</striketrough_desc>
+        <underline_desc>Alleviivaus (Ctrl+U)</underline_desc>
+        <undo_desc>Peru (Ctrl+Z)</undo_desc>
+      </simple>
+      <spellchecker>
+        <desc>Oikeinkirjoituksen tarkistus</desc>
+        <ignore_word>Ohita sana</ignore_word>
+        <ignore_words>Ohita kaikki</ignore_words>
+        <langs>Kielet</langs>
+        <menu>Oikeinkirjoituksen asetukset</menu>
+        <no_mpell>Virheitä ei löytynyt.</no_mpell>
+        <no_sug>Ei ehdotuksia</no_sug>
+        <spellchecker_desc see="#desc" />
+        <sug>Ehdotukset</sug>
+        <wait>Odota ole hyvä...</wait>
+      </spellchecker>
+      <style>
+        <delta_height />
+        <delta_width />
+        <desc>Muokkaa CSS-tyylejä</desc>
+        <style_desc see="#desc" />
+        <styleprops_desc see="#desc" />
+      </style>
+      <style_dlg>
+        <apply>Käytä</apply>
+        <background_attachment>Liite</background_attachment>
+        <background_color>Taustaväri</background_color>
+        <background_hpos>Vaaka-asettelu</background_hpos>
+        <background_image>Taustakuva</background_image>
+        <background_repeat>Toistuvuus</background_repeat>
+        <background_tab>Tausta</background_tab>
+        <background_vpos>Pystyasettelu</background_vpos>
+        <block_display>Näyttö</block_display>
+        <block_letterspacing>Kirjainten välistys</block_letterspacing>
+        <block_tab>Palkki</block_tab>
+        <block_text_align>Tekstin asettelu</block_text_align>
+        <block_text_indent>Tekstin sisennys</block_text_indent>
+        <block_vertical_alignment>Pystyasettelu</block_vertical_alignment>
+        <block_whitespace>Tyhjä tila</block_whitespace>
+        <block_wordspacing>Sanojen välistys</block_wordspacing>
+        <border_tab>Kehys</border_tab>
+        <bottom>Alhaalla</bottom>
+        <box_clear>Nollaus</box_clear>
+        <box_float>Kellunta</box_float>
+        <box_height>Korkeus</box_height>
+        <box_tab>Laatikko</box_tab>
+        <box_width>Leveys</box_width>
+        <bullet_image>Listauskuva</bullet_image>
+        <clip>Leike</clip>
+        <color>Väri</color>
+        <height>Korkeus</height>
+        <left>Vasemmalla</left>
+        <list_tab>Lista</list_tab>
+        <list_type>Tyyppi</list_type>
+        <margin>Marginaali</margin>
+        <overflow>Ylivuoto</overflow>
+        <padding>Tyhjä tila</padding>
+        <placement>Sijoittelu</placement>
+        <position>Sijainti</position>
+        <positioning_tab>Sijainti</positioning_tab>
+        <positioning_type>Tyyppi</positioning_type>
+        <right>Oikealla</right>
+        <same>Sama kaikille</same>
+        <style>Tyyli</style>
+        <text_blink>Välähdys</text_blink>
+        <text_case>Isot/pienet kirjaimet</text_case>
+        <text_color>Väri</text_color>
+        <text_decoration>Koristelu</text_decoration>
+        <text_font>Kirjasin</text_font>
+        <text_lineheight>Rivin korkeus</text_lineheight>
+        <text_none>ei mitään</text_none>
+        <text_overline>Ylleviivattu</text_overline>
+        <text_props>Teksti</text_props>
+        <text_size>Koko</text_size>
+        <text_striketrough>Yliviivattu</text_striketrough>
+        <text_style>Tyyli</text_style>
+        <text_tab>Teksti</text_tab>
+        <text_underline>Alleviivattu (Ctrl+U)</text_underline>
+        <text_variant>Variantti</text_variant>
+        <text_weight>Paino</text_weight>
+        <title>Muokkaa CSS-tyyliä</title>
+        <top>Ylhäällä</top>
+        <width>Leveys</width>
+        <visibility>Näkyvyys</visibility>
+        <zindex>Z-indeksi</zindex>
+      </style_dlg>
+      <table>
+        <cell>Solu</cell>
+        <cell_desc>Taulukon solun asetukset</cell_desc>
+        <cell_props_desc see="#cell_desc" />
+        <cellprops_delta_height />
+        <cellprops_delta_width>80</cellprops_delta_width>
+        <col>Sarake</col>
+        <col_after_desc>Lisää sarake jälkeen</col_after_desc>
+        <col_before_desc>Lisää sarake ennen</col_before_desc>
+        <copy_row_desc>Kopioi taulukon rivi</copy_row_desc>
+        <cut_row_desc>Leikkaa taulukon rivi</cut_row_desc>
+        <del>Poista taulukko</del>
+        <delete_col_desc>Poista sarake</delete_col_desc>
+        <delete_row_desc>Poista rivi</delete_row_desc>
+        <delete_table_desc see="#del" />
+        <desc>Lisää uusi taulukko</desc>
+        <merge_cells_delta_height />
+        <merge_cells_delta_width />
+        <merge_cells_desc>Yhdistä taulukon solut</merge_cells_desc>
+        <paste_row_after_desc>Liitä taulukon rivi jälkeen</paste_row_after_desc>
+        <paste_row_before_desc>Liitä taulukon rivi ennen</paste_row_before_desc>
+        <props_desc>Taulukon asetukset</props_desc>
+        <row>Rivi</row>
+        <row_after_desc>Lisää rivi jälkeen</row_after_desc>
+        <row_before_desc>Lisää rivi ennen</row_before_desc>
+        <row_desc>Taulukon rivin asetukset</row_desc>
+        <row_props_desc see="#row_desc" />
+        <rowprops_delta_height />
+        <rowprops_delta_width />
+        <split_cells_desc>Jaa yhdistetyt taulukon solut</split_cells_desc>
+        <table_delta_height />
+        <table_delta_width />
+        <table_desc see="#desc" />
+        <tablecontrols_desc see="#desc" />
+      </table>
+      <table_dlg>
+        <advanced_props>Edistyneet asetukset</advanced_props>
+        <advanced_tab>Edistynyt</advanced_tab>
+        <align>Tasaus</align>
+        <align_bottom>Alas</align_bottom>
+        <align_default>Oletus</align_default>
+        <align_left>Vasen</align_left>
+        <align_middle>Keskitetty</align_middle>
+        <align_right>Oikea</align_right>
+        <align_top>Ylös</align_top>
+        <bgcolor>Taustan väri</bgcolor>
+        <bgimage>Taustakuva</bgimage>
+        <border>Kehys</border>
+        <bordercolor>Kehyksen väri</bordercolor>
+        <caption>Taulukon seloste</caption>
+        <cell_all>Päivitä kaikki taulukon solut</cell_all>
+        <cell_cell>Päivitä solu</cell_cell>
+        <cell_limit>Olet ylittänyt suurimman sallitun määrän soluja {$cells}.</cell_limit>
+        <cell_row>Päivitä kaikki rivin solut</cell_row>
+        <cell_title>Taulukon solun asetukset</cell_title>
+        <cell_type>Solun tyyppi</cell_type>
+        <cellpadding>Solun tyhjä tila</cellpadding>
+        <cellspacing>Solun väli</cellspacing>
+        <col_limit>Olet ylittänyt suurimman sallitun määrän sarakkeita {$cols}.</col_limit>
+        <colgroup>Sarake ryhmä</colgroup>
+        <cols>Sarakkeet</cols>
+        <frame>kehys</frame>
+        <frame_all>kaikki</frame_all>
+        <frame_cols>sarakkeet</frame_cols>
+        <frame_groups>ryhmät</frame_groups>
+        <frame_none>ei mitään</frame_none>
+        <frame_rows>rivit</frame_rows>
+        <general_props>Yleiset asetukset</general_props>
+        <general_tab>Yleiset</general_tab>
+        <height>Korkeus</height>
+        <id>Id</id>
+        <langcode>Kielen koodi</langcode>
+        <langdir>Kielen suunta</langdir>
+        <ltr>Vasemmalta oikealle</ltr>
+        <merge_cells_title>Yhdistä taulukon solut</merge_cells_title>
+        <mime>Kohteen MIME-tyyppi</mime>
+        <missing_scope>Haluatko varmasti jatkaa määrittämättä tilaa tälle taulukon otsakesolulle? Ilman sitä joidenkin käyttäjien voi olla vaikea ymmärtää taulukon sisältämää informaatiota.</missing_scope>
+        <row_all>Päivitä kaikki taulukon rivit</row_all>
+        <row_even>Päivitä taulukon parilliset rivit</row_even>
+        <row_limit>Olet ylittänyt suurimman sallitun määrän rivejä {$rows}.</row_limit>
+        <row_odd>Päivitä taulukon parittomat rivit</row_odd>
+        <row_row>Päivitä rivi</row_row>
+        <row_title>Taulukon rivin asetukset</row_title>
+        <rowgroup>Rivi ryhmä</rowgroup>
+        <rows>Rivit</rows>
+        <rowtype>Rivi taulukon osassa</rowtype>
+        <rtl>Oikealta vasemmalle</rtl>
+        <rules>Säännöt</rules>
+        <rules_above>yläpuoli</rules_above>
+        <rules_below>alapuoli</rules_below>
+        <rules_border>kehys</rules_border>
+        <rules_box>laatikko</rules_box>
+        <rules_hsides>vaakasuorat reunat</rules_hsides>
+        <rules_lhs>lhs</rules_lhs>
+        <rules_rhs>rhs</rules_rhs>
+        <rules_void>tyhjä</rules_void>
+        <rules_vsides>pystysuorat reunat</rules_vsides>
+        <scope>Tila</scope>
+        <style>Tyyli</style>
+        <summary>Yhteenveto</summary>
+        <tbody>Taulukon runko</tbody>
+        <td>Tietue</td>
+        <tfoot>Taulukon alaosa</tfoot>
+        <th>Otsake</th>
+        <thead>Taulukon otsake</thead>
+        <title>Lisää/muokkaa taulukkoa</title>
+        <valign>Pystysuunnan tasaus</valign>
+        <width>Leveys</width>
+      </table_dlg>
+      <template>
+        <desc>Lisää esimääritettyä sivupohjasisältöä</desc>
+        <template_desc see="#desc" />
+      </template>
+      <template_dlg>
+        <cdate_format>%d.%m.%Y %H:%M:%S</cdate_format>
+        <day_long>sunnuntai,maanantai,tiistai,keskiviikko,torstai,perjantai,lauantai,sunnuntai</day_long>
+        <day_short>su,ma,ti,ke,to,pe,la,su</day_short>
+        <desc>Lisää esimääritettyä sivupohjasisältöä</desc>
+        <desc_label>Kuvaus</desc_label>
+        <label>Sivupohja</label>
+        <mdate_format>%d.%m.%Y %H:%M:%S</mdate_format>
+        <months_long>Tammikuu,Helmikuu,Maaliskuu,Huhtikuu,Toukokuu,Kesäkuu,Heinäkuu,Elokuu,Syyskuu,Lokakuu,Marraskuu,Joulukuu</months_long>
+        <months_short>Tammi,Helmi,Maalis,Huhti,Touko,Kesä,Heinä,Elo,Syys,Loka,Marras,Joulu</months_short>
+        <preview>Esikatselu</preview>
+        <select>Valitse sivupohja</select>
+        <template_dlg_desc see="#desc" />
+        <title>Sivupohjat</title>
+        <warning>Varoitus: Sivupohjan päivittäminen toisella saattaa aiheuttaa tiedon menetyksen.</warning>
+      </template_dlg>
+      <visualchars>
+        <desc>Näytä/piilota muotoilumerkit.</desc>
+        <visualchars_desc see="#desc" />
+      </visualchars>
+      <xhtmlxtras>
+        <abbr_delta_height />
+        <abbr_delta_width />
+        <abbr_desc>Lyhenne</abbr_desc>
+        <acronym_delta_height />
+        <acronym_delta_width />
+        <acronym_desc>Kirjainlyhenne</acronym_desc>
+        <attribs_delta_height />
+        <attribs_delta_width />
+        <attribs_desc>Lisää/muokkaa attribuutteja</attribs_desc>
+        <cite_delta_height />
+        <cite_delta_width />
+        <cite_desc>Sitaatti</cite_desc>
+        <del_delta_height />
+        <del_delta_width />
+        <del_desc>Poisto</del_desc>
+        <ins_delta_height />
+        <ins_delta_width />
+        <ins_desc>Lisäys</ins_desc>
+      </xhtmlxtras>
+      <xhtmlxtras_dlg>
+        <attrib_tab>Attribuutit</attrib_tab>
+        <attribs_title>Lisää/muokkaa attribuutteja</attribs_title>
+        <attribute_attrib_tab>Attribuutit</attribute_attrib_tab>
+        <attribute_events_tab>Tapahtumat</attribute_events_tab>
+        <attribute_label_accesskey>AccessKey</attribute_label_accesskey>
+        <attribute_label_cite>Sitaatti</attribute_label_cite>
+        <attribute_label_class>Luokka</attribute_label_class>
+        <attribute_label_datetime>Päivä/Aika</attribute_label_datetime>
+        <attribute_label_id>ID</attribute_label_id>
+        <attribute_label_langcode>Kieli</attribute_label_langcode>
+        <attribute_label_langdir>Tekstin suunta</attribute_label_langdir>
+        <attribute_label_style>Tyyli</attribute_label_style>
+        <attribute_label_tabindex>TabIndex</attribute_label_tabindex>
+        <attribute_label_title>Otsikko</attribute_label_title>
+        <attribute_option_ltr>Vasemmalta oikealle</attribute_option_ltr>
+        <attribute_option_rtl>Oikealta vasemmalle</attribute_option_rtl>
+        <events_tab>Tapahtumat</events_tab>
+        <fieldset_attrib_tab>Elementin attribuutit</fieldset_attrib_tab>
+        <fieldset_events_tab>Elementin tapahtumat</fieldset_events_tab>
+        <fieldset_general_tab>Yleiset asetukset</fieldset_general_tab>
+        <general_tab>Yleiset</general_tab>
+        <insert_date>Lisää tämänhetkinen päivä/aika</insert_date>
+        <option_ltr>Vasemmalta oikealle</option_ltr>
+        <option_rtl>Oikealta vasemmalle</option_rtl>
+        <remove>Poista</remove>
+        <title_abbr_element>Lyhenne elementit</title_abbr_element>
+        <title_acronym_element>Kirjainlyhenne elementit</title_acronym_element>
+        <title_cite_element>Sitaatti elementit</title_cite_element>
+        <title_del_element>Poisto elementit</title_del_element>
+        <title_ins_element>Lisäys elementit</title_ins_element>
+      </xhtmlxtras_dlg>
+    </tinymce>
+  </language>
+</languages>

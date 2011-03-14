@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="français" id="fr">
+    <reportcenter>
+      <report name="linkstatus">
+        <caption>État du lien</caption>
+        <description>Affiche les liens du site qui ne fonctionnent pas.</description>
+        <heading>État du lien</heading>
+        <info>
+          Ce rapport affiche les liens du site qui ne fonctionnent pas. Sélectionnez une page dans la liste des résultats du rapport pour l'ouvrir en mode édition.
+        </info>
+      </report>
+    </reportcenter>
+    <shell>
+      <cms>
+        <brokenlinks>
+          <controller>
+            <tooltip>Type de page : {0}, ID de page : {1}</tooltip>
+            <webExceptions>
+              <fallback>Erreur de connexion</fallback>
+              <status name="1">
+                <fallback>Échec de résolution de nom</fallback>
+              </status>
+              <status name="2">
+                <fallback>Échec de la connexion</fallback>
+              </status>
+              <status name="7">
+                <fallback>Erreur du serveur</fallback>
+                <httpStatus name="400">Demande incorrecte</httpStatus>
+                <httpStatus name="404">Introuvable</httpStatus>
+                <httpStatus name="503">Dépassement du délai de la passerelle</httpStatus>
+              </status>
+            </webExceptions>
+          </controller>
+          <index>
+            <info>Ce rapport contient des liens inaccessibles. Cela peut être dû au déplacement d'une page, à la fermeture d'un site ou à l'indisponibilité temporaire du lien cible.</info>
+            <itemsperpage>Éléments par page</itemsperpage>
+            <name>État du lien</name>
+            <recheck>Revérifier</recheck>
+            <showreport>Afficher le rapport</showreport>
+            <table>
+              <brokensince>Rompue depuis</brokensince>
+              <brokenurl>URL rompue</brokenurl>
+              <lastchecked>Dernière vérification</lastchecked>
+              <linkstatus>État du lien</linkstatus>
+              <pagename>Nom de la page</pagename>
+            </table>
+            <working>Traitement en cours...</working>
+          </index>
+        </brokenlinks>
+        <directoryselector>
+          <directorylisting>
+            <directorytype>Répertoire</directorytype>
+          </directorylisting>
+          <folderselector>
+            <emptyfolder>Ce dossier est vide.</emptyfolder>
+            <favoritesheading>Favoris</favoritesheading>
+            <startingpointsheading>Points début</startingpointsheading>
+            <wherelabel>Emplacement</wherelabel>
+          </folderselector>
+          <index>
+            <nameheading>Nom</nameheading>
+            <sizeheading>Taille</sizeheading>
+            <typeheading>Type</typeheading>
+          </index>
+        </directoryselector>
+        <externallinks>
+          <common>
+            <hits>Nombre de liens</hits>
+            <host>Adresse Web</host>
+          </common>
+          <details>
+            <link>Adresse Web</link>
+            <page>Page</page>
+          </details>
+          <errors>
+            <pagenumber>Le nombre de pages doit être une valeur positive</pagenumber>
+            <pagesize>La taille de la page doit être une valeur positive</pagesize>
+          </errors>
+          <gadgettitle>Liens externes</gadgettitle>
+          <pager>
+            <info>Éléments : {0} - {1} sur {2}</info>
+            <next>&gt;&gt;</next>
+            <prev>&lt;&lt;</prev>
+            <split>...</split>
+          </pager>
+          <settings>
+            <legend>Paramètres</legend>
+            <pagesize>Nombre d'éléments à afficher</pagesize>
+            <showdetails>Afficher les détails</showdetails>
+          </settings>
+        </externallinks>
+        <hosting>
+          <fileupload>
+            <conflictingdirectory>Un dossier portant le même nom que celui du nouveau fichier existe déjà.</conflictingdirectory>
+            <fileexists>Un fichier portant le même nom existe déjà et vous ne disposez pas des autorisations suffisantes pour le remplacer</fileexists>
+            <fileisnotimage>Le fichier sélectionné n'est pas une image.</fileisnotimage>
+            <fileoverwriteconfirmation>Un fichier portant le même nom existe déjà. Souhaitez-vous le remplacer ?</fileoverwriteconfirmation>
+            <invaliddirectory>Le répertoire de téléchargement sélectionné n'existe pas.</invaliddirectory>
+            <permissiondenied>Vous ne disposez pas des autorisations suffisantes pour télécharger des fichiers dans le dossier sélectionné</permissiondenied>
+            <targetfilecheckedout>Un fichier portant le même nom existe déjà et a été extrait par un autre utilisateur</targetfilecheckedout>
+          </fileupload>
+        </hosting>
+        <menu>
+          <admin>Mode admin</admin>
+          <cms>CMS</cms>
+          <cmssettings>EPiServer CMS</cmssettings>
+          <edit>Mode édition</edit>
+          <license>Contrat de licence</license>
+          <logout>Déconnexion</logout>
+          <mysettings>Mes paramètres </mysettings>
+          <reportcenter>Rapports</reportcenter>
+          <selectasite>Sélectionnez le site à afficher avec le mode affichage</selectasite>
+          <toviewmode>Vers le mode affichage [{0}]</toviewmode>
+        </menu>
+        <mytasks>
+          <assignedto>Assigner à</assignedto>
+          <createnewtask>Créer en mode édition</createnewtask>
+          <createnewtasktitle>Créer une tâche à partir du mode édition</createnewtasktitle>
+          <description>Description</description>
+          <duedate>Échéance </duedate>
+          <EmptySubjectWarning>L'objet de la tâche est vide</EmptySubjectWarning>
+          <errors>
+            <settingsusergroupnames>Indiquez les noms de groupes d'utilisateurs corrects.</settingsusergroupnames>
+          </errors>
+          <IncorrectTaskStatusWarning>Le statut spécifié est incorrect pour la tâche</IncorrectTaskStatusWarning>
+          <InvalidDueDate>L'échéance de la tâche est incorrecte</InvalidDueDate>
+          <legend>Ajouter une tâche</legend>
+          <mygroups>Mes groupes (séparés par une virgule)</mygroups>
+          <pagetasks>Tâches de la page</pagetasks>
+          <quickadd>Ajout rapide</quickadd>
+          <quickaddtitle>Créer une tâche à partir du tableau de bord</quickaddtitle>
+          <settingsheading>Paramètres</settingsheading>
+          <status>Statut</status>
+          <subject>Objet</subject>
+          <title>Mes tâches</title>
+          <tooltip>
+            <created>Créé</created>
+            <pageid>ID de page</pageid>
+            <pagepath>Chemin d'accès</pagepath>
+          </tooltip>
+          <UnknownUserWarning>L'utilisateur spécifié est introuvable</UnknownUserWarning>
+        </mytasks>
+        <notchangedpages>
+          <errors>
+            <monthswithoutchanges>Le nombre de mois doit correspondre à un entier supérieur à zéro.</monthswithoutchanges>
+            <numberofitems>Le nombre d'éléments doit correspondre à un entier supérieur à zéro.</numberofitems>
+          </errors>
+          <gadgettitle>Pages non modifiées</gadgettitle>
+          <indexview>
+            <changedby>Modifié par</changedby>
+            <modified>Modifié(e)</modified>
+            <name>Nom</name>
+            <status>Statut</status>
+          </indexview>
+          <settingsview>
+            <invertsorting>Tri décroissant</invertsorting>
+            <legend>Paramètres</legend>
+            <monthswithoutchanges>Nombre de mois</monthswithoutchanges>
+            <numberofitems>Nombre d'éléments à afficher</numberofitems>
+          </settingsview>
+        </notchangedpages>
+        <notesgadget>
+          <backgroundcolor>Couleur d'arrière-plan</backgroundcolor>
+          <backgroundcolors>
+            <blue>Bleu</blue>
+            <green>Vert</green>
+            <orange>Orange</orange>
+            <pink>Rose</pink>
+            <white>Blanc</white>
+            <yellow>Jaune</yellow>
+          </backgroundcolors>
+          <textsize>Taille du texte</textsize>
+          <textsizes>
+            <big>Grande</big>
+            <normal>Normale</normal>
+            <verybig>Très grande</verybig>
+          </textsizes>
+          <title>Remarques</title>
+        </notesgadget>
+        <pageinfo>
+          <modifiedby>Modifié(e) par</modifiedby>
+          <modifieddate>Modifié(e)</modifieddate>
+          <pagelink>ID</pagelink>
+          <pagetype>Type de page</pagetype>
+          <path>Chemin d'accès</path>
+        </pageinfo>
+        <quicklinks>
+          <addlink>Ajouter un lien</addlink>
+          <cmsedit>
+            <text>Modifier</text>
+            <tooltip>Ouvrir le mode édition de CMS</tooltip>
+          </cmsedit>
+          <cmslinkcategoryname>CMS</cmslinkcategoryname>
+          <contentguidecategoryname>Publication rapide</contentguidecategoryname>
+          <deletelink>Supprimer le lien</deletelink>
+          <episerverworldforum>
+            <text>Forum EPiServer World</text>
+            <tooltip>Le forum d'EPiServer World</tooltip>
+          </episerverworldforum>
+          <linktitle>Titre</linktitle>
+          <linkurl>Adresse Web</linkurl>
+          <managelinks>Gérer les liens</managelinks>
+          <mylinkscategoryname>Mes liens</mylinkscategoryname>
+          <nocategory>Aucune catégorie</nocategory>
+          <title>Liens rapides</title>
+        </quicklinks>
+        <recentlychangedpages>
+          <common>
+            <byall>Toutes les modifications</byall>
+            <byme>Mes modifications</byme>
+            <heading>Pages récemment modifiées</heading>
+          </common>
+          <configure>
+            <defaultview>Affichage par défaut</defaultview>
+            <heading>Paramètres</heading>
+            <numberofitems>Nombre d'éléments à afficher</numberofitems>
+          </configure>
+          <index>
+            <changedby>Modifié par</changedby>
+            <modified>Enregistré</modified>
+            <name>Nom</name>
+            <status>Statut</status>
+          </index>
+          <rss>
+            <description>Il s'agit des dernières pages modifiées sur le site {0}</description>
+          </rss>
+        </recentlychangedpages>
+        <rssgadget>
+          <errors>
+            <invalidfeed>Impossible de lire le flux en raison d'une erreur XML dans le contenu du flux retourné depuis "{0}".</invalidfeed>
+            <invaliditemstoshow>Le nombre d'éléments affichés doit correspondre à un entier positif.</invaliditemstoshow>
+            <invaliduri>Adresse Web incorrecte. Il doit s'agir d'une URL absolue commençant par http:// ou par https://. </invaliduri>
+            <notafeed>L'adresse Web [{0}] ne contient pas de flux RSS ou Atom valide.</notafeed>
+          </errors>
+          <loadingfeedmessage>Chargement du flux ...</loadingfeedmessage>
+          <settings>
+            <feedurl>URL du flux</feedurl>
+            <itemstoshow>Éléments à afficher</itemstoshow>
+            <loadfeedtitle>Extraire le titre du flux</loadfeedtitle>
+            <title>Titre</title>
+          </settings>
+          <title>Lecteur de flux RSS</title>
+        </rssgadget>
+        <search>
+          <files>
+            <category>Fichiers</category>
+          </files>
+          <pages>
+            <category>Pages</category>
+            <id>ID</id>
+            <linkurl>Link URL</linkurl>
+            <tooltip>
+              <changed>Modifié(e)</changed>
+              <created>Créé</created>
+              <id>ID</id>
+              <linkurl>URL du lien</linkurl>
+              <pagetype>Type de page</pagetype>
+            </tooltip>
+          </pages>
+        </search>
+        <uploadfile>
+          <controller>
+            <noresize>Ne pas redimensionner</noresize>
+          </controller>
+          <index>
+            <alttextlabel>Texte de remplacement</alttextlabel>
+            <imagelegend>Image</imagelegend>
+            <imagesizelabel>Redimensionner l'image</imagesizelabel>
+            <savetolegend>Enregistrer dans</savetolegend>
+            <selectlabel>Sélectionner un fichier</selectlabel>
+            <uploadbutton>Télécharger et insérer</uploadbutton>
+          </index>
+        </uploadfile>
+        <xformsviewer>
+          <autoupdatelevel>
+            <never>Jamais</never>
+            <normal>Normal (toutes les 10 minutes)</normal>
+            <often>Souvent (toutes les 60 secondes)</often>
+            <seldom>Rare (toutes les 60 minutes)</seldom>
+          </autoupdatelevel>
+          <AutoupdateLevel>Mise à jour automatique</AutoupdateLevel>
+          <chartperiodicity>
+            <day>Par jour</day>
+            <hour>Par heure</hour>
+            <minute>Par minute</minute>
+            <month>Par mois</month>
+            <week>Par semaine</week>
+          </chartperiodicity>
+          <ChartPeriodicityLabel>Périodicité du tableau</ChartPeriodicityLabel>
+          <ChartSettings>Paramètres du tableau</ChartSettings>
+          <DemoMode>Mode démo</DemoMode>
+          <error>
+            <fields>Champs non sélectionnés</fields>
+            <formfields>Sélectionner les champs du formulaire</formfields>
+            <numberofposts>Le nombre d'éléments doit être compris entre 1 et 50</numberofposts>
+            <xformid>Sélectionner un formulaire</xformid>
+          </error>
+          <GadgetTitle>Visualiseur de formulaires</GadgetTitle>
+          <NoFieldsAvailable>Aucun champ disponible</NoFieldsAvailable>
+          <NoFormsAvailable>Aucun formulaire disponible</NoFormsAvailable>
+          <NumberOfPosts>Nombre d'éléments à afficher</NumberOfPosts>
+          <SelectFields>Champs à afficher</SelectFields>
+          <SelectXForm>Sélectionner le formulaire</SelectXForm>
+          <settings>Paramètres</settings>
+          <ShowChart>Afficher le tableau</ShowChart>
+          <ShowDate>Afficher la date d'envoi de l'élément</ShowDate>
+          <TableColumnPostedTime>Envoyé</TableColumnPostedTime>
+        </xformsviewer>
+      </cms>
+      <common>
+        <buttons>
+          <cancel>Annuler</cancel>
+          <save>Enregistrer</save>
+        </buttons>
+      </common>
+    </shell>
+  </language>
+</languages>

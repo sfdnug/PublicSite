@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="中文 (Chinese)" id="zh-CN">
+    <reportcenter>
+      <report name="linkstatus">
+        <caption>链接状态</caption>
+        <description>显示网站内容中不起作用的链接。</description>
+        <heading>链接状态</heading>
+        <info>
+          此报告显示网站内容中不起作用的链接。 从报告结果列表中选择一个页，即可在“编辑”模式中将其打开。
+        </info>
+      </report>
+    </reportcenter>
+    <shell>
+      <cms>
+        <brokenlinks>
+          <controller>
+            <tooltip>页类型: {0}，页 ID: {1}</tooltip>
+            <webExceptions>
+              <fallback>连接错误</fallback>
+              <status name="1">
+                <fallback>名称解析失败</fallback>
+              </status>
+              <status name="2">
+                <fallback>连接失败</fallback>
+              </status>
+              <status name="7">
+                <fallback>服务器错误</fallback>
+                <httpStatus name="400">请求错误</httpStatus>
+                <httpStatus name="404">未找到</httpStatus>
+                <httpStatus name="503">网关超时</httpStatus>
+              </status>
+            </webExceptions>
+          </controller>
+          <index>
+            <info>此报告显示无法连接的链接。 例如，这可能是由于正在移动页，网站已关闭或此时无法读取目标链接所致。</info>
+            <itemsperpage>每页的项目数</itemsperpage>
+            <name>链接状态</name>
+            <recheck>重新检查</recheck>
+            <showreport>显示报告</showreport>
+            <table>
+              <brokensince>断开日期</brokensince>
+              <brokenurl>断开的 URL</brokenurl>
+              <lastchecked>上次检查日期</lastchecked>
+              <linkstatus>链接状态</linkstatus>
+              <pagename>页名称</pagename>
+            </table>
+            <working>正在运行...</working>
+          </index>
+        </brokenlinks>
+        <directoryselector>
+          <directorylisting>
+            <directorytype>目录</directorytype>
+          </directorylisting>
+          <folderselector>
+            <emptyfolder>此文件夹为空。</emptyfolder>
+            <favoritesheading>收藏夹</favoritesheading>
+            <startingpointsheading>起始点</startingpointsheading>
+            <wherelabel>位置</wherelabel>
+          </folderselector>
+          <index>
+            <nameheading>名称</nameheading>
+            <sizeheading>大小</sizeheading>
+            <typeheading>类型</typeheading>
+          </index>
+        </directoryselector>
+        <externallinks>
+          <common>
+            <hits>链接数</hits>
+            <host>Web 地址</host>
+          </common>
+          <details>
+            <link>Web 地址</link>
+            <page>页</page>
+          </details>
+          <errors>
+            <pagenumber>页数必须为正数</pagenumber>
+            <pagesize>页大小必须为正数</pagesize>
+          </errors>
+          <gadgettitle>外部链接</gadgettitle>
+          <pager>
+            <info>项目数: {0} - {1} 个，共 {2} 个</info>
+            <next>&gt;&gt;</next>
+            <prev>&lt;&lt;</prev>
+            <split>...</split>
+          </pager>
+          <settings>
+            <legend>设置</legend>
+            <pagesize>要显示的项目数</pagesize>
+            <showdetails>显示详细信息</showdetails>
+          </settings>
+        </externallinks>
+        <hosting>
+          <fileupload>
+            <conflictingdirectory>与新文件同名的文件夹已存在。</conflictingdirectory>
+            <fileexists>同名文件已存在，您没有足够的权限替换现有文件</fileexists>
+            <fileisnotimage>所选文件不是图像。</fileisnotimage>
+            <fileoverwriteconfirmation>同名文件已存在。 是否要替换现有文件?</fileoverwriteconfirmation>
+            <invaliddirectory>所选上载目录不存在。</invaliddirectory>
+            <permissiondenied>您没有足够的权限上载所选文件夹中的文件</permissiondenied>
+            <targetfilecheckedout>同名文件已存在并且已由其他用户签出</targetfilecheckedout>
+          </fileupload>
+        </hosting>
+        <menu>
+          <admin>管理模式</admin>
+          <cms>CMS</cms>
+          <cmssettings>EPiServer CMS</cmssettings>
+          <edit>编辑模式</edit>
+          <license>许可协议</license>
+          <logout>注销</logout>
+          <mysettings>我的设置</mysettings>
+          <reportcenter>报告</reportcenter>
+          <selectasite>选择要以查看模式显示的网站</selectasite>
+          <toviewmode>转到查看模式 [{0}]</toviewmode>
+        </menu>
+        <mytasks>
+          <assignedto>分配给</assignedto>
+          <createnewtask>在编辑模式下创建</createnewtask>
+          <createnewtasktitle>从编辑模式创建任务</createnewtasktitle>
+          <description>说明</description>
+          <duedate>截止日期</duedate>
+          <EmptySubjectWarning>任务主题为空</EmptySubjectWarning>
+          <errors>
+            <settingsusergroupnames>请指定正确的用户组名。</settingsusergroupnames>
+          </errors>
+          <IncorrectTaskStatusWarning>指定的状态不是有效的任务状态</IncorrectTaskStatusWarning>
+          <InvalidDueDate>任务截止日期无效</InvalidDueDate>
+          <legend>添加任务</legend>
+          <mygroups>我的组(用逗号分隔)</mygroups>
+          <pagetasks>页任务</pagetasks>
+          <quickadd>快速添加</quickadd>
+          <quickaddtitle>从仪表板创建任务</quickaddtitle>
+          <settingsheading>设置</settingsheading>
+          <status>状态</status>
+          <subject>主题</subject>
+          <title>我的任务</title>
+          <tooltip>
+            <created>创建日期</created>
+            <pageid>页 ID</pageid>
+            <pagepath>路径</pagepath>
+          </tooltip>
+          <UnknownUserWarning>找不到指定的用户</UnknownUserWarning>
+        </mytasks>
+        <notchangedpages>
+          <errors>
+            <monthswithoutchanges>月数应为大于零的整数值。</monthswithoutchanges>
+            <numberofitems>项目数应为大于零的整数值。</numberofitems>
+          </errors>
+          <gadgettitle>未更改的页</gadgettitle>
+          <indexview>
+            <changedby>更改者</changedby>
+            <modified>更改日期</modified>
+            <name>名称</name>
+            <status>状态</status>
+          </indexview>
+          <settingsview>
+            <invertsorting>降序排序</invertsorting>
+            <legend>设置</legend>
+            <monthswithoutchanges>月数</monthswithoutchanges>
+            <numberofitems>要显示的项目数</numberofitems>
+          </settingsview>
+        </notchangedpages>
+        <notesgadget>
+          <backgroundcolor>背景色</backgroundcolor>
+          <backgroundcolors>
+            <blue>蓝色</blue>
+            <green>绿色</green>
+            <orange>橙色</orange>
+            <pink>粉色</pink>
+            <white>白色</white>
+            <yellow>黄色</yellow>
+          </backgroundcolors>
+          <textsize>文本大小</textsize>
+          <textsizes>
+            <big>大</big>
+            <normal>标准</normal>
+            <verybig>最大</verybig>
+          </textsizes>
+          <title>注释</title>
+        </notesgadget>
+        <pageinfo>
+          <modifiedby>更改者</modifiedby>
+          <modifieddate>更改日期</modifieddate>
+          <pagelink>ID</pagelink>
+          <pagetype>页类型</pagetype>
+          <path>路径</path>
+        </pageinfo>
+        <quicklinks>
+          <addlink>添加链接</addlink>
+          <cmsedit>
+            <text>编辑</text>
+            <tooltip>打开 CMS 编辑模式</tooltip>
+          </cmsedit>
+          <cmslinkcategoryname>CMS</cmslinkcategoryname>
+          <contentguidecategoryname>快速发布</contentguidecategoryname>
+          <deletelink>删除链接</deletelink>
+          <episerverworldforum>
+            <text>EPiServer World 论坛</text>
+            <tooltip>EPiServer World 上的论坛</tooltip>
+          </episerverworldforum>
+          <linktitle>标题</linktitle>
+          <linkurl>Web 地址</linkurl>
+          <managelinks>管理链接</managelinks>
+          <mylinkscategoryname>我的链接</mylinkscategoryname>
+          <nocategory>无类别</nocategory>
+          <title>快速链接</title>
+        </quicklinks>
+        <recentlychangedpages>
+          <common>
+            <byall>所有更改</byall>
+            <byme>我的更改</byme>
+            <heading>最近更改的页</heading>
+          </common>
+          <configure>
+            <defaultview>默认视图</defaultview>
+            <heading>设置</heading>
+            <numberofitems>要显示的项目数</numberofitems>
+          </configure>
+          <index>
+            <changedby>更改者</changedby>
+            <modified>保存日期</modified>
+            <name>名称</name>
+            <status>状态</status>
+          </index>
+          <rss>
+            <description>这些页是网站 {0} 上最新更改的页</description>
+          </rss>
+        </recentlychangedpages>
+        <rssgadget>
+          <errors>
+            <invalidfeed>由于从“{0}”返回的供稿内容中出现了 XML 错误，因此无法读取供稿。</invalidfeed>
+            <invaliditemstoshow>显示的项目数必须是一个正整数。</invaliditemstoshow>
+            <invaliduri>无效 Web 地址。 Web 地址必须是以 http:// 或 https:// 开头的绝对 URL。 </invaliduri>
+            <notafeed>Web 地址 [{0}] 不包含有效的 RSS 或 Atom 供稿。</notafeed>
+          </errors>
+          <loadingfeedmessage>正在加载供稿...</loadingfeedmessage>
+          <settings>
+            <feedurl>供稿 URL</feedurl>
+            <itemstoshow>要显示的项目</itemstoshow>
+            <loadfeedtitle>从供稿获取标题</loadfeedtitle>
+            <title>标题</title>
+          </settings>
+          <title>RSS 供稿阅读器</title>
+        </rssgadget>
+        <search>
+          <files>
+            <category>文件</category>
+          </files>
+          <pages>
+            <category>页</category>
+            <id>ID</id>
+            <linkurl>Link URL</linkurl>
+            <tooltip>
+              <changed>更改日期</changed>
+              <created>创建日期</created>
+              <id>ID</id>
+              <linkurl>链接 URL</linkurl>
+              <pagetype>页类型</pagetype>
+            </tooltip>
+          </pages>
+        </search>
+        <uploadfile>
+          <controller>
+            <noresize>不调整大小</noresize>
+          </controller>
+          <index>
+            <alttextlabel>替换文字</alttextlabel>
+            <imagelegend>图像</imagelegend>
+            <imagesizelabel>调整图像大小</imagesizelabel>
+            <savetolegend>保存到</savetolegend>
+            <selectlabel>选择文件</selectlabel>
+            <uploadbutton>上载并插入</uploadbutton>
+          </index>
+        </uploadfile>
+        <xformsviewer>
+          <autoupdatelevel>
+            <never>从不</never>
+            <normal>一般(每隔 10 分钟)</normal>
+            <often>经常(每隔 60 秒钟)</often>
+            <seldom>很少(每隔 60 分钟)</seldom>
+          </autoupdatelevel>
+          <AutoupdateLevel>自动更新</AutoupdateLevel>
+          <chartperiodicity>
+            <day>每天</day>
+            <hour>每小时</hour>
+            <minute>每分钟</minute>
+            <month>每月</month>
+            <week>每周</week>
+          </chartperiodicity>
+          <ChartPeriodicityLabel>图表周期</ChartPeriodicityLabel>
+          <ChartSettings>图表设置</ChartSettings>
+          <DemoMode>演示模式</DemoMode>
+          <error>
+            <fields>未选择字段</fields>
+            <formfields>选择表单字段</formfields>
+            <numberofposts>项目数应为 1 到 50 之间的数字</numberofposts>
+            <xformid>选择表单</xformid>
+          </error>
+          <GadgetTitle>表单查看器</GadgetTitle>
+          <NoFieldsAvailable>无可用字段</NoFieldsAvailable>
+          <NoFormsAvailable>无可用表单</NoFormsAvailable>
+          <NumberOfPosts>要显示的项目数</NumberOfPosts>
+          <SelectFields>要查看的字段</SelectFields>
+          <SelectXForm>选择表单</SelectXForm>
+          <settings>设置</settings>
+          <ShowChart>显示图表</ShowChart>
+          <ShowDate>显示项目发布日期</ShowDate>
+          <TableColumnPostedTime>发布日期</TableColumnPostedTime>
+        </xformsviewer>
+      </cms>
+      <common>
+        <buttons>
+          <cancel>取消</cancel>
+          <save>保存</save>
+        </buttons>
+      </common>
+    </shell>
+  </language>
+</languages>

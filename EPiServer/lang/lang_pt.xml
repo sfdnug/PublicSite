@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="Português" id="pt">
+    <document>
+      <download>Transferir:</download>
+    </document>
+    <error>
+      <document>A propriedade de página "Caminho do documento" não está definida.</document>
+      <mainmenucontainer>A propriedade dinâmica "MainMenuContainer" não está definida.</mainmenucontainer>
+    </error>
+    <form>
+      <numberofvotes>Número de votos: {0}</numberofvotes>
+      <postedmessage>Obrigado pela mensagem!</postedmessage>
+      <showform>Para o formulário</showform>
+      <showstat>Mostrar estatística</showstat>
+    </form>
+    <headings>
+      <heading name="News &amp; Calendar">
+        <description>Calendário &amp; de Notícias</description>
+      </heading>
+      <heading name="SiteConfiguration">
+        <description>Configuração do site</description>
+      </heading>
+    </headings>
+    <login>
+      <becomemember>Registar</becomemember>
+      <editdetails>As minhas definições</editdetails>
+      <email>Indique o endereço de e-mail:</email>
+      <error>
+        <loginfail>Não foi possível iniciar sessão. O nome de utilizador ou palavra-passe está incorrecto.</loginfail>
+        <password>Deve introduzir uma palavra-passe</password>
+        <username>Deve especificar um nome de utilizador</username>
+      </error>
+      <forgotpassword>Esqueceu-se da palavra-passe?</forgotpassword>
+      <login>Iniciar sessão</login>
+      <logout>Terminar sessão</logout>
+      <password>Palavra-passe</password>
+    </login>
+    <navigation>
+      <help>Ajuda</help>
+      <listen>Ouvir</listen>
+      <readmore>Ler mais</readmore>
+      <search>Pesquisar</search>
+      <skipnavigation>Ir para o conteúdo</skipnavigation>
+      <startpage>Iniciar</startpage>
+      <startpagelinktitle>Para a página de início</startpagelinktitle>
+    </navigation>
+    <news>
+      <morenews>Mais notícias</morenews>
+      <publishdate>Publicado</publishdate>
+      <writername>Autor</writername>
+    </news>
+    <pagetypes>
+      <common>
+        <property name="ConfirmationMessage">
+          <caption>Mensagem de confirmação</caption>
+          <help>O texto que será enviado no e-mail de confirmação.</help>
+        </property>
+        <property name="ContactPage">
+          <caption>Página de contacto</caption>
+          <help>Ligação para a página com informações de contacto.</help>
+        </property>
+        <property name="Description">
+          <caption>Cabeçalho para origem RSS</caption>
+          <help>Especifique um cabeçalho para a origem RSS </help>
+        </property>
+        <property name="DocumentListRoot">
+          <caption>Obter lista de documentos de</caption>
+          <help>Especifique a página a partir da qual pretende obter a listagem de documentos. Se não for definida, não será apresentada uma lista de páginas.</help>
+        </property>
+        <property name="DocumentPath">
+          <caption>Caminho do documento</caption>
+          <help>Caminho para o documento.</help>
+        </property>
+        <property name="EmailBody">
+          <caption>Corpo do e-mail</caption>
+          <help>Conteúdo do endereço de e-mail para envio.</help>
+        </property>
+        <property name="EmailSender">
+          <caption>Remetente do e-mail</caption>
+          <help>O endereço de e-mail que será utilizado como endereço do remetente.</help>
+        </property>
+        <property name="EmailSubject">
+          <caption>Assunto do e-mail</caption>
+          <help>Assunto do e-mail para envio.</help>
+        </property>
+        <property name="EmbeddedObjectHeight">
+          <caption>Altura do filme Flash</caption>
+          <help>Especifique a altura do filme Flash em pixels.</help>
+        </property>
+        <property name="EmbeddedObjectWidth">
+          <caption>Largura do filme Flash</caption>
+          <help>Especifique a largura do filme Flash em pixels.</help>
+        </property>
+        <property name="EmbeddedURL">
+          <caption>Caminho para filme Flash</caption>
+          <help>Especifique o endereço para o filme Flash</help>
+        </property>
+        <property name="EnableStatistics">
+          <caption>Mostrar estatística</caption>
+          <help>Mostre a estatística na página para os visitantes.</help>
+        </property>
+        <property name="EPSUBSCRIBE">
+          <caption>Activar assinatura</caption>
+          <help>Activa uma assinatura desta página</help>
+        </property>
+        <property name="EPSUBSCRIBE-EXCLUDE">
+          <caption>Bloquear assinatura desta página</caption>
+          <help>Seleccione esta caixa para bloquear actualizações de assinatura desta página.</help>
+        </property>
+        <property name="EPSUBSCRIBEHIDDEN">
+          <caption>Não apresentar na página de assinatura</caption>
+          <help>Oculta esta página na página de assinatura</help>
+        </property>
+        <property name="EPSUBSCRIBE-ROOT">
+          <caption>Página raiz para a Assinatura</caption>
+          <help>Especifique uma página na árvore em que a assinatura terá início.</help>
+        </property>
+        <property name="EventsCount">
+          <caption>Número de itens de evento</caption>
+          <help>Limita o número de itens.</help>
+        </property>
+        <property name="EventsRoot">
+          <caption>Página da lista de eventos</caption>
+          <help>Aponta para a página cujas subpáginas serão utilizadas para gerar a lista de eventos. Se não for definida, não será apresentada uma lista de eventos.</help>
+        </property>
+        <property name="Heading">
+          <caption>Cabeçalho</caption>
+          <help>Especifique um cabeçalho para indicação do título principal desta página. Se esta propriedade não estiver definida, o nome da página será utilizado como cabeçalho.</help>
+        </property>
+        <property name="Image">
+          <caption>Imagem</caption>
+          <help>Especifique uma imagem para apresentação na página inicial (900*341 pixels)</help>
+        </property>
+        <property name="IndexRoot">
+          <caption>Página raiz do mapa do site</caption>
+          <help>O mapa do site será criado a partir desta página.</help>
+        </property>
+        <property name="IsDocumentPageType">
+          <caption>Exportar edição HTML completa e cópia do documento de origem</caption>
+          <help>Seleccione esta opção para poder visualizar a edição HTML completa</help>
+        </property>
+        <property name="LoginPage">
+          <caption>Página de início de sessão</caption>
+          <help>Especifique a página de início de sessão para esta parte do site.</help>
+        </property>
+        <property name="Logotype">
+          <caption>Logótipo</caption>
+          <help>O URL da imagem do logótipo.</help>
+        </property>
+        <property name="MainBody">
+          <caption>Corpo principal</caption>
+          <help>O corpo principal será apresentado na área de conteúdo principal da página. Pode introduzir, por exemplo, texto, imagens e tabelas, através do editor XHTML.</help>
+        </property>
+        <property name="MainIntro">
+          <caption>Introdução</caption>
+          <help>Versão abreviada do conteúdo de notícias. Este texto será utilizado nas listagens de notícias, se disponíveis.</help>
+        </property>
+        <property name="MainListCount">
+          <caption>Número de itens da lista principal na lista</caption>
+          <help>Limita o número de itens.</help>
+        </property>
+        <property name="MainListRoot">
+          <caption>Página da lista principal</caption>
+          <help>Especifique a página a partir da qual pretende obter a listagem. Esta lista será apresentada na área de conteúdo principal. Se não for definida, não será apresentada uma lista de páginas.</help>
+        </property>
+        <property name="MainMenuContainer">
+          <caption>Visualizar menus de</caption>
+          <help>Especifique um local na árvore de menus no qual os menus serão apresentados na página seleccionada</help>
+        </property>
+        <property name="MetaAuthor">
+          <caption>Autor</caption>
+          <help>Especifique o autor do texto que será utilizado pelos motores de pesquisa. Se não for definido, será utilizado o valor na propriedade dinâmica.</help>
+        </property>
+        <property name="MetaDescription">
+          <caption>Descrição da página</caption>
+          <help>Descreva o conteúdo da página</help>
+        </property>
+        <property name="MetaKeywords">
+          <caption>Palavras de pesquisa padrão para as páginas</caption>
+          <help>Especifique uma lista de palavras de pesquisa, separadas por vírgulas, que correspondam a esta página</help>
+        </property>
+        <property name="NewsCount">
+          <caption>Número de itens de notícias</caption>
+          <help>Limita o número de itens.</help>
+        </property>
+        <property name="NewsRoot">
+          <caption>Página de lista de notícias</caption>
+          <help>Aponta para a página cujas subpáginas serão utilizadas para gerar a lista de notícias. Se não for definida, não será apresentada uma lista de notícias.</help>
+        </property>
+        <property name="PasswordChangeSuccessBody">
+          <caption>Alteração de palavra-passe com êxito</caption>
+          <help>Texto de corpo apresentado quando uma palavra-passe é alterada com êxito.</help>
+        </property>
+        <property name="PasswordLength">
+          <caption>Comprimento da palavra-passe</caption>
+          <help>O comprimento mínimo permitido para a palavra-passe</help>
+        </property>
+        <property name="PrivacyPage">
+          <caption>Página de privacidade</caption>
+          <help>Ligação para a página com informações legais.</help>
+        </property>
+        <property name="RootFolder">
+          <caption>Caminho da pasta</caption>
+          <help>A árvore de pastas tem início nesta página.</help>
+        </property>
+        <property name="RssContainer">
+          <caption>Contentor rss</caption>
+          <help>O contentor para todas as páginas de origem rss</help>
+        </property>
+        <property name="RssSource">
+          <caption>Página de origem rss</caption>
+          <help>Especifique uma página na árvore que seja uma página de origem para conteúdo RSS neste Web site.</help>
+        </property>
+        <property name="RssUrl">
+          <caption>Caminho de pesquisa para origem RSS</caption>
+          <help>Especifique o endereço de conteúdo em formato RSS. Normalmente, é um endereço Web.</help>
+        </property>
+        <property name="SearchPage">
+          <caption>Página de pesquisa</caption>
+          <help>Ligação para a página de pesquisa para esta parte do site.</help>
+        </property>
+        <property name="SearchRoot">
+          <caption>Página raiz da pesquisa</caption>
+          <help>A pesquisa tem início nesta página.</help>
+        </property>
+        <property name="SecondaryBody">
+          <caption>Corpo secundário</caption>
+          <help>O corpo secundário será apresentado na coluna direita da página. Pode utilizar texto e imagens na disposição. Repare que as imagens não deverão ser maiores que a área à direita.</help>
+        </property>
+        <property name="SecondaryListCount">
+          <caption>Número de itens da lista adicional na lista</caption>
+          <help>Limita o número de itens na lista secundária a este valor.</help>
+        </property>
+        <property name="SecondaryListRoot">
+          <caption>Página de lista adicional</caption>
+          <help>Esta ligação aponta para a página pai que será utilizada para gerar uma lista de páginas na coluna direita. Se não for definida, não será apresentada uma lista de páginas.</help>
+        </property>
+        <property name="SitemapPage">
+          <caption>Página de mapa do site</caption>
+          <help>Ligação para a página de mapa do site.</help>
+        </property>
+        <property name="SortFilesBy">
+          <caption>Ordenar ficheiros por</caption>
+          <help>Método de ordenação da árvore de pastas.</help>
+        </property>
+        <property name="SubscriptionMailBody">
+          <caption>Texto de introdução no e-mail de assinatura</caption>
+          <help>Introduza o texto para o corpo da mensagem no e-mail de assinatura.</help>
+        </property>
+        <property name="SubscriptionMailFrom">
+          <caption>Endereço do remetente para o e-mail de assinatura</caption>
+          <help>O endereço de e-mail que será utilizado como remetente do e-mail de assinatura.</help>
+        </property>
+        <property name="SubscriptionMailReadMore">
+          <caption>Texto de ligação no e-mail de assinatura</caption>
+          <help>Este texto irá criar o texto de ligação que o utilizador pode clicar no e-mail de assinatura.</help>
+        </property>
+        <property name="SubscriptionMailSubject">
+          <caption>Assunto para o e-mail de assinatura</caption>
+          <help>Este é o campo de assunto para o e-mail de assinatura.</help>
+        </property>
+        <property name="Thumbnail">
+          <caption>Imagem em miniatura</caption>
+          <help>Imagem para apresentação nas listagens de páginas aplicáveis.</help>
+        </property>
+        <property name="XForm">
+          <caption>Formulário</caption>
+          <help>Especifique o formulário que será apresentado nesta página. Ao clicar no botão, é possível criar formulários próprios</help>
+        </property>
+      </common>
+      <pagetype name="[Public] Demo page">
+        <description>Este tipo de página reúne funções para mostrar como diferentes tipos de controlos e técnicas podem interagir com o EPiServer e vice-versa.</description>
+        <name>[Público] Página de demonstração</name>
+      </pagetype>
+      <pagetype name="[Public] Document">
+        <description>Este tipo de página é utilizado para publicar documentos do Microsoft Office.</description>
+        <name>[Público] Documento</name>
+      </pagetype>
+      <pagetype name="[Public] Document list">
+        <description>Este tipo de página apresenta uma lista de documentos publicados a partir do Microsoft Office.</description>
+        <name>[Público] Lista de documentos</name>
+      </pagetype>
+      <pagetype name="[Public] File explorer">
+        <description>Este tipo de página apresenta uma listagem de ficheiros de uma pasta no servidor Web.</description>
+        <name>[Público] Listagem de ficheiros</name>
+      </pagetype>
+      <pagetype name="[Public] Login">
+        <description>Este tipo de página é utilizado para criar uma página de início de sessão no Web site.</description>
+        <name>[Público] Início de sessão</name>
+      </pagetype>
+      <pagetype name="[Public] News item">
+        <description>Este tipo de página contém os dados para um item de notícias.</description>
+        <name>[Público] Item de notícias</name>
+      </pagetype>
+      <pagetype name="[Public] Registration">
+        <description>Este tipo de página pode ser utilizado pelos visitantes para registo no Web site.</description>
+        <name>[Público] Registo</name>
+      </pagetype>
+      <pagetype name="[Public] RSS source">
+        <description>Este tipo de página apresenta informações do EPiServer em formato RSS.</description>
+        <name>[Público] Origem RSS</name>
+      </pagetype>
+      <pagetype name="[Public] Search page">
+        <description>Este tipo de página apresenta o resultado de pesquisa da barra de pesquisa rápida e uma interface para a pesquisa avançada.</description>
+        <name>[Público] Página de pesquisa</name>
+      </pagetype>
+      <pagetype name="[Public] SiteMap">
+        <description>Este tipo de página cria uma lista do conteúdo em todo ou parte do Web site.</description>
+        <name>[Público] Mapa do site</name>
+      </pagetype>
+      <pagetype name="[Public] Standard page">
+        <description>Este tipo de página representa a página de utilização mais frequente no Web site. Pode ser utilizado para páginas vulgares, assim como para notícias e eventos.</description>
+        <name>[Público] Página padrão</name>
+      </pagetype>
+      <pagetype name="[Public] Start page">
+        <description>A página de início é a entrada principal do web site e contém um corpo principal e secundário, assim como listagens diferentes para notícias, artigos e eventos.</description>
+        <name>[Público] Página de início</name>
+      </pagetype>
+      <pagetype name="[Public] Subscription">
+        <description>Este tipo de página é utilizado pelos visitantes para seleccionar informações de assinatura.</description>
+        <name>[Público] Assinatura</name>
+      </pagetype>
+      <pagetype name="[Public] XForm page">
+        <description>Este tipo de página expande a página padrão com um formulário.</description>
+        <name>[Público] Página de formulário</name>
+      </pagetype>
+    </pagetypes>
+    <register>
+      <confirmation>Obrigado</confirmation>
+      <error>
+        <email>Introduza o endereço de e-mail</email>
+        <firstname>Introduza o nome próprio</firstname>
+        <incorrectemail>O endereço de e-mail introduzido está incorrecto</incorrectemail>
+        <lastname>Introduza o apelido</lastname>
+        <password>Introduza uma palavra-passe</password>
+        <passwordlength>A palavra-passe introduzida é demasiado curta. Comprimento mín.:</passwordlength>
+        <passwordrepeat>As palavras-passe introduzidas não são idênticas</passwordrepeat>
+      </error>
+      <password>Introduzir palavra-passe</password>
+      <repeatpassword>Repetir palavra-passe</repeatpassword>
+      <signupbutton>Registar</signupbutton>
+    </register>
+    <search>
+      <advancedsearch>Pesquisa Avançada</advancedsearch>
+      <button>Pesquisar</button>
+      <findsimilar>Encontrar Semelhante</findsimilar>
+      <onlywholewords>Procurar palavras inteiras</onlywholewords>
+      <percentrelevancy>% de relevância</percentrelevancy>
+      <relevancy>Relevância</relevancy>
+      <searchfiles>Pesquisar nos ficheiros</searchfiles>
+      <searchfor>Pesquisar:</searchfor>
+      <searchresult>Resultado da pesquisa:</searchresult>
+      <searchstring>Pesquisar aqui</searchstring>
+    </search>
+    <subscription>
+      <daily>Diariamente</daily>
+      <email>Endereço de e-mail</email>
+      <fastaspossible>Assim que possível</fastaspossible>
+      <interval>Intervalo</interval>
+      <monthly>Mensalmente</monthly>
+      <subscribe>Assinar</subscribe>
+      <subscription>Assinatura</subscription>
+      <weekly>Semanalmente</weekly>
+    </subscription>
+    <usersettings>
+      <changepassword>Alterar palavra-passe</changepassword>
+      <confirmpassword>Confirmar palavra-passe</confirmpassword>
+      <email>Endereço de e-mail</email>
+      <firstname>Nome próprio</firstname>
+      <lastname>Apelido</lastname>
+      <mysettings>As minhas definições</mysettings>
+      <newpassword>Nova palavra-passe</newpassword>
+      <username>Nome de utilizador</username>
+    </usersettings>
+  </language>
+</languages>

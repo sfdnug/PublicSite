@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="suomi" id="fi">
+    <document>
+      <download>Lataa:</download>
+    </document>
+    <error>
+      <document>Sivun Asiakirjan polku -ominaisuutta ei ole määritetty.</document>
+      <mainmenucontainer>Dynaamista ominaisuutta MainMenuContainer ei ole määritetty.</mainmenucontainer>
+    </error>
+    <form>
+      <numberofvotes>Äänien määrä: {0}</numberofvotes>
+      <postedmessage>Kiitos osallistumisesta!</postedmessage>
+      <showform>Lomakkeeseen</showform>
+      <showstat>Näytä tilastot</showstat>
+    </form>
+    <headings>
+      <heading name="News &amp; Calendar">
+        <description>Uutiset &amp; kalenteri</description>
+      </heading>
+      <heading name="SiteConfiguration">
+        <description>Sivuston määrittäminen</description>
+      </heading>
+    </headings>
+    <login>
+      <becomemember>Rekisteröi</becomemember>
+      <editdetails>Omat asetukset</editdetails>
+      <email>Kirjoita sähköpostiosoitteesi:</email>
+      <error>
+        <loginfail>Sisäänkirjautuminen epäonnistui. Määritetty käyttäjänimi tai salasana on virheellinen.</loginfail>
+        <password>Kirjoita salasana</password>
+        <username>Määritä käyttäjänimi</username>
+      </error>
+      <forgotpassword>Unohditko salasanan?</forgotpassword>
+      <login>Kirjaudu sisään</login>
+      <logout>Kirjaudu ulos</logout>
+      <password>Salasana</password>
+    </login>
+    <navigation>
+      <help>Ohje</help>
+      <listen>Kuuntele</listen>
+      <readmore>Lue lisää</readmore>
+      <search>Etsi</search>
+      <skipnavigation>Siirry sisältöön</skipnavigation>
+      <startpage>Aloitussivu</startpage>
+      <startpagelinktitle>Aloitussivulle</startpagelinktitle>
+    </navigation>
+    <news>
+      <morenews>Lisää uutisia</morenews>
+      <publishdate>Julkaistu</publishdate>
+      <writername>Kirjoittaja</writername>
+    </news>
+    <pagetypes>
+      <common>
+        <property name="ConfirmationMessage">
+          <caption>Vahvistusviesti</caption>
+          <help>Teksti, joka lähetetään vahvistussähköpostiviestissä.</help>
+        </property>
+        <property name="ContactPage">
+          <caption>Yhteystietosivu</caption>
+          <help>Linkki yhteystietosivulle.</help>
+        </property>
+        <property name="Description">
+          <caption>RSS-lähteen otsikko</caption>
+          <help>Määritä RSS-lähteen otsikko </help>
+        </property>
+        <property name="DocumentListRoot">
+          <caption>Asiakirjaluettelosivu</caption>
+          <help>Määritä sivu, jolta haluat hakea asiakirjaluettelon. Jos arvoa ei määritetä, sivuluetteloa ei näytetä.</help>
+        </property>
+        <property name="DocumentPath">
+          <caption>Asiakirjan polku</caption>
+          <help>Asiakirjan polku.</help>
+        </property>
+        <property name="EmailBody">
+          <caption>Sähköpostiviestin tekstiosa</caption>
+          <help>Lähetettävän sähköpostiosoitteen sisältö.</help>
+        </property>
+        <property name="EmailSender">
+          <caption>Sähköpostiviestin lähettäjä</caption>
+          <help>Sähköpostiosoite, josta sähköpostiviesti lähetetään.</help>
+        </property>
+        <property name="EmailSubject">
+          <caption>Sähköpostiviestin aihe</caption>
+          <help>Lähetettävän sähköpostiviestin aihe.</help>
+        </property>
+        <property name="EmbeddedObjectHeight">
+          <caption>Korkeus</caption>
+          <help>Määritä Flash-elokuvan korkeus kuvapisteinä.</help>
+        </property>
+        <property name="EmbeddedObjectWidth">
+          <caption>Leveys</caption>
+          <help>Määritä Flash-elokuvan leveys kuvapisteinä.</help>
+        </property>
+        <property name="EmbeddedURL">
+          <caption>Flash-animaation polku</caption>
+          <help>Määritä Flash-animaation osoite</help>
+        </property>
+        <property name="EnableStatistics">
+          <caption>Näytä tilastot</caption>
+          <help>Näyttää käyttäjälle tuloksen postitetuista tiedoista</help>
+        </property>
+        <property name="EPSUBSCRIBE">
+          <caption>Aktivoi tilaus</caption>
+          <help>Aktivoi tämän sivun tilauksen</help>
+        </property>
+        <property name="EPSUBSCRIBE-EXCLUDE">
+          <caption>Estä tämän sivun tilaus</caption>
+          <help>Valitsemalla tämän valintaruudun voit estää tämän sivun tilauspäivitykset.</help>
+        </property>
+        <property name="EPSUBSCRIBEHIDDEN">
+          <caption>Älä näytä tilaussivulla</caption>
+          <help>Piilottaa tämän sivun tilaussivulla</help>
+        </property>
+        <property name="EPSUBSCRIBE-ROOT">
+          <caption>Tilauksen juurisivu</caption>
+          <help>Määritä puun sivu, josta tilaus alkaa.</help>
+        </property>
+        <property name="EventsCount">
+          <caption>Tapahtumakohteiden määrä</caption>
+          <help>Rajaa kohteiden määrän.</help>
+        </property>
+        <property name="EventsRoot">
+          <caption>Tapahtumaluettelosivu</caption>
+          <help>Johtaa sivulle, jonka alisivujen avulla luodaan tapahtumaluettelo. Jos arvoa ei määritetä, tapahtumaluetteloa ei näytetä.</help>
+        </property>
+        <property name="Heading">
+          <caption>Otsikko</caption>
+          <help>Määritä otsikko, joka sisältää sivun pääotsikon. Jos tätä ominaisuutta ei määritetä, otsikkona käytetään sivun nimeä.</help>
+        </property>
+        <property name="Image">
+          <caption>Kuva</caption>
+          <help>Määritä aloitussivulla näkyvä kuva(900 x 341 kuvapistettä)</help>
+        </property>
+        <property name="IndexRoot">
+          <caption>Sivustokartan juurisivu</caption>
+          <help>Sivustokartan luominen aloitetaan tästä sivusta.</help>
+        </property>
+        <property name="IsDocumentPageType">
+          <caption>Lataa täydellinen HTML-versio ja lähdeasiakirja</caption>
+          <help>Jos valitset tämän vaihtoehdon, täydellinen HTML-versio tulee näkyviin.</help>
+        </property>
+        <property name="LoginPage">
+          <caption>Kirjautumissivu</caption>
+          <help>Määritä sivuston tämän osan kirjautumissivu.</help>
+        </property>
+        <property name="Logotype">
+          <caption>Logo</caption>
+          <help>Logokuvan URL.</help>
+        </property>
+        <property name="MainBody">
+          <caption>Pääosa</caption>
+          <help>Pääosa sijaitsee sivun sisällön pääalueella. Voit lisätä XHTML-editorilla pääosaan esimerkiksi tekstiä, kuvia ja taulukoita.</help>
+        </property>
+        <property name="MainIntro">
+          <caption>Johdanto</caption>
+          <help>Lyhennelmä uutisten sisällöstä. Tekstiä käytetään mahdollisesti käytettävissä olevissa uutisluetteloissa.</help>
+        </property>
+        <property name="MainListCount">
+          <caption>Luettelon pääluettelokohteiden määrä</caption>
+          <help>Rajaa kohteiden määrän.</help>
+        </property>
+        <property name="MainListRoot">
+          <caption>Pääluettelosivu</caption>
+          <help>Määritä sivu, jolta haluat hakea sivuluettelon. Luettelo sijaitsee sisällön pääalueella. Jos arvoa ei määritetä, sivuluetteloa ei näytetä.</help>
+        </property>
+        <property name="MainMenuContainer">
+          <caption>Näytä valikot kohteesta</caption>
+          <help>Määritä valikkopuun sivu, josta haluat näyttää valikot valitulla sivulla</help>
+        </property>
+        <property name="MetaAuthor">
+          <caption>Kirjoittaja</caption>
+          <help>Määritä hakukoneiden käyttämän tekstin kirjoittaja. Jos arvoa ei määritetä, käytetään dynaamista ominaisuutta.</help>
+        </property>
+        <property name="MetaDescription">
+          <caption>Sivunselostus</caption>
+          <help>Syötä lyhyt selostus sivun sisällöstä</help>
+        </property>
+        <property name="MetaKeywords">
+          <caption>Sivujen vakiohakusana</caption>
+          <help>Luetteloi pilkulla erottaen hakusanat, jotka vastaavat tätä sivua</help>
+        </property>
+        <property name="NewsCount">
+          <caption>Uutiskohteiden määrä</caption>
+          <help>Rajaa kohteiden määrän.</help>
+        </property>
+        <property name="NewsRoot">
+          <caption>Uutisluettelosivu</caption>
+          <help>Johtaa sivulle, jonka alisivujen avulla luodaan uutisluettelo. Jos arvoa ei määritetä, uutisluetteloa ei näytetä.</help>
+        </property>
+        <property name="PasswordChangeSuccessBody">
+          <caption>Salasanan vaihdon vahvistus</caption>
+          <help>Teksti, joka näytetään, kun salasanan vaihtaminen onnistuu.</help>
+        </property>
+        <property name="PasswordLength">
+          <caption>Salasanan pituus</caption>
+          <help>Salasanan vähimmäispituus.</help>
+        </property>
+        <property name="PrivacyPage">
+          <caption>Tietosuojasivu</caption>
+          <help>Linkki lakisääteisten tietojen sivulle.</help>
+        </property>
+        <property name="RootFolder">
+          <caption>Kansion polku</caption>
+          <help>Kansiopuu alkaa tältä sivulta.</help>
+        </property>
+        <property name="RssContainer">
+          <caption>Rss-säilö</caption>
+          <help>Rss-lähdesivujen säilö</help>
+        </property>
+        <property name="RssSource">
+          <caption>RSS-lähdesivu</caption>
+          <help>Määritä puun sivu, joka on tämän Web-sivuston RSS-sisällön lähdesivu.</help>
+        </property>
+        <property name="RssUrl">
+          <caption>Etsi RSS-lähteen polku</caption>
+          <help>Määritä osoite RSS-muodossa. Yleensä se on Web-osoite.</help>
+        </property>
+        <property name="SearchPage">
+          <caption>Hakusivu</caption>
+          <help>Linkki sivuston tämän osan hakusivulle.</help>
+        </property>
+        <property name="SearchRoot">
+          <caption>Haun juurisivu</caption>
+          <help>Haku aloitetaan tältä sivulta.</help>
+        </property>
+        <property name="SecondaryBody">
+          <caption>Toissijainen osa</caption>
+          <help>Toissijainen osa sijaitsee sivun oikeassa sarakkeessa. Asettelussa voidaan käyttää sekä tekstiä että kuvia. Huomaa, että kuvien on oltava oikealla sijaitsevaa aluetta pienempiä.</help>
+        </property>
+        <property name="SecondaryListCount">
+          <caption>Luettelon toissijaisten luettelokohteiden määrä</caption>
+          <help>Rajaa toissijaisen luettelon kohteiden määrä tämän arvon mukaisesti.</help>
+        </property>
+        <property name="SecondaryListRoot">
+          <caption>Lisäluettelosivu</caption>
+          <help>Linkki johtaa pääsivulle, jota käytetään sivuluettelon luontiin oikeanpuoleiseen sarakkeeseen. Jos arvoa ei määritetä, sivuluetteloa ei näytetä.</help>
+        </property>
+        <property name="SitemapPage">
+          <caption>Sivustokarttasivu</caption>
+          <help>Linkki sivustokarttasivulle.</help>
+        </property>
+        <property name="SortFilesBy">
+          <caption>Tiedostojen lajitteluperuste</caption>
+          <help>Kansiopuun lajittelujärjestys.</help>
+        </property>
+        <property name="SubscriptionMailBody">
+          <caption>Tilaussähköpostiviestin esittelyteksti</caption>
+          <help>Kirjoita teksti, josta tulee tilaussähköpostiviestin tekstiosa.</help>
+        </property>
+        <property name="SubscriptionMailFrom">
+          <caption>Tilaussähköpostiviestin lähettäjän osoite</caption>
+          <help>Sähköpostiosoite, josta tilaussähköpostiviesti lähetetään.</help>
+        </property>
+        <property name="SubscriptionMailReadMore">
+          <caption>Tilaussähköpostiviestin linkin teksti</caption>
+          <help>Tämä teksti muodostaa linkin, jota käyttäjä voi napsauttaa tilaussähköpostiviestissä.</help>
+        </property>
+        <property name="SubscriptionMailSubject">
+          <caption>Tilaussähköpostiviestin aihe</caption>
+          <help>Tämä on tilaussähköpostiviestin aihekenttä.</help>
+        </property>
+        <property name="Thumbnail">
+          <caption>Pikkukuva</caption>
+          <help>Kuva, joka näytetään sivuluettelojen yhteydessä.</help>
+        </property>
+        <property name="XForm">
+          <caption>Lomake</caption>
+          <help>Määrittää lomakkeen, joka näkyy tällä sivulla. Napsauttamalla painiketta voit luoda omia lomakkeita.</help>
+        </property>
+      </common>
+      <pagetype name="[Public] Demo page">
+        <description>Tämän sivutyypin toimintojen avulla voidaan näyttää, miten erilaiset ohjainobjektit ja tekniikat voivat toimia yhdessä EPiServer-palvelimen kanssa.</description>
+        <name>[Julkinen] Esittelysivu</name>
+      </pagetype>
+      <pagetype name="[Public] Document">
+        <description>Tämän sivutyypin avulla julkaistaan asiakirjoja Microsoft Office -sovelluksesta.</description>
+        <name>[Julkinen] Asiakirja</name>
+      </pagetype>
+      <pagetype name="[Public] Document list">
+        <description>Tämä sivutyyppi näyttää Microsoft Office -sovelluksesta julkaistujen asiakirjojen luettelon.</description>
+        <name>[Julkinen] Asiakirjaluettelo</name>
+      </pagetype>
+      <pagetype name="[Public] File explorer">
+        <description>Tämä sivutyyppi sisältää Web-palvelimen kansion tiedostoluettelon.</description>
+        <name>[Julkinen] Tiedostoluettelo</name>
+      </pagetype>
+      <pagetype name="[Public] Login">
+        <description>Tämän sivutyypin avulla luodaan Web-sivuston kirjautumissivu.</description>
+        <name>[Julkinen] Kirjautuminen</name>
+      </pagetype>
+      <pagetype name="[Public] News item">
+        <description>Tämä sivutyyppi sisältää yhden uutiskohteen tiedot.</description>
+        <name>[Julkinen] Uutiskohde</name>
+      </pagetype>
+      <pagetype name="[Public] Registration">
+        <description>Tämän tyyppinen sivu on sivu, jolla kävijät voivat rekisteröityä Web-sivustoon.</description>
+        <name>[Julkinen] Rekisteröinti</name>
+      </pagetype>
+      <pagetype name="[Public] RSS source">
+        <description>Tämä sivutyyppi näyttää EPiServer-palvelimen tiedot RSS-muodossa.</description>
+        <name>[Julkinen] RSS-lähde</name>
+      </pagetype>
+      <pagetype name="[Public] Search page">
+        <description>Tämä sivutyyppi sisältää pikahakupalkin hakutulokset sekä tarkennetun haun käyttöliittymän.</description>
+        <name>[Julkinen] Hakusivu</name>
+      </pagetype>
+      <pagetype name="[Public] SiteMap">
+        <description>Tämä sivutyyppi luo sisällysluettelon koko Web-sivuston tai sen osan sisällöstä.</description>
+        <name>[Julkinen] Sivustokartta</name>
+      </pagetype>
+      <pagetype name="[Public] Standard page">
+        <description>Tämä sivutyyppi on Web-sivuston käytetyin sivu. Sitä voidaan käyttää niin tavallisina sivuina kuin uutis- ja tapahtumasivuina.</description>
+        <name>[Julkinen] Vakiosivu</name>
+      </pagetype>
+      <pagetype name="[Public] Start page">
+        <description>Aloitussivu on sivuston pääsivu, joka sisältää pääosan, toissijaisen osan sekä uutis-, artikkeli- ja tapahtumaluettelot.</description>
+        <name>[Julkinen] Aloitussivu</name>
+      </pagetype>
+      <pagetype name="[Public] Subscription">
+        <description>Tämän tyyppinen sivu on sivu, jolta kävijät voivat valita tilaustiedot.</description>
+        <name>[Julkinen] Tilaus</name>
+      </pagetype>
+      <pagetype name="[Public] XForm page">
+        <description>Tämä sivutyyppi sisältää sivun vakio-ominaisuuksien lisäksi lomakkeen.</description>
+        <name>[Julkinen] Lomakesivu</name>
+      </pagetype>
+    </pagetypes>
+    <register>
+      <confirmation>Kiitos</confirmation>
+      <error>
+        <email>Syötä sähköpostiosoite</email>
+        <firstname>Syötä etunimi</firstname>
+        <incorrectemail>Syötetty sähköpostiosoite on virheellinen</incorrectemail>
+        <lastname>Syötä sukunimi</lastname>
+        <password>Syötä salasana</password>
+        <passwordlength>Syötetty salasana on liian lyhyt. Vähimmäispituus:</passwordlength>
+        <passwordrepeat>Syötetyt salasanat eivät vastaa toisiaan</passwordrepeat>
+      </error>
+      <password>Syötä salasana</password>
+      <repeatpassword>Toista salasana</repeatpassword>
+      <signupbutton>Rekisteröidy</signupbutton>
+    </register>
+    <search>
+      <advancedsearch>Tarkennettu haku</advancedsearch>
+      <button>Etsi</button>
+      <findsimilar>Etsi samankaltaisia</findsimilar>
+      <onlywholewords>Koko sana</onlywholewords>
+      <percentrelevancy>%:n asiaankuuluvuus</percentrelevancy>
+      <relevancy>Asiaankuuluvuus</relevancy>
+      <searchfiles>Etsi tiedostoista</searchfiles>
+      <searchfor>Etsi:</searchfor>
+      <searchresult>Hakutulokset:</searchresult>
+      <searchstring>Etsi tästä</searchstring>
+    </search>
+    <subscription>
+      <daily>Päivittäin</daily>
+      <email>Sähköpostiosoite</email>
+      <fastaspossible>Mahdollisimman pian</fastaspossible>
+      <interval>Väli</interval>
+      <monthly>Kuukausittain</monthly>
+      <subscribe>Tilaa</subscribe>
+      <subscription>Tilaus</subscription>
+      <weekly>Joka viikko</weekly>
+    </subscription>
+    <usersettings>
+      <changepassword>Vaihda salasana</changepassword>
+      <confirmpassword>Vahvista salasana</confirmpassword>
+      <email>Sähköpostiosoite</email>
+      <firstname>Etunimi</firstname>
+      <lastname>Sukunimi</lastname>
+      <mysettings>Omat asetukset</mysettings>
+      <newpassword>Uusi salasana</newpassword>
+      <username>Käyttäjänimi</username>
+    </usersettings>
+  </language>
+</languages>

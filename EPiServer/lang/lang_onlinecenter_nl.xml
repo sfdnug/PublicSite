@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="Nederlands" id="nl">
+    <reportcenter>
+      <report name="linkstatus">
+        <caption>Koppelingsstatus</caption>
+        <description>Hiermee worden niet-werkende koppelingen weergegeven in de inhoud van de site.</description>
+        <heading>Koppelingsstatus</heading>
+        <info>
+          In dit rapport worden niet-werkende koppelingen weergegeven in de inhoud van de site. Selecteer een pagina in de lijst met rapportresultaten om de pagina te openen in de bewerkingsmodus.
+        </info>
+      </report>
+    </reportcenter>
+    <shell>
+      <cms>
+        <brokenlinks>
+          <controller>
+            <tooltip>Paginatype: {0}, Pagina-ID: {1}</tooltip>
+            <webExceptions>
+              <fallback>Verbindingsfout</fallback>
+              <status name="1">
+                <fallback>Naamherleidingsfout</fallback>
+              </status>
+              <status name="2">
+                <fallback>Verbindingsfout</fallback>
+              </status>
+              <status name="7">
+                <fallback>Serverfout</fallback>
+                <httpStatus name="400">Onjuist verzoek</httpStatus>
+                <httpStatus name="404">Niet gevonden</httpStatus>
+                <httpStatus name="503">Time-out gateway</httpStatus>
+              </status>
+            </webExceptions>
+          </controller>
+          <index>
+            <info>Dit rapport bevat koppelingen die niet kunnen worden geopend. Dit kan bijvoorbeeld komen doordat een pagina is verplaatst, een site is opgehouden te bestaan of de doelkoppeling op het moment niet kan worden gelezen.</info>
+            <itemsperpage>Items per pagina</itemsperpage>
+            <name>Koppelingsstatus</name>
+            <recheck>Opnieuw controleren</recheck>
+            <showreport>Rapport weergeven</showreport>
+            <table>
+              <brokensince>Defect sinds</brokensince>
+              <brokenurl>Defecte URL</brokenurl>
+              <lastchecked>Laatst gecontroleerd</lastchecked>
+              <linkstatus>Koppelingsstatus</linkstatus>
+              <pagename>Paginanaam</pagename>
+            </table>
+            <working>Verwerken...</working>
+          </index>
+        </brokenlinks>
+        <directoryselector>
+          <directorylisting>
+            <directorytype>Map</directorytype>
+          </directorylisting>
+          <folderselector>
+            <emptyfolder>Deze map is leeg.</emptyfolder>
+            <favoritesheading>Favorieten</favoritesheading>
+            <startingpointsheading>Startpunten</startingpointsheading>
+            <wherelabel>Waar</wherelabel>
+          </folderselector>
+          <index>
+            <nameheading>Naam</nameheading>
+            <sizeheading>Grootte</sizeheading>
+            <typeheading>Type</typeheading>
+          </index>
+        </directoryselector>
+        <externallinks>
+          <common>
+            <hits>Aantal koppelingen</hits>
+            <host>Webadres</host>
+          </common>
+          <details>
+            <link>Webadres</link>
+            <page>Pagina</page>
+          </details>
+          <errors>
+            <pagenumber>Paginanummer moet positief zijn</pagenumber>
+            <pagesize>Paginagrootte moet positief zijn</pagesize>
+          </errors>
+          <gadgettitle>Externe koppelingen</gadgettitle>
+          <pager>
+            <info>Items: {0} - {1} van {2}</info>
+            <next>&gt;&gt;</next>
+            <prev>&lt;&lt;</prev>
+            <split>...</split>
+          </pager>
+          <settings>
+            <legend>Instellingen</legend>
+            <pagesize>Aantal items dat moet worden weergegeven</pagesize>
+            <showdetails>Details weergeven</showdetails>
+          </settings>
+        </externallinks>
+        <hosting>
+          <fileupload>
+            <conflictingdirectory>Er bestaat al een map met dezelfde naam als het nieuwe bestand.</conflictingdirectory>
+            <fileexists>Er bestaat al een bestand met dezelfde naam en u hebt onvoldoende rechten om het bestaande bestand te vervangen</fileexists>
+            <fileisnotimage>Het geselecteerde bestand is geen afbeelding.</fileisnotimage>
+            <fileoverwriteconfirmation>Er is al een bestand met dezelfde naam. Wilt u het bestaande bestand vervangen?</fileoverwriteconfirmation>
+            <invaliddirectory>De geselecteerde uploadmap bestaat niet.</invaliddirectory>
+            <permissiondenied>U hebt onvoldoende rechten om bestanden naar de geselecteerde map te uploaden</permissiondenied>
+            <targetfilecheckedout>Er bestaat al een bestand met dezelfde naam dat is uitgecheckt voor een andere gebruiker</targetfilecheckedout>
+          </fileupload>
+        </hosting>
+        <menu>
+          <admin>Beheermodus</admin>
+          <cms>CMS</cms>
+          <cmssettings>EPiServer CMS</cmssettings>
+          <edit>Bewerkingsmodus</edit>
+          <license>Licentieovereenkomst</license>
+          <logout>Afmelden</logout>
+          <mysettings>Mijn instellingen</mysettings>
+          <reportcenter>Rapporten</reportcenter>
+          <selectasite>Selecteer de site die moet worden weergegeven in de weergavemodus</selectasite>
+          <toviewmode>Naar weergavemodus [{0}]</toviewmode>
+        </menu>
+        <mytasks>
+          <assignedto>Toewijzen aan</assignedto>
+          <createnewtask>Aanmaken in de bewerkingsmodus</createnewtask>
+          <createnewtasktitle>Taak aanmaken vanuit bewerkingsmodus</createnewtasktitle>
+          <description>Beschrijving</description>
+          <duedate>Vervaldatum</duedate>
+          <EmptySubjectWarning>Onderwerp taak is leeg</EmptySubjectWarning>
+          <errors>
+            <settingsusergroupnames>Geef de correcte gebruikersgroepnamen op.</settingsusergroupnames>
+          </errors>
+          <IncorrectTaskStatusWarning>Opgegeven status is niet geldig voor taak</IncorrectTaskStatusWarning>
+          <InvalidDueDate>Vervaldatum taak is ongeldig</InvalidDueDate>
+          <legend>Taak toevoegen</legend>
+          <mygroups>Mijn groepen (door komma gescheiden)</mygroups>
+          <pagetasks>Paginataken</pagetasks>
+          <quickadd>Snel toevoegen</quickadd>
+          <quickaddtitle>Taak aanmaken vanaf dashboard</quickaddtitle>
+          <settingsheading>Instellingen</settingsheading>
+          <status>Status</status>
+          <subject>Onderwerp</subject>
+          <title>Mijn taken</title>
+          <tooltip>
+            <created>Aangemaakt</created>
+            <pageid>Pagina-ID</pageid>
+            <pagepath>Pad</pagepath>
+          </tooltip>
+          <UnknownUserWarning>Opgegeven gebruiker kan niet worden gevonden</UnknownUserWarning>
+        </mytasks>
+        <notchangedpages>
+          <errors>
+            <monthswithoutchanges>Maandnummer moet een geheel getal zijn dat groter is dan nul.</monthswithoutchanges>
+            <numberofitems>Aantal items moet een geheel getal zijn dat groter is dan nul.</numberofitems>
+          </errors>
+          <gadgettitle>Ongewijzigde pagina's</gadgettitle>
+          <indexview>
+            <changedby>Gewijzigd door</changedby>
+            <modified>Gewijzigd</modified>
+            <name>Naam</name>
+            <status>Status</status>
+          </indexview>
+          <settingsview>
+            <invertsorting>Aflopend sorteren</invertsorting>
+            <legend>Instellingen</legend>
+            <monthswithoutchanges>Aantal maanden</monthswithoutchanges>
+            <numberofitems>Aantal items dat moet worden weergegeven</numberofitems>
+          </settingsview>
+        </notchangedpages>
+        <notesgadget>
+          <backgroundcolor>Achtergrondkleur</backgroundcolor>
+          <backgroundcolors>
+            <blue>Blauw</blue>
+            <green>Groen</green>
+            <orange>Oranje</orange>
+            <pink>Roze</pink>
+            <white>Wit</white>
+            <yellow>Geel</yellow>
+          </backgroundcolors>
+          <textsize>Tekstgrootte</textsize>
+          <textsizes>
+            <big>Groot</big>
+            <normal>Normaal</normal>
+            <verybig>Zeer groot</verybig>
+          </textsizes>
+          <title>Opmerkingen</title>
+        </notesgadget>
+        <pageinfo>
+          <modifiedby>Gewijzigd door</modifiedby>
+          <modifieddate>Gewijzigd</modifieddate>
+          <pagelink>ID</pagelink>
+          <pagetype>Paginatype</pagetype>
+          <path>Pad</path>
+        </pageinfo>
+        <quicklinks>
+          <addlink>Koppeling toevoegen</addlink>
+          <cmsedit>
+            <text>Bewerken</text>
+            <tooltip>CMS-bewerkingsmodus openen</tooltip>
+          </cmsedit>
+          <cmslinkcategoryname>CMS</cmslinkcategoryname>
+          <contentguidecategoryname>Snel publiceren</contentguidecategoryname>
+          <deletelink>Koppeling verwijderen</deletelink>
+          <episerverworldforum>
+            <text>EPiServer World-forum</text>
+            <tooltip>Het forum op EPiServer World</tooltip>
+          </episerverworldforum>
+          <linktitle>Titel</linktitle>
+          <linkurl>Webadres</linkurl>
+          <managelinks>Koppelingen beheren</managelinks>
+          <mylinkscategoryname>Mijn koppelingen</mylinkscategoryname>
+          <nocategory>Geen categorie</nocategory>
+          <title>Snelkoppelingen</title>
+        </quicklinks>
+        <recentlychangedpages>
+          <common>
+            <byall>Alle wijzigingen</byall>
+            <byme>Mijn wijzigingen</byme>
+            <heading>Recent gewijzigde pagina's</heading>
+          </common>
+          <configure>
+            <defaultview>Standaardweergave</defaultview>
+            <heading>Instellingen</heading>
+            <numberofitems>Aantal items dat moet worden weergegeven</numberofitems>
+          </configure>
+          <index>
+            <changedby>Gewijzigd door</changedby>
+            <modified>Opgeslagen</modified>
+            <name>Naam</name>
+            <status>Status</status>
+          </index>
+          <rss>
+            <description>Dit zijn de meest recent gewijzigde pagina's op de site {0}</description>
+          </rss>
+        </recentlychangedpages>
+        <rssgadget>
+          <errors>
+            <invalidfeed>Kan de feed niet lezen vanwege een XML-fout in de feedinhoud die werd geretourneerd door "{0}".</invalidfeed>
+            <invaliditemstoshow>Het weergegeven aantal items moet een positief geheel getal zijn.</invaliditemstoshow>
+            <invaliduri>Ongeldig webadres. Het webadres moet een absolute URL zijn die begint met http:// of https://. </invaliduri>
+            <notafeed>Het webadres [{0}] bevat geen geldige RSS- of Atom-feed.</notafeed>
+          </errors>
+          <loadingfeedmessage>Feed laden...</loadingfeedmessage>
+          <settings>
+            <feedurl>URL-feed</feedurl>
+            <itemstoshow>Weer te geven items</itemstoshow>
+            <loadfeedtitle>Titel van feed ophalen</loadfeedtitle>
+            <title>Titel</title>
+          </settings>
+          <title>RSS-feedreader</title>
+        </rssgadget>
+        <search>
+          <files>
+            <category>Bestanden</category>
+          </files>
+          <pages>
+            <category>Pagina's</category>
+            <id>ID</id>
+            <linkurl>Link URL</linkurl>
+            <tooltip>
+              <changed>Gewijzigd</changed>
+              <created>Aangemaakt</created>
+              <id>ID</id>
+              <linkurl>URL koppeling</linkurl>
+              <pagetype>Paginatype</pagetype>
+            </tooltip>
+          </pages>
+        </search>
+        <uploadfile>
+          <controller>
+            <noresize>Grootte niet wijzigen</noresize>
+          </controller>
+          <index>
+            <alttextlabel>Alternatieve tekst</alttextlabel>
+            <imagelegend>Afbeelding</imagelegend>
+            <imagesizelabel>Afbeeldingsgrootte wijzigen</imagesizelabel>
+            <savetolegend>Opslaan naar</savetolegend>
+            <selectlabel>Bestand selecteren</selectlabel>
+            <uploadbutton>Uploaden en invoegen</uploadbutton>
+          </index>
+        </uploadfile>
+        <xformsviewer>
+          <autoupdatelevel>
+            <never>Nooit</never>
+            <normal>Normaal (elke 10 minuten)</normal>
+            <often>Vaak (elke 60 seconden)</often>
+            <seldom>Zelden (elke 60 minuten)</seldom>
+          </autoupdatelevel>
+          <AutoupdateLevel>Automatisch bijwerken</AutoupdateLevel>
+          <chartperiodicity>
+            <day>Per dag</day>
+            <hour>Per uur</hour>
+            <minute>Per minuut</minute>
+            <month>Per maand</month>
+            <week>Per week</week>
+          </chartperiodicity>
+          <ChartPeriodicityLabel>Diagramperiodes</ChartPeriodicityLabel>
+          <ChartSettings>Diagraminstellingen</ChartSettings>
+          <DemoMode>Demomodus</DemoMode>
+          <error>
+            <fields>Velden zijn niet geselecteerd</fields>
+            <formfields>Formuliervelden selecteren</formfields>
+            <numberofposts>Aantal items moet tussen 1 en 50 liggen</numberofposts>
+            <xformid>Formulier selecteren</xformid>
+          </error>
+          <GadgetTitle>Formulierenviewer</GadgetTitle>
+          <NoFieldsAvailable>Geen velden beschikbaar</NoFieldsAvailable>
+          <NoFormsAvailable>Geen formulieren beschikbaar</NoFormsAvailable>
+          <NumberOfPosts>Aantal items dat moet worden weergegeven</NumberOfPosts>
+          <SelectFields>Weer te geven velden</SelectFields>
+          <SelectXForm>Formulier selecteren</SelectXForm>
+          <settings>Instellingen</settings>
+          <ShowChart>Diagram weergeven</ShowChart>
+          <ShowDate>Plaatsingsdatum item weergeven</ShowDate>
+          <TableColumnPostedTime>Geplaatst</TableColumnPostedTime>
+        </xformsviewer>
+      </cms>
+      <common>
+        <buttons>
+          <cancel>Annuleren</cancel>
+          <save>Opslaan</save>
+        </buttons>
+      </common>
+    </shell>
+  </language>
+</languages>

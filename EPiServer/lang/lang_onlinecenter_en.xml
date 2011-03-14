@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="English" id="en">
+    <reportcenter>
+      <report name="linkstatus">
+        <caption>Link Status</caption>
+        <description>Displays links in the content of the site that are not working.</description>
+        <heading>Link Status</heading>
+        <info>
+          This report displays links in the content of the site that are not working. Select a page from the list of report results to open it in Edit mode.
+        </info>
+      </report>
+    </reportcenter>
+    <shell>
+      <cms>
+        <brokenlinks>
+          <controller>
+            <tooltip>Page Type: {0}, Page ID: {1}</tooltip>
+            <webExceptions>
+              <fallback>Connection Error</fallback>
+              <status name="1">
+                <fallback>Name resolution failure</fallback>
+              </status>
+              <status name="2">
+                <fallback>Connection failure</fallback>
+              </status>
+              <status name="7">
+                <fallback>Server Error</fallback>
+                <httpStatus name="400">Bad Request</httpStatus>
+                <httpStatus name="404">Not Found</httpStatus>
+                <httpStatus name="503">Gateway Timeout</httpStatus>
+              </status>
+            </webExceptions>
+          </controller>
+          <index>
+            <info>This report displays links that could not be reached. This could for example be due to a page being moved, or a site shut down, or that the target link cannot be read at the moment.</info>
+            <itemsperpage>Items per Page</itemsperpage>
+            <name>Link Status</name>
+            <recheck>Recheck</recheck>
+            <showreport>Show Report</showreport>
+            <table>
+              <brokensince>Broken Since</brokensince>
+              <brokenurl>Broken URL</brokenurl>
+              <lastchecked>Last Checked</lastchecked>
+              <linkstatus>Link Status</linkstatus>
+              <pagename>Page Name</pagename>
+            </table>
+            <working>Working...</working>
+          </index>
+        </brokenlinks>
+        <directoryselector>
+          <directorylisting>
+            <directorytype>Directory</directorytype>
+          </directorylisting>
+          <folderselector>
+            <emptyfolder>This folder is empty.</emptyfolder>
+            <favoritesheading>Favorites</favoritesheading>
+            <startingpointsheading>Starting Points</startingpointsheading>
+            <wherelabel>Where</wherelabel>
+          </folderselector>
+          <index>
+            <nameheading>Name</nameheading>
+            <sizeheading>Size</sizeheading>
+            <typeheading>Type</typeheading>
+          </index>
+        </directoryselector>
+        <externallinks>
+          <common>
+            <hits>Number of Links</hits>
+            <host>Web Address</host>
+          </common>
+          <details>
+            <link>Web Address</link>
+            <page>Page</page>
+          </details>
+          <errors>
+            <pagenumber>Page number must be positive</pagenumber>
+            <pagesize>Page size must be positive</pagesize>
+          </errors>
+          <gadgettitle>External Links</gadgettitle>
+          <pager>
+            <info>Items: {0} - {1} out of {2}</info>
+            <next>&gt;&gt;</next>
+            <prev>&lt;&lt;</prev>
+            <split>...</split>
+          </pager>
+          <settings>
+            <legend>Settings</legend>
+            <pagesize>Number of items to display</pagesize>
+            <showdetails>Show details</showdetails>
+          </settings>
+        </externallinks>
+        <hosting>
+          <fileupload>
+            <conflictingdirectory>A folder with the same name as the new file already exists.</conflictingdirectory>
+            <fileexists>A file with the same name already exists and you don't have sufficient permission to replace the existing file.</fileexists>
+            <fileisnotimage>The selected file is not an image.</fileisnotimage>
+            <fileoverwriteconfirmation>A file with the same name already exists. Do you want to replace the existing file?</fileoverwriteconfirmation>
+            <invaliddirectory>The selected upload directory does not exist.</invaliddirectory>
+            <permissiondenied>You don't have sufficient permission to upload files in the selected folder.</permissiondenied>
+            <targetfilecheckedout>A file with the same name already exists and is checked out to another user.</targetfilecheckedout>
+          </fileupload>
+        </hosting>
+        <menu>
+          <admin>Admin Mode</admin>
+          <cms>CMS</cms>
+          <cmssettings>EPiServer CMS</cmssettings>
+          <edit>Edit Mode</edit>
+          <license>License Agreement</license>
+          <logout>Log out</logout>
+          <mysettings>My Settings</mysettings>
+          <reportcenter>Reports</reportcenter>
+          <selectasite>Select Site to Display in View Mode</selectasite>
+          <toviewmode>To View Mode [{0}]</toviewmode>
+        </menu>
+        <mytasks>
+          <assignedto>Assign To</assignedto>
+          <createnewtask>Create in Edit Mode</createnewtask>
+          <createnewtasktitle>Create Task from Edit Mode</createnewtasktitle>
+          <description>Description</description>
+          <duedate>Due Date</duedate>
+          <EmptySubjectWarning>Task subject is empty</EmptySubjectWarning>
+          <errors>
+            <settingsusergroupnames>Specify correct user groups names.</settingsusergroupnames>
+          </errors>
+          <IncorrectTaskStatusWarning>Specified status is not valid for task</IncorrectTaskStatusWarning>
+          <InvalidDueDate>Task due date is invalid</InvalidDueDate>
+          <legend>Add Task</legend>
+          <mygroups>My groups (delimited with comma)</mygroups>
+          <pagetasks>Page Tasks</pagetasks>
+          <quickadd>Quick Add</quickadd>
+          <quickaddtitle>Create Task from Dashboard</quickaddtitle>
+          <settingsheading>Settings</settingsheading>
+          <status>Status</status>
+          <subject>Subject</subject>
+          <title>My Tasks</title>
+          <tooltip>
+            <created>Created</created>
+            <pageid>Page ID</pageid>
+            <pagepath>Path</pagepath>
+          </tooltip>
+          <UnknownUserWarning>Specified user cannot be found</UnknownUserWarning>
+        </mytasks>
+        <notchangedpages>
+          <errors>
+            <monthswithoutchanges>Month number should be an integer greater than zero.</monthswithoutchanges>
+            <numberofitems>Number of items should be an integer greater than zero.</numberofitems>
+          </errors>
+          <gadgettitle>Unchanged Pages</gadgettitle>
+          <indexview>
+            <changedby>Changed By</changedby>
+            <modified>Changed</modified>
+            <name>Name</name>
+            <status>Status</status>
+          </indexview>
+          <settingsview>
+            <invertsorting>Sort descending</invertsorting>
+            <legend>Settings</legend>
+            <monthswithoutchanges>Number of months</monthswithoutchanges>
+            <numberofitems>Number of items to display</numberofitems>
+          </settingsview>
+        </notchangedpages>
+        <notesgadget>
+          <backgroundcolor>Background Color</backgroundcolor>
+          <backgroundcolors>
+            <blue>Blue</blue>
+            <green>Green</green>
+            <orange>Orange</orange>
+            <pink>Pink</pink>
+            <white>White</white>
+            <yellow>Yellow</yellow>
+          </backgroundcolors>
+          <textsize>Text Size</textsize>
+          <textsizes>
+            <big>Large</big>
+            <normal>Normal</normal>
+            <verybig>Largest</verybig>
+          </textsizes>
+          <title>Notes</title>
+        </notesgadget>
+        <pageinfo>
+          <modifiedby>Changed by</modifiedby>
+          <modifieddate>Changed</modifieddate>
+          <pagelink>ID</pagelink>
+          <pagetype>Page Type</pagetype>
+          <path>Path</path>
+        </pageinfo>
+        <quicklinks>
+          <addlink>Add Link</addlink>
+          <cmsedit>
+            <text>Edit</text>
+            <tooltip>Open CMS Edit Mode</tooltip>
+          </cmsedit>
+          <cmslinkcategoryname>CMS</cmslinkcategoryname>
+          <contentguidecategoryname>Quick Publishing</contentguidecategoryname>
+          <deletelink>Delete Link</deletelink>
+          <episerverworldforum>
+            <text>EPiServer World Forum</text>
+            <tooltip>The forum on EPiServer World</tooltip>
+          </episerverworldforum>
+          <linktitle>Title</linktitle>
+          <linkurl>Web Address</linkurl>
+          <managelinks>Manage Links</managelinks>
+          <mylinkscategoryname>My Links</mylinkscategoryname>
+          <nocategory>No Category</nocategory>
+          <title>Quick Links</title>
+        </quicklinks>
+        <recentlychangedpages>
+          <common>
+            <byall>All Changes</byall>
+            <byme>My Changes</byme>
+            <heading>Recently Changed Pages</heading>
+          </common>
+          <configure>
+            <defaultview>Default View</defaultview>
+            <heading>Settings</heading>
+            <numberofitems>Number of items to display</numberofitems>
+          </configure>
+          <index>
+            <changedby>Changed By</changedby>
+            <modified>Saved</modified>
+            <name>Name</name>
+            <status>Status</status>
+          </index>
+          <rss>
+            <description>These are the most recent changed pages on the site {0}</description>
+          </rss>
+        </recentlychangedpages>
+        <rssgadget>
+          <errors>
+            <invalidfeed>The feed could not be read due to XML error in the feed content returned from "{0}".</invalidfeed>
+            <invaliditemstoshow>The number of items shown must be a positive integer.</invaliditemstoshow>
+            <invaliduri>Invalid web address. The web address must be an absolute URL that begins with http:// or https://. </invaliduri>
+            <notafeed>The web address [{0}] does not contain a valid RSS or Atom feed.</notafeed>
+          </errors>
+          <loadingfeedmessage>Loading feed ...</loadingfeedmessage>
+          <settings>
+            <feedurl>Feed URL</feedurl>
+            <itemstoshow>Items to show</itemstoshow>
+            <loadfeedtitle>Fetch title from feed</loadfeedtitle>
+            <title>Title</title>
+          </settings>
+          <title>RSS Feed Reader</title>
+        </rssgadget>
+        <search>
+          <files>
+            <category>Files</category>
+          </files>
+          <pages>
+            <category>Pages</category>
+            <id>ID</id>
+            <linkurl>Link URL</linkurl>
+            <tooltip>
+              <changed>Changed</changed>
+              <created>Created</created>
+              <id>ID</id>
+              <linkurl>Link URL</linkurl>
+              <pagetype>Page Type</pagetype>
+            </tooltip>
+          </pages>
+        </search>
+        <uploadfile>
+          <controller>
+            <noresize>Don't Resize</noresize>
+          </controller>
+          <index>
+            <alttextlabel>Alt Text</alttextlabel>
+            <imagelegend>Image</imagelegend>
+            <imagesizelabel>Resize Image</imagesizelabel>
+            <savetolegend>Save To</savetolegend>
+            <selectlabel>Select File</selectlabel>
+            <uploadbutton>Upload and Insert</uploadbutton>
+          </index>
+        </uploadfile>
+        <xformsviewer>
+          <autoupdatelevel>
+            <never>Never</never>
+            <normal>Normal (every 10 minutes)</normal>
+            <often>Often (every 60 seconds)</often>
+            <seldom>Seldom (every 60 minutes)</seldom>
+          </autoupdatelevel>
+          <AutoupdateLevel>Automatically update</AutoupdateLevel>
+          <chartperiodicity>
+            <day>Per day</day>
+            <hour>Per hour</hour>
+            <minute>Per minute</minute>
+            <month>Per month</month>
+            <week>Per week</week>
+          </chartperiodicity>
+          <ChartPeriodicityLabel>Chart periodicity</ChartPeriodicityLabel>
+          <ChartSettings>Chart settings</ChartSettings>
+          <DemoMode>Demo mode</DemoMode>
+          <error>
+            <fields>Fields are not selected</fields>
+            <formfields>Select form fields</formfields>
+            <numberofposts>Number of items should be between 1 and 50</numberofposts>
+            <xformid>Select a form</xformid>
+          </error>
+          <GadgetTitle>Forms Viewer</GadgetTitle>
+          <NoFieldsAvailable>No available fields</NoFieldsAvailable>
+          <NoFormsAvailable>No available forms</NoFormsAvailable>
+          <NumberOfPosts>Number of items to display</NumberOfPosts>
+          <SelectFields>Fields to view</SelectFields>
+          <SelectXForm>Select form</SelectXForm>
+          <settings>Settings</settings>
+          <ShowChart>Display chart</ShowChart>
+          <ShowDate>Display item post date</ShowDate>
+          <TableColumnPostedTime>Posted</TableColumnPostedTime>
+        </xformsviewer>
+      </cms>
+      <common>
+        <buttons>
+          <cancel>Cancel</cancel>
+          <save>Save</save>
+        </buttons>
+      </common>
+    </shell>
+  </language>
+</languages>

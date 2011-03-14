@@ -1,0 +1,1212 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="Norwegian bokmål" id="no">
+    <admin>
+      <tinymce>
+        <plugins>
+          <advanced>
+            <advImage>
+              <description see="/tinymce/advimage/image_desc" />
+              <displayname see="/tinymce/advimage/image_desc" />
+            </advImage>
+            <advLink>
+              <description see="/tinymce/advlink/link_desc" />
+              <displayname see="/tinymce/advlink/link_desc" />
+            </advLink>
+            <anchor>
+              <description see="/tinymce/advanced/anchor_desc" />
+              <displayname see="/tinymce/advanced/anchor_desc" />
+            </anchor>
+            <backcolor>
+              <description see="/tinymce/advanced/backcolor_desc" />
+              <displayname see="/tinymce/advanced/backcolor_desc" />
+            </backcolor>
+            <backcolorpicker>
+              <description see="/tinymce/advanced/backcolor_desc" />
+              <displayname see="/tinymce/advanced/backcolor_desc" />
+            </backcolorpicker>
+            <bold>
+              <description see="/tinymce/simple/bold_desc" />
+              <displayname see="/tinymce/simple/bold_desc" />
+            </bold>
+            <bullist>
+              <description see="/tinymce/advanced/bullist_desc" />
+              <displayname see="/tinymce/advanced/bullist_desc" />
+            </bullist>
+            <charmap>
+              <description see="/tinymce/advanced/charmap_desc" />
+              <displayname see="/tinymce/advanced/charmap_desc" />
+            </charmap>
+            <cleanup>
+              <description see="/tinymce/advanced/cleanup_desc" />
+              <displayname see="/tinymce/advanced/cleanup_desc" />
+            </cleanup>
+            <code>
+              <description see="/tinymce/advanced/code" />
+              <displayname see="/tinymce/advanced/code" />
+            </code>
+            <copy>
+              <description see="/tinymce/advanced/copy_desc" />
+              <displayname see="/tinymce/advanced/copy_desc" />
+            </copy>
+            <cut>
+              <description see="/tinymce/advanced/cut_desc" />
+              <displayname see="/tinymce/advanced/cut_desc" />
+            </cut>
+            <fontselect>
+              <description see="/tinymce/advanced/fontdefault" />
+              <displayname see="/tinymce/advanced/fontdefault" />
+            </fontselect>
+            <fontsizeselect>
+              <description see="/tinymce/advanced/font_size" />
+              <displayname see="/tinymce/advanced/font_size" />
+            </fontsizeselect>
+            <forecolor>
+              <description see="/tinymce/advanced/forecolor_desc" />
+              <displayname see="/tinymce/advanced/forecolor_desc" />
+            </forecolor>
+            <forecolorpicker>
+              <description see="/tinymce/advanced/forecolor_desc" />
+              <displayname see="/tinymce/advanced/forecolor_desc" />
+            </forecolorpicker>
+            <formatselect>
+              <description see="/tinymce/advanced/block" />
+              <displayname see="/tinymce/advanced/block" />
+            </formatselect>
+            <help>
+              <description see="/tinymce/advanced/help_desc" />
+              <displayname see="/tinymce/advanced/help_desc" />
+            </help>
+            <hr>
+              <description see="/tinymce/advanced/hr_desc" />
+              <displayname see="/tinymce/advanced/hr_desc" />
+            </hr>
+            <image>
+              <description see="/tinymce/advanced/image_desc" />
+              <displayname see="/tinymce/advanced/image_desc" />
+            </image>
+            <indent>
+              <description see="/tinymce/advanced/indent_desc" />
+              <displayname see="/tinymce/advanced/indent_desc" />
+            </indent>
+            <italic>
+              <description see="/tinymce/simple/italic_desc" />
+              <displayname see="/tinymce/simple/italic_desc" />
+            </italic>
+            <justifycenter>
+              <description see="/tinymce/advanced/justifycenter_desc" />
+              <displayname see="/tinymce/advanced/justifycenter_desc" />
+            </justifycenter>
+            <justifyfull>
+              <description see="/tinymce/advanced/justifyfull_desc" />
+              <displayname see="/tinymce/advanced/justifyfull_desc" />
+            </justifyfull>
+            <justifyleft>
+              <description see="/tinymce/advanced/justifyleft_desc" />
+              <displayname see="/tinymce/advanced/justifyleft_desc" />
+            </justifyleft>
+            <justifyright>
+              <description see="/tinymce/advanced/justifyright_desc" />
+              <displayname see="/tinymce/advanced/justifyright_desc" />
+            </justifyright>
+            <link>
+              <description see="/tinymce/advanced/link_desc" />
+              <displayname see="/tinymce/advanced/link_desc" />
+            </link>
+            <numlist>
+              <description see="/tinymce/advanced/numlist_desc" />
+              <displayname see="/tinymce/advanced/numlist_desc" />
+            </numlist>
+            <outdent>
+              <description see="/tinymce/advanced/outdent_desc" />
+              <displayname see="/tinymce/advanced/outdent_desc" />
+            </outdent>
+            <paste>
+              <description see="/tinymce/advanced/paste_desc" />
+              <displayname see="/tinymce/advanced/paste_desc" />
+            </paste>
+            <redo>
+              <description see="/tinymce/advanced/redo_desc" />
+              <displayname see="/tinymce/advanced/redo_desc" />
+            </redo>
+            <removeformat>
+              <description see="/tinymce/advanced/removeformat_desc" />
+              <displayname see="/tinymce/advanced/removeformat_desc" />
+            </removeformat>
+            <strikethrough>
+              <description see="/tinymce/simple/striketrough_desc" />
+              <displayname see="/tinymce/simple/striketrough_desc" />
+            </strikethrough>
+            <styleselect>
+              <description see="/tinymce/advanced/style_select" />
+              <displayname see="/tinymce/advanced/style_select" />
+            </styleselect>
+            <sub>
+              <description see="/tinymce/advanced/sub_desc" />
+              <displayname see="/tinymce/advanced/sub_desc" />
+            </sub>
+            <sup>
+              <description see="/tinymce/advanced/sup_desc" />
+              <displayname see="/tinymce/advanced/sup_desc" />
+            </sup>
+            <underline>
+              <description see="/tinymce/simple/underline_desc" />
+              <displayname see="/tinymce/simple/underline_desc" />
+            </underline>
+            <undo>
+              <description see="/tinymce/advanced/undo_desc" />
+              <displayname see="/tinymce/advanced/undo_desc" />
+            </undo>
+            <unlink>
+              <description see="/tinymce/advanced/unlink_desc" />
+              <displayname see="/tinymce/advanced/unlink_desc" />
+            </unlink>
+            <visualaid>
+              <description see="/tinymce/advanced/visualaid_desc" />
+              <displayname see="/tinymce/advanced/visualaid_desc" />
+            </visualaid>
+          </advanced>
+          <directionality>
+            <ltr>
+              <description see="/tinymce/directionality/ltr_desc" />
+              <displayname see="/tinymce/directionality/ltr_desc" />
+            </ltr>
+            <rtl>
+              <description see="/tinymce/directionality/rtl_desc" />
+              <displayname see="/tinymce/directionality/rtl_desc" />
+            </rtl>
+          </directionality>
+          <fullscreen>
+            <fullscreen>
+              <description see="/tinymce/fullscreen/desc" />
+              <displayname see="/tinymce/fullscreen/desc" />
+            </fullscreen>
+          </fullscreen>
+          <insertdatetime>
+            <insertdate>
+              <description see="/tinymce/insertdatetime/insertdate_desc" />
+              <displayname see="/tinymce/insertdatetime/insertdate_desc" />
+            </insertdate>
+            <inserttime>
+              <description see="/tinymce/insertdatetime/inserttime_desc" />
+              <displayname see="/tinymce/insertdatetime/inserttime_desc" />
+            </inserttime>
+          </insertdatetime>
+          <layer>
+            <absolute>
+              <description see="/tinymce/layer/absolute_desc" />
+              <displayname see="/tinymce/layer/absolute_desc" />
+            </absolute>
+            <insertLayer>
+              <description see="/tinymce/layer/insertlayer_desc" />
+              <displayname see="/tinymce/layer/insertlayer_desc" />
+            </insertLayer>
+            <movebackward>
+              <description see="/tinymce/layer/backward_desc" />
+              <displayname see="/tinymce/layer/backward_desc" />
+            </movebackward>
+            <moveforward>
+              <description see="/tinymce/layer/forward_desc" />
+              <displayname see="/tinymce/layer/forward_desc" />
+            </moveforward>
+          </layer>
+          <media>
+            <media>
+              <description see="/tinymce/media/desc" />
+              <displayname see="/tinymce/media/desc" />
+            </media>
+          </media>
+          <nonbreaking>
+            <nonbreaking>
+              <description see="/tinymce/nonbreaking/nonbreaking_desc" />
+              <displayname see="/tinymce/nonbreaking/nonbreaking_desc" />
+            </nonbreaking>
+          </nonbreaking>
+          <paste>
+            <pastetext>
+              <description see="/tinymce/paste/paste_text_desc" />
+              <displayname see="/tinymce/paste/paste_text_desc" />
+            </pastetext>
+            <pasteword>
+              <description see="/tinymce/paste/paste_word_desc" />
+              <displayname see="/tinymce/paste/paste_word_desc" />
+            </pasteword>
+            <selectall>
+              <description see="/tinymce/paste/selectall_desc" />
+              <displayname see="/tinymce/paste/selectall_desc" />
+            </selectall>
+          </paste>
+          <preview>
+            <preview>
+              <description see="/tinymce/preview/preview_desc" />
+              <displayname see="/tinymce/preview/preview_desc" />
+            </preview>
+          </preview>
+          <print>
+            <print>
+              <description see="/tinymce/print/print_desc" />
+              <displayname see="/tinymce/print/print_desc" />
+            </print>
+          </print>
+          <searchreplace>
+            <replace>
+              <description see="/tinymce/searchreplace/replace_desc" />
+              <displayname see="/tinymce/searchreplace/replace_desc" />
+            </replace>
+            <search>
+              <description see="/tinymce/searchreplace/search_desc" />
+              <displayname see="/tinymce/searchreplace/search_desc" />
+            </search>
+          </searchreplace>
+          <style>
+            <styleprops>
+              <description see="/tinymce/style/desc" />
+              <displayname see="/tinymce/style/desc" />
+            </styleprops>
+          </style>
+          <table>
+            <cell_props>
+              <description see="/tinymce/table/cell_desc" />
+              <displayname see="/tinymce/table/cell_desc" />
+            </cell_props>
+            <col_after>
+              <description see="/tinymce/table/col_after_desc" />
+              <displayname see="/tinymce/table/col_after_desc" />
+            </col_after>
+            <col_before>
+              <description see="/tinymce/table/col_before_desc" />
+              <displayname see="/tinymce/table/col_before_desc" />
+            </col_before>
+            <delete_col>
+              <description see="/tinymce/table/delete_col_desc" />
+              <displayname see="/tinymce/table/delete_col_desc" />
+            </delete_col>
+            <delete_row>
+              <description see="/tinymce/table/delete_row_desc" />
+              <displayname see="/tinymce/table/delete_row_desc" />
+            </delete_row>
+            <delete_table>
+              <description see="/tinymce/table/del" />
+              <displayname see="/tinymce/table/del" />
+            </delete_table>
+            <merge_cells>
+              <description see="/tinymce/table/merge_cells_desc" />
+              <displayname see="/tinymce/table/merge_cells_desc" />
+            </merge_cells>
+            <row_after>
+              <description see="/tinymce/table/row_after_desc" />
+              <displayname see="/tinymce/table/row_after_desc" />
+            </row_after>
+            <row_before>
+              <description see="/tinymce/table/row_before_desc" />
+              <displayname see="/tinymce/table/row_before_desc" />
+            </row_before>
+            <row_props>
+              <description see="/tinymce/table/row_desc" />
+              <displayname see="/tinymce/table/row_desc" />
+            </row_props>
+            <split_cells>
+              <description see="/tinymce/table/split_cells_desc" />
+              <displayname see="/tinymce/table/split_cells_desc" />
+            </split_cells>
+            <table>
+              <description see="/tinymce/table/desc" />
+              <displayname see="/tinymce/table/desc" />
+            </table>
+            <tablecontrols>
+              <description see="/tinymce/table/desc" />
+              <displayname see="/tinymce/table/desc" />
+            </tablecontrols>
+          </table>
+          <xhtmlxtras>
+            <abbr>
+              <description see="/tinymce/xhtmlxtras/abbr_desc" />
+              <displayname see="/tinymce/xhtmlxtras/abbr_desc" />
+            </abbr>
+            <acronym>
+              <description see="/tinymce/xhtmlxtras/acronym_desc" />
+              <displayname see="/tinymce/xhtmlxtras/acronym_desc" />
+            </acronym>
+            <attribs>
+              <description see="/tinymce/xhtmlxtras/attribs_desc" />
+              <displayname see="/tinymce/xhtmlxtras/attribs_desc" />
+            </attribs>
+            <cite>
+              <description see="/tinymce/xhtmlxtras/cite_desc" />
+              <displayname see="/tinymce/xhtmlxtras/cite_desc" />
+            </cite>
+            <del>
+              <description see="/tinymce/xhtmlxtras/del_desc" />
+              <displayname see="/tinymce/xhtmlxtras/del_desc" />
+            </del>
+            <ins>
+              <description see="/tinymce/xhtmlxtras/ins_desc" />
+              <displayname see="/tinymce/xhtmlxtras/ins_desc" />
+            </ins>
+          </xhtmlxtras>
+        </plugins>
+      </tinymce>
+    </admin>
+    <tinymce>
+      <advanced>
+        <address>Adresse</address>
+        <anchor_delta_height />
+        <anchor_delta_width />
+        <anchor_desc>Sett inn / endre anker</anchor_desc>
+        <backcolor_desc>Vel bakgrunnsfarge</backcolor_desc>
+        <backcolorpicker_desc see="#backcolor_desc" />
+        <block>Format</block>
+        <blockquote>Innrykk</blockquote>
+        <blockquote_desc>Innrykk</blockquote_desc>
+        <bold_desc>Fet</bold_desc>
+        <bullist_desc>Punktliste</bullist_desc>
+        <charmap_delta_height />
+        <charmap_delta_width />
+        <charmap_desc>Sett inn spesialtegn</charmap_desc>
+        <cleanup_desc>Rens grisete kode</cleanup_desc>
+        <clipboard_msg>Klipp ut / Kopier /Lim inn fungerer ikke i Mozilla og Firefox. 
+  Vil du vite mer om dette?</clipboard_msg>
+        <code>Kode</code>
+        <code_desc>Redigere HTML-kode</code_desc>
+        <colorpicker_delta_height />
+        <colorpicker_delta_width />
+        <copy_desc>Kopier</copy_desc>
+        <custom1_desc>Din spesialfunksjondefinisjon her</custom1_desc>
+        <cut_desc>Klipp ut</cut_desc>
+        <dd>Definisjonsbeskrivelse</dd>
+        <div>Div</div>
+        <dt>Definisjonsuttrykk</dt>
+        <font_size>Skriftstørrelse</font_size>
+        <fontdefault>Skriftfamilie</fontdefault>
+        <fontselect_desc see="#fontdefault" />
+        <fontsizeselect_desc see="#font_size" />
+        <forecolor_desc>Vel skriftfarge</forecolor_desc>
+        <forecolorpicker_desc see="#forecolor_desc" />
+        <formatselect_desc see="#block" />
+        <h1>Overskrift 1</h1>
+        <h2>Overskrift 2</h2>
+        <h3>Overskrift 3</h3>
+        <h4>Overskrift 4</h4>
+        <h5>Overskrift 5</h5>
+        <h6>Overskrift 6</h6>
+        <help_desc>Hjelp</help_desc>
+        <hr_desc>Sett inn horisontal linje</hr_desc>
+        <image_delta_height />
+        <image_delta_width />
+        <image_desc>Sett inn / endre bilde</image_desc>
+        <image_props_desc>Egenskaper for bilde</image_props_desc>
+        <indent_desc>Øk innrykk</indent_desc>
+        <italic_desc>Kursiv</italic_desc>
+        <justifycenter_desc>Midtstilt</justifycenter_desc>
+        <justifyfull_desc>Blokkjustert</justifyfull_desc>
+        <justifyleft_desc>Venstrejustert</justifyleft_desc>
+        <justifyright_desc>Høyrejustert</justifyright_desc>
+        <link_delta_height />
+        <link_delta_width />
+        <link_desc>Sett inn / endre lenke</link_desc>
+        <more_colors>Flere farger</more_colors>
+        <newdocument>Er du sikker på at du vil slette alt innhold?</newdocument>
+        <newdocument_desc>Nytt dokument</newdocument_desc>
+        <numlist_desc>Nummerliste</numlist_desc>
+        <outdent_desc>Reduser innrykk</outdent_desc>
+        <paragraph>Avsnitt</paragraph>
+        <paste_desc>Lim inn</paste_desc>
+        <path>Sti</path>
+        <pre>Pre-formatert</pre>
+        <redo_desc>Gjør om</redo_desc>
+        <removeformat_desc>Fjern formatering</removeformat_desc>
+        <samp>Kodeeksempel</samp>
+        <strikethrough_desc see="#striketrough_desc" />
+        <striketrough_desc>Gjennomstrek</striketrough_desc>
+        <style_select>Stiler</style_select>
+        <styleselect_desc see="#style_select" />
+        <sub_desc>Senk skrift</sub_desc>
+        <sup_desc>Hev skrift</sup_desc>
+        <toolbar_focus>Skift til verktøyknapper - Alt+Q, Skift til editor - Alt-Z, Skift til elementsti - Alt-</toolbar_focus>
+        <underline_desc>Understrek</underline_desc>
+        <undo_desc>Angre</undo_desc>
+        <unlink_desc>Fjern lenke</unlink_desc>
+        <visualaid_desc>Slå av/på usynlige element</visualaid_desc>
+      </advanced>
+      <advanced_dlg>
+        <about_author>Utvikler</about_author>
+        <about_general>Om</about_general>
+        <about_help>Hjelp</about_help>
+        <about_license>Lisens</about_license>
+        <about_loaded>Last programtillegg</about_loaded>
+        <about_plugin>Programtillegg</about_plugin>
+        <about_plugins>Programtillegg</about_plugins>
+        <about_title>Om TinyMCE</about_title>
+        <about_version>Versjon</about_version>
+        <anchor_name>Ankernavn</anchor_name>
+        <anchor_title>Sett inn / endre anker</anchor_title>
+        <charmap_title>Velg spesialtegn</charmap_title>
+        <code_title>HTML-editor</code_title>
+        <code_wordwrap>Tekstbryting</code_wordwrap>
+        <colorpicker_color>Farge:</colorpicker_color>
+        <colorpicker_name>Navn:</colorpicker_name>
+        <colorpicker_named_tab>Navnevalg</colorpicker_named_tab>
+        <colorpicker_named_title>Fargenavn</colorpicker_named_title>
+        <colorpicker_palette_tab>Palett</colorpicker_palette_tab>
+        <colorpicker_palette_title>Palettfarger</colorpicker_palette_title>
+        <colorpicker_picker_tab>Velg farge</colorpicker_picker_tab>
+        <colorpicker_picker_title>Fargevalg</colorpicker_picker_title>
+        <colorpicker_title>Velg en farge</colorpicker_title>
+        <image_align>Justering</image_align>
+        <image_align_baseline>Bunnlinje</image_align_baseline>
+        <image_align_bottom>Bunn</image_align_bottom>
+        <image_align_left>Venstre</image_align_left>
+        <image_align_middle>Midtstilt</image_align_middle>
+        <image_align_right>Høyre</image_align_right>
+        <image_align_textbottom>Tekstbunn</image_align_textbottom>
+        <image_align_texttop>Teksttopp</image_align_texttop>
+        <image_align_top>Topp</image_align_top>
+        <image_alt>Bildeomtale</image_alt>
+        <image_border>Ramme</image_border>
+        <image_dimensions>Dimensjoner</image_dimensions>
+        <image_hspace>Horisontal avstand</image_hspace>
+        <image_list>Liste med bilde</image_list>
+        <image_src>Bilde-URL</image_src>
+        <image_title>Sett inn / endre bilde</image_title>
+        <image_vspace>Vertikal avstand</image_vspace>
+        <link_is_email>Nettadressen du skrev inn ser ut til å være en e-postadresse. Ønsker du å legge til det obligatoriske mailto:-prefikset?</link_is_email>
+        <link_is_external>Nettadressen du skrev inn ser ut til å være en ekstern nettadresse. Ønsker du å legge til det obligatoriske http://-prefikset?</link_is_external>
+        <link_list>Lenkeliste</link_list>
+        <link_target>Vindu</link_target>
+        <link_target_blank>Åpne i nytt vindu</link_target_blank>
+        <link_target_same>Åpne i dette vinduet</link_target_same>
+        <link_title>Sett inn / endre lenke</link_title>
+        <link_titlefield>Tittel</link_titlefield>
+        <link_url>Lenke-URL</link_url>
+      </advanced_dlg>
+      <advhr>
+        <advhr_desc>Horisontal linje</advhr_desc>
+        <delta_height />
+        <delta_width />
+      </advhr>
+      <advhr_dlg>
+        <noshade>Ingen skygge</noshade>
+        <size>Størrelse</size>
+        <width>Bredde</width>
+      </advhr_dlg>
+      <advimage>
+        <delta_height />
+        <delta_width />
+        <image_desc>Sett inn / endre bilde</image_desc>
+      </advimage>
+      <advimage_dlg>
+        <align>Justering</align>
+        <align_baseline>Basislinje</align_baseline>
+        <align_bottom>Bunn</align_bottom>
+        <align_left>Venstre</align_left>
+        <align_middle>Midtstilt</align_middle>
+        <align_right>Høyre</align_right>
+        <align_textbottom>Tekst bunn</align_textbottom>
+        <align_texttop>Tekst topp</align_texttop>
+        <align_top>Topp</align_top>
+        <alt>Bildebeskrivelse</alt>
+        <alt_image>Alternativt bilde</alt_image>
+        <border>Ramme</border>
+        <classes>Klasser</classes>
+        <constrain_proportions>Behald proporsjoner</constrain_proportions>
+        <dialog_title>Sett inn / endre bilde</dialog_title>
+        <dimensions>Dimensjoner</dimensions>
+        <example_img>Forhåndsvis</example_img>
+        <general>Generelt</general>
+        <hspace>Horisontal avstand</hspace>
+        <id>Id</id>
+        <image_list>Liste med bilde</image_list>
+        <langcode>Språkkode</langcode>
+        <langdir>Skriftretning</langdir>
+        <list>Bildeliste</list>
+        <long_desc>Lang beskrivelse</long_desc>
+        <ltr>Venstre mot høyre</ltr>
+        <map>Bildekart</map>
+        <misc>Annet</misc>
+        <missing_alt>Er du sikker på at du vil fortsette uten å sette inn en beskrivelse av bildet? Uten beskrivelse vil bildet ikke gi mening for enkelte funksjonshemmde eller for personer som bruker en nettleser med bildevisingen avslått.</missing_alt>
+        <mouseout>for musepeker utenfor</mouseout>
+        <mouseover>for musepeker over</mouseover>
+        <preview>Forhåndsvis</preview>
+        <rtl>Høyre mot venstre</rtl>
+        <src>Bilde-URL</src>
+        <style>Stil</style>
+        <swap_image>Bytt bilde</swap_image>
+        <tab_advanced>Avansert</tab_advanced>
+        <tab_appearance>Utseende</tab_appearance>
+        <tab_general>Generelt</tab_general>
+        <title>Tittel</title>
+        <vspace>Vertikal avstand</vspace>
+      </advimage_dlg>
+      <advlink>
+        <delta_height />
+        <delta_width />
+        <link_desc>Sett inn / endre lenke</link_desc>
+      </advlink>
+      <advlink_dlg>
+        <accesskey>Hurtigtast</accesskey>
+        <advanced_props>Generelle egenskaper</advanced_props>
+        <advanced_tab>Avansert</advanced_tab>
+        <anchor_names>Anker</anchor_names>
+        <classes>Klasser</classes>
+        <encoding>Tegnkonvertering</encoding>
+        <event_props>Hendelser</event_props>
+        <events_tab>Hendelser</events_tab>
+        <general_props>Generelt</general_props>
+        <general_tab>Generelt</general_tab>
+        <id>Id</id>
+        <is_email>URL-en du skrev inn ser ut til å være en e-postadresse. Ønsker du å legge til det obligatoriske mailto:-prefikset?</is_email>
+        <is_external>URL-en du skrev inn ser ut til å være en eksern lenke. Ønsker du å legge til det obligatoriske http://-prefikset?</is_external>
+        <langcode>Språkkode</langcode>
+        <langdir>Skriftretning</langdir>
+        <link_list>Lenkeliste</link_list>
+        <list>Lenkeliste</list>
+        <ltr>Venstre mot høyre</ltr>
+        <mime>Målet sin MIME-type</mime>
+        <popup>Javascript-popup</popup>
+        <popup_dependent>Avhengig vindu (berre i Mozilla/Firefox)</popup_dependent>
+        <popup_location>Vis plasseringslinje</popup_location>
+        <popup_menubar>Vis menylinje</popup_menubar>
+        <popup_name>Navn på vindu</popup_name>
+        <popup_opts>Innstillinger</popup_opts>
+        <popup_position>Posisjon (X/Y)</popup_position>
+        <popup_props>Popup-egenskaper</popup_props>
+        <popup_resizable>Gjør vinduet skalerbart</popup_resizable>
+        <popup_return>Sett inn \'return false\'</popup_return>
+        <popup_scrollbars>Vis rullefelt</popup_scrollbars>
+        <popup_size>Størrelse</popup_size>
+        <popup_statusbar>Vis statusline</popup_statusbar>
+        <popup_tab>Popup</popup_tab>
+        <popup_toolbar>Vis verktylinjer</popup_toolbar>
+        <popup_url>Popup URL</popup_url>
+        <rel>Siden sitt forhold til målet</rel>
+        <rev>Målet sitt forhold til siden</rev>
+        <rtl>Høyre mot venstre</rtl>
+        <style>Stil</style>
+        <tabindex>Tabulatorindeks</tabindex>
+        <target>Mål</target>
+        <target_blank>Åpne i nytt vindu</target_blank>
+        <target_langcode>Målspråk</target_langcode>
+        <target_name>Målnavn</target_name>
+        <target_parent>Åpne i overordnet vindu/ramme</target_parent>
+        <target_same>Åpne i same vindu/ramme</target_same>
+        <target_top>Åpne i toppvindu (erstatter alle rammer)</target_top>
+        <title>Sett inn / rediger lenke</title>
+        <titlefield>Tittel</titlefield>
+        <url>Lenke-URL</url>
+      </advlink_dlg>
+      <autosave>
+        <unload_msg>Endringene du gjorde går tapt om du forlater denne siden!</unload_msg>
+      </autosave>
+      <common>
+        <apply>Legg til</apply>
+        <browse>Bla gjennom</browse>
+        <cancel>Avbryt</cancel>
+        <class_name>Klasse</class_name>
+        <clipboard_msg>Klipp ut / Kopier /Lim inn fungerer ikke i Mozilla og Firefox. Vil du vite mer om dette?</clipboard_msg>
+        <clipboard_no_support>For tiden ikke støttet av nettleseren din, bruk tastatursnarveier i stedet.</clipboard_no_support>
+        <close>Stopp</close>
+        <edit_confirm>Vil du bruke WYSIWYG-editoren for dette tekstfeltet?</edit_confirm>
+        <insert>Sett inn</insert>
+        <invalid_data>Feil: Ugyldige verdier er skrevet inn, disse er merket med rødt</invalid_data>
+        <more_colors>Flere farger</more_colors>
+        <not_set>--ikke sett--</not_set>
+        <popup_blocked>Beklager, det er registrert at du har popup-sperre aktivert i nettleseren. Du må oppheve popup-sperren for nettstedet for å få tilgang til dette verktøyet</popup_blocked>
+        <update>Oppdater</update>
+      </common>
+      <contextmenu>
+        <align>Justering</align>
+        <center>Midtstill</center>
+        <full>Full</full>
+        <left>Venstre</left>
+        <right>Høyre</right>
+      </contextmenu>
+      <directionality>
+        <ltr_desc>Retning venstre mot høyre</ltr_desc>
+        <rtl_desc>Retning høyre mot venstre</rtl_desc>
+      </directionality>
+      <emotions>
+        <delta_height />
+        <delta_width />
+        <emotions_desc>Humørfjes</emotions_desc>
+      </emotions>
+      <emotions_dlg>
+        <cool>Cool</cool>
+        <cry>Gret</cry>
+        <desc>Humørfjes</desc>
+        <embarassed>Flau</embarassed>
+        <emotions_dlg_desc see="#desc" />
+        <foot_in_mouth>Fot i munnen</foot_in_mouth>
+        <frown>Skuffa</frown>
+        <innocent>Uskyldig</innocent>
+        <kiss>Kyss</kiss>
+        <laughing>Ler</laughing>
+        <money_mouth>Pengar i munnen</money_mouth>
+        <sealed>Hemmelig</sealed>
+        <smile>Glad</smile>
+        <surprised>Overraska</surprised>
+        <title>Sett inn humørfjes</title>
+        <tongue_out>Rekke tunge</tongue_out>
+        <undecided>Skeptisk</undecided>
+        <wink>Blunke</wink>
+        <yell>Skrik</yell>
+      </emotions_dlg>
+      <fullpage>
+        <delta_height />
+        <delta_width />
+        <desc>Dokumentegenskaper</desc>
+        <fullpage_desc see="#desc" />
+      </fullpage>
+      <fullpage_dlg>
+        <active_color>Aktiv farge</active_color>
+        <add>Legg til nytt element</add>
+        <add_base>Basiselement</add_base>
+        <add_comment>Kommentarnode</add_comment>
+        <add_link>Lenkeelement</add_link>
+        <add_meta>Metaelement</add_meta>
+        <add_script>Skriptelement</add_script>
+        <add_style>Stilelement</add_style>
+        <add_title>Tittelelement</add_title>
+        <advanced_props>Generelle egenskaper</advanced_props>
+        <advanced_tab>Avansert</advanced_tab>
+        <appearance_bgprops>Bakgrunnsegenskaper</appearance_bgprops>
+        <appearance_linkprops>Lenkefarger</appearance_linkprops>
+        <appearance_marginprops>Body-marg</appearance_marginprops>
+        <appearance_style>Stilark og stilegenskaper</appearance_style>
+        <appearance_tab>Utseende</appearance_tab>
+        <appearance_textprops>Tekstegenskaper</appearance_textprops>
+        <author>Forfatter</author>
+        <base_element>Basiselement</base_element>
+        <bgcolor>Bakgrunn</bgcolor>
+        <bgimage>Bakgrunnsbilde</bgimage>
+        <bottom_margin>Bunnmarg</bottom_margin>
+        <charset>Tegnsett</charset>
+        <comment_element>Kommentar</comment_element>
+        <content>Nytt lag...</content>
+        <copyright>Copyright</copyright>
+        <defer>Defer</defer>
+        <doctypes>Doctype</doctypes>
+        <encoding>Tegnkonvertering</encoding>
+        <font_face>Skrifttype</font_face>
+        <font_size>Skriftstørrelse</font_size>
+        <fontface>Skriftfamile</fontface>
+        <fontsize>Skriftstørrelse</fontsize>
+        <general_props>Generelt</general_props>
+        <head_elements>Overskriftselement</head_elements>
+        <hover_color>Mus-over-farge</hover_color>
+        <href>Href</href>
+        <hreflang>Href lang</hreflang>
+        <info>Informasjon</info>
+        <langcode>Språkkode</langcode>
+        <langdir>Skriftretning</langdir>
+        <langprops>Språk og koding</langprops>
+        <language>Språk</language>
+        <left_margin>Venstre marg</left_margin>
+        <link_color>Lenkefarge</link_color>
+        <link_element>Lenkeelement</link_element>
+        <ltr>Venstre mot høyre</ltr>
+        <media>Objekt</media>
+        <meta_description>Omtale</meta_description>
+        <meta_element>Metaelement</meta_element>
+        <meta_index_follow>Indekser, og følg lenkene</meta_index_follow>
+        <meta_index_nofollow>Indekser, men ikke følg lenkene</meta_index_nofollow>
+        <meta_keywords>Nøkkelord</meta_keywords>
+        <meta_noindex_follow>Ikke indekser, men følg lenkene</meta_noindex_follow>
+        <meta_noindex_nofollow>Ikke indekser, og ikke følg lenkene</meta_noindex_nofollow>
+        <meta_props>Metainformasjon</meta_props>
+        <meta_robots>Roboter</meta_robots>
+        <meta_tab>Generelt</meta_tab>
+        <meta_title>Tittel</meta_title>
+        <movedown>Flytt markert element ned</movedown>
+        <moveup>Flytt markert element opp</moveup>
+        <name>Navn</name>
+        <properties>Egenskaper</properties>
+        <rel>Siden sitt tilpasset til målet</rel>
+        <remove>Fjern</remove>
+        <rev>Målet sitt tilpasset til siden</rev>
+        <right_margin>Høyre marg</right_margin>
+        <rtl>Høyre mot venstre</rtl>
+        <script_element>Skriptelement</script_element>
+        <src>Skjerm</src>
+        <style>Stil</style>
+        <style_element>Stilelement</style_element>
+        <stylesheet>Stilark</stylesheet>
+        <target>Mål</target>
+        <text_color>Farge</text_color>
+        <textcolor>Farge</textcolor>
+        <title>Dokumentegenskaper</title>
+        <title_element>Tittelelement</title_element>
+        <top_margin>Toppmarg</top_margin>
+        <type>Type</type>
+        <value>Verdi</value>
+        <visited_color>Besøkt-farge</visited_color>
+        <xml_pi>XML-deklarasjon</xml_pi>
+      </fullpage_dlg>
+      <fullscreen>
+        <desc>Skift til/fra fullskjermmodus</desc>
+        <fullscreen_desc see="#desc" />
+      </fullscreen>
+      <iespell>
+        <download>ieSpell ikke funnet. Ønsker du å installere ieSpell?</download>
+        <iespell_desc>Kontroller rettskriving</iespell_desc>
+      </iespell>
+      <insertdatetime>
+        <date_fmt>%d-%m-%Y</date_fmt>
+        <day_long>søndag,mandag,tirsdag,onsdag,torsdag,fredag,lørdag,søndag</day_long>
+        <day_short>søn,man,tir,ons,tor,fre,lør,søn</day_short>
+        <insertdate_desc>Lim inn dato</insertdate_desc>
+        <inserttime_desc>Lim inn tid</inserttime_desc>
+        <months_long>januar,februar,mars,april,mai,juni,juli,august,september,oktober,november,desember</months_long>
+        <months_short>jan,feb,mar,apr,mai,jun,jul,aug,sep,oct,nov,des</months_short>
+        <time_fmt>%H:%M:%S</time_fmt>
+      </insertdatetime>
+      <layer>
+        <absolute_desc>Slå på/av absolutt plassering</absolute_desc>
+        <backward_desc>Flytt bakover</backward_desc>
+        <content>Nytt lag...</content>
+        <forward_desc>Flytt framover</forward_desc>
+        <insertlayer_desc>Sett inn nytt lag</insertlayer_desc>
+        <movebackward_desc see="#backward_desc" />
+        <moveforward_desc see="#forward_desc" />
+      </layer>
+      <media>
+        <delta_height />
+        <delta_width />
+        <desc>Sett inn / rediger inkludert objekt</desc>
+        <edit>Endre innsatt objekt</edit>
+        <media_desc see="#desc" />
+      </media>
+      <media_dlg>
+        <advanced>Avansert</advanced>
+        <align>Justering</align>
+        <align_bottom>Bunn</align_bottom>
+        <align_bottom_left>Bunn venste</align_bottom_left>
+        <align_bottom_right>Bunn høgre</align_bottom_right>
+        <align_center>Midt</align_center>
+        <align_left>Venstre</align_left>
+        <align_right>Høyre</align_right>
+        <align_top>Topp</align_top>
+        <align_top_left>Topp venstre</align_top_left>
+        <align_top_right>Topp høyre</align_top_right>
+        <autogotourl>Auto-gå-til-URL</autogotourl>
+        <autohref>AutoHREF</autohref>
+        <autostart>Autostart</autostart>
+        <balance>Balanse</balance>
+        <base>Base</base>
+        <baseurl>Base URL</baseurl>
+        <bgcolor>Bakgrunn</bgcolor>
+        <cache>Cache</cache>
+        <captioningid>Fange opp id</captioningid>
+        <center>Midtstill</center>
+        <class_name>Klasse</class_name>
+        <console>Konsoll</console>
+        <constrain_proportions>Behold proporsjoner</constrain_proportions>
+        <controller>Kontroller</controller>
+        <controls>Kontroller</controls>
+        <correction>Ingen korreksjon</correction>
+        <currentmarker>Aktiv markør</currentmarker>
+        <currentposition>Aktiv posisjon</currentposition>
+        <defaultframe>Standardramme</defaultframe>
+        <enabled>Kjørbar</enabled>
+        <enablejavascript>Tillat Javaskript</enablejavascript>
+        <endtime>Stopptid</endtime>
+        <file>Fil/URL</file>
+        <flash_options>Flash-egenskaper</flash_options>
+        <flashvars>Flash-variabler</flashvars>
+        <flv_autostart>Autostart</flv_autostart>
+        <flv_buffer>Buffer</flv_buffer>
+        <flv_defaultvolume>Standardvolum</flv_defaultvolume>
+        <flv_hiddengui>Skjult GUI</flv_hiddengui>
+        <flv_jscallback>JS Callback</flv_jscallback>
+        <flv_loop>Løkke</flv_loop>
+        <flv_options>Flash video-valg</flv_options>
+        <flv_scalemode>Skalering</flv_scalemode>
+        <flv_showscalemodes>Vis skalering</flv_showscalemodes>
+        <flv_smoothvideo>Jevn video</flv_smoothvideo>
+        <flv_startimage>Startbilde</flv_startimage>
+        <flv_starttime>Starttid</flv_starttime>
+        <fullscreen>Fullskjerm</fullscreen>
+        <general>Generelt</general>
+        <hidden>Skjult</hidden>
+        <href>Href</href>
+        <hspace>Horisontal avstand</hspace>
+        <id>Id</id>
+        <imagestatus>Status for bilde</imagestatus>
+        <invokeurls>Aktiviser URL-ar</invokeurls>
+        <kioskmode>Kiosk-modus</kioskmode>
+        <list>Liste</list>
+        <liveconnect>SWLiveConnect</liveconnect>
+        <loop>Løkke</loop>
+        <maintainaspect>Behold proporsjoner</maintainaspect>
+        <menu>Vis meny</menu>
+        <mute>Demp</mute>
+        <name>Navn</name>
+        <nojava>Ikke Java</nojava>
+        <numloop>Antall gjennomganger</numloop>
+        <play>Autostart</play>
+        <playcount>Teller</playcount>
+        <playeveryframe>Spill hver ramme</playeveryframe>
+        <prefetch>Registrer på forhånd</prefetch>
+        <preview>Forhåndsvis</preview>
+        <progress>Framdrift</progress>
+        <qt_options>Quicktime-innstillinger</qt_options>
+        <qt_stream_warn>Streama rtsp-ressurser bør leggest til QT Src-feltet i avansert-fanen.\nDu bør også legge til en ikke-streama versjon i src-feltet</qt_stream_warn>
+        <qtsrc>QT Src</qtsrc>
+        <qtsrcchokespeed>Choke speed</qtsrcchokespeed>
+        <quality>Kvalitet</quality>
+        <rate>Rangering</rate>
+        <rmp_options>Real mediaplayer-innstillinger</rmp_options>
+        <salign>S-justering</salign>
+        <scale>Skalering</scale>
+        <scriptcallbacks>Skript-referanser</scriptcallbacks>
+        <shockwave_options>Shockwave-innstillinger</shockwave_options>
+        <shuffle>Miks</shuffle>
+        <size>Størrelse</size>
+        <sound>Lyd</sound>
+        <starttime>Starttid</starttime>
+        <stretchtofit>Strekk for å passe inn</stretchtofit>
+        <swstretchhalign>Strekk H-justering</swstretchhalign>
+        <swstretchstyle>Strekkstil</swstretchstyle>
+        <swstretchvalign>Strekk V-justering</swstretchvalign>
+        <target>Mål</target>
+        <targetcache>Mål-cache</targetcache>
+        <title>Sett inn / rediger inkludert objekt</title>
+        <type>Type</type>
+        <uimode>UI-modus</uimode>
+        <windowlessvideo>Video uten vindu</windowlessvideo>
+        <wmode>W-modus</wmode>
+        <wmp_options>Windows mediaplayer-innstillinger</wmp_options>
+        <volume>Volum</volume>
+        <vspace>Vertikal avstand</vspace>
+      </media_dlg>
+      <nonbreaking>
+        <nonbreaking_desc>Sett inn hardt mellomrom</nonbreaking_desc>
+      </nonbreaking>
+      <pagebreak>
+        <desc>Sett inn sideskift</desc>
+        <pagebreak_desc see="#desc" />
+      </pagebreak>
+      <paste>
+        <paste_text_desc>Lim inn som vanlig tekst</paste_text_desc>
+        <paste_word_desc>Lim inn fra Word</paste_word_desc>
+        <pastetext_desc see="#paste_text_desc" />
+        <pasteword_desc see="#paste_word_desc" />
+        <selectall_desc>Marker alt</selectall_desc>
+      </paste>
+      <paste_dlg>
+        <text_linebreaks>Behold tekstbryting</text_linebreaks>
+        <text_title>Bruk CTRL+V på tastaturet for å lime inn i dette vinduet.</text_title>
+        <word_title>Bruk CTRL+V på tastaturet for å lime inn i dette vinduet.</word_title>
+      </paste_dlg>
+      <preview>
+        <preview_desc>Forhåndsvisning</preview_desc>
+      </preview>
+      <print>
+        <print_desc>Skriv ut</print_desc>
+      </print>
+      <save>
+        <cancel_desc>Kanseller alle endringer</cancel_desc>
+        <save_desc>Lagre</save_desc>
+      </save>
+      <searchreplace>
+        <delta_height />
+        <delta_width />
+        <replace_desc>Søk/Erstatt</replace_desc>
+        <search_desc>Søk</search_desc>
+      </searchreplace>
+      <searchreplace_dlg>
+        <allreplaced>Alle forekomster av søkestrengen er erstattet.</allreplaced>
+        <direction>Retning</direction>
+        <down>Nedover</down>
+        <findnext>Finn neste</findnext>
+        <findwhat>Finn hva</findwhat>
+        <mcase>Skill mellom store og små tegn</mcase>
+        <notfound>Søket avsluttet. Fant ikke søkestrengen.</notfound>
+        <replace>Erstatt</replace>
+        <replace_title>Søk/Erstatt</replace_title>
+        <replaceall>Erstatt alt</replaceall>
+        <replacewith>Erstatt med</replacewith>
+        <search_title>Søk</search_title>
+        <searchnext_desc>Søk igjen</searchnext_desc>
+        <up>Oppover</up>
+      </searchreplace_dlg>
+      <simple>
+        <bold_desc>Fet</bold_desc>
+        <bullist_desc>Punktliste</bullist_desc>
+        <cleanup_desc>Rens grisete kode</cleanup_desc>
+        <italic_desc>Kursiv</italic_desc>
+        <numlist_desc>Nummerliste</numlist_desc>
+        <redo_desc>Gjør om</redo_desc>
+        <striketrough_desc>Gjennomstrek</striketrough_desc>
+        <underline_desc>Understrek</underline_desc>
+        <undo_desc>Angre</undo_desc>
+      </simple>
+      <spellchecker>
+        <desc>Stavekontroll på/av</desc>
+        <ignore_word>Ignorer ord</ignore_word>
+        <ignore_words>Ignorer alt</ignore_words>
+        <langs>Språk</langs>
+        <menu>Vis meny</menu>
+        <no_mpell>Ingen stavefeil funnet.</no_mpell>
+        <no_sug>Ingen framlegg</no_sug>
+        <spellchecker_desc see="#desc" />
+        <sug>Framlegg</sug>
+        <wait>Vennligst vent...</wait>
+      </spellchecker>
+      <style>
+        <delta_height />
+        <delta_width />
+        <desc>Rediger CSS-stil</desc>
+        <style_desc see="#desc" />
+        <styleprops_desc see="#desc" />
+      </style>
+      <style_dlg>
+        <apply>Legg til</apply>
+        <background_attachment>Vedlegg</background_attachment>
+        <background_color>Bakgrunnsfarge</background_color>
+        <background_hpos>Horisontal posisjon</background_hpos>
+        <background_image>Bakgrunnsbilde</background_image>
+        <background_repeat>Gjenta</background_repeat>
+        <background_tab>Bakgrunn</background_tab>
+        <background_vpos>Vertikal posisjon</background_vpos>
+        <block_display>Framskyvning</block_display>
+        <block_letterspacing>Bokstavmellomrom</block_letterspacing>
+        <block_tab>Blokk</block_tab>
+        <block_text_align>Justering</block_text_align>
+        <block_text_indent>Innrykk</block_text_indent>
+        <block_vertical_alignment>Vertikal justering</block_vertical_alignment>
+        <block_whitespace>Mellomrom</block_whitespace>
+        <block_wordspacing>Ordmellomrom</block_wordspacing>
+        <border_tab>Ramme</border_tab>
+        <bottom>Bunn</bottom>
+        <box_clear>Slett</box_clear>
+        <box_float>Flyt</box_float>
+        <box_height>Høyde</box_height>
+        <box_tab>Boks</box_tab>
+        <box_width>Bredde</box_width>
+        <bullet_image>Kulepunktbilde</bullet_image>
+        <clip>Klipp</clip>
+        <color>Farge</color>
+        <height>Høyd</height>
+        <left>Venstre</left>
+        <list_tab>Liste</list_tab>
+        <list_type>Type</list_type>
+        <margin>Marg</margin>
+        <overflow>Overfylt</overflow>
+        <padding>Utfylling</padding>
+        <placement>Plassering</placement>
+        <position>Posisjon</position>
+        <positioning_tab>Posisjon</positioning_tab>
+        <positioning_type>Type</positioning_type>
+        <right>Høyre</right>
+        <same>Likt i alle</same>
+        <style>Stil</style>
+        <text_blink>Blink</text_blink>
+        <text_case>Kapiteler/minuskaler</text_case>
+        <text_color>Farge</text_color>
+        <text_decoration>Dekorasjon</text_decoration>
+        <text_font>Skrifttype</text_font>
+        <text_lineheight>Linjehøyde</text_lineheight>
+        <text_none>Ingen</text_none>
+        <text_overline>Hev skrift</text_overline>
+        <text_props>Egenskaper for skrift</text_props>
+        <text_size>Skriftstørrelse</text_size>
+        <text_striketrough>Gjennomstrek</text_striketrough>
+        <text_style>Skriftstil</text_style>
+        <text_tab>Tekst</text_tab>
+        <text_underline>Senk skrift</text_underline>
+        <text_variant>Variant</text_variant>
+        <text_weight>Skriftvekt</text_weight>
+        <title>Rediger CSS-stil</title>
+        <top>Topp</top>
+        <width>Bredde</width>
+        <visibility>Synlighet</visibility>
+        <zindex>Z-indeks</zindex>
+      </style_dlg>
+      <table>
+        <cell>Celle</cell>
+        <cell_desc>Celleegenskaper</cell_desc>
+        <cell_props_desc see="#cell_desc" />
+        <cellprops_delta_height />
+        <cellprops_delta_width />
+        <col>Kolonne</col>
+        <col_after_desc>Sett inn kolonne etter</col_after_desc>
+        <col_before_desc>Sett inn kolonne framfor</col_before_desc>
+        <copy_row_desc>Kopier rad</copy_row_desc>
+        <cut_row_desc>Fjern rad</cut_row_desc>
+        <del>Slett tabell</del>
+        <delete_col_desc>Fjern kolonne</delete_col_desc>
+        <delete_row_desc>Fjern rad</delete_row_desc>
+        <delete_table_desc see="#del" />
+        <desc>Sett inn en ny tabell</desc>
+        <merge_cells_delta_height />
+        <merge_cells_delta_width />
+        <merge_cells_desc>Slå sammen celler</merge_cells_desc>
+        <paste_row_after_desc>Lim inn rad etter</paste_row_after_desc>
+        <paste_row_before_desc>Lim inn rad framfor</paste_row_before_desc>
+        <props_desc>Tabellegenskaper</props_desc>
+        <row>Rad</row>
+        <row_after_desc>Sett inn rad etter</row_after_desc>
+        <row_before_desc>Sett inn rad framfor</row_before_desc>
+        <row_desc>Radegenskaper</row_desc>
+        <row_props_desc see="#row_desc" />
+        <rowprops_delta_height />
+        <rowprops_delta_width />
+        <split_cells_desc>Del celler</split_cells_desc>
+        <table_delta_height />
+        <table_delta_width />
+        <table_desc see="#desc" />
+        <tablecontrols_desc see="#desc" />
+      </table>
+      <table_dlg>
+        <advanced_props>Generelle egenskaper</advanced_props>
+        <advanced_tab>Avansert</advanced_tab>
+        <align>Justering</align>
+        <align_bottom>Bunn</align_bottom>
+        <align_default>Standard</align_default>
+        <align_left>Venstre</align_left>
+        <align_middle>Midtstilt</align_middle>
+        <align_right>Høyre</align_right>
+        <align_top>Topp</align_top>
+        <bgcolor>Bakgrunn</bgcolor>
+        <bgimage>Bakgrunnsbilde</bgimage>
+        <border>Ramme</border>
+        <bordercolor>Rammefarge</bordercolor>
+        <caption>Tabelloverskrift</caption>
+        <cell_all>Oppdater alle celler i tabellen</cell_all>
+        <cell_cell>Oppdater aktuell celle</cell_cell>
+        <cell_limit>Du har flere enn maksimalt tillatt celler på {$cells}.</cell_limit>
+        <cell_row>Oppdater alle celler i raden</cell_row>
+        <cell_title>Celleegenskaper</cell_title>
+        <cell_type>Celletype</cell_type>
+        <cellpadding>Cellefylling</cellpadding>
+        <cellspacing>Celleavstand</cellspacing>
+        <col_limit>Du har flere enn maksimalt tillatt kolonner på {$cols}.</col_limit>
+        <colgroup>Kolonnegruppe</colgroup>
+        <cols>Kolonner</cols>
+        <frame>Ramme</frame>
+        <frame_all>alle</frame_all>
+        <frame_cols>kolonner</frame_cols>
+        <frame_groups>grupper</frame_groups>
+        <frame_none>ingen</frame_none>
+        <frame_rows>rader</frame_rows>
+        <general_props>Generelt</general_props>
+        <general_tab>Generelt</general_tab>
+        <height>Høyde</height>
+        <id>Id</id>
+        <langcode>Språkkode</langcode>
+        <langdir>Skriftretning</langdir>
+        <ltr>Venstre mot høyre</ltr>
+        <merge_cells_title>Slå sammen celler</merge_cells_title>
+        <mime>Målet sin MIME-type</mime>
+        <missing_scope>Er du sikker på at du vil fortsette uten å angi et område for denne overskrifscella? Uten dette kan det bli vanskelig for enkelte funksjonshemmede brukere å forstå innholdet eller dataene som blir presenterte i tabellen.</missing_scope>
+        <row_all>Oppdater alle rader</row_all>
+        <row_even>Oppdater partallrader</row_even>
+        <row_limit>Du har flere enn maksimalt tillatt rader på {$rows}.</row_limit>
+        <row_odd>Oppdater oddetallrader</row_odd>
+        <row_row>Oppdater aktuell rad</row_row>
+        <row_title>Radegenskaper</row_title>
+        <rowgroup>Radgruppe</rowgroup>
+        <rows>Rader</rows>
+        <rowtype>Rad i tabell</rowtype>
+        <rtl>Høyre mot venstre</rtl>
+        <rules>Streker</rules>
+        <rules_above>over</rules_above>
+        <rules_below>under</rules_below>
+        <rules_border>ramme</rules_border>
+        <rules_box>boks</rules_box>
+        <rules_hsides>hside</rules_hsides>
+        <rules_lhs>lhs</rules_lhs>
+        <rules_rhs>rhs</rules_rhs>
+        <rules_void>ingen</rules_void>
+        <rules_vsides>vside</rules_vsides>
+        <scope>Område</scope>
+        <style>Stil</style>
+        <summary>Sammendrag</summary>
+        <tbody>Tabellkropp</tbody>
+        <td>Data</td>
+        <tfoot>Tabellfot</tfoot>
+        <th>Overskrift</th>
+        <thead>Tabellhode</thead>
+        <title>Sett inn / rediger tabell</title>
+        <valign>Vertikal justering</valign>
+        <width>Bredde</width>
+      </table_dlg>
+      <template>
+        <desc>Sett inn forhåndsdefinert malinnhold</desc>
+        <template_desc see="#desc" />
+      </template>
+      <template_dlg>
+        <cdate_format>%d-%m-%Y %H:%M:%S</cdate_format>
+        <day_long>søndag,mandag,tirsdag,onsdag,torsdag,fredag,lørdag,søndag</day_long>
+        <day_short>søn,man,tir,ons,tor,fre,lør,søn</day_short>
+        <desc>Sett inn forhåndsdefinert malinnhold</desc>
+        <desc_label>Omtale</desc_label>
+        <label>Mal</label>
+        <mdate_format>%d-%m-%Y %H:%M:%S</mdate_format>
+        <months_long>januar,februar,mars,april,mai,juni,juli,august,september,oktober,november,desember</months_long>
+        <months_short>jan,feb,mar,apr,mai,jun,jul,aug,sep,okt,nov,des</months_short>
+        <preview>Forhåndsvis</preview>
+        <select>Velg en mal</select>
+        <template_dlg_desc see="#desc" />
+        <title>Maler</title>
+        <warning>Advarsel: Utskifting av en mal med en annen kan føre til at data går tapt.</warning>
+      </template_dlg>
+      <visualchars>
+        <desc>Visuelle konktrolltegn på/av</desc>
+        <visualchars_desc see="#desc" />
+      </visualchars>
+      <xhtmlxtras>
+        <abbr_delta_height />
+        <abbr_delta_width />
+        <abbr_desc>Forkortning</abbr_desc>
+        <acronym_delta_height />
+        <acronym_delta_width />
+        <acronym_desc>Akronym</acronym_desc>
+        <attribs_delta_height />
+        <attribs_delta_width />
+        <attribs_desc>Sett inn / Endre egenskaper</attribs_desc>
+        <cite_delta_height />
+        <cite_delta_width />
+        <cite_desc>Sitat</cite_desc>
+        <del_delta_height />
+        <del_delta_width />
+        <del_desc>Sletting</del_desc>
+        <ins_delta_height />
+        <ins_delta_width />
+        <ins_desc>Innsetting</ins_desc>
+      </xhtmlxtras>
+      <xhtmlxtras_dlg>
+        <attrib_tab>Attributter</attrib_tab>
+        <attribs_title>Sett inn / endre attributt</attribs_title>
+        <attribute_attrib_tab>Attributt</attribute_attrib_tab>
+        <attribute_events_tab>Hendelser</attribute_events_tab>
+        <attribute_label_accesskey>Tilgangsnøkkel</attribute_label_accesskey>
+        <attribute_label_cite>Sted</attribute_label_cite>
+        <attribute_label_class>Klasse</attribute_label_class>
+        <attribute_label_datetime>Dato/tid</attribute_label_datetime>
+        <attribute_label_id>ID</attribute_label_id>
+        <attribute_label_langcode>Språk</attribute_label_langcode>
+        <attribute_label_langdir>Tekstretning</attribute_label_langdir>
+        <attribute_label_style>Stil</attribute_label_style>
+        <attribute_label_tabindex>Tabuleringsindeks</attribute_label_tabindex>
+        <attribute_label_title>Tittel</attribute_label_title>
+        <attribute_option_ltr>Venstre mot høyre</attribute_option_ltr>
+        <attribute_option_rtl>Høyre mot venstre</attribute_option_rtl>
+        <events_tab>Hendelser</events_tab>
+        <fieldset_attrib_tab>Elementattributter</fieldset_attrib_tab>
+        <fieldset_events_tab>Elementhendelser</fieldset_events_tab>
+        <fieldset_general_tab>Generelle innstillinger</fieldset_general_tab>
+        <general_tab>Generelt</general_tab>
+        <insert_date>Sett inn dato/tid</insert_date>
+        <option_ltr>Venstre mot høyre</option_ltr>
+        <option_rtl>Høyre mot venstre</option_rtl>
+        <remove>Fjern</remove>
+        <title_abbr_element>Forkortingselement</title_abbr_element>
+        <title_acronym_element>Akronymelement</title_acronym_element>
+        <title_cite_element>Sitatelement</title_cite_element>
+        <title_del_element>Sletteelement</title_del_element>
+        <title_ins_element>Innsettingselement</title_ins_element>
+      </xhtmlxtras_dlg>
+    </tinymce>
+  </language>
+</languages>

@@ -1,0 +1,1211 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="Español" id="es">
+    <admin>
+      <tinymce>
+        <plugins>
+          <advanced>
+            <advImage>
+              <description see="/tinymce/advimage/image_desc" />
+              <displayname see="/tinymce/advimage/image_desc" />
+            </advImage>
+            <advLink>
+              <description see="/tinymce/advlink/link_desc" />
+              <displayname see="/tinymce/advlink/link_desc" />
+            </advLink>
+            <anchor>
+              <description see="/tinymce/advanced/anchor_desc" />
+              <displayname see="/tinymce/advanced/anchor_desc" />
+            </anchor>
+            <backcolor>
+              <description see="/tinymce/advanced/backcolor_desc" />
+              <displayname see="/tinymce/advanced/backcolor_desc" />
+            </backcolor>
+            <backcolorpicker>
+              <description see="/tinymce/advanced/backcolor_desc" />
+              <displayname see="/tinymce/advanced/backcolor_desc" />
+            </backcolorpicker>
+            <bold>
+              <description see="/tinymce/simple/bold_desc" />
+              <displayname see="/tinymce/simple/bold_desc" />
+            </bold>
+            <bullist>
+              <description see="/tinymce/advanced/bullist_desc" />
+              <displayname see="/tinymce/advanced/bullist_desc" />
+            </bullist>
+            <charmap>
+              <description see="/tinymce/advanced/charmap_desc" />
+              <displayname see="/tinymce/advanced/charmap_desc" />
+            </charmap>
+            <cleanup>
+              <description see="/tinymce/advanced/cleanup_desc" />
+              <displayname see="/tinymce/advanced/cleanup_desc" />
+            </cleanup>
+            <code>
+              <description see="/tinymce/advanced/code" />
+              <displayname see="/tinymce/advanced/code" />
+            </code>
+            <copy>
+              <description see="/tinymce/advanced/copy_desc" />
+              <displayname see="/tinymce/advanced/copy_desc" />
+            </copy>
+            <cut>
+              <description see="/tinymce/advanced/cut_desc" />
+              <displayname see="/tinymce/advanced/cut_desc" />
+            </cut>
+            <fontselect>
+              <description see="/tinymce/advanced/fontdefault" />
+              <displayname see="/tinymce/advanced/fontdefault" />
+            </fontselect>
+            <fontsizeselect>
+              <description see="/tinymce/advanced/font_size" />
+              <displayname see="/tinymce/advanced/font_size" />
+            </fontsizeselect>
+            <forecolor>
+              <description see="/tinymce/advanced/forecolor_desc" />
+              <displayname see="/tinymce/advanced/forecolor_desc" />
+            </forecolor>
+            <forecolorpicker>
+              <description see="/tinymce/advanced/forecolor_desc" />
+              <displayname see="/tinymce/advanced/forecolor_desc" />
+            </forecolorpicker>
+            <formatselect>
+              <description see="/tinymce/advanced/block" />
+              <displayname see="/tinymce/advanced/block" />
+            </formatselect>
+            <help>
+              <description see="/tinymce/advanced/help_desc" />
+              <displayname see="/tinymce/advanced/help_desc" />
+            </help>
+            <hr>
+              <description see="/tinymce/advanced/hr_desc" />
+              <displayname see="/tinymce/advanced/hr_desc" />
+            </hr>
+            <image>
+              <description see="/tinymce/advanced/image_desc" />
+              <displayname see="/tinymce/advanced/image_desc" />
+            </image>
+            <indent>
+              <description see="/tinymce/advanced/indent_desc" />
+              <displayname see="/tinymce/advanced/indent_desc" />
+            </indent>
+            <italic>
+              <description see="/tinymce/simple/italic_desc" />
+              <displayname see="/tinymce/simple/italic_desc" />
+            </italic>
+            <justifycenter>
+              <description see="/tinymce/advanced/justifycenter_desc" />
+              <displayname see="/tinymce/advanced/justifycenter_desc" />
+            </justifycenter>
+            <justifyfull>
+              <description see="/tinymce/advanced/justifyfull_desc" />
+              <displayname see="/tinymce/advanced/justifyfull_desc" />
+            </justifyfull>
+            <justifyleft>
+              <description see="/tinymce/advanced/justifyleft_desc" />
+              <displayname see="/tinymce/advanced/justifyleft_desc" />
+            </justifyleft>
+            <justifyright>
+              <description see="/tinymce/advanced/justifyright_desc" />
+              <displayname see="/tinymce/advanced/justifyright_desc" />
+            </justifyright>
+            <link>
+              <description see="/tinymce/advanced/link_desc" />
+              <displayname see="/tinymce/advanced/link_desc" />
+            </link>
+            <numlist>
+              <description see="/tinymce/advanced/numlist_desc" />
+              <displayname see="/tinymce/advanced/numlist_desc" />
+            </numlist>
+            <outdent>
+              <description see="/tinymce/advanced/outdent_desc" />
+              <displayname see="/tinymce/advanced/outdent_desc" />
+            </outdent>
+            <paste>
+              <description see="/tinymce/advanced/paste_desc" />
+              <displayname see="/tinymce/advanced/paste_desc" />
+            </paste>
+            <redo>
+              <description see="/tinymce/advanced/redo_desc" />
+              <displayname see="/tinymce/advanced/redo_desc" />
+            </redo>
+            <removeformat>
+              <description see="/tinymce/advanced/removeformat_desc" />
+              <displayname see="/tinymce/advanced/removeformat_desc" />
+            </removeformat>
+            <strikethrough>
+              <description see="/tinymce/simple/striketrough_desc" />
+              <displayname see="/tinymce/simple/striketrough_desc" />
+            </strikethrough>
+            <styleselect>
+              <description see="/tinymce/advanced/style_select" />
+              <displayname see="/tinymce/advanced/style_select" />
+            </styleselect>
+            <sub>
+              <description see="/tinymce/advanced/sub_desc" />
+              <displayname see="/tinymce/advanced/sub_desc" />
+            </sub>
+            <sup>
+              <description see="/tinymce/advanced/sup_desc" />
+              <displayname see="/tinymce/advanced/sup_desc" />
+            </sup>
+            <underline>
+              <description see="/tinymce/simple/underline_desc" />
+              <displayname see="/tinymce/simple/underline_desc" />
+            </underline>
+            <undo>
+              <description see="/tinymce/advanced/undo_desc" />
+              <displayname see="/tinymce/advanced/undo_desc" />
+            </undo>
+            <unlink>
+              <description see="/tinymce/advanced/unlink_desc" />
+              <displayname see="/tinymce/advanced/unlink_desc" />
+            </unlink>
+            <visualaid>
+              <description see="/tinymce/advanced/visualaid_desc" />
+              <displayname see="/tinymce/advanced/visualaid_desc" />
+            </visualaid>
+          </advanced>
+          <directionality>
+            <ltr>
+              <description see="/tinymce/directionality/ltr_desc" />
+              <displayname see="/tinymce/directionality/ltr_desc" />
+            </ltr>
+            <rtl>
+              <description see="/tinymce/directionality/rtl_desc" />
+              <displayname see="/tinymce/directionality/rtl_desc" />
+            </rtl>
+          </directionality>
+          <fullscreen>
+            <fullscreen>
+              <description see="/tinymce/fullscreen/desc" />
+              <displayname see="/tinymce/fullscreen/desc" />
+            </fullscreen>
+          </fullscreen>
+          <insertdatetime>
+            <insertdate>
+              <description see="/tinymce/insertdatetime/insertdate_desc" />
+              <displayname see="/tinymce/insertdatetime/insertdate_desc" />
+            </insertdate>
+            <inserttime>
+              <description see="/tinymce/insertdatetime/inserttime_desc" />
+              <displayname see="/tinymce/insertdatetime/inserttime_desc" />
+            </inserttime>
+          </insertdatetime>
+          <layer>
+            <absolute>
+              <description see="/tinymce/layer/absolute_desc" />
+              <displayname see="/tinymce/layer/absolute_desc" />
+            </absolute>
+            <insertLayer>
+              <description see="/tinymce/layer/insertlayer_desc" />
+              <displayname see="/tinymce/layer/insertlayer_desc" />
+            </insertLayer>
+            <movebackward>
+              <description see="/tinymce/layer/backward_desc" />
+              <displayname see="/tinymce/layer/backward_desc" />
+            </movebackward>
+            <moveforward>
+              <description see="/tinymce/layer/forward_desc" />
+              <displayname see="/tinymce/layer/forward_desc" />
+            </moveforward>
+          </layer>
+          <media>
+            <media>
+              <description see="/tinymce/media/desc" />
+              <displayname see="/tinymce/media/desc" />
+            </media>
+          </media>
+          <nonbreaking>
+            <nonbreaking>
+              <description see="/tinymce/nonbreaking/nonbreaking_desc" />
+              <displayname see="/tinymce/nonbreaking/nonbreaking_desc" />
+            </nonbreaking>
+          </nonbreaking>
+          <paste>
+            <pastetext>
+              <description see="/tinymce/paste/paste_text_desc" />
+              <displayname see="/tinymce/paste/paste_text_desc" />
+            </pastetext>
+            <pasteword>
+              <description see="/tinymce/paste/paste_word_desc" />
+              <displayname see="/tinymce/paste/paste_word_desc" />
+            </pasteword>
+            <selectall>
+              <description see="/tinymce/paste/selectall_desc" />
+              <displayname see="/tinymce/paste/selectall_desc" />
+            </selectall>
+          </paste>
+          <preview>
+            <preview>
+              <description see="/tinymce/preview/preview_desc" />
+              <displayname see="/tinymce/preview/preview_desc" />
+            </preview>
+          </preview>
+          <print>
+            <print>
+              <description see="/tinymce/print/print_desc" />
+              <displayname see="/tinymce/print/print_desc" />
+            </print>
+          </print>
+          <searchreplace>
+            <replace>
+              <description see="/tinymce/searchreplace/replace_desc" />
+              <displayname see="/tinymce/searchreplace/replace_desc" />
+            </replace>
+            <search>
+              <description see="/tinymce/searchreplace/search_desc" />
+              <displayname see="/tinymce/searchreplace/search_desc" />
+            </search>
+          </searchreplace>
+          <style>
+            <styleprops>
+              <description see="/tinymce/style/desc" />
+              <displayname see="/tinymce/style/desc" />
+            </styleprops>
+          </style>
+          <table>
+            <cell_props>
+              <description see="/tinymce/table/cell_desc" />
+              <displayname see="/tinymce/table/cell_desc" />
+            </cell_props>
+            <col_after>
+              <description see="/tinymce/table/col_after_desc" />
+              <displayname see="/tinymce/table/col_after_desc" />
+            </col_after>
+            <col_before>
+              <description see="/tinymce/table/col_before_desc" />
+              <displayname see="/tinymce/table/col_before_desc" />
+            </col_before>
+            <delete_col>
+              <description see="/tinymce/table/delete_col_desc" />
+              <displayname see="/tinymce/table/delete_col_desc" />
+            </delete_col>
+            <delete_row>
+              <description see="/tinymce/table/delete_row_desc" />
+              <displayname see="/tinymce/table/delete_row_desc" />
+            </delete_row>
+            <delete_table>
+              <description see="/tinymce/table/del" />
+              <displayname see="/tinymce/table/del" />
+            </delete_table>
+            <merge_cells>
+              <description see="/tinymce/table/merge_cells_desc" />
+              <displayname see="/tinymce/table/merge_cells_desc" />
+            </merge_cells>
+            <row_after>
+              <description see="/tinymce/table/row_after_desc" />
+              <displayname see="/tinymce/table/row_after_desc" />
+            </row_after>
+            <row_before>
+              <description see="/tinymce/table/row_before_desc" />
+              <displayname see="/tinymce/table/row_before_desc" />
+            </row_before>
+            <row_props>
+              <description see="/tinymce/table/row_desc" />
+              <displayname see="/tinymce/table/row_desc" />
+            </row_props>
+            <split_cells>
+              <description see="/tinymce/table/split_cells_desc" />
+              <displayname see="/tinymce/table/split_cells_desc" />
+            </split_cells>
+            <table>
+              <description see="/tinymce/table/desc" />
+              <displayname see="/tinymce/table/desc" />
+            </table>
+            <tablecontrols>
+              <description see="/tinymce/table/desc" />
+              <displayname see="/tinymce/table/desc" />
+            </tablecontrols>
+          </table>
+          <xhtmlxtras>
+            <abbr>
+              <description see="/tinymce/xhtmlxtras/abbr_desc" />
+              <displayname see="/tinymce/xhtmlxtras/abbr_desc" />
+            </abbr>
+            <acronym>
+              <description see="/tinymce/xhtmlxtras/acronym_desc" />
+              <displayname see="/tinymce/xhtmlxtras/acronym_desc" />
+            </acronym>
+            <attribs>
+              <description see="/tinymce/xhtmlxtras/attribs_desc" />
+              <displayname see="/tinymce/xhtmlxtras/attribs_desc" />
+            </attribs>
+            <cite>
+              <description see="/tinymce/xhtmlxtras/cite_desc" />
+              <displayname see="/tinymce/xhtmlxtras/cite_desc" />
+            </cite>
+            <del>
+              <description see="/tinymce/xhtmlxtras/del_desc" />
+              <displayname see="/tinymce/xhtmlxtras/del_desc" />
+            </del>
+            <ins>
+              <description see="/tinymce/xhtmlxtras/ins_desc" />
+              <displayname see="/tinymce/xhtmlxtras/ins_desc" />
+            </ins>
+          </xhtmlxtras>
+        </plugins>
+      </tinymce>
+    </admin>
+    <tinymce>
+      <advanced>
+        <address>Dirección</address>
+        <anchor_delta_height />
+        <anchor_delta_width />
+        <anchor_desc>Insertar/editar ancla</anchor_desc>
+        <backcolor_desc>Elegir color de fondo</backcolor_desc>
+        <backcolorpicker_desc see="#backcolor_desc" />
+        <block>Formato</block>
+        <blockquote>Cita</blockquote>
+        <blockquote_desc>Cita</blockquote_desc>
+        <bold_desc>Negrita (Ctrl+B)</bold_desc>
+        <bullist_desc>Lista desordenada</bullist_desc>
+        <charmap_delta_height />
+        <charmap_delta_width />
+        <charmap_desc>Insertar caracteres personalizados</charmap_desc>
+        <cleanup_desc>Limpiar código basura</cleanup_desc>
+        <clipboard_msg>Copiar/Cortar/Pegar no se encuentra disponible en Mozilla y Firefox.\n ¿Quiere más información sobre este tema?</clipboard_msg>
+        <code>Código</code>
+        <code_desc>Editar código HTML</code_desc>
+        <colorpicker_delta_height />
+        <colorpicker_delta_width />
+        <copy_desc>Copiar</copy_desc>
+        <custom1_desc>Su descripción personal aquí</custom1_desc>
+        <cut_desc>Cortar</cut_desc>
+        <dd>Descripción de definición</dd>
+        <div>Div</div>
+        <dt>Término de definición</dt>
+        <font_size>Tamaño</font_size>
+        <fontdefault>Fuente</fontdefault>
+        <fontselect_desc see="#fontdefault" />
+        <fontsizeselect_desc see="#font_size" />
+        <forecolor_desc>Elegir color del texto</forecolor_desc>
+        <forecolorpicker_desc see="#forecolor_desc" />
+        <formatselect_desc see="#block" />
+        <h1>Encabezado 1</h1>
+        <h2>Encabezado 2</h2>
+        <h3>Encabezado 3</h3>
+        <h4>Encabezado 4</h4>
+        <h5>Encabezado 5</h5>
+        <h6>Encabezado 6</h6>
+        <help_desc>Ayuda</help_desc>
+        <hr_desc>Insertar regla horizontal</hr_desc>
+        <image_delta_height />
+        <image_delta_width />
+        <image_desc>Insertar/editar imagen</image_desc>
+        <image_props_desc>Propiedades de imagen</image_props_desc>
+        <indent_desc>Aumentar sangría</indent_desc>
+        <italic_desc>Cursiva (Ctrl+I)</italic_desc>
+        <justifycenter_desc>Alinear al centro</justifycenter_desc>
+        <justifyfull_desc>Justificar</justifyfull_desc>
+        <justifyleft_desc>Alinear a la izquierda</justifyleft_desc>
+        <justifyright_desc>Alinear a la derecha</justifyright_desc>
+        <link_delta_height />
+        <link_delta_width />
+        <link_desc>Insertar/editar hipervínculo</link_desc>
+        <more_colors>Más colores</more_colors>
+        <newdocument> ¿Seguro que desea limpiar todo el contenido?</newdocument>
+        <newdocument_desc>Nuevo documento</newdocument_desc>
+        <numlist_desc>Lista ordenada</numlist_desc>
+        <outdent_desc>Reducir sangría</outdent_desc>
+        <paragraph>Párrafo</paragraph>
+        <paste_desc>Pegar</paste_desc>
+        <path>Ruta</path>
+        <pre>Preformateado</pre>
+        <redo_desc>Rehacer (Ctrl+Y)</redo_desc>
+        <removeformat_desc>Limpiar formato</removeformat_desc>
+        <samp>Ejemplo de código</samp>
+        <strikethrough_desc see="#striketrough_desc" />
+        <striketrough_desc>Tachado</striketrough_desc>
+        <style_select>Estilos</style_select>
+        <styleselect_desc see="#style_select" />
+        <sub_desc>Subíndice</sub_desc>
+        <sup_desc>Superíndice</sup_desc>
+        <toolbar_focus>Ir a los botones de herramientas - Alt+Q, Ir al editor - Alt-Z, Ir a la ruta del elemento - Alt-X</toolbar_focus>
+        <underline_desc>Subrayado (Ctrl+U)</underline_desc>
+        <undo_desc>Deshacer (Ctrl+Z)</undo_desc>
+        <unlink_desc>Quitar hipervínculo</unlink_desc>
+        <visualaid_desc>Mostrar/ocultar línea de guía/elementos invisibles</visualaid_desc>
+      </advanced>
+      <advanced_dlg>
+        <about_author>Autor</about_author>
+        <about_general>Acerca de </about_general>
+        <about_help>Ayuda</about_help>
+        <about_license>Licencia</about_license>
+        <about_loaded>Complementos cargados</about_loaded>
+        <about_plugin>Complemento</about_plugin>
+        <about_plugins>Complementos</about_plugins>
+        <about_title>Acerca de TinyMCE</about_title>
+        <about_version>Versión</about_version>
+        <anchor_name>Nombre del ancla</anchor_name>
+        <anchor_title>Insertar/editar ancla</anchor_title>
+        <charmap_title>Elegir caracter personalizado</charmap_title>
+        <code_title>Editor del código fuente HTML</code_title>
+        <code_wordwrap>Ajustar al margen</code_wordwrap>
+        <colorpicker_color>Color:</colorpicker_color>
+        <colorpicker_name>Nombre:</colorpicker_name>
+        <colorpicker_named_tab>Nombrados</colorpicker_named_tab>
+        <colorpicker_named_title>Colores nombrados</colorpicker_named_title>
+        <colorpicker_palette_tab>Paleta</colorpicker_palette_tab>
+        <colorpicker_palette_title>Paleta de colores</colorpicker_palette_title>
+        <colorpicker_picker_tab>Selector</colorpicker_picker_tab>
+        <colorpicker_picker_title>Paleta de color</colorpicker_picker_title>
+        <colorpicker_title>Elegir color</colorpicker_title>
+        <image_align>Alineación</image_align>
+        <image_align_baseline>Línea base</image_align_baseline>
+        <image_align_bottom>Debajo</image_align_bottom>
+        <image_align_left>Izquierda</image_align_left>
+        <image_align_middle>Medio</image_align_middle>
+        <image_align_right>Derecha</image_align_right>
+        <image_align_textbottom>Texto debajo</image_align_textbottom>
+        <image_align_texttop>Texto arriba</image_align_texttop>
+        <image_align_top>Arriba</image_align_top>
+        <image_alt>Descripción de la Imagen</image_alt>
+        <image_border>Borde</image_border>
+        <image_dimensions>Dimensión</image_dimensions>
+        <image_hspace>Espacio horizontal</image_hspace>
+        <image_list>Lista de la Imagen</image_list>
+        <image_src>URL de la Imagen</image_src>
+        <image_title>Insertar/editar imagen</image_title>
+        <image_vspace>Espacio vertical</image_vspace>
+        <link_is_email>La URL que introdujo parece ser una dirección de email,  ¿desea agregar el prefijo mailto: necesario?</link_is_email>
+        <link_is_external>La URL que introdujo parece ser un vínculo externo,  ¿desea agregar el prefijo http:// necesario?</link_is_external>
+        <link_list>Lista de hipervínculos</link_list>
+        <link_target>Destino</link_target>
+        <link_target_blank>Abrir vínculo en una ventana nueva</link_target_blank>
+        <link_target_same>Abrir vínculo en la misma ventana</link_target_same>
+        <link_title>Insertar/editar hipervínculo</link_title>
+        <link_titlefield>Título</link_titlefield>
+        <link_url>URL del hipervínculo</link_url>
+      </advanced_dlg>
+      <advhr>
+        <advhr_desc>Regla horizontal</advhr_desc>
+        <delta_height />
+        <delta_width />
+      </advhr>
+      <advhr_dlg>
+        <noshade>Sin sombra</noshade>
+        <size>Alto</size>
+        <width>Ancho</width>
+      </advhr_dlg>
+      <advimage>
+        <delta_height />
+        <delta_width />
+        <image_desc>Insertar/editar imagen</image_desc>
+      </advimage>
+      <advimage_dlg>
+        <align>Alineación</align>
+        <align_baseline>Línea base</align_baseline>
+        <align_bottom>Debajo</align_bottom>
+        <align_left>Izquierda</align_left>
+        <align_middle>Medio</align_middle>
+        <align_right>Derecha</align_right>
+        <align_textbottom>Texto abajo</align_textbottom>
+        <align_texttop>Texto arriba</align_texttop>
+        <align_top>Arriba</align_top>
+        <alt>Descripción de la imagen</alt>
+        <alt_image>Imagen alternativa</alt_image>
+        <border>Bordes</border>
+        <classes>Clases</classes>
+        <constrain_proportions>Bloquear relación de aspecto</constrain_proportions>
+        <dialog_title>Insertar/editar imagen</dialog_title>
+        <dimensions>Dimensiones</dimensions>
+        <example_img>Vista previa de la imagen</example_img>
+        <general>General</general>
+        <hspace>Espacio horizontal</hspace>
+        <id>Id</id>
+        <image_list>Lista de imagen</image_list>
+        <langcode>Código del lenguaje</langcode>
+        <langdir>Dirección del lenguaje</langdir>
+        <list>Lista de imagen</list>
+        <long_desc>Vínculo para descripción larga</long_desc>
+        <ltr>Izquierda a derecha</ltr>
+        <map>Mapa de imagen</map>
+        <misc>Misceláneo</misc>
+        <missing_alt> ¿Esta seguro de continuar sin introducir una descripción a la imagen? Sin ella puede no ser accesible para usuarios con discapacidades, o para aquellos que usen navegadores de modo texto, o tengan deshabilitadas las imágenes de la página.</missing_alt>
+        <mouseout>para mouseout</mouseout>
+        <mouseover>para mouseover</mouseover>
+        <preview>Vista previa</preview>
+        <rtl>Derecha a izquierda</rtl>
+        <src>URL de la imagen</src>
+        <style>Estilos</style>
+        <swap_image>Intercambiar imagen</swap_image>
+        <tab_advanced>Avanzado</tab_advanced>
+        <tab_appearance>Apariencia</tab_appearance>
+        <tab_general>General</tab_general>
+        <title>Título</title>
+        <vspace>Espacio vertical</vspace>
+      </advimage_dlg>
+      <advlink>
+        <delta_height />
+        <delta_width />
+        <link_desc>Insertar/editar hipervínculo</link_desc>
+      </advlink>
+      <advlink_dlg>
+        <accesskey>Tecla de acceso</accesskey>
+        <advanced_props>Propiedades avanzadas</advanced_props>
+        <advanced_tab>Avanzado</advanced_tab>
+        <anchor_names>Anclas</anchor_names>
+        <classes>Clases</classes>
+        <encoding>Codificación de caracteres del Target</encoding>
+        <event_props>Eventos</event_props>
+        <events_tab>Eventos</events_tab>
+        <general_props>Propiedades generales</general_props>
+        <general_tab>General</general_tab>
+        <id>Id</id>
+        <is_email>La URL que ha introducido parece ser una direción de correo,  ¿desea agregar el prefijo mailto: necesario?</is_email>
+        <is_external>La URL que ha introducido parece ser un vínculo externo,  ¿desea agregar el prefijo http:// necesario?</is_external>
+        <langcode>Código del lenguaje</langcode>
+        <langdir>Dirección del lenguaje</langdir>
+        <link_list>Lista de vínculo</link_list>
+        <list>Lista de vínculos</list>
+        <ltr>Izquierda a derecha</ltr>
+        <mime>Tipo MIME del Target</mime>
+        <popup>Javascript popup</popup>
+        <popup_dependent>Dependientes (sólo Mozilla/Firefox)</popup_dependent>
+        <popup_location>Barra de localización</popup_location>
+        <popup_menubar>Barra de menú</popup_menubar>
+        <popup_name>Nombre de la ventana</popup_name>
+        <popup_opts>Opciones</popup_opts>
+        <popup_position>Posición (X/Y)</popup_position>
+        <popup_props>Propiedades de ventanas emergentes</popup_props>
+        <popup_resizable>Permitir cambiar el tamaño de la ventana</popup_resizable>
+        <popup_return>Insertar 'return false'</popup_return>
+        <popup_scrollbars>Barras de desplazamiento</popup_scrollbars>
+        <popup_size>Tamaño</popup_size>
+        <popup_statusbar>Barra de estado</popup_statusbar>
+        <popup_tab>Ventana emergente</popup_tab>
+        <popup_toolbar>Barra de herramientas</popup_toolbar>
+        <popup_url>URL de la ventana emergente</popup_url>
+        <rel>Relación página a target</rel>
+        <rev>Relación target a página</rev>
+        <rtl>Derecha a izquierda</rtl>
+        <style>Estilo</style>
+        <tabindex>Indice de tabulación</tabindex>
+        <target>Destino</target>
+        <target_blank>Abrir en ventana nueva</target_blank>
+        <target_langcode>Lenguaje del Target</target_langcode>
+        <target_name>Nombre del Target</target_name>
+        <target_parent>Abrir en ventana padre / marco</target_parent>
+        <target_same>Abrir en esta ventana / marco</target_same>
+        <target_top>Abrir en el marco superior (reemplaza todos los marcos)</target_top>
+        <title>Insertar/editar hipervínculo</title>
+        <titlefield>Título</titlefield>
+        <url>URL del hipervínculo</url>
+      </advlink_dlg>
+      <autosave>
+        <unload_msg>Los cambios realizados se perderán si sale de esta página.</unload_msg>
+      </autosave>
+      <common>
+        <apply>Aplicar</apply>
+        <browse>Examinar</browse>
+        <cancel>Cancelar</cancel>
+        <class_name>Clase</class_name>
+        <clipboard_msg>Copiar/Cortar/Pegar no se encuentra disponible en Mozilla y Firefox.\n ¿Desea obtener más información acerca de este tema?</clipboard_msg>
+        <clipboard_no_support>Su navegador no soporta las funciones de cortapapeles, use los accesos por teclado.</clipboard_no_support>
+        <close>Cerrar</close>
+        <edit_confirm> ¿Desea utilizar el modo WYSIWYG para esta caja de texto?</edit_confirm>
+        <insert>Insertar</insert>
+        <invalid_data>Error: Introdujo un valor no válido, están marcados en rojo.</invalid_data>
+        <more_colors>Más colores</more_colors>
+        <not_set>-- Ninguno --</not_set>
+        <popup_blocked>Lo sentimos, su bloqueo de ventanas emergentes ha deshabilitado una ventana que provee funcionalidades a la aplicación. Necesita deshabilitar este bloqueo en este sitio para poder utilizar todas las funciones.</popup_blocked>
+        <update>Actualizar</update>
+      </common>
+      <contextmenu>
+        <align>Alineación</align>
+        <center>Centrado</center>
+        <full>Justificado</full>
+        <left>Izquierda</left>
+        <right>Derecha</right>
+      </contextmenu>
+      <directionality>
+        <ltr_desc>Dirección izquierda a derecha</ltr_desc>
+        <rtl_desc>Dirección derecha a izquierda</rtl_desc>
+      </directionality>
+      <emotions>
+        <delta_height />
+        <delta_width />
+        <emotions_desc>Emoticones</emotions_desc>
+      </emotions>
+      <emotions_dlg>
+        <cool>Todo bien</cool>
+        <cry>Llora</cry>
+        <desc>Emoticones</desc>
+        <embarassed>Vergüenza</embarassed>
+        <emotions_dlg_desc see="#desc" />
+        <foot_in_mouth>Pie en la boca</foot_in_mouth>
+        <frown>Triste</frown>
+        <innocent>Inocente</innocent>
+        <kiss>Beso</kiss>
+        <laughing>Risa</laughing>
+        <money_mouth>Dinero boca</money_mouth>
+        <sealed>Sellado</sealed>
+        <smile>Sonrisa</smile>
+        <surprised>Sorprendido</surprised>
+        <title>Insertar emoticon</title>
+        <tongue_out>Lengua fuera</tongue_out>
+        <undecided>Indeciso</undecided>
+        <wink>Guiño</wink>
+        <yell>Enfadado</yell>
+      </emotions_dlg>
+      <fullpage>
+        <delta_height />
+        <delta_width />
+        <desc>Propiedades del documento</desc>
+        <fullpage_desc see="#desc" />
+      </fullpage>
+      <fullpage_dlg>
+        <active_color>Color activo</active_color>
+        <add>Agregar nuevo elemento</add>
+        <add_base>Elemento Base</add_base>
+        <add_comment>Nodo Comment</add_comment>
+        <add_link>Elemento Link</add_link>
+        <add_meta>Elemento Meta</add_meta>
+        <add_script>Elemento Script</add_script>
+        <add_style>Elemento Style</add_style>
+        <add_title>Elemento Title</add_title>
+        <advanced_props>Avanzado</advanced_props>
+        <advanced_tab>Avanzado</advanced_tab>
+        <appearance_bgprops>Propiedades del fondo</appearance_bgprops>
+        <appearance_linkprops>Colores del vínculo</appearance_linkprops>
+        <appearance_marginprops>Márgenes</appearance_marginprops>
+        <appearance_style>Propiedades de hoja de estilos y estilo</appearance_style>
+        <appearance_tab>Apariencia</appearance_tab>
+        <appearance_textprops>Propiedades de texto</appearance_textprops>
+        <author>Autor</author>
+        <base_element>Elemento Base</base_element>
+        <bgcolor>Color de fondo</bgcolor>
+        <bgimage>Imagen de fondo</bgimage>
+        <bottom_margin>Margen inferior</bottom_margin>
+        <charset>Charset</charset>
+        <comment_element>Comentario</comment_element>
+        <content>Contenido</content>
+        <copyright>Copyright</copyright>
+        <defer>Defer</defer>
+        <doctypes>Tipo de doc.</doctypes>
+        <encoding>Codificación de caracteres</encoding>
+        <font_face>Fuente</font_face>
+        <font_size>Tamaño de fuente</font_size>
+        <fontface>Fuente</fontface>
+        <fontsize>Tamaño de fuente</fontsize>
+        <general_props>General</general_props>
+        <head_elements>Elemento Head</head_elements>
+        <hover_color>Color ratón encima</hover_color>
+        <href>Href</href>
+        <hreflang>Href lang</hreflang>
+        <info>Información</info>
+        <langcode>Código del lenguaje</langcode>
+        <langdir>Dirección del lenguaje</langdir>
+        <langprops>Lenguaje y codificación</langprops>
+        <language>Lenguaje</language>
+        <left_margin>Margen izquierdo</left_margin>
+        <link_color>Color de vínculo</link_color>
+        <link_element>Elemento Link</link_element>
+        <ltr>Izquierda a derecha</ltr>
+        <media>Medio</media>
+        <meta_description>Descripción</meta_description>
+        <meta_element>Elemento Meta</meta_element>
+        <meta_index_follow>Indexar y seguir los vínculos</meta_index_follow>
+        <meta_index_nofollow>Indexar y no seguir los vínculos</meta_index_nofollow>
+        <meta_keywords>Palabras clave</meta_keywords>
+        <meta_noindex_follow>No indexar pero seguir vínculos</meta_noindex_follow>
+        <meta_noindex_nofollow>No indexar y no seguir vínculos</meta_noindex_nofollow>
+        <meta_props>Información Meta</meta_props>
+        <meta_robots>Robots</meta_robots>
+        <meta_tab>General</meta_tab>
+        <meta_title>Título</meta_title>
+        <movedown>Mover elemento seleccionado hacia abajo</movedown>
+        <moveup>Mover elemento seleccionado hacia arriba</moveup>
+        <name>Nombre</name>
+        <properties>Propiedades</properties>
+        <rel>Rel</rel>
+        <remove>Eliminar elemento seleccionado</remove>
+        <rev>Rev</rev>
+        <right_margin>Margen derecho</right_margin>
+        <rtl>Derecha a izquierda</rtl>
+        <script_element>Elemento Script</script_element>
+        <src>Src</src>
+        <style>Estilo</style>
+        <style_element>Elemento Style</style_element>
+        <stylesheet>Hoja de estilo</stylesheet>
+        <target>Target</target>
+        <text_color>Color del texto</text_color>
+        <textcolor>Color</textcolor>
+        <title>Propiedades del documento</title>
+        <title_element>Elemento Title</title_element>
+        <top_margin>Margen superior</top_margin>
+        <type>Tipo</type>
+        <value>Valor</value>
+        <visited_color>Color visitado</visited_color>
+        <xml_pi>Declaración XML</xml_pi>
+      </fullpage_dlg>
+      <fullscreen>
+        <desc>Cambiar a modo Pantalla Completa</desc>
+        <fullscreen_desc see="#desc" />
+      </fullscreen>
+      <iespell>
+        <download>No se detectó 'ieSpell'.  ¿Desea instalarlo ahora?</download>
+        <iespell_desc>Corrector ortográfico</iespell_desc>
+      </iespell>
+      <insertdatetime>
+        <date_fmt>%d-%m-%Y</date_fmt>
+        <day_long>Domingo,Lunes,Martes,Miércoles,Jueves,Viernes,Sábado,Domingo</day_long>
+        <day_short>Dom,Lun,Mar,Mie,Jue,Vie,Sab,Dom</day_short>
+        <insertdate_desc>Insertar fecha</insertdate_desc>
+        <inserttime_desc>Insertar hora</inserttime_desc>
+        <months_long>Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre</months_long>
+        <months_short>Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic</months_short>
+        <time_fmt>%H:%M:%S</time_fmt>
+      </insertdatetime>
+      <layer>
+        <absolute_desc>Cambiar a posición absoluta</absolute_desc>
+        <backward_desc>Retroceder</backward_desc>
+        <content>Nueva capa...</content>
+        <forward_desc>Avanzar</forward_desc>
+        <insertlayer_desc>Insertar nueva capa</insertlayer_desc>
+        <movebackward_desc see="#backward_desc" />
+        <moveforward_desc see="#forward_desc" />
+      </layer>
+      <media>
+        <delta_height />
+        <delta_width />
+        <desc>Insertar/editar medio embebido</desc>
+        <edit>Editar medio embebido</edit>
+        <media_desc see="#desc" />
+      </media>
+      <media_dlg>
+        <advanced>Avanzado</advanced>
+        <align>Alineación</align>
+        <align_bottom>Debajo</align_bottom>
+        <align_bottom_left>Debajo Izda.</align_bottom_left>
+        <align_bottom_right>Debajo Dcha.</align_bottom_right>
+        <align_center>Centrado</align_center>
+        <align_left>Izquierda</align_left>
+        <align_right>Derecha</align_right>
+        <align_top>Arriba</align_top>
+        <align_top_left>Arriba Izda.</align_top_left>
+        <align_top_right>Arriba Dcha.</align_top_right>
+        <autogotourl>Ir a URL automát.</autogotourl>
+        <autohref>AutoHREF</autohref>
+        <autostart>Comienzo Automático</autostart>
+        <balance>Balance</balance>
+        <base>Base</base>
+        <baseurl>URL Base</baseurl>
+        <bgcolor>Fondo</bgcolor>
+        <cache>Caché</cache>
+        <captioningid>Captioning id</captioningid>
+        <center>Centrado</center>
+        <class_name>Clase</class_name>
+        <console>Consola</console>
+        <constrain_proportions>Bloquear relación de aspecto</constrain_proportions>
+        <controller>Controller</controller>
+        <controls>Controles</controls>
+        <correction>Sin correción</correction>
+        <currentmarker>Marcador actual</currentmarker>
+        <currentposition>Posición actual</currentposition>
+        <defaultframe>Frame predet.</defaultframe>
+        <enabled>Habilitado</enabled>
+        <enablejavascript>Habilitar JavaScript</enablejavascript>
+        <endtime>Fin</endtime>
+        <file>Archivo/URL</file>
+        <flash_options>Opciones Flash</flash_options>
+        <flashvars>Flashvars</flashvars>
+        <flv_autostart>Inicio auto.</flv_autostart>
+        <flv_buffer>Buffer</flv_buffer>
+        <flv_defaultvolume>Volumen predet.</flv_defaultvolume>
+        <flv_hiddengui>Ocultar GUI</flv_hiddengui>
+        <flv_jscallback>JS Callback</flv_jscallback>
+        <flv_loop>Repetitivo</flv_loop>
+        <flv_options>Opciones Video Flash</flv_options>
+        <flv_scalemode>Modo escalado</flv_scalemode>
+        <flv_showscalemodes>Mostrar modos escala</flv_showscalemodes>
+        <flv_smoothvideo>Video suave</flv_smoothvideo>
+        <flv_startimage>Imagen inicio</flv_startimage>
+        <flv_starttime>Tiempo inicio</flv_starttime>
+        <fullscreen>Pantalla Completa</fullscreen>
+        <general>General</general>
+        <hidden>Hidden</hidden>
+        <href>Href</href>
+        <hspace>H-Space</hspace>
+        <id>Id</id>
+        <imagestatus>Estado de imagen</imagestatus>
+        <invokeurls>Invocar URLs</invokeurls>
+        <kioskmode>Kiosk mode</kioskmode>
+        <list>Lista</list>
+        <liveconnect>SWLiveConnect</liveconnect>
+        <loop>Repetitivo</loop>
+        <maintainaspect>Mantener aspecto</maintainaspect>
+        <menu>Mostrar Menú</menu>
+        <mute>Silencio</mute>
+        <name>Nombre</name>
+        <nojava>No java</nojava>
+        <numloop>Núm. repeticiones</numloop>
+        <play>Comienzo Automático</play>
+        <playcount>Cuantas reproducciones</playcount>
+        <playeveryframe>Reproducir todo los frames</playeveryframe>
+        <prefetch>Prebúsqueda</prefetch>
+        <preview>Vista Previa</preview>
+        <progress>Progreso</progress>
+        <qt_options>Opciones Quicktime</qt_options>
+        <qt_stream_warn>Los recursos rtsp de Streaming deberían añadirse en el campo QT Src de la pestaña avanzada.\nAdemás debería añadir una versión no Streaming en el campo Src.</qt_stream_warn>
+        <qtsrc>QT Src</qtsrc>
+        <qtsrcchokespeed>Vel. de choque</qtsrcchokespeed>
+        <quality>Calidad</quality>
+        <rate>Ratio</rate>
+        <rmp_options>Opciones Real media player</rmp_options>
+        <salign>SAlign</salign>
+        <scale>Scale</scale>
+        <scriptcallbacks>Script callbacks</scriptcallbacks>
+        <shockwave_options>Opciones Shockwave</shockwave_options>
+        <shuffle>Aleatorio</shuffle>
+        <size>Dimensiones</size>
+        <sound>Sonido</sound>
+        <starttime>Inicio</starttime>
+        <stretchtofit>Estirar para ajustar</stretchtofit>
+        <swstretchhalign>Alin. H. Estiramiento</swstretchhalign>
+        <swstretchstyle>Estilo estiramiento</swstretchstyle>
+        <swstretchvalign>Alin. V. Estiramiento</swstretchvalign>
+        <target>Target</target>
+        <targetcache>Target cache</targetcache>
+        <title>Insertar/editar medio embebido</title>
+        <type>Tipo</type>
+        <uimode>Modo UI</uimode>
+        <windowlessvideo>Video sin ventana</windowlessvideo>
+        <wmode>WMode</wmode>
+        <wmp_options>Opciones Windows media player</wmp_options>
+        <volume>Volumen</volume>
+        <vspace>V-Space</vspace>
+      </media_dlg>
+      <nonbreaking>
+        <nonbreaking_desc>Insertar caracter de espacio 'non-breaking'</nonbreaking_desc>
+      </nonbreaking>
+      <pagebreak>
+        <desc>Insertar fin de página</desc>
+        <pagebreak_desc see="#desc" />
+      </pagebreak>
+      <paste>
+        <paste_text_desc>Pegar como texto plano</paste_text_desc>
+        <paste_word_desc>Pegar desde Word</paste_word_desc>
+        <pastetext_desc see="#paste_text_desc" />
+        <pasteword_desc see="#paste_word_desc" />
+        <selectall_desc>Elegir todo</selectall_desc>
+      </paste>
+      <paste_dlg>
+        <text_linebreaks>Keep linebreaks</text_linebreaks>
+        <text_title>Use CTRL+V en su teclado para pegar el texto en la ventana.</text_title>
+        <word_title>Use CTRL+V en su teclado para pegar el texto en la ventana.</word_title>
+      </paste_dlg>
+      <preview>
+        <preview_desc>Vista previa</preview_desc>
+      </preview>
+      <print>
+        <print_desc>Imprimir</print_desc>
+      </print>
+      <save>
+        <cancel_desc>Cancelar todos los cambios</cancel_desc>
+        <save_desc>Guardar</save_desc>
+      </save>
+      <searchreplace>
+        <delta_height />
+        <delta_width />
+        <replace_desc>Buscar/Reemplazar</replace_desc>
+        <search_desc>Buscar</search_desc>
+      </searchreplace>
+      <searchreplace_dlg>
+        <allreplaced>Se ha reemplazado el texto.</allreplaced>
+        <direction>Dirección</direction>
+        <down>Abajo</down>
+        <findnext>Buscar siguiente</findnext>
+        <findwhat>Qué buscar</findwhat>
+        <mcase>Minús./Mayús.</mcase>
+        <notfound>La búsqueda se ha completado. No se encontró el texto introducido.</notfound>
+        <replace>Reemplazar</replace>
+        <replace_title>Buscar/Reemplazar</replace_title>
+        <replaceall>Reemplazar todo</replaceall>
+        <replacewith>Reemplazar por</replacewith>
+        <search_title>Buscar</search_title>
+        <searchnext_desc>Buscar de nuevo</searchnext_desc>
+        <up>Arriba</up>
+      </searchreplace_dlg>
+      <simple>
+        <bold_desc>Negrita (Ctrl+B)</bold_desc>
+        <bullist_desc>Lista desordenada</bullist_desc>
+        <cleanup_desc>Limpiar código basura</cleanup_desc>
+        <italic_desc>Cursiva (Ctrl+I)</italic_desc>
+        <numlist_desc>Lista ordenada</numlist_desc>
+        <redo_desc>Rehacer (Ctrl+Y)</redo_desc>
+        <striketrough_desc>Tachado</striketrough_desc>
+        <underline_desc>Subrayado (Ctrl+U)</underline_desc>
+        <undo_desc>Deshacer (Ctrl+Z)</undo_desc>
+      </simple>
+      <spellchecker>
+        <desc>Cambiar a corrector ortográfico</desc>
+        <ignore_word>Ignorar</ignore_word>
+        <ignore_words>Ignorar todo</ignore_words>
+        <langs>Idiomas</langs>
+        <menu>Configuración de corrector ortográfico</menu>
+        <no_mpell>No se encontraron errores.</no_mpell>
+        <no_sug>Sin sugerencias</no_sug>
+        <spellchecker_desc see="#desc" />
+        <sug>Sugerencias</sug>
+        <wait>Espere...</wait>
+      </spellchecker>
+      <style>
+        <delta_height />
+        <delta_width />
+        <desc>Editar Estilo CSS</desc>
+        <style_desc see="#desc" />
+        <styleprops_desc see="#desc" />
+      </style>
+      <style_dlg>
+        <apply>Aplicar</apply>
+        <background_attachment>Adjunto</background_attachment>
+        <background_color>Color de fondo</background_color>
+        <background_hpos>Posición horizontal</background_hpos>
+        <background_image>Imagen de fondo</background_image>
+        <background_repeat>Repetición</background_repeat>
+        <background_tab>Fondo</background_tab>
+        <background_vpos>Posición vertical</background_vpos>
+        <block_display>Display</block_display>
+        <block_letterspacing>Espacio entre letra</block_letterspacing>
+        <block_tab>Bloque</block_tab>
+        <block_text_align>Alineación del texto</block_text_align>
+        <block_text_indent>Sangría</block_text_indent>
+        <block_vertical_alignment>Alineación vertical</block_vertical_alignment>
+        <block_whitespace>Espacio en blanco</block_whitespace>
+        <block_wordspacing>Espacio entre palabra</block_wordspacing>
+        <border_tab>Borde</border_tab>
+        <bottom>Debajo</bottom>
+        <box_clear>Clear</box_clear>
+        <box_float>Float</box_float>
+        <box_height>Alto</box_height>
+        <box_tab>Caja</box_tab>
+        <box_width>Ancho</box_width>
+        <bullet_image>Imagen de la viñeta</bullet_image>
+        <clip>Clip</clip>
+        <color>Color</color>
+        <height>Alto</height>
+        <left>Izquierda</left>
+        <list_tab>Lista</list_tab>
+        <list_type>Tipo</list_type>
+        <margin>Margen</margin>
+        <overflow>Overflow</overflow>
+        <padding>Padding</padding>
+        <placement>Placement</placement>
+        <position>Posición</position>
+        <positioning_tab>Posición</positioning_tab>
+        <positioning_type>Tipo</positioning_type>
+        <right>Derecha</right>
+        <same>Lo mismo en todos</same>
+        <style>Estilo</style>
+        <text_blink>Parpadeo</text_blink>
+        <text_case>Minús./Mayús.</text_case>
+        <text_color>Color</text_color>
+        <text_decoration>Decorativos</text_decoration>
+        <text_font>Fuente</text_font>
+        <text_lineheight>Ancho de la fila</text_lineheight>
+        <text_none>Ninguno</text_none>
+        <text_overline>Subrayado superior</text_overline>
+        <text_props>Texto</text_props>
+        <text_size>Tamaño</text_size>
+        <text_striketrough>Tachado</text_striketrough>
+        <text_style>Estilo</text_style>
+        <text_tab>Texto</text_tab>
+        <text_underline>Subrayado</text_underline>
+        <text_variant>Variante</text_variant>
+        <text_weight>Peso</text_weight>
+        <title>Editar Estilo CSS</title>
+        <top>Arriba</top>
+        <width>Ancho</width>
+        <visibility>Visibilidad</visibility>
+        <zindex>Z-index</zindex>
+      </style_dlg>
+      <table>
+        <cell>Celda</cell>
+        <cell_desc>Propiedades de la celda</cell_desc>
+        <cell_props_desc see="#cell_desc" />
+        <cellprops_delta_height />
+        <cellprops_delta_width />
+        <col>Columna</col>
+        <col_after_desc>Insertar columna (después)</col_after_desc>
+        <col_before_desc>Insertar columna (antes)</col_before_desc>
+        <copy_row_desc>Copiar fila</copy_row_desc>
+        <cut_row_desc>Cortar fila</cut_row_desc>
+        <del>Eliminar tabla</del>
+        <delete_col_desc>Suprimir columna</delete_col_desc>
+        <delete_row_desc>Suprimir fila</delete_row_desc>
+        <delete_table_desc see="#del" />
+        <desc>Inserta una nueva tabla</desc>
+        <merge_cells_delta_height />
+        <merge_cells_delta_width />
+        <merge_cells_desc>Vincular celdas</merge_cells_desc>
+        <paste_row_after_desc>Pegar filas (después)</paste_row_after_desc>
+        <paste_row_before_desc>Pegar filas (antes)</paste_row_before_desc>
+        <props_desc>Propiedades de la tabla</props_desc>
+        <row>Fila</row>
+        <row_after_desc>Insertar fila (después)</row_after_desc>
+        <row_before_desc>Insertar fila (antes)</row_before_desc>
+        <row_desc>Propiedades de la fila</row_desc>
+        <row_props_desc see="#row_desc" />
+        <rowprops_delta_height />
+        <rowprops_delta_width />
+        <split_cells_desc>Dividir celdas</split_cells_desc>
+        <table_delta_height />
+        <table_delta_width />
+        <table_desc see="#desc" />
+        <tablecontrols_desc see="#desc" />
+      </table>
+      <table_dlg>
+        <advanced_props>Propiedades avanzadas</advanced_props>
+        <advanced_tab>Avanzado</advanced_tab>
+        <align>Alineación</align>
+        <align_bottom>Debajo</align_bottom>
+        <align_default>Predet.</align_default>
+        <align_left>Izquierda</align_left>
+        <align_middle>Centrado</align_middle>
+        <align_right>Derecha</align_right>
+        <align_top>Arriba</align_top>
+        <bgcolor>Color de fondo</bgcolor>
+        <bgimage>Imagen de fondo</bgimage>
+        <border>Borde</border>
+        <bordercolor>Color del borde</bordercolor>
+        <caption>Subtítulo de la tabla</caption>
+        <cell_all>Actualizar todas las celdas en la tabla</cell_all>
+        <cell_cell>Actualizar celda actual</cell_cell>
+        <cell_limit>Ha superado el número máximo de celdas: {$cells}.</cell_limit>
+        <cell_row>Actualizar todas las celdas en la fila</cell_row>
+        <cell_title>Propiedades de la celda</cell_title>
+        <cell_type>Tipo de celda</cell_type>
+        <cellpadding>Relleno de celda</cellpadding>
+        <cellspacing>Espaciado de celda</cellspacing>
+        <col_limit>Ha superado el número máximo de columnas: {$cols}.</col_limit>
+        <colgroup>Grupo de columnas</colgroup>
+        <cols>Cols</cols>
+        <frame>Recuadro</frame>
+        <frame_all>todos</frame_all>
+        <frame_cols>cols</frame_cols>
+        <frame_groups>grupos</frame_groups>
+        <frame_none>ninguno</frame_none>
+        <frame_rows>filas</frame_rows>
+        <general_props>Propiedades generales</general_props>
+        <general_tab>General</general_tab>
+        <height>Alto</height>
+        <id>Id</id>
+        <langcode>Código del lenguaje</langcode>
+        <langdir>Dirección del lenguaje</langdir>
+        <ltr>Izquierda a derecha</ltr>
+        <merge_cells_title>Vincular celdas</merge_cells_title>
+        <mime>Tipo MIME</mime>
+        <missing_scope> ¿Está seguro que desea continuar sin especificar el alcance del encabezado de celda? Sin él podría ser dificultoso para algunos usuarios entender el contenido o los datos mostrados en la tabla.</missing_scope>
+        <row_all>Actualizar todas las filas</row_all>
+        <row_even>Actualizar filas pares</row_even>
+        <row_limit>Ha superado el número máximo de filas: {$rows}.</row_limit>
+        <row_odd>Actualizar filas impares</row_odd>
+        <row_row>Actualizar fila actual</row_row>
+        <row_title>Propiedades de la fila</row_title>
+        <rowgroup>Grupo de filas</rowgroup>
+        <rows>Filas</rows>
+        <rowtype>Tipo de fila</rowtype>
+        <rtl>Derecha a izquierda</rtl>
+        <rules>Reglas</rules>
+        <rules_above>encima</rules_above>
+        <rules_below>debajo</rules_below>
+        <rules_border>border</rules_border>
+        <rules_box>box</rules_box>
+        <rules_hsides>hsides</rules_hsides>
+        <rules_lhs>lhs</rules_lhs>
+        <rules_rhs>rhs</rules_rhs>
+        <rules_void>vacío</rules_void>
+        <rules_vsides>vsides</rules_vsides>
+        <scope>Alcance</scope>
+        <style>Estilo</style>
+        <summary>Resumen</summary>
+        <tbody>Cuerpo de la tabla</tbody>
+        <td>Datos</td>
+        <tfoot>Pie de la tabla</tfoot>
+        <th>Encabezado</th>
+        <thead>Encabezado de la tabla</thead>
+        <title>Insertar/Modificar tabla</title>
+        <valign>Alineación vertical</valign>
+        <width>Ancho</width>
+      </table_dlg>
+      <template>
+        <desc>Insertar contenido de plantilla predefinida</desc>
+        <template_desc see="#desc" />
+      </template>
+      <template_dlg>
+        <cdate_format>%d-%m-%Y %H:%M:%S</cdate_format>
+        <day_long>Domingo,Lunes,Martes,Miércoles,Jueves,Viernes,Sábado,Domingo</day_long>
+        <day_short>Dom,Lun,Mar,Mie,Jue,Vie,Sab,Dom</day_short>
+        <desc>Insertar contenido de plantilla predefinida</desc>
+        <desc_label>Descripción</desc_label>
+        <label>Plantilla</label>
+        <mdate_format>%d-%m-%Y %H:%M:%S</mdate_format>
+        <months_long>Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre</months_long>
+        <months_short>Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic</months_short>
+        <preview>Vista previa</preview>
+        <select>Elegir plantilla</select>
+        <template_dlg_desc see="#desc" />
+        <title>Plantillas</title>
+        <warning>Cuidado: Actualizar una plantilla con otra puede causar pérdida de datos.</warning>
+      </template_dlg>
+      <visualchars>
+        <desc>Caracteres de control ON/OFF.</desc>
+        <visualchars_desc see="#desc" />
+      </visualchars>
+      <xhtmlxtras>
+        <abbr_delta_height />
+        <abbr_delta_width />
+        <abbr_desc>Abreviatura</abbr_desc>
+        <acronym_delta_height />
+        <acronym_delta_width />
+        <acronym_desc>Acrónimo</acronym_desc>
+        <attribs_delta_height />
+        <attribs_delta_width />
+        <attribs_desc>Insertar/Editar atributos</attribs_desc>
+        <cite_delta_height />
+        <cite_delta_width />
+        <cite_desc>Cita</cite_desc>
+        <del_delta_height />
+        <del_delta_width />
+        <del_desc>Borrado</del_desc>
+        <ins_delta_height />
+        <ins_delta_width />
+        <ins_desc>Inserción</ins_desc>
+      </xhtmlxtras>
+      <xhtmlxtras_dlg>
+        <attrib_tab>Atributos</attrib_tab>
+        <attribs_title>Insertar/Editar atributos</attribs_title>
+        <attribute_attrib_tab>Atributos</attribute_attrib_tab>
+        <attribute_events_tab>Eventos</attribute_events_tab>
+        <attribute_label_accesskey>Tecla de acceso</attribute_label_accesskey>
+        <attribute_label_cite>Cita</attribute_label_cite>
+        <attribute_label_class>Clase</attribute_label_class>
+        <attribute_label_datetime>Fecha/Hora</attribute_label_datetime>
+        <attribute_label_id>ID</attribute_label_id>
+        <attribute_label_langcode>Lenguaje</attribute_label_langcode>
+        <attribute_label_langdir>Dirección de texto</attribute_label_langdir>
+        <attribute_label_style>Estilo</attribute_label_style>
+        <attribute_label_tabindex>Orden de tabulación</attribute_label_tabindex>
+        <attribute_label_title>Título</attribute_label_title>
+        <attribute_option_ltr>Izquierda a derecha</attribute_option_ltr>
+        <attribute_option_rtl>Derecha a izquierda</attribute_option_rtl>
+        <events_tab>Eventos</events_tab>
+        <fieldset_attrib_tab>Atributos</fieldset_attrib_tab>
+        <fieldset_events_tab>Evento</fieldset_events_tab>
+        <fieldset_general_tab>Configuración general</fieldset_general_tab>
+        <general_tab>General</general_tab>
+        <insert_date>Insertar fecha/hora actuales</insert_date>
+        <option_ltr>Izquierda a derecha</option_ltr>
+        <option_rtl>Derecha a izquierda</option_rtl>
+        <remove>Suprimir</remove>
+        <title_abbr_element>Abreviatura</title_abbr_element>
+        <title_acronym_element>Acrónimo</title_acronym_element>
+        <title_cite_element>Cita</title_cite_element>
+        <title_del_element>Borrar</title_del_element>
+        <title_ins_element>Insertar</title_ins_element>
+      </xhtmlxtras_dlg>
+    </tinymce>
+  </language>
+</languages>

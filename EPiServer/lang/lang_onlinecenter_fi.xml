@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="suomi" id="fi">
+    <reportcenter>
+      <report name="linkstatus">
+        <caption>Linkin tila</caption>
+        <description>Näyttää sivuston sisällön linkit, jotka eivät toimi.</description>
+        <heading>Linkin tila</heading>
+        <info>
+          Tässä raportissa näkyvät sivuston sisällön linkit, jotka eivät toimi. Avaa sivu muokkaustilaan valitsemalla se raporttituloksista. 
+        </info>
+      </report>
+    </reportcenter>
+    <shell>
+      <cms>
+        <brokenlinks>
+          <controller>
+            <tooltip>Sivun tyyppi: {0}, sivun tunnus: {1}</tooltip>
+            <webExceptions>
+              <fallback>Yhteysvirhe</fallback>
+              <status name="1">
+                <fallback>Nimen selvitys epäonnistui</fallback>
+              </status>
+              <status name="2">
+                <fallback>Yhteys epäonnistui</fallback>
+              </status>
+              <status name="7">
+                <fallback>Palvelimen virhe</fallback>
+                <httpStatus name="400">Virheellinen pyyntö</httpStatus>
+                <httpStatus name="404">Ei löydy</httpStatus>
+                <httpStatus name="503">Yhdyskäytävän aikakatkaisu</httpStatus>
+              </status>
+            </webExceptions>
+          </controller>
+          <index>
+            <info>Raportissa näkyvät linkit, joihin ei saatu yhteyttä. Tämä voi johtua esimerkiksi siitä, että sivua siirrettiin, sivusto oli poissa käytöstä tai kohdelinkin luku ei onnistunut kyseisellä hetkellä.</info>
+            <itemsperpage>Kohteita sivulla</itemsperpage>
+            <name>Linkin tila</name>
+            <recheck>Tarkista uudelleen</recheck>
+            <showreport>Näytä raportti</showreport>
+            <table>
+              <brokensince>Katkaistu alkaen</brokensince>
+              <brokenurl>Katkaistu URL-osoite</brokenurl>
+              <lastchecked>Viimeksi tarkistettu</lastchecked>
+              <linkstatus>Linkin tila</linkstatus>
+              <pagename>Sivun nimi</pagename>
+            </table>
+            <working>Käsitellään...</working>
+          </index>
+        </brokenlinks>
+        <directoryselector>
+          <directorylisting>
+            <directorytype>Hakemisto</directorytype>
+          </directorylisting>
+          <folderselector>
+            <emptyfolder>Tämä kansio on tyhjä.</emptyfolder>
+            <favoritesheading>Suosikit</favoritesheading>
+            <startingpointsheading>Aloituspisteet</startingpointsheading>
+            <wherelabel>Missä</wherelabel>
+          </folderselector>
+          <index>
+            <nameheading>Nimi</nameheading>
+            <sizeheading>Koko</sizeheading>
+            <typeheading>Tyyppi</typeheading>
+          </index>
+        </directoryselector>
+        <externallinks>
+          <common>
+            <hits>Linkkien määrä</hits>
+            <host>Web-osoite</host>
+          </common>
+          <details>
+            <link>Web-osoite</link>
+            <page>Sivu</page>
+          </details>
+          <errors>
+            <pagenumber>Sivun numeron on oltava positiivinen</pagenumber>
+            <pagesize>Sivun koon on oltava positiivinen</pagesize>
+          </errors>
+          <gadgettitle>Ulkoiset linkit</gadgettitle>
+          <pager>
+            <info>Kohteet: {0} - {1} / {2}</info>
+            <next>&gt;&gt;</next>
+            <prev>&lt;&lt;</prev>
+            <split>...</split>
+          </pager>
+          <settings>
+            <legend>Asetukset</legend>
+            <pagesize>Näytettävien kohteiden määrä</pagesize>
+            <showdetails>Näytä tiedot</showdetails>
+          </settings>
+        </externallinks>
+        <hosting>
+          <fileupload>
+            <conflictingdirectory>Uuden tiedoston nimeä vastaava kansio on jo olemassa.</conflictingdirectory>
+            <fileexists>Saman niminen tiedosto on jo olemassa, eivätkä oikeutesi riitä olemassa olevan tiedoston korvaamiseen</fileexists>
+            <fileisnotimage>Valittu tiedosto ei ole kuva.</fileisnotimage>
+            <fileoverwriteconfirmation>Saman niminen tiedosto on jo olemassa. Haluatko korvata olemassa olevan tiedoston?</fileoverwriteconfirmation>
+            <invaliddirectory>Valittua lataushakemistoa ei ole.</invaliddirectory>
+            <permissiondenied>Oikeutesi eivät riitä tiedostojen lataamiseen valittuun kansioon</permissiondenied>
+            <targetfilecheckedout>Saman niminen tiedosto on jo olemassa, ja toinen käyttäjä on kuitannut sen ulos</targetfilecheckedout>
+          </fileupload>
+        </hosting>
+        <menu>
+          <admin>Hallintatila</admin>
+          <cms>CMS</cms>
+          <cmssettings>EPiServer CMS</cmssettings>
+          <edit>Muokkaustila</edit>
+          <license>Käyttöoikeussopimus</license>
+          <logout>Kirjaudu ulos</logout>
+          <mysettings>Omat asetukset</mysettings>
+          <reportcenter>Raportit</reportcenter>
+          <selectasite>Valitse näyttötilassa näytettävä sivusto</selectasite>
+          <toviewmode>Näyttötilaan [{0}]</toviewmode>
+        </menu>
+        <mytasks>
+          <assignedto>Vastuuhenkilö</assignedto>
+          <createnewtask>Luo muokkaustilassa</createnewtask>
+          <createnewtasktitle>Luo tehtävä muokkaustilasta</createnewtasktitle>
+          <description>Kuvaus</description>
+          <duedate>Eräpäivä</duedate>
+          <EmptySubjectWarning>Tehtävän aihe on tyhjä</EmptySubjectWarning>
+          <errors>
+            <settingsusergroupnames>Määritä oikeat käyttäjäryhmien nimet.</settingsusergroupnames>
+          </errors>
+          <IncorrectTaskStatusWarning>Määritetty tila ei kelpaa tehtävälle</IncorrectTaskStatusWarning>
+          <InvalidDueDate>Tehtävän eräpäivä ei kelpaa</InvalidDueDate>
+          <legend>Lisää tehtävä</legend>
+          <mygroups>Omat ryhmät (pilkulla erotettuina)</mygroups>
+          <pagetasks>Sivun tehtävät</pagetasks>
+          <quickadd>Pikalisäys</quickadd>
+          <quickaddtitle>Luo tehtävä käyttöpaneelista</quickaddtitle>
+          <settingsheading>Asetukset</settingsheading>
+          <status>Tila</status>
+          <subject>Aihe</subject>
+          <title>Omat tehtävät</title>
+          <tooltip>
+            <created>Luotu</created>
+            <pageid>Sivun tunnus</pageid>
+            <pagepath>Polku</pagepath>
+          </tooltip>
+          <UnknownUserWarning>Määritettyä käyttäjää ei löydy</UnknownUserWarning>
+        </mytasks>
+        <notchangedpages>
+          <errors>
+            <monthswithoutchanges>Kuukausien määrän on oltava nollaa suurempi kokonaisluku.</monthswithoutchanges>
+            <numberofitems>Kohteiden määrän on oltava nollaa suurempi kokonaisluku.</numberofitems>
+          </errors>
+          <gadgettitle>Muuttamattomat sivut</gadgettitle>
+          <indexview>
+            <changedby>Muuttanut</changedby>
+            <modified>Muutettu</modified>
+            <name>Nimi</name>
+            <status>Tila</status>
+          </indexview>
+          <settingsview>
+            <invertsorting>Lajittele laskevasti</invertsorting>
+            <legend>Asetukset</legend>
+            <monthswithoutchanges>Kuukausien määrä</monthswithoutchanges>
+            <numberofitems>Näytettävien kohteiden määrä</numberofitems>
+          </settingsview>
+        </notchangedpages>
+        <notesgadget>
+          <backgroundcolor>Taustaväri</backgroundcolor>
+          <backgroundcolors>
+            <blue>Sininen</blue>
+            <green>Vihreä</green>
+            <orange>Oranssi</orange>
+            <pink>Vaaleanpunainen</pink>
+            <white>Valkoinen</white>
+            <yellow>Keltainen</yellow>
+          </backgroundcolors>
+          <textsize>Tekstin koko</textsize>
+          <textsizes>
+            <big>Suuri</big>
+            <normal>Normaali</normal>
+            <verybig>Suurin</verybig>
+          </textsizes>
+          <title>Huomautukset</title>
+        </notesgadget>
+        <pageinfo>
+          <modifiedby>Muuttanut</modifiedby>
+          <modifieddate>Muutettu</modifieddate>
+          <pagelink>Tunnus</pagelink>
+          <pagetype>Sivun tyyppi</pagetype>
+          <path>Polku</path>
+        </pageinfo>
+        <quicklinks>
+          <addlink>Lisää linkki</addlink>
+          <cmsedit>
+            <text>Muokkaa</text>
+            <tooltip>Avaa CMS:n muokkaustila</tooltip>
+          </cmsedit>
+          <cmslinkcategoryname>CMS</cmslinkcategoryname>
+          <contentguidecategoryname>Pikajulkaisu</contentguidecategoryname>
+          <deletelink>Poista linkki</deletelink>
+          <episerverworldforum>
+            <text>EPiServer World -foorumi</text>
+            <tooltip>Foorumi EPiServer Worldissa</tooltip>
+          </episerverworldforum>
+          <linktitle>Otsikko</linktitle>
+          <linkurl>Web-osoite</linkurl>
+          <managelinks>Hallitse linkkejä</managelinks>
+          <mylinkscategoryname>Omat linkit</mylinkscategoryname>
+          <nocategory>Ei luokkaa</nocategory>
+          <title>Pikalinkit</title>
+        </quicklinks>
+        <recentlychangedpages>
+          <common>
+            <byall>Kaikki muutokset</byall>
+            <byme>Omat muutokset</byme>
+            <heading>Viimeksi muutetut sivut</heading>
+          </common>
+          <configure>
+            <defaultview>Oletusnäkymä</defaultview>
+            <heading>Asetukset</heading>
+            <numberofitems>Näytettävien kohteiden määrä</numberofitems>
+          </configure>
+          <index>
+            <changedby>Muuttanut</changedby>
+            <modified>Tallennettu</modified>
+            <name>Nimi</name>
+            <status>Tila</status>
+          </index>
+          <rss>
+            <description>Nämä ovat viimeksi muutetut sivut sivustossa {0}</description>
+          </rss>
+        </recentlychangedpages>
+        <rssgadget>
+          <errors>
+            <invalidfeed>Syötettä ei voitu lukea, koska kohteesta {0} saadussa syötesisällössä oli XML-virhe.</invalidfeed>
+            <invaliditemstoshow>Näytettävien kohteiden määrän on oltava positiivinen kokonaisluku.</invaliditemstoshow>
+            <invaliduri>Virheellinen Web-osoite. Web-osoitteen on oltava absoluuttinen URL, jonka alussa on http:// tai https://. </invaliduri>
+            <notafeed>Web-osoitteessa [{0}] ei ole kelvollista RSS- tai Atom-syötettä.</notafeed>
+          </errors>
+          <loadingfeedmessage>Ladataan syöte...</loadingfeedmessage>
+          <settings>
+            <feedurl>Syötteen URL</feedurl>
+            <itemstoshow>Näytettävät kohteet</itemstoshow>
+            <loadfeedtitle>Hae otsikko syötteestä</loadfeedtitle>
+            <title>Otsikko</title>
+          </settings>
+          <title>RSS-syötteen luku</title>
+        </rssgadget>
+        <search>
+          <files>
+            <category>Tiedostot</category>
+          </files>
+          <pages>
+            <category>Sivut</category>
+            <id>ID</id>
+            <linkurl>Link URL</linkurl>
+            <tooltip>
+              <changed>Muutettu</changed>
+              <created>Luotu</created>
+              <id>Tunnus</id>
+              <linkurl>Linkin Url-osoite</linkurl>
+              <pagetype>Sivun tyyppi</pagetype>
+            </tooltip>
+          </pages>
+        </search>
+        <uploadfile>
+          <controller>
+            <noresize>Älä muuta kokoa</noresize>
+          </controller>
+          <index>
+            <alttextlabel>Vaihtoehtoinen teksti</alttextlabel>
+            <imagelegend>Kuva</imagelegend>
+            <imagesizelabel>Muuta kuvan kokoa</imagesizelabel>
+            <savetolegend>Tallenna kohteeseen</savetolegend>
+            <selectlabel>Valitse tiedosto</selectlabel>
+            <uploadbutton>Lataa ja lisää</uploadbutton>
+          </index>
+        </uploadfile>
+        <xformsviewer>
+          <autoupdatelevel>
+            <never>Ei koskaan</never>
+            <normal>Normaali (joka 10:s minuutti)</normal>
+            <often>Usein (joka 60:s sekunti)</often>
+            <seldom>Harvoin (joka 60:s minuutti)</seldom>
+          </autoupdatelevel>
+          <AutoupdateLevel>Päivitä automaattisesti</AutoupdateLevel>
+          <chartperiodicity>
+            <day>Päivässä</day>
+            <hour>Tunnissa</hour>
+            <minute>Minuutissa</minute>
+            <month>Kuukaudessa</month>
+            <week>Viikossa</week>
+          </chartperiodicity>
+          <ChartPeriodicityLabel>Kaavion aikajakso</ChartPeriodicityLabel>
+          <ChartSettings>Kaavion asetukset</ChartSettings>
+          <DemoMode>Esittelytila</DemoMode>
+          <error>
+            <fields>Kenttiä ei ole valittu</fields>
+            <formfields>Valitse lomakekentät</formfields>
+            <numberofposts>Kohteiden määrän on oltava välillä 1 - 50</numberofposts>
+            <xformid>Valitse lomake</xformid>
+          </error>
+          <GadgetTitle>Lomakkeiden katseluohjelma</GadgetTitle>
+          <NoFieldsAvailable>Ei käytettävissä olevia kenttiä</NoFieldsAvailable>
+          <NoFormsAvailable>Ei käytettävissä olevia lomakkeita</NoFormsAvailable>
+          <NumberOfPosts>Näytettävien kohteiden määrä</NumberOfPosts>
+          <SelectFields>Näytettävät kentät</SelectFields>
+          <SelectXForm>Valitse lomake</SelectXForm>
+          <settings>Asetukset</settings>
+          <ShowChart>Näytä kaavio</ShowChart>
+          <ShowDate>Näytä kohteen lähetyspäivämäärä</ShowDate>
+          <TableColumnPostedTime>Lähetetty</TableColumnPostedTime>
+        </xformsviewer>
+      </cms>
+      <common>
+        <buttons>
+          <cancel>Peruuta</cancel>
+          <save>Tallenna</save>
+        </buttons>
+      </common>
+    </shell>
+  </language>
+</languages>

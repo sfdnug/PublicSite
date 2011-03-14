@@ -1,0 +1,1211 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="Simple Chinese" id="zh-CN">
+    <admin>
+      <tinymce>
+        <plugins>
+          <advanced>
+            <advImage>
+              <description see="/tinymce/advimage/image_desc" />
+              <displayname see="/tinymce/advimage/image_desc" />
+            </advImage>
+            <advLink>
+              <description see="/tinymce/advlink/link_desc" />
+              <displayname see="/tinymce/advlink/link_desc" />
+            </advLink>
+            <anchor>
+              <description see="/tinymce/advanced/anchor_desc" />
+              <displayname see="/tinymce/advanced/anchor_desc" />
+            </anchor>
+            <backcolor>
+              <description see="/tinymce/advanced/backcolor_desc" />
+              <displayname see="/tinymce/advanced/backcolor_desc" />
+            </backcolor>
+            <backcolorpicker>
+              <description see="/tinymce/advanced/backcolor_desc" />
+              <displayname see="/tinymce/advanced/backcolor_desc" />
+            </backcolorpicker>
+            <bold>
+              <description see="/tinymce/simple/bold_desc" />
+              <displayname see="/tinymce/simple/bold_desc" />
+            </bold>
+            <bullist>
+              <description see="/tinymce/advanced/bullist_desc" />
+              <displayname see="/tinymce/advanced/bullist_desc" />
+            </bullist>
+            <charmap>
+              <description see="/tinymce/advanced/charmap_desc" />
+              <displayname see="/tinymce/advanced/charmap_desc" />
+            </charmap>
+            <cleanup>
+              <description see="/tinymce/advanced/cleanup_desc" />
+              <displayname see="/tinymce/advanced/cleanup_desc" />
+            </cleanup>
+            <code>
+              <description see="/tinymce/advanced/code" />
+              <displayname see="/tinymce/advanced/code" />
+            </code>
+            <copy>
+              <description see="/tinymce/advanced/copy_desc" />
+              <displayname see="/tinymce/advanced/copy_desc" />
+            </copy>
+            <cut>
+              <description see="/tinymce/advanced/cut_desc" />
+              <displayname see="/tinymce/advanced/cut_desc" />
+            </cut>
+            <fontselect>
+              <description see="/tinymce/advanced/fontdefault" />
+              <displayname see="/tinymce/advanced/fontdefault" />
+            </fontselect>
+            <fontsizeselect>
+              <description see="/tinymce/advanced/font_size" />
+              <displayname see="/tinymce/advanced/font_size" />
+            </fontsizeselect>
+            <forecolor>
+              <description see="/tinymce/advanced/forecolor_desc" />
+              <displayname see="/tinymce/advanced/forecolor_desc" />
+            </forecolor>
+            <forecolorpicker>
+              <description see="/tinymce/advanced/forecolor_desc" />
+              <displayname see="/tinymce/advanced/forecolor_desc" />
+            </forecolorpicker>
+            <formatselect>
+              <description see="/tinymce/advanced/block" />
+              <displayname see="/tinymce/advanced/block" />
+            </formatselect>
+            <help>
+              <description see="/tinymce/advanced/help_desc" />
+              <displayname see="/tinymce/advanced/help_desc" />
+            </help>
+            <hr>
+              <description see="/tinymce/advanced/hr_desc" />
+              <displayname see="/tinymce/advanced/hr_desc" />
+            </hr>
+            <image>
+              <description see="/tinymce/advanced/image_desc" />
+              <displayname see="/tinymce/advanced/image_desc" />
+            </image>
+            <indent>
+              <description see="/tinymce/advanced/indent_desc" />
+              <displayname see="/tinymce/advanced/indent_desc" />
+            </indent>
+            <italic>
+              <description see="/tinymce/simple/italic_desc" />
+              <displayname see="/tinymce/simple/italic_desc" />
+            </italic>
+            <justifycenter>
+              <description see="/tinymce/advanced/justifycenter_desc" />
+              <displayname see="/tinymce/advanced/justifycenter_desc" />
+            </justifycenter>
+            <justifyfull>
+              <description see="/tinymce/advanced/justifyfull_desc" />
+              <displayname see="/tinymce/advanced/justifyfull_desc" />
+            </justifyfull>
+            <justifyleft>
+              <description see="/tinymce/advanced/justifyleft_desc" />
+              <displayname see="/tinymce/advanced/justifyleft_desc" />
+            </justifyleft>
+            <justifyright>
+              <description see="/tinymce/advanced/justifyright_desc" />
+              <displayname see="/tinymce/advanced/justifyright_desc" />
+            </justifyright>
+            <link>
+              <description see="/tinymce/advanced/link_desc" />
+              <displayname see="/tinymce/advanced/link_desc" />
+            </link>
+            <numlist>
+              <description see="/tinymce/advanced/numlist_desc" />
+              <displayname see="/tinymce/advanced/numlist_desc" />
+            </numlist>
+            <outdent>
+              <description see="/tinymce/advanced/outdent_desc" />
+              <displayname see="/tinymce/advanced/outdent_desc" />
+            </outdent>
+            <paste>
+              <description see="/tinymce/advanced/paste_desc" />
+              <displayname see="/tinymce/advanced/paste_desc" />
+            </paste>
+            <redo>
+              <description see="/tinymce/advanced/redo_desc" />
+              <displayname see="/tinymce/advanced/redo_desc" />
+            </redo>
+            <removeformat>
+              <description see="/tinymce/advanced/removeformat_desc" />
+              <displayname see="/tinymce/advanced/removeformat_desc" />
+            </removeformat>
+            <strikethrough>
+              <description see="/tinymce/simple/striketrough_desc" />
+              <displayname see="/tinymce/simple/striketrough_desc" />
+            </strikethrough>
+            <styleselect>
+              <description see="/tinymce/advanced/style_select" />
+              <displayname see="/tinymce/advanced/style_select" />
+            </styleselect>
+            <sub>
+              <description see="/tinymce/advanced/sub_desc" />
+              <displayname see="/tinymce/advanced/sub_desc" />
+            </sub>
+            <sup>
+              <description see="/tinymce/advanced/sup_desc" />
+              <displayname see="/tinymce/advanced/sup_desc" />
+            </sup>
+            <underline>
+              <description see="/tinymce/simple/underline_desc" />
+              <displayname see="/tinymce/simple/underline_desc" />
+            </underline>
+            <undo>
+              <description see="/tinymce/advanced/undo_desc" />
+              <displayname see="/tinymce/advanced/undo_desc" />
+            </undo>
+            <unlink>
+              <description see="/tinymce/advanced/unlink_desc" />
+              <displayname see="/tinymce/advanced/unlink_desc" />
+            </unlink>
+            <visualaid>
+              <description see="/tinymce/advanced/visualaid_desc" />
+              <displayname see="/tinymce/advanced/visualaid_desc" />
+            </visualaid>
+          </advanced>
+          <directionality>
+            <ltr>
+              <description see="/tinymce/directionality/ltr_desc" />
+              <displayname see="/tinymce/directionality/ltr_desc" />
+            </ltr>
+            <rtl>
+              <description see="/tinymce/directionality/rtl_desc" />
+              <displayname see="/tinymce/directionality/rtl_desc" />
+            </rtl>
+          </directionality>
+          <fullscreen>
+            <fullscreen>
+              <description see="/tinymce/fullscreen/desc" />
+              <displayname see="/tinymce/fullscreen/desc" />
+            </fullscreen>
+          </fullscreen>
+          <insertdatetime>
+            <insertdate>
+              <description see="/tinymce/insertdatetime/insertdate_desc" />
+              <displayname see="/tinymce/insertdatetime/insertdate_desc" />
+            </insertdate>
+            <inserttime>
+              <description see="/tinymce/insertdatetime/inserttime_desc" />
+              <displayname see="/tinymce/insertdatetime/inserttime_desc" />
+            </inserttime>
+          </insertdatetime>
+          <layer>
+            <absolute>
+              <description see="/tinymce/layer/absolute_desc" />
+              <displayname see="/tinymce/layer/absolute_desc" />
+            </absolute>
+            <insertLayer>
+              <description see="/tinymce/layer/insertlayer_desc" />
+              <displayname see="/tinymce/layer/insertlayer_desc" />
+            </insertLayer>
+            <movebackward>
+              <description see="/tinymce/layer/backward_desc" />
+              <displayname see="/tinymce/layer/backward_desc" />
+            </movebackward>
+            <moveforward>
+              <description see="/tinymce/layer/forward_desc" />
+              <displayname see="/tinymce/layer/forward_desc" />
+            </moveforward>
+          </layer>
+          <media>
+            <media>
+              <description see="/tinymce/media/desc" />
+              <displayname see="/tinymce/media/desc" />
+            </media>
+          </media>
+          <nonbreaking>
+            <nonbreaking>
+              <description see="/tinymce/nonbreaking/nonbreaking_desc" />
+              <displayname see="/tinymce/nonbreaking/nonbreaking_desc" />
+            </nonbreaking>
+          </nonbreaking>
+          <paste>
+            <pastetext>
+              <description see="/tinymce/paste/paste_text_desc" />
+              <displayname see="/tinymce/paste/paste_text_desc" />
+            </pastetext>
+            <pasteword>
+              <description see="/tinymce/paste/paste_word_desc" />
+              <displayname see="/tinymce/paste/paste_word_desc" />
+            </pasteword>
+            <selectall>
+              <description see="/tinymce/paste/selectall_desc" />
+              <displayname see="/tinymce/paste/selectall_desc" />
+            </selectall>
+          </paste>
+          <preview>
+            <preview>
+              <description see="/tinymce/preview/preview_desc" />
+              <displayname see="/tinymce/preview/preview_desc" />
+            </preview>
+          </preview>
+          <print>
+            <print>
+              <description see="/tinymce/print/print_desc" />
+              <displayname see="/tinymce/print/print_desc" />
+            </print>
+          </print>
+          <searchreplace>
+            <replace>
+              <description see="/tinymce/searchreplace/replace_desc" />
+              <displayname see="/tinymce/searchreplace/replace_desc" />
+            </replace>
+            <search>
+              <description see="/tinymce/searchreplace/search_desc" />
+              <displayname see="/tinymce/searchreplace/search_desc" />
+            </search>
+          </searchreplace>
+          <style>
+            <styleprops>
+              <description see="/tinymce/style/desc" />
+              <displayname see="/tinymce/style/desc" />
+            </styleprops>
+          </style>
+          <table>
+            <cell_props>
+              <description see="/tinymce/table/cell_desc" />
+              <displayname see="/tinymce/table/cell_desc" />
+            </cell_props>
+            <col_after>
+              <description see="/tinymce/table/col_after_desc" />
+              <displayname see="/tinymce/table/col_after_desc" />
+            </col_after>
+            <col_before>
+              <description see="/tinymce/table/col_before_desc" />
+              <displayname see="/tinymce/table/col_before_desc" />
+            </col_before>
+            <delete_col>
+              <description see="/tinymce/table/delete_col_desc" />
+              <displayname see="/tinymce/table/delete_col_desc" />
+            </delete_col>
+            <delete_row>
+              <description see="/tinymce/table/delete_row_desc" />
+              <displayname see="/tinymce/table/delete_row_desc" />
+            </delete_row>
+            <delete_table>
+              <description see="/tinymce/table/del" />
+              <displayname see="/tinymce/table/del" />
+            </delete_table>
+            <merge_cells>
+              <description see="/tinymce/table/merge_cells_desc" />
+              <displayname see="/tinymce/table/merge_cells_desc" />
+            </merge_cells>
+            <row_after>
+              <description see="/tinymce/table/row_after_desc" />
+              <displayname see="/tinymce/table/row_after_desc" />
+            </row_after>
+            <row_before>
+              <description see="/tinymce/table/row_before_desc" />
+              <displayname see="/tinymce/table/row_before_desc" />
+            </row_before>
+            <row_props>
+              <description see="/tinymce/table/row_desc" />
+              <displayname see="/tinymce/table/row_desc" />
+            </row_props>
+            <split_cells>
+              <description see="/tinymce/table/split_cells_desc" />
+              <displayname see="/tinymce/table/split_cells_desc" />
+            </split_cells>
+            <table>
+              <description see="/tinymce/table/desc" />
+              <displayname see="/tinymce/table/desc" />
+            </table>
+            <tablecontrols>
+              <description see="/tinymce/table/desc" />
+              <displayname see="/tinymce/table/desc" />
+            </tablecontrols>
+          </table>
+          <xhtmlxtras>
+            <abbr>
+              <description see="/tinymce/xhtmlxtras/abbr_desc" />
+              <displayname see="/tinymce/xhtmlxtras/abbr_desc" />
+            </abbr>
+            <acronym>
+              <description see="/tinymce/xhtmlxtras/acronym_desc" />
+              <displayname see="/tinymce/xhtmlxtras/acronym_desc" />
+            </acronym>
+            <attribs>
+              <description see="/tinymce/xhtmlxtras/attribs_desc" />
+              <displayname see="/tinymce/xhtmlxtras/attribs_desc" />
+            </attribs>
+            <cite>
+              <description see="/tinymce/xhtmlxtras/cite_desc" />
+              <displayname see="/tinymce/xhtmlxtras/cite_desc" />
+            </cite>
+            <del>
+              <description see="/tinymce/xhtmlxtras/del_desc" />
+              <displayname see="/tinymce/xhtmlxtras/del_desc" />
+            </del>
+            <ins>
+              <description see="/tinymce/xhtmlxtras/ins_desc" />
+              <displayname see="/tinymce/xhtmlxtras/ins_desc" />
+            </ins>
+          </xhtmlxtras>
+        </plugins>
+      </tinymce>
+    </admin>
+    <tinymce>
+      <advanced>
+        <address>地址</address>
+        <anchor_delta_height />
+        <anchor_delta_width />
+        <anchor_desc>插入/编辑锚点</anchor_desc>
+        <backcolor_desc>选择背景颜色</backcolor_desc>
+        <backcolorpicker_desc see="#backcolor_desc" />
+        <block>格式</block>
+        <blockquote>引用</blockquote>
+        <blockquote_desc>引用</blockquote_desc>
+        <bold_desc>黑体(Ctrl+B)</bold_desc>
+        <bullist_desc>专案符号</bullist_desc>
+        <charmap_delta_height />
+        <charmap_delta_width />
+        <charmap_desc>插入特殊符号</charmap_desc>
+        <cleanup_desc>清除多余代码</cleanup_desc>
+        <clipboard_msg>复制、剪下及贴上功能在Mozilla和Firefox中不能使用。 \n是否需要了解更多有关此问题的资讯？</clipboard_msg>
+        <code>代码</code>
+        <code_desc>编辑HTML原始程式码</code_desc>
+        <colorpicker_delta_height />
+        <colorpicker_delta_width />
+        <copy_desc>复制</copy_desc>
+        <custom1_desc>在此输入您的自订描述</custom1_desc>
+        <cut_desc>剪下</cut_desc>
+        <dd>名词解释</dd>
+        <div>DIV层</div>
+        <dt>名词定义</dt>
+        <font_size>字体大小</font_size>
+        <fontdefault>字体</fontdefault>
+        <fontselect_desc see="#fontdefault" />
+        <fontsizeselect_desc see="#font_size" />
+        <forecolor_desc>选择文字颜色</forecolor_desc>
+        <forecolorpicker_desc see="#forecolor_desc" />
+        <formatselect_desc see="#block" />
+        <h1>标题1</h1>
+        <h2>标题2</h2>
+        <h3>标题3</h3>
+        <h4>标题4</h4>
+        <h5>标题5</h5>
+        <h6>标题6</h6>
+        <help_desc>说明</help_desc>
+        <hr_desc>插入水平线</hr_desc>
+        <image_delta_height />
+        <image_delta_width />
+        <image_desc>插入/编辑图片</image_desc>
+        <image_props_desc>图片属性</image_props_desc>
+        <indent_desc>增加缩排</indent_desc>
+        <italic_desc>斜体(Ctrl+I)</italic_desc>
+        <justifycenter_desc>居中</justifycenter_desc>
+        <justifyfull_desc>两端对齐</justifyfull_desc>
+        <justifyleft_desc>左对齐</justifyleft_desc>
+        <justifyright_desc>右对齐</justifyright_desc>
+        <link_delta_height>60</link_delta_height>
+        <link_delta_width>40</link_delta_width>
+        <link_desc>插入/编辑连结</link_desc>
+        <more_colors>更多颜色</more_colors>
+        <newdocument>您确认要清除全部内容吗？</newdocument>
+        <newdocument_desc>新文件</newdocument_desc>
+        <numlist_desc>编号</numlist_desc>
+        <outdent_desc>减少缩排</outdent_desc>
+        <paragraph>段落</paragraph>
+        <paste_desc>贴上</paste_desc>
+        <path>位置</path>
+        <pre>无式样编排</pre>
+        <redo_desc>重做(Ctrl+Y)</redo_desc>
+        <removeformat_desc>清除样式</removeformat_desc>
+        <samp>代码样例</samp>
+        <strikethrough_desc see="#striketrough_desc" />
+        <striketrough_desc>删除线</striketrough_desc>
+        <style_select>样式</style_select>
+        <styleselect_desc see="#style_select" />
+        <sub_desc>下标</sub_desc>
+        <sup_desc>上标</sup_desc>
+        <toolbar_focus>工具按钮- Alt+Q,编辑器- Alt-Z,元件位置- Alt-X</toolbar_focus>
+        <underline_desc>底线(Ctrl+U)</underline_desc>
+        <undo_desc>撤销(Ctrl+Z)</undo_desc>
+        <unlink_desc>取消连结</unlink_desc>
+        <visualaid_desc>开关格线/隐藏元件</visualaid_desc>
+      </advanced>
+      <advanced_dlg>
+        <about_author>作者</about_author>
+        <about_general>关于</about_general>
+        <about_help>帮助</about_help>
+        <about_license>授权</about_license>
+        <about_loaded>已载入的外挂程式</about_loaded>
+        <about_plugin>外挂程式</about_plugin>
+        <about_plugins>全部外挂程式</about_plugins>
+        <about_title>关于TinyMCE</about_title>
+        <about_version>版本</about_version>
+        <anchor_name>锚点名称</anchor_name>
+        <anchor_title>插入/编辑锚点</anchor_title>
+        <charmap_title>插入特殊符号</charmap_title>
+        <code_title>HTML原始程式码编辑器</code_title>
+        <code_wordwrap>整字换行</code_wordwrap>
+        <colorpicker_color>颜色:</colorpicker_color>
+        <colorpicker_name>名称:</colorpicker_name>
+        <colorpicker_named_tab>预设的</colorpicker_named_tab>
+        <colorpicker_named_title>预设的颜色</colorpicker_named_title>
+        <colorpicker_palette_tab>色盘</colorpicker_palette_tab>
+        <colorpicker_palette_title>色盘颜色</colorpicker_palette_title>
+        <colorpicker_picker_tab>选色器</colorpicker_picker_tab>
+        <colorpicker_picker_title>选色器</colorpicker_picker_title>
+        <colorpicker_title>挑选颜色</colorpicker_title>
+        <image_align>对齐方式</image_align>
+        <image_align_baseline>基线</image_align_baseline>
+        <image_align_bottom>底部对齐</image_align_bottom>
+        <image_align_left>靠左对齐</image_align_left>
+        <image_align_middle>居中对齐</image_align_middle>
+        <image_align_right>靠右对齐</image_align_right>
+        <image_align_textbottom>文字下方</image_align_textbottom>
+        <image_align_texttop>文字上方</image_align_texttop>
+        <image_align_top>上方对齐</image_align_top>
+        <image_alt>图片说明</image_alt>
+        <image_border>边框</image_border>
+        <image_dimensions>尺寸</image_dimensions>
+        <image_hspace>水准间距</image_hspace>
+        <image_list>图片清单</image_list>
+        <image_src>图片位址</image_src>
+        <image_title>插入/编辑图片</image_title>
+        <image_vspace>垂直间距</image_vspace>
+        <link_is_email>您输入的网址应该是一个电子邮寄地址，是否需要在位址前方加入mailto:？</link_is_email>
+        <link_is_external>您输入的网址应该是一个外部连结，是否需要在网址前方加入http://？</link_is_external>
+        <link_list>连结清单</link_list>
+        <link_target>目标</link_target>
+        <link_target_blank>将连结网址开在新窗口</link_target_blank>
+        <link_target_same>将连结网址开在此视窗</link_target_same>
+        <link_title>插入/编辑连结</link_title>
+        <link_titlefield>标题</link_titlefield>
+        <link_url>连结位址</link_url>
+      </advanced_dlg>
+      <advhr>
+        <advhr_desc>水平线</advhr_desc>
+        <delta_height />
+        <delta_width />
+      </advhr>
+      <advhr_dlg>
+        <noshade>无阴影</noshade>
+        <size>长</size>
+        <width>宽</width>
+      </advhr_dlg>
+      <advimage>
+        <delta_height />
+        <delta_width />
+        <image_desc>插入/编辑图片</image_desc>
+      </advimage>
+      <advimage_dlg>
+        <align>对齐方式</align>
+        <align_baseline>基线</align_baseline>
+        <align_bottom>下方</align_bottom>
+        <align_left>靠左</align_left>
+        <align_middle>居中</align_middle>
+        <align_right>靠右</align_right>
+        <align_textbottom>文字下方</align_textbottom>
+        <align_texttop>文字上方</align_texttop>
+        <align_top>上方</align_top>
+        <alt>图片说明</alt>
+        <alt_image>替换图片</alt_image>
+        <border>边框</border>
+        <classes>类型</classes>
+        <constrain_proportions>保持比例</constrain_proportions>
+        <dialog_title>插入/编辑图片</dialog_title>
+        <dimensions>尺寸</dimensions>
+        <example_img>预览图片</example_img>
+        <general>一般</general>
+        <hspace>垂直间距</hspace>
+        <id>Id</id>
+        <image_list>图片清单</image_list>
+        <langcode>语言编码</langcode>
+        <langdir>语言书写方向</langdir>
+        <list>图片清单</list>
+        <long_desc>长描述连结</long_desc>
+        <ltr>由左到右</ltr>
+        <map>图片地图</map>
+        <misc>其它</misc>
+        <missing_alt>请问是否确定不为图片加入说明文字？若没有加入说明文字，当使用者使用不读入图片或文字体的流览器时，将会看不到这个图片。</missing_alt>
+        <mouseout>滑鼠移出图片</mouseout>
+        <mouseover>滑鼠移入图片</mouseover>
+        <preview>预览</preview>
+        <rtl>由右到左</rtl>
+        <src>图片网址</src>
+        <style>样式</style>
+        <swap_image>对换图片</swap_image>
+        <tab_advanced>高级</tab_advanced>
+        <tab_appearance>外观</tab_appearance>
+        <tab_general>一般</tab_general>
+        <title>查找</title>
+        <vspace>水准间距</vspace>
+      </advimage_dlg>
+      <advlink>
+        <delta_height />
+        <delta_width />
+        <link_desc>插入/编辑连结</link_desc>
+      </advlink>
+      <advlink_dlg>
+        <accesskey>快速键</accesskey>
+        <advanced_props>高级属性</advanced_props>
+        <advanced_tab>高级</advanced_tab>
+        <anchor_names>锚点</anchor_names>
+        <classes>类型</classes>
+        <encoding>编码</encoding>
+        <event_props>事件</event_props>
+        <events_tab>事件</events_tab>
+        <general_props>一般属性</general_props>
+        <general_tab>一般</general_tab>
+        <id>Id</id>
+        <is_email>您输入的网址应该是一个电子邮寄地址，是否需要在邮址前方加入mailto:？</is_email>
+        <is_external>您输入的网址应该是一个外部连结，是否需要在网址前方加入http://？</is_external>
+        <langcode>语言编码</langcode>
+        <langdir>语言书写方向</langdir>
+        <link_list>连结清单</link_list>
+        <list>连结清单</list>
+        <ltr>由左到右</ltr>
+        <mime>目标MIME类型</mime>
+        <popup>Javascript快显视窗</popup>
+        <popup_dependent>从属(只有Mozilla/Firefox有效)</popup_dependent>
+        <popup_location>显示网址列</popup_location>
+        <popup_menubar>显示功能表</popup_menubar>
+        <popup_name>窗口名称</popup_name>
+        <popup_opts>选项</popup_opts>
+        <popup_position>座标(X/Y)</popup_position>
+        <popup_props>快显视窗属性</popup_props>
+        <popup_resizable>可调整视窗尺寸</popup_resizable>
+        <popup_return>插入'return false'</popup_return>
+        <popup_scrollbars>显示边条</popup_scrollbars>
+        <popup_size>尺寸</popup_size>
+        <popup_statusbar>显示状态栏</popup_statusbar>
+        <popup_tab>快显视窗</popup_tab>
+        <popup_toolbar>显示工具列</popup_toolbar>
+        <popup_url>快显视窗网址</popup_url>
+        <rel>页到目标的关系</rel>
+        <rev>目标到页的关系</rev>
+        <rtl>由右到左</rtl>
+        <style>样式</style>
+        <tabindex>Tab索引</tabindex>
+        <target>目标</target>
+        <target_blank>打开在新视窗</target_blank>
+        <target_langcode>目的语言</target_langcode>
+        <target_name>目标名称</target_name>
+        <target_parent>打开在父视窗/框架</target_parent>
+        <target_same>打开在新视窗/框架</target_same>
+        <target_top>打开在最上层的框架(替换所有框架)</target_top>
+        <title>插入/编辑连结</title>
+        <titlefield>查找</titlefield>
+        <url>连结位址</url>
+      </advlink_dlg>
+      <autosave>
+        <unload_msg>如果离开此页面将导致所做的更改全部丢失。</unload_msg>
+      </autosave>
+      <common>
+        <apply>应用</apply>
+        <browse>流览</browse>
+        <cancel>取消</cancel>
+        <class_name>样式</class_name>
+        <clipboard_msg>复制、剪下、贴上功能在Mozilla和Firefox中不能使用。 \n是否需要了解更多有关此问题的资讯？</clipboard_msg>
+        <clipboard_no_support>还不支援您的流览器，请使用键盘快速键</clipboard_no_support>
+        <close>关闭</close>
+        <edit_confirm>是否在此textarea标签内使用"所见即所得"模式？</edit_confirm>
+        <insert>插入</insert>
+        <invalid_data>错误:无效输入值，已标记为红色。</invalid_data>
+        <more_colors>更多颜色</more_colors>
+        <not_set>--未设置--</not_set>
+        <popup_blocked>抱歉！快显视窗已被阻止，请调整流览器设置，允许此网站可弹出新视窗，以便使用此工具</popup_blocked>
+        <update>更新</update>
+      </common>
+      <contextmenu>
+        <align>对齐方式</align>
+        <center>居中对齐</center>
+        <full>两端对齐</full>
+        <left>靠左对齐</left>
+        <right>靠右对齐</right>
+      </contextmenu>
+      <directionality>
+        <ltr_desc>文字从左到右</ltr_desc>
+        <rtl_desc>文字从右到左</rtl_desc>
+      </directionality>
+      <emotions>
+        <delta_height />
+        <delta_width />
+        <emotions_desc>图释</emotions_desc>
+      </emotions>
+      <emotions_dlg>
+        <cool>冷酷</cool>
+        <cry>哭泣</cry>
+        <desc>图释</desc>
+        <embarassed>尴尬</embarassed>
+        <emotions_dlg_desc see="#desc" />
+        <foot_in_mouth>咧嘴</foot_in_mouth>
+        <frown>皱眉</frown>
+        <innocent>天真</innocent>
+        <kiss>吻</kiss>
+        <laughing>大笑</laughing>
+        <money_mouth>发财</money_mouth>
+        <sealed>保密</sealed>
+        <smile>微笑</smile>
+        <surprised>惊吓</surprised>
+        <title>插入图释</title>
+        <tongue_out>吐舌头</tongue_out>
+        <undecided>考虑</undecided>
+        <wink>眨眼</wink>
+        <yell>叫嚷</yell>
+      </emotions_dlg>
+      <fullpage>
+        <delta_height />
+        <delta_width />
+        <desc>档案属性</desc>
+        <fullpage_desc see="#desc" />
+      </fullpage>
+      <fullpage_dlg>
+        <active_color>Active颜色</active_color>
+        <add>添加新元素</add>
+        <add_base>Base元素</add_base>
+        <add_comment>Comment node</add_comment>
+        <add_link>Link元素</add_link>
+        <add_meta>Meta元素</add_meta>
+        <add_script>Script元素</add_script>
+        <add_style>Style元素</add_style>
+        <add_title>查找元素</add_title>
+        <advanced_props>高级</advanced_props>
+        <advanced_tab>高级</advanced_tab>
+        <appearance_bgprops>背景属性</appearance_bgprops>
+        <appearance_linkprops>连结颜色</appearance_linkprops>
+        <appearance_marginprops>Body margins</appearance_marginprops>
+        <appearance_style>样式表及样式属性</appearance_style>
+        <appearance_tab>外观</appearance_tab>
+        <appearance_textprops>文字属性</appearance_textprops>
+        <author>作者</author>
+        <base_element>Base element</base_element>
+        <bgcolor>背景颜色</bgcolor>
+        <bgimage>背景图片</bgimage>
+        <bottom_margin>下边界</bottom_margin>
+        <charset>字元集</charset>
+        <comment_element>Comment</comment_element>
+        <content>内容</content>
+        <copyright>版权</copyright>
+        <defer>延缓</defer>
+        <doctypes>Doctype</doctypes>
+        <encoding>字元编码</encoding>
+        <font_face>字体</font_face>
+        <font_size>字体尺寸</font_size>
+        <fontface>字形体系</fontface>
+        <fontsize>字体大小</fontsize>
+        <general_props>一般</general_props>
+        <head_elements>Head elements</head_elements>
+        <hover_color>Hover颜色</hover_color>
+        <href>Href</href>
+        <hreflang>Href lang</hreflang>
+        <info>信息</info>
+        <langcode>语言编码</langcode>
+        <langdir>语言书写方向</langdir>
+        <langprops>语言与编码</langprops>
+        <language>语言</language>
+        <left_margin>左边界</left_margin>
+        <link_color>连结颜色</link_color>
+        <link_element>Link element</link_element>
+        <ltr>由左到右</ltr>
+        <media>媒体</media>
+        <meta_description>内容说明</meta_description>
+        <meta_element>Meta element</meta_element>
+        <meta_index_follow>Index and follow the links</meta_index_follow>
+        <meta_index_nofollow>Index and don't follow the links</meta_index_nofollow>
+        <meta_keywords>关键字</meta_keywords>
+        <meta_noindex_follow>Do not index but follow the links</meta_noindex_follow>
+        <meta_noindex_nofollow>Do not index and don\'t follow the links</meta_noindex_nofollow>
+        <meta_props>标签( Meta )信息</meta_props>
+        <meta_robots>Robots</meta_robots>
+        <meta_tab>一般</meta_tab>
+        <meta_title>标题</meta_title>
+        <movedown>下移选定元素</movedown>
+        <moveup>上移选定元素</moveup>
+        <name>名称</name>
+        <properties>属性</properties>
+        <rel>Rel</rel>
+        <remove>移除选定元素</remove>
+        <rev>Rev</rev>
+        <right_margin>右边界</right_margin>
+        <rtl>由右到左</rtl>
+        <script_element>Script element</script_element>
+        <src>Src</src>
+        <style>样式</style>
+        <style_element>Style element</style_element>
+        <stylesheet>样式表</stylesheet>
+        <target>目标</target>
+        <text_color>文字颜色</text_color>
+        <textcolor>颜色</textcolor>
+        <title>档案属性</title>
+        <title_element>查找element</title_element>
+        <top_margin>上边界</top_margin>
+        <type>类型</type>
+        <value>值</value>
+        <visited_color>Visited颜色</visited_color>
+        <xml_pi>XML宣告</xml_pi>
+      </fullpage_dlg>
+      <fullscreen>
+        <desc>开关全屏模式</desc>
+        <fullscreen_desc see="#desc" />
+      </fullscreen>
+      <iespell>
+        <download>未检测到ieSpell的存在。是否现在立即安装？</download>
+        <iespell_desc>拼写检查</iespell_desc>
+      </iespell>
+      <insertdatetime>
+        <date_fmt>%Y-%m-%d</date_fmt>
+        <day_long>星期日,星期一,星期二,星期三,星期四,星期五,星期六,星期日</day_long>
+        <day_short>周日,周一,周二,周三,周四,周五,周六,周日</day_short>
+        <insertdate_desc>插入今天日期</insertdate_desc>
+        <inserttime_desc>插入现在时间</inserttime_desc>
+        <months_long>一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月</months_long>
+        <months_short>1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月</months_short>
+        <time_fmt>%H:%M:%S</time_fmt>
+      </insertdatetime>
+      <layer>
+        <absolute_desc>开关绝对位置</absolute_desc>
+        <backward_desc>置后</backward_desc>
+        <content>新增层...</content>
+        <forward_desc>置前</forward_desc>
+        <insertlayer_desc>插入层</insertlayer_desc>
+        <movebackward_desc see="#backward_desc" />
+        <moveforward_desc see="#forward_desc" />
+      </layer>
+      <media>
+        <delta_height />
+        <delta_width />
+        <desc>插入/编辑嵌入媒体</desc>
+        <edit>编辑嵌入媒体</edit>
+        <media_desc see="#desc" />
+      </media>
+      <media_dlg>
+        <advanced>高级</advanced>
+        <align>对齐</align>
+        <align_bottom>下方</align_bottom>
+        <align_bottom_left>左下</align_bottom_left>
+        <align_bottom_right>右下</align_bottom_right>
+        <align_center>中间</align_center>
+        <align_left>靠左</align_left>
+        <align_right>靠右</align_right>
+        <align_top>上方</align_top>
+        <align_top_left>左上</align_top_left>
+        <align_top_right>右上</align_top_right>
+        <autogotourl>自动转到URL</autogotourl>
+        <autohref>自动HREF</autohref>
+        <autostart>自动开始</autostart>
+        <balance>平衡</balance>
+        <base>基底</base>
+        <baseurl>基准URL</baseurl>
+        <bgcolor>背景色</bgcolor>
+        <cache>缓存</cache>
+        <captioningid>Captioning id</captioningid>
+        <center>中心</center>
+        <class_name>类型</class_name>
+        <console>控制台</console>
+        <constrain_proportions>保持比例</constrain_proportions>
+        <controller>控制台</controller>
+        <controls>控制器</controls>
+        <correction>没有修正</correction>
+        <currentmarker>当前标记</currentmarker>
+        <currentposition>当前位置</currentposition>
+        <defaultframe>默认帧</defaultframe>
+        <enabled>启用</enabled>
+        <enablejavascript>启用JavaScript</enablejavascript>
+        <endtime>结束时间</endtime>
+        <file>文件/网址</file>
+        <flash_options>Flash选项</flash_options>
+        <flashvars>参数</flashvars>
+        <flv_autostart>自动播放</flv_autostart>
+        <flv_buffer>缓冲</flv_buffer>
+        <flv_defaultvolume>预设音量</flv_defaultvolume>
+        <flv_hiddengui>隐藏GUI</flv_hiddengui>
+        <flv_jscallback>JS回档</flv_jscallback>
+        <flv_loop>回圈</flv_loop>
+        <flv_options>Flash视频选项</flv_options>
+        <flv_scalemode>Scale mode</flv_scalemode>
+        <flv_showscalemodes>Show scale modes</flv_showscalemodes>
+        <flv_smoothvideo>平滑图像</flv_smoothvideo>
+        <flv_startimage>开始画面</flv_startimage>
+        <flv_starttime>开始时间</flv_starttime>
+        <fullscreen>全屏</fullscreen>
+        <general>一般</general>
+        <hidden>隐藏</hidden>
+        <href>连结</href>
+        <hspace>垂直间距</hspace>
+        <id>Id</id>
+        <imagestatus>图像状态</imagestatus>
+        <invokeurls>相关URLs</invokeurls>
+        <kioskmode>Kiosk模式</kioskmode>
+        <list>列表</list>
+        <liveconnect>SWLiveConnect</liveconnect>
+        <loop>回圈播放</loop>
+        <maintainaspect>Maintain aspect</maintainaspect>
+        <menu>显示功能表</menu>
+        <mute>静音</mute>
+        <name>名称</name>
+        <nojava>No java</nojava>
+        <numloop>回圈次数</numloop>
+        <play>自动播放</play>
+        <playcount>播放计数</playcount>
+        <playeveryframe>播放每一帧</playeveryframe>
+        <prefetch>预读取</prefetch>
+        <preview>预览</preview>
+        <progress>进度</progress>
+        <qt_options>Quicktime选项</qt_options>
+        <qt_stream_warn>流式rtsp资源应该添加到“高级”中QT Src。\n同时添加非流式资源到Src。</qt_stream_warn>
+        <qtsrc>QT Src</qtsrc>
+        <qtsrcchokespeed>Choke speed</qtsrcchokespeed>
+        <quality>品质</quality>
+        <rate>帧率</rate>
+        <rmp_options>Real media player选项</rmp_options>
+        <salign>SAlign</salign>
+        <scale>比例</scale>
+        <scriptcallbacks>脚本回档</scriptcallbacks>
+        <shockwave_options>Shockwave选项</shockwave_options>
+        <shuffle>Shuffle</shuffle>
+        <size>尺寸</size>
+        <sound>声音</sound>
+        <starttime>开始时间</starttime>
+        <stretchtofit>拉伸</stretchtofit>
+        <swstretchhalign>水准拉升</swstretchhalign>
+        <swstretchstyle>拉升模式</swstretchstyle>
+        <swstretchvalign>垂直拉升</swstretchvalign>
+        <target>目标</target>
+        <targetcache>目标缓存</targetcache>
+        <title>插入/编辑嵌入媒体</title>
+        <type>类型</type>
+        <uimode>面板模式</uimode>
+        <windowlessvideo>无边框</windowlessvideo>
+        <wmode>视窗模式</wmode>
+        <wmp_options>Windows media player选项</wmp_options>
+        <volume>音量</volume>
+        <vspace>水准间距</vspace>
+      </media_dlg>
+      <nonbreaking>
+        <nonbreaking_desc>插入空白格</nonbreaking_desc>
+      </nonbreaking>
+      <pagebreak>
+        <desc>插入分页符号</desc>
+        <pagebreak_desc see="#desc" />
+      </pagebreak>
+      <paste>
+        <paste_text_desc>以纯文字贴上</paste_text_desc>
+        <paste_word_desc>从Word贴上</paste_word_desc>
+        <pastetext_desc see="#paste_text_desc" />
+        <pasteword_desc see="#paste_word_desc" />
+        <selectall_desc>全选</selectall_desc>
+      </paste>
+      <paste_dlg>
+        <text_linebreaks>保留分行符号号</text_linebreaks>
+        <text_title>在键盘上同时按下CTRL和V键，以贴上文字到此视窗。</text_title>
+        <word_title>在键盘上同时按下CTRL和V键，以贴上文字到此视窗。</word_title>
+      </paste_dlg>
+      <preview>
+        <preview_desc>预览</preview_desc>
+      </preview>
+      <print>
+        <print_desc>列印</print_desc>
+      </print>
+      <save>
+        <cancel_desc>取消所有更改</cancel_desc>
+        <save_desc>保存</save_desc>
+      </save>
+      <searchreplace>
+        <delta_height />
+        <delta_width />
+        <replace_desc>查找/替换</replace_desc>
+        <search_desc>查找</search_desc>
+      </searchreplace>
+      <searchreplace_dlg>
+        <allreplaced>已替换所有匹配的符串.</allreplaced>
+        <direction>方向</direction>
+        <down>向下</down>
+        <findnext>下一个</findnext>
+        <findwhat>查找目标</findwhat>
+        <mcase>大小写匹配</mcase>
+        <notfound>查找已完成!找不到任何目标。</notfound>
+        <replace>替换</replace>
+        <replace_title>查找/替换</replace_title>
+        <replaceall>替换全部</replaceall>
+        <replacewith>替换为</replacewith>
+        <search_title>查找</search_title>
+        <searchnext_desc>再次查找</searchnext_desc>
+        <up>向上</up>
+      </searchreplace_dlg>
+      <simple>
+        <bold_desc>黑体(Ctrl+B)</bold_desc>
+        <bullist_desc>专案符号</bullist_desc>
+        <cleanup_desc>清除多余代码</cleanup_desc>
+        <italic_desc>斜体(Ctrl+I)</italic_desc>
+        <numlist_desc>编号</numlist_desc>
+        <redo_desc>重做(Ctrl+Y)</redo_desc>
+        <striketrough_desc>删除线</striketrough_desc>
+        <underline_desc>底线(Ctrl+U)</underline_desc>
+        <undo_desc>撤销(Ctrl+Z)</undo_desc>
+      </simple>
+      <spellchecker>
+        <desc>开关拼写检查</desc>
+        <ignore_word>略过</ignore_word>
+        <ignore_words>全部略过</ignore_words>
+        <langs>语言</langs>
+        <menu>拼写检查设置</menu>
+        <no_mpell>未发现拼写错误</no_mpell>
+        <no_sug>无拼写推荐</no_sug>
+        <spellchecker_desc see="#desc" />
+        <sug>推荐字词</sug>
+        <wait>请稍候...</wait>
+      </spellchecker>
+      <style>
+        <delta_height />
+        <delta_width />
+        <desc>编辑CSS样式表</desc>
+        <style_desc see="#desc" />
+        <styleprops_desc see="#desc" />
+      </style>
+      <style_dlg>
+        <apply>应用</apply>
+        <background_attachment>附件</background_attachment>
+        <background_color>背景颜色</background_color>
+        <background_hpos>垂直位置</background_hpos>
+        <background_image>背景图片</background_image>
+        <background_repeat>重复</background_repeat>
+        <background_tab>背景</background_tab>
+        <background_vpos>水准位置</background_vpos>
+        <block_display>显示方式</block_display>
+        <block_letterspacing>字元间距</block_letterspacing>
+        <block_tab>块</block_tab>
+        <block_text_align>文字对齐</block_text_align>
+        <block_text_indent>文字缩排</block_text_indent>
+        <block_vertical_alignment>水准对齐方式</block_vertical_alignment>
+        <block_whitespace>空白</block_whitespace>
+        <block_wordspacing>单字间距</block_wordspacing>
+        <border_tab>边框</border_tab>
+        <bottom>下方</bottom>
+        <box_clear>清除</box_clear>
+        <box_float>浮动</box_float>
+        <box_height>高度</box_height>
+        <box_tab>箱型</box_tab>
+        <box_width>宽度</box_width>
+        <bullet_image>项目图示</bullet_image>
+        <clip>剪辑</clip>
+        <color>颜色</color>
+        <height>高度</height>
+        <left>靠左</left>
+        <list_tab>列表</list_tab>
+        <list_type>类型</list_type>
+        <margin>边界</margin>
+        <overflow>溢出</overflow>
+        <padding>留白</padding>
+        <placement>布置</placement>
+        <position>图示位置</position>
+        <positioning_tab>位置</positioning_tab>
+        <positioning_type>类型</positioning_type>
+        <right>靠右</right>
+        <same>全部一样</same>
+        <style>样式</style>
+        <text_blink>闪烁</text_blink>
+        <text_case>字体</text_case>
+        <text_color>颜色</text_color>
+        <text_decoration>修饰</text_decoration>
+        <text_font>字体</text_font>
+        <text_lineheight>行高</text_lineheight>
+        <text_none>无</text_none>
+        <text_overline>上划线</text_overline>
+        <text_props>文字</text_props>
+        <text_size>尺寸</text_size>
+        <text_striketrough>删除线</text_striketrough>
+        <text_style>样式</text_style>
+        <text_tab>文字</text_tab>
+        <text_underline>底线</text_underline>
+        <text_variant>变体</text_variant>
+        <text_weight>宽度</text_weight>
+        <title>编辑CSS样式表</title>
+        <top>上方</top>
+        <width>宽度</width>
+        <visibility>可见性</visibility>
+        <zindex>Z轴深度</zindex>
+      </style_dlg>
+      <table>
+        <cell>储存格</cell>
+        <cell_desc>储存格属性</cell_desc>
+        <cell_props_desc see="#cell_desc" />
+        <cellprops_delta_height>10</cellprops_delta_height>
+        <cellprops_delta_width>10</cellprops_delta_width>
+        <col>列</col>
+        <col_after_desc>插入右方列</col_after_desc>
+        <col_before_desc>插入左方列</col_before_desc>
+        <copy_row_desc>复制选择行</copy_row_desc>
+        <cut_row_desc>剪下选择行</cut_row_desc>
+        <del>删除表格</del>
+        <delete_col_desc>删除所在列</delete_col_desc>
+        <delete_row_desc>删除所在行</delete_row_desc>
+        <delete_table_desc see="#del" />
+        <desc>插入新表格</desc>
+        <merge_cells_delta_height>40</merge_cells_delta_height>
+        <merge_cells_delta_width>40</merge_cells_delta_width>
+        <merge_cells_desc>合并储存格</merge_cells_desc>
+        <paste_row_after_desc>贴在下行</paste_row_after_desc>
+        <paste_row_before_desc>贴在上行</paste_row_before_desc>
+        <props_desc>表格属性</props_desc>
+        <row>行</row>
+        <row_after_desc>插入下方行</row_after_desc>
+        <row_before_desc>插入上方行</row_before_desc>
+        <row_desc>行属性</row_desc>
+        <row_props_desc see="#row_desc" />
+        <rowprops_delta_height />
+        <rowprops_delta_width />
+        <split_cells_desc>分割储存格</split_cells_desc>
+        <table_delta_height>60</table_delta_height>
+        <table_delta_width>40</table_delta_width>
+        <table_desc see="#desc" />
+        <tablecontrols_desc see="#desc" />
+      </table>
+      <table_dlg>
+        <advanced_props>高级属性</advanced_props>
+        <advanced_tab>高级</advanced_tab>
+        <align>对齐方式</align>
+        <align_bottom>下方</align_bottom>
+        <align_default>预设</align_default>
+        <align_left>靠左</align_left>
+        <align_middle>居中</align_middle>
+        <align_right>靠右</align_right>
+        <align_top>上方</align_top>
+        <bgcolor>背景颜色</bgcolor>
+        <bgimage>背景图片</bgimage>
+        <border>边框</border>
+        <bordercolor>边框颜色</bordercolor>
+        <caption>表格标题</caption>
+        <cell_all>更新表格内的全部储存格</cell_all>
+        <cell_cell>更新所的储存格</cell_cell>
+        <cell_limit>已超过可用数，最高的储存格数为{$cells}格。</cell_limit>
+        <cell_row>更新所在行的全部储存格</cell_row>
+        <cell_title>储存格属性</cell_title>
+        <cell_type>储存格别</cell_type>
+        <cellpadding>储存格留白</cellpadding>
+        <cellspacing>储存格间距</cellspacing>
+        <col_limit>已超过可用数，最高的列数为{$cols}列。</col_limit>
+        <colgroup>列群组</colgroup>
+        <cols>列数</cols>
+        <frame>边框</frame>
+        <frame_all>全部</frame_all>
+        <frame_cols>列</frame_cols>
+        <frame_groups>群组</frame_groups>
+        <frame_none>无</frame_none>
+        <frame_rows>行</frame_rows>
+        <general_props>一般属性</general_props>
+        <general_tab>一般</general_tab>
+        <height>高度</height>
+        <id>Id</id>
+        <langcode>语言编码</langcode>
+        <langdir>语言书写方向</langdir>
+        <ltr>由左到右</ltr>
+        <merge_cells_title>合并储存格</merge_cells_title>
+        <mime>目标MIME类型</mime>
+        <missing_scope>标题行缺失！</missing_scope>
+        <row_all>更新表格内全部行</row_all>
+        <row_even>更新表格内的偶数行</row_even>
+        <row_limit>已超过可用数，最高的行数为{$rows}行。</row_limit>
+        <row_odd>更新表格内的奇数行</row_odd>
+        <row_row>更新所在行</row_row>
+        <row_title>行属性</row_title>
+        <rowgroup>行群组</rowgroup>
+        <rows>行数</rows>
+        <rowtype>行所在的表格位置</rowtype>
+        <rtl>由右到左</rtl>
+        <rules>线条</rules>
+        <rules_above>上</rules_above>
+        <rules_below>下</rules_below>
+        <rules_border>外框</rules_border>
+        <rules_box>盒型</rules_box>
+        <rules_hsides>水准边</rules_hsides>
+        <rules_lhs>左边</rules_lhs>
+        <rules_rhs>右边</rules_rhs>
+        <rules_void>空</rules_void>
+        <rules_vsides>垂直边</rules_vsides>
+        <scope>范围</scope>
+        <style>样式</style>
+        <summary>概要</summary>
+        <tbody>表身</tbody>
+        <td>数据</td>
+        <tfoot>表尾</tfoot>
+        <th>表头</th>
+        <thead>表头</thead>
+        <title>插入/编辑表格</title>
+        <valign>水准对齐方式</valign>
+        <width>宽度</width>
+      </table_dlg>
+      <template>
+        <desc>插入预定的范本内容</desc>
+        <template_desc see="#desc" />
+      </template>
+      <template_dlg>
+        <cdate_format>%Y-%m-%d %H:%M:%S</cdate_format>
+        <day_long>星期日，星期一，星期二，星期三，星期四，星期五，星期六，星期日</day_long>
+        <day_short>周日，周一，周二，周三，周四，周五，周六，周日</day_short>
+        <desc>插入预定的范本内容</desc>
+        <desc_label>描述</desc_label>
+        <label>范本</label>
+        <mdate_format>%Y-%m-%d %H:%M:%S</mdate_format>
+        <months_long>一月，二月，三月，四月，五月，六月，七月，八月，九月，十月，十一月，十二月</months_long>
+        <months_short>1月，2月，3月，4月，5月，6月，7月，8月，9月，10月，11月，12月</months_short>
+        <preview>预览</preview>
+        <select>选择范本</select>
+        <template_dlg_desc see="#desc" />
+        <title>范本标题</title>
+        <warning>警告:更新范本有可能导致资料遗失。</warning>
+      </template_dlg>
+      <visualchars>
+        <desc>显示控制符号开/关。</desc>
+        <visualchars_desc see="#desc" />
+      </visualchars>
+      <xhtmlxtras>
+        <abbr_delta_height />
+        <abbr_delta_width />
+        <abbr_desc>缩写</abbr_desc>
+        <acronym_delta_height />
+        <acronym_delta_width />
+        <acronym_desc>首字缩写</acronym_desc>
+        <attribs_delta_height>60</attribs_delta_height>
+        <attribs_delta_width>40</attribs_delta_width>
+        <attribs_desc>插入/编辑属性</attribs_desc>
+        <cite_delta_height />
+        <cite_delta_width />
+        <cite_desc>引文</cite_desc>
+        <del_delta_height />
+        <del_delta_width />
+        <del_desc>删除</del_desc>
+        <ins_delta_height />
+        <ins_delta_width />
+        <ins_desc>插入</ins_desc>
+      </xhtmlxtras>
+      <xhtmlxtras_dlg>
+        <attrib_tab>属性</attrib_tab>
+        <attribs_title>插入/编辑属性</attribs_title>
+        <attribute_attrib_tab>属性</attribute_attrib_tab>
+        <attribute_events_tab>事件</attribute_events_tab>
+        <attribute_label_accesskey>快速键</attribute_label_accesskey>
+        <attribute_label_cite>引文</attribute_label_cite>
+        <attribute_label_class>类型</attribute_label_class>
+        <attribute_label_datetime>日期/时间</attribute_label_datetime>
+        <attribute_label_id>ID</attribute_label_id>
+        <attribute_label_langcode>语言</attribute_label_langcode>
+        <attribute_label_langdir>文字书写方向</attribute_label_langdir>
+        <attribute_label_style>样式</attribute_label_style>
+        <attribute_label_tabindex>Tab索引</attribute_label_tabindex>
+        <attribute_label_title>查找</attribute_label_title>
+        <attribute_option_ltr>由左到右</attribute_option_ltr>
+        <attribute_option_rtl>由右到左</attribute_option_rtl>
+        <events_tab>事件</events_tab>
+        <fieldset_attrib_tab>元素属性</fieldset_attrib_tab>
+        <fieldset_events_tab>元素事件</fieldset_events_tab>
+        <fieldset_general_tab>一般</fieldset_general_tab>
+        <general_tab>一般</general_tab>
+        <insert_date>插入现在日期/时间</insert_date>
+        <option_ltr>由左到右</option_ltr>
+        <option_rtl>由右到左</option_rtl>
+        <remove>删除</remove>
+        <title_abbr_element>缩写元素</title_abbr_element>
+        <title_acronym_element>首字缩写元素</title_acronym_element>
+        <title_cite_element>引文元素</title_cite_element>
+        <title_del_element>删除元素</title_del_element>
+        <title_ins_element>插入元素</title_ins_element>
+      </xhtmlxtras_dlg>
+    </tinymce>
+  </language>
+</languages>

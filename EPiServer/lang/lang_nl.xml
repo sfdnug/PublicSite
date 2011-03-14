@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="Nederlands" id="nl">
+    <document>
+      <download>Downloaden:</download>
+    </document>
+    <error>
+      <document>De pagina-eigenschap &quot;Pad naar document&quot; is niet ingesteld.</document>
+      <mainmenucontainer>De dynamische eigenschap MainMenuContainer is niet ingesteld.</mainmenucontainer>
+    </error>
+    <form>
+      <numberofvotes>Aantal stemmen: {0}</numberofvotes>
+      <postedmessage>Bedankt voor uw bericht!</postedmessage>
+      <showform>Naar het formulier</showform>
+      <showstat>Statistieken weergeven</showstat>
+    </form>
+    <headings>
+      <heading name="News &amp; Calendar">
+        <description>Nieuws &amp; Kalender</description>
+      </heading>
+      <heading name="SiteConfiguration">
+        <description>Siteconfiguratie</description>
+      </heading>
+    </headings>
+    <login>
+      <becomemember>Registreren</becomemember>
+      <editdetails>Mijn instellingen</editdetails>
+      <email>Geef uw e-mailadres op:</email>
+      <error>
+        <loginfail>Aanmelden is mislukt. De opgegeven gebruikersnaam of het opgegeven wachtwoord zijn niet juist.</loginfail>
+        <password>U moet een wachtwoord invullen</password>
+        <username>U moet een gebruikersnaam opgeven</username>
+      </error>
+      <forgotpassword>Wachtwoord vergeten?</forgotpassword>
+      <login>Aanmelden</login>
+      <logout>Afmelden</logout>
+      <password>Wachtwoord</password>
+    </login>
+    <navigation>
+      <help>Help</help>
+      <listen>Luisteren</listen>
+      <readmore>Meer lezen</readmore>
+      <search>Zoeken</search>
+      <skipnavigation>Ga naar inhoud</skipnavigation>
+      <startpage>Start</startpage>
+      <startpagelinktitle>Naar startpagina</startpagelinktitle>
+    </navigation>
+    <news>
+      <morenews>Meer nieuws</morenews>
+      <publishdate>Gepubliceerd</publishdate>
+      <writername>Auteur</writername>
+    </news>
+    <pagetypes>
+      <common>
+        <property name="ConfirmationMessage">
+          <caption>Bevestigingsbericht</caption>
+          <help>Tekst die wordt verzonden in het bevestigingsbericht.</help>
+        </property>
+        <property name="ContactPage">
+          <caption>Contactpagina</caption>
+          <help>Koppeling naar de pagina met contactgegevens.</help>
+        </property>
+        <property name="Description">
+          <caption>Kop voor RSS-bron</caption>
+          <help>Geef een kop op voor de RSS-bron </help>
+        </property>
+        <property name="DocumentListRoot">
+          <caption>Documentenlijst ophalen van</caption>
+          <help>Geef de pagina op waarvan u de documentlijst wilt ophalen. Als deze optie niet is ingesteld, wordt de paginalijst niet weergegeven.</help>
+        </property>
+        <property name="DocumentPath">
+          <caption>Pad naar document</caption>
+          <help>Pad naar een kopie van het brondocument</help>
+        </property>
+        <property name="EmailBody">
+          <caption>E-mailtekst</caption>
+          <help>Inhoud van het e-mailbericht dat wordt verzonden.</help>
+        </property>
+        <property name="EmailSender">
+          <caption>Afzender e-mail</caption>
+          <help>E-mailadres dat wordt gebruikt als afzender.</help>
+        </property>
+        <property name="EmailSubject">
+          <caption>Onderwerp e-mail</caption>
+          <help>Onderwerp van het e-mailbericht dat wordt verzonden.</help>
+        </property>
+        <property name="EmbeddedObjectHeight">
+          <caption>Hoogte van de Flash-film</caption>
+          <help>Geef de hoogte van de Flash-film op in pixels.</help>
+        </property>
+        <property name="EmbeddedObjectWidth">
+          <caption>Breedte van de Flash-film</caption>
+          <help>Geef de breedte van de Flash-film op in pixels.</help>
+        </property>
+        <property name="EmbeddedURL">
+          <caption>Pad naar Flash-film</caption>
+          <help>Geef het adres van de Flash-film op</help>
+        </property>
+        <property name="EnableStatistics">
+          <caption>Statistieken weergeven</caption>
+          <help>Statistieken op pagina voor bezoekers weergeven</help>
+        </property>
+        <property name="EPSUBSCRIBE">
+          <caption>Abonnement activeren</caption>
+          <help>Hiermee activeert u een abonnement voor deze pagina</help>
+        </property>
+        <property name="EPSUBSCRIBE-EXCLUDE">
+          <caption>Abonnement voor deze pagina blokkeren</caption>
+          <help>Schakel dit selectievakje in om abonnementupdates voor deze pagina te blokkeren.</help>
+        </property>
+        <property name="EPSUBSCRIBEHIDDEN">
+          <caption>Niet op de abonnementpagina weergeven</caption>
+          <help>Hiermee verbergt u deze pagina op de abonnementpagina</help>
+        </property>
+        <property name="EPSUBSCRIBE-ROOT">
+          <caption>Hoofdpagina voor abonnement</caption>
+          <help>Geef een pagina in de structuur op van waaruit het abonnement start.</help>
+        </property>
+        <property name="EventsCount">
+          <caption>Aantal gebeurtenisitems</caption>
+          <help>Geef een getal op voor het aantal pagina’s dat u wilt weergeven in de lijst.</help>
+        </property>
+        <property name="EventsRoot">
+          <caption>Gebeurtenissenlijst ophalen van</caption>
+          <help>Geef de pagina op met de onderliggende items voor het genereren van de gebeurtenissenlijst. Als deze optie niet is ingesteld, wordt de nieuwslijst niet weergegeven.</help>
+        </property>
+        <property name="Heading">
+          <caption>Kop</caption>
+          <help>Geef een kop op als hoofdtitel van deze pagina. Als deze eigenschap niet is ingesteld, wordt de paginanaam gebruikt als kop.</help>
+        </property>
+        <property name="Image">
+          <caption>Afbeelding</caption>
+          <help>Geef een afbeelding op die wordt weergeven op de startpagina (900*341 pixels)</help>
+        </property>
+        <property name="IndexRoot">
+          <caption>Inhoud van pagina weergeven</caption>
+          <help>Geef de pagina op van waaruit het siteoverzicht start.</help>
+        </property>
+        <property name="IsDocumentPageType">
+          <caption>Volledige HTML-editie en kopie van brondocument uploaden</caption>
+          <help>Selecteer deze optie om de volledige HTML-editie weer te geven</help>
+        </property>
+        <property name="LoginPage">
+          <caption>Aanmeldingspagina</caption>
+          <help>Geef de aanmeldingspagina op voor dit gedeelte van de site.</help>
+        </property>
+        <property name="Logotype">
+          <caption>Logotype</caption>
+          <help>Geef het pad op naar de logotypeafbeelding die bovenaan in de website wordt weergegeven.</help>
+        </property>
+        <property name="MainBody">
+          <caption>Hoofdtekst</caption>
+          <help>De hoofdtekst verschijnt in het hoofdgedeelte voor inhoud op de pagina. U kunt bijvoorbeeld tekst, afbeeldingen en tabellen invoegen met behulp van de XHTML-editor.</help>
+        </property>
+        <property name="MainIntro">
+          <caption>Inleiding</caption>
+          <help>Korte versie van de nieuwsinhoud. Deze tekst wordt gebruikt in nieuwslijsten, indien beschikbaar.</help>
+        </property>
+        <property name="MainListCount">
+          <caption>Aantal pagina's in de hoofdlijst weergeven</caption>
+          <help>Geef een getal op voor het aantal pagina’s dat u in de lijst wilt weergeven.</help>
+        </property>
+        <property name="MainListRoot">
+          <caption>Hoofdlijst ophalen van</caption>
+          <help>Geef de pagina op waarvan u de lijst wilt ophalen. De lijst verschijnt in het hoofdgedeelte voor inhoud. Als deze optie niet is ingesteld, wordt de paginalijst niet weergegeven.</help>
+        </property>
+        <property name="MainMenuContainer">
+          <caption>Menu’s weergeven van</caption>
+          <help>Geef een locatie in de menustructuur op van waaruit menu's op de geselecteerde pagina worden weergegeven.</help>
+        </property>
+        <property name="MetaAuthor">
+          <caption>Auteur</caption>
+          <help>Geef de auteur van de tekst op voor gebruik in zoekmachines. Als deze optie niet is ingesteld, wordt de waarde in de dynamische eigenschap gebruikt als auteur.</help>
+        </property>
+        <property name="MetaDescription">
+          <caption>Paginabeschrijving</caption>
+          <help>Beschrijf de inhoud van de pagina</help>
+        </property>
+        <property name="MetaKeywords">
+          <caption>Standaardzoekwoorden voor pagina’s</caption>
+          <help>Geef een kommagescheiden lijst met zoekwoorden op die overeenkomen met deze pagina.</help>
+        </property>
+        <property name="NewsCount">
+          <caption>Aantal nieuwsitems</caption>
+          <help>Geef een getal op voor het aantal pagina’s dat u in de lijst wilt weergeven.</help>
+        </property>
+        <property name="NewsRoot">
+          <caption>Nieuwslijst ophalen van</caption>
+          <help>Geef een pagina op met de onderliggende items voor het genereren van de nieuwslijst. Als deze optie niet is ingesteld, wordt de nieuwslijst niet weergegeven.</help>
+        </property>
+        <property name="PasswordChangeSuccessBody">
+          <caption>Geslaagde wachtwoordwijziging</caption>
+          <help>Tekst die verschijnt bij een geslaagde wachtwoordwijziging</help>
+        </property>
+        <property name="PasswordLength">
+          <caption>Wachtwoordlengte</caption>
+          <help>Het kortste toegestane wachtwoord</help>
+        </property>
+        <property name="PrivacyPage">
+          <caption>Privacypagina</caption>
+          <help>Koppeling naar de pagina met juridische informatie.</help>
+        </property>
+        <property name="RootFolder">
+          <caption>Zoekpad naar weer te geven map</caption>
+          <help>Geef het adres op van de map waarvan u de inhoud wilt weergeven in de lijst.</help>
+        </property>
+        <property name="RssContainer">
+          <caption>RSS-hoofdpagina</caption>
+          <help>Geef een hoofdpagina op voor alle RSS-bronpagina’s</help>
+        </property>
+        <property name="RssSource">
+          <caption>RSS-bronpagina</caption>
+          <help>Geef een pagina in de structuur op die een bronpagina is voor RSS-inhoud op deze website.</help>
+        </property>
+        <property name="RssUrl">
+          <caption>Zoekpad naar RSS-bron </caption>
+          <help>Geef de adresinhoud op in RSS-indeling. Dit is doorgaans een webadres.</help>
+        </property>
+        <property name="SearchPage">
+          <caption>Zoekpagina</caption>
+          <help>Koppeling naar de zoekpagina voor dit gedeelte van de site.</help>
+        </property>
+        <property name="SearchRoot">
+          <caption>Startpagina voor de zoekopdracht</caption>
+          <help>Geef de startpagina voor zoekopdrachten op. Als dit veld leeg wordt gelaten, start de zoekopdracht vanaf de startpagina.</help>
+        </property>
+        <property name="SecondaryBody">
+          <caption>Tweede tekst</caption>
+          <help>De tweede tekst wordt weergegeven in de rechterkolom van de pagina. Voor de lay-out kunt u zowel tekst als afbeeldingen gebruiken. Denk eraan dat afbeeldingen niet langer mogen zijn dan het rechtergedeelte.</help>
+        </property>
+        <property name="SecondaryListCount">
+          <caption>Aantal pagina's in de tweede lijst weergeven</caption>
+          <help>Aantal items in de tweede lijst</help>
+        </property>
+        <property name="SecondaryListRoot">
+          <caption>Tweede lijst ophalen van</caption>
+          <help>Geef de pagina op waarvan u de lijst wilt ophalen. De lijst verschijnt in de rechterkolom. Als deze optie niet is ingesteld, wordt de paginalijst niet weergegeven.</help>
+        </property>
+        <property name="SitemapPage">
+          <caption>Pagina met siteoverzicht</caption>
+          <help>Koppeling naar de pagina met het siteoverzicht.</help>
+        </property>
+        <property name="SortFilesBy">
+          <caption>Bestanden sorteren op</caption>
+          <help>Geef aan hoe u de lijst wilt sorteren.</help>
+        </property>
+        <property name="SubscriptionMailBody">
+          <caption>Inleidende tekst in het abonnementsbericht</caption>
+          <help>Voer de tekst in die u wilt gebruiken als berichttekst van het abonnementsbericht.</help>
+        </property>
+        <property name="SubscriptionMailFrom">
+          <caption>E-mailadres afzender van abonnementsbericht</caption>
+          <help>E-mailadres dat wordt gebruikt als afzender van het abonnementsbericht</help>
+        </property>
+        <property name="SubscriptionMailReadMore">
+          <caption>Koppelingstekst in het abonnementsbericht</caption>
+          <help>Deze tekst zal in het abonnementsbericht de koppeling bevatten waarop de gebruiker kan klikken.</help>
+        </property>
+        <property name="SubscriptionMailSubject">
+          <caption>Onderwerp van abonnementsbericht</caption>
+          <help>Dit is het onderwerpveld van het abonnementsbericht.</help>
+        </property>
+        <property name="Thumbnail">
+          <caption>Miniatuurafbeelding</caption>
+          <help>Geef een afbeelding op die, waar van toepassing, in paginalijsten wordt weergegeven.</help>
+        </property>
+        <property name="XForm">
+          <caption>Formulier</caption>
+          <help>Geef het formulier op dat u wilt weergeven op deze pagina. Klik op de knop als u zelf formulieren wilt maken.</help>
+        </property>
+      </common>
+      <pagetype name="[Public] Demo page">
+        <description>Dit paginatype bevat functies om de interactie tussen verschillende typen besturingselementen/technologieën en EPiServer weer te geven (en vice versa).</description>
+        <name>[Openbaar] Demopagina</name>
+      </pagetype>
+      <pagetype name="[Public] Document">
+        <description>Met dit paginatype worden documenten gepubliceerd vanuit Microsoft Office.</description>
+        <name>[Openbaar] Document</name>
+      </pagetype>
+      <pagetype name="[Public] Document list">
+        <description>Dit paginatype geeft een lijst weer met gepubliceerde documenten vanuit Microsoft Office.</description>
+        <name>[Openbaar] Documentlijst</name>
+      </pagetype>
+      <pagetype name="[Public] File explorer">
+        <description>Dit paginatype geeft bestanden weer vanuit een map op de webserver.</description>
+        <name>[Openbaar] Bestandslijst</name>
+      </pagetype>
+      <pagetype name="[Public] Login">
+        <description>Met dit paginatype wordt een aanmeldingspagina voor de website gemaakt.</description>
+        <name>[Openbaar] Aanmelden</name>
+      </pagetype>
+      <pagetype name="[Public] News item">
+        <description>Dit paginatype bevat de gegevens voor één nieuwsitem.</description>
+        <name>[Openbaar] Nieuwsitem</name>
+      </pagetype>
+      <pagetype name="[Public] Registration">
+        <description>Op dit paginatype kunnen bezoekers zich registreren op de website.</description>
+        <name>[Openbaar] Registratie</name>
+      </pagetype>
+      <pagetype name="[Public] RSS source">
+        <description>Dit paginatype geeft informatie van EPiServer weer in RSS-indeling.</description>
+        <name>[Openbaar] RSS-bron</name>
+      </pagetype>
+      <pagetype name="[Public] Search page">
+        <description>Dit paginatype geeft de zoekresultaten weer van de snelzoekbalk, plus een interface voor geavanceerd zoeken.</description>
+        <name>[Openbaar] Zoekpagina</name>
+      </pagetype>
+      <pagetype name="[Public] SiteMap">
+        <description>Op dit paginatype wordt een inhoudslijst gemaakt van de hele website of een gedeelte ervan.</description>
+        <name>[Openbaar] Siteoverzicht</name>
+      </pagetype>
+      <pagetype name="[Public] Standard page">
+        <description>Dit paginatype is de meest gebruikte pagina op de website. U kunt dit type zowel voor normale pagina’s als voor nieuws en gebeurtenissen gebruiken.</description>
+        <name>[Openbaar] Standaardpagina</name>
+      </pagetype>
+      <pagetype name="[Public] Start page">
+        <description>De startpagina vormt de hoofdingang van de website met een hoofdtekst en tweede tekst plus verschillende lijsten voor nieuws, artikelen en gebeurtenissen.</description>
+        <name>[Openbaar] Startpagina</name>
+      </pagetype>
+      <pagetype name="[Public] Subscription">
+        <description>Op dit paginatype kunnen bezoekers abonnementsgegevens selecteren.</description>
+        <name>[Openbaar] Abonnement</name>
+      </pagetype>
+      <pagetype name="[Public] XForm page">
+        <description>Met dit paginatype wordt de standaardpagina uitgebreid met een formulier.</description>
+        <name>[Openbaar] Formulierpagina</name>
+      </pagetype>
+    </pagetypes>
+    <register>
+      <confirmation>Dank u</confirmation>
+      <error>
+        <email>Voer uw e-mailadres in</email>
+        <firstname>Voer uw voornaam in</firstname>
+        <incorrectemail>Het door u ingevoerde e-mailadres is onjuist</incorrectemail>
+        <lastname>Voer uw achternaam in</lastname>
+        <password>Voer een wachtwoord in</password>
+        <passwordlength>Het door u ingevoerde wachtwoord is te kort. Minimumlengte:</passwordlength>
+        <passwordrepeat>De door u ingevoerde wachtwoorden komen niet overeen.</passwordrepeat>
+      </error>
+      <password>Voer wachtwoord in</password>
+      <repeatpassword>Voer wachtwoord nogmaals in</repeatpassword>
+      <signupbutton>Aanmelden</signupbutton>
+    </register>
+    <search>
+      <advancedsearch>Geavanceerde zoekopdracht</advancedsearch>
+      <button>Zoeken</button>
+      <findsimilar>Vergelijkbare zoeken</findsimilar>
+      <onlywholewords>Heel woord</onlywholewords>
+      <percentrelevancy>% relevantie</percentrelevancy>
+      <relevancy>Relevantie</relevancy>
+      <searchfiles>Zoeken in bestanden</searchfiles>
+      <searchfor>Zoeken naar:</searchfor>
+      <searchresult>Zoekresultaat:</searchresult>
+      <searchstring>Hier zoeken</searchstring>
+    </search>
+    <subscription>
+      <daily>Dagelijks</daily>
+      <email>E-mailadres</email>
+      <fastaspossible>Zo spoedig mogelijk</fastaspossible>
+      <interval>Interval</interval>
+      <monthly>Maandelijks</monthly>
+      <subscribe>Abonneren</subscribe>
+      <subscription>Abonnement</subscription>
+      <weekly>Wekelijks</weekly>
+    </subscription>
+    <usersettings>
+      <changepassword>Wachtwoord wijzigen</changepassword>
+      <confirmpassword>Wachtwoord bevestigen</confirmpassword>
+      <email>E-mailadres</email>
+      <firstname>Voornaam</firstname>
+      <lastname>Achternaam</lastname>
+      <mysettings>Mijn instellingen</mysettings>
+      <newpassword>Nieuw wachtwoord</newpassword>
+      <username>Gebruikersnaam</username>
+    </usersettings>
+  </language>
+</languages>

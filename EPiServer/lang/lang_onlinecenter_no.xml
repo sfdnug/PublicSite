@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="Norsk" id="no">
+    <reportcenter>
+      <report name="linkstatus">
+        <caption>Koblingsstatus</caption>
+        <description>Viser koblinger i områdeinnholdet som ikke virker.</description>
+        <heading>Koblingsstatus</heading>
+        <info>
+          Denne rapporten viser koblinger i områdeinnholdet som ikke virker. Velg en side fra listen over rapportresultater for å åpne den i redigeringsmodus.
+        </info>
+      </report>
+    </reportcenter>
+    <shell>
+      <cms>
+        <brokenlinks>
+          <controller>
+            <tooltip>Sidetype: {0}, side-ID: {1}</tooltip>
+            <webExceptions>
+              <fallback>Tilkoblingsfeil</fallback>
+              <status name="1">
+                <fallback>Feil ved navneløsing</fallback>
+              </status>
+              <status name="2">
+                <fallback>Tilkoblingsfeil</fallback>
+              </status>
+              <status name="7">
+                <fallback>Serverfeil</fallback>
+                <httpStatus name="400">Ugyldig forespørsel</httpStatus>
+                <httpStatus name="404">Finnes ikke</httpStatus>
+                <httpStatus name="503">Tidsavbrudd for gateway</httpStatus>
+              </status>
+            </webExceptions>
+          </controller>
+          <index>
+            <info>Denne rapporten viser koblinger som ikke kan nås. Dette kan for eksempel skyldes at en side er flyttet, at et område er nedlagt, eller at målkoblingen ikke kan leses for øyeblikket.</info>
+            <itemsperpage>Elementer per side</itemsperpage>
+            <name>Koblingsstatus</name>
+            <recheck>Kontroller på nytt</recheck>
+            <showreport>Vis rapport</showreport>
+            <table>
+              <brokensince>Brutt siden</brokensince>
+              <brokenurl>Brutt URL-adresse</brokenurl>
+              <lastchecked>Sist kontrollert</lastchecked>
+              <linkstatus>Koblingsstatus</linkstatus>
+              <pagename>Sidenavn</pagename>
+            </table>
+            <working>Arbeider ...</working>
+          </index>
+        </brokenlinks>
+        <directoryselector>
+          <directorylisting>
+            <directorytype>Mappe</directorytype>
+          </directorylisting>
+          <folderselector>
+            <emptyfolder>Denne mappen er tom.</emptyfolder>
+            <favoritesheading>Favoritter</favoritesheading>
+            <startingpointsheading>Startpunkter</startingpointsheading>
+            <wherelabel>Hvor</wherelabel>
+          </folderselector>
+          <index>
+            <nameheading>Navn</nameheading>
+            <sizeheading>Størrelse</sizeheading>
+            <typeheading>Type</typeheading>
+          </index>
+        </directoryselector>
+        <externallinks>
+          <common>
+            <hits>Antall koblinger</hits>
+            <host>Webadresse</host>
+          </common>
+          <details>
+            <link>Webadresse</link>
+            <page>Side</page>
+          </details>
+          <errors>
+            <pagenumber>Sidetallet må være positivt</pagenumber>
+            <pagesize>Sidestørrelsen må være positiv</pagesize>
+          </errors>
+          <gadgettitle>Eksterne koblinger</gadgettitle>
+          <pager>
+            <info>Elementer: {0}-{1} av {2}</info>
+            <next>&gt;&gt;</next>
+            <prev>&lt;&lt;</prev>
+            <split>...</split>
+          </pager>
+          <settings>
+            <legend>Innstillinger</legend>
+            <pagesize>Antall elementet som skal vises</pagesize>
+            <showdetails>Vis detaljer</showdetails>
+          </settings>
+        </externallinks>
+        <hosting>
+          <fileupload>
+            <conflictingdirectory>Det finnes allerede en mappe med samme navn som den nye filen.</conflictingdirectory>
+            <fileexists>Det finnes allerede en fil med det samme navnet, og du har ikke tilstrekkelige tillatelser til å erstatte den eksisterende filen</fileexists>
+            <fileisnotimage>Den valgte filen er ikke et bilde.</fileisnotimage>
+            <fileoverwriteconfirmation>Det finnes allerede en fil med det samme navnet. Vil du erstatte den eksisterende filen?</fileoverwriteconfirmation>
+            <invaliddirectory>Den valgte opplastingsmappen finnes ikke.</invaliddirectory>
+            <permissiondenied>Du har ikke tilstrekkelige tillatelser til å laste opp filer i valgt mappe</permissiondenied>
+            <targetfilecheckedout>Det finnes allerede en fil med det samme navnet, og den er sjekket ut til en annen bruker</targetfilecheckedout>
+          </fileupload>
+        </hosting>
+        <menu>
+          <admin>Administreringsmodus</admin>
+          <cms>CMS</cms>
+          <cmssettings>EPiServer CMS</cmssettings>
+          <edit>Redigeringsmodus</edit>
+          <license>Lisensavtale</license>
+          <logout>Logg av</logout>
+          <mysettings>Mine innstillinger</mysettings>
+          <reportcenter>Rapporter</reportcenter>
+          <selectasite>Velg område som skal vises i Visningsmodus</selectasite>
+          <toviewmode>Til visningsmodus [{0}]</toviewmode>
+        </menu>
+        <mytasks>
+          <assignedto>Tilordne til</assignedto>
+          <createnewtask>Opprett i Redigeringsmodus</createnewtask>
+          <createnewtasktitle>Opprett oppgave fra Redigeringsmodus</createnewtasktitle>
+          <description>Beskrivelse</description>
+          <duedate>Forfallsdato</duedate>
+          <EmptySubjectWarning>Oppgaveemnet er tomt</EmptySubjectWarning>
+          <errors>
+            <settingsusergroupnames>Angi korrekte brukergruppenavn.</settingsusergroupnames>
+          </errors>
+          <IncorrectTaskStatusWarning>Angitt status er ikke gyldig for oppgave</IncorrectTaskStatusWarning>
+          <InvalidDueDate>Oppgavens forfallsdato er ugyldig</InvalidDueDate>
+          <legend>Legg til oppgave</legend>
+          <mygroups>Mine grupper (atskilt med komma)</mygroups>
+          <pagetasks>Sideoppgaver</pagetasks>
+          <quickadd>Hurtigtillegging</quickadd>
+          <quickaddtitle>Opprett oppgave fra dashbordet</quickaddtitle>
+          <settingsheading>Innstillinger</settingsheading>
+          <status>Status</status>
+          <subject>Emne</subject>
+          <title>Mine oppgaver</title>
+          <tooltip>
+            <created>Opprettet</created>
+            <pageid>Side-ID</pageid>
+            <pagepath>Bane</pagepath>
+          </tooltip>
+          <UnknownUserWarning>Finner ikke angitt bruker</UnknownUserWarning>
+        </mytasks>
+        <notchangedpages>
+          <errors>
+            <monthswithoutchanges>Månedsnummer må være et heltall over null.</monthswithoutchanges>
+            <numberofitems>Antall elementer må være et heltall over null.</numberofitems>
+          </errors>
+          <gadgettitle>Uendrede sider</gadgettitle>
+          <indexview>
+            <changedby>Endret av</changedby>
+            <modified>Endret</modified>
+            <name>Navn</name>
+            <status>Status</status>
+          </indexview>
+          <settingsview>
+            <invertsorting>Sorter synkende</invertsorting>
+            <legend>Innstillinger</legend>
+            <monthswithoutchanges>Antall måneder</monthswithoutchanges>
+            <numberofitems>Antall elementet som skal vises</numberofitems>
+          </settingsview>
+        </notchangedpages>
+        <notesgadget>
+          <backgroundcolor>Bakgrunnsfarge</backgroundcolor>
+          <backgroundcolors>
+            <blue>Blå</blue>
+            <green>Grønn</green>
+            <orange>Oransje</orange>
+            <pink>Rosa</pink>
+            <white>Hvit</white>
+            <yellow>Gul</yellow>
+          </backgroundcolors>
+          <textsize>Tekststørrelse</textsize>
+          <textsizes>
+            <big>Stor</big>
+            <normal>Normal</normal>
+            <verybig>Størst</verybig>
+          </textsizes>
+          <title>Notater</title>
+        </notesgadget>
+        <pageinfo>
+          <modifiedby>Endret av</modifiedby>
+          <modifieddate>Endret</modifieddate>
+          <pagelink>ID</pagelink>
+          <pagetype>Sidetype</pagetype>
+          <path>Bane</path>
+        </pageinfo>
+        <quicklinks>
+          <addlink>Legg til kobling</addlink>
+          <cmsedit>
+            <text>Rediger</text>
+            <tooltip>Åpne CMS-redigeringsmodus</tooltip>
+          </cmsedit>
+          <cmslinkcategoryname>CMS</cmslinkcategoryname>
+          <contentguidecategoryname>Hurtigpublisering</contentguidecategoryname>
+          <deletelink>Slett kobling</deletelink>
+          <episerverworldforum>
+            <text>EPiServer World Forum</text>
+            <tooltip>Forumet på EPiServer World</tooltip>
+          </episerverworldforum>
+          <linktitle>Tittel</linktitle>
+          <linkurl>Webadresse</linkurl>
+          <managelinks>Håndter koblinger</managelinks>
+          <mylinkscategoryname>Mine koblinger</mylinkscategoryname>
+          <nocategory>Ingen kategori</nocategory>
+          <title>Hurtigkoblinger</title>
+        </quicklinks>
+        <recentlychangedpages>
+          <common>
+            <byall>Alle endringer</byall>
+            <byme>Mine endringer</byme>
+            <heading>Nylig endrede sider</heading>
+          </common>
+          <configure>
+            <defaultview>Standardvisning</defaultview>
+            <heading>Innstillinger</heading>
+            <numberofitems>Antall elementet som skal vises</numberofitems>
+          </configure>
+          <index>
+            <changedby>Endret av</changedby>
+            <modified>Lagret</modified>
+            <name>Navn</name>
+            <status>Status</status>
+          </index>
+          <rss>
+            <description>Dette er de sist endrede sidene på området {0}</description>
+          </rss>
+        </recentlychangedpages>
+        <rssgadget>
+          <errors>
+            <invalidfeed>Kan ikke lese feeden på grunn av en XML-feil i feedinnholdet som ble returnert fra {0}.</invalidfeed>
+            <invaliditemstoshow>Antall elementer som vises må være et positivt heltall.</invaliditemstoshow>
+            <invaliduri>Ugyldig webadresse. Webadressen må være en absolutt URL-adresse som begynner med http:// eller https://. </invaliduri>
+            <notafeed>Webadressen [{0}] inneholder ikke noen gyldig RSS- eller Atom-feed.</notafeed>
+          </errors>
+          <loadingfeedmessage>Laster inn feed ...</loadingfeedmessage>
+          <settings>
+            <feedurl>URL-adresse for feed</feedurl>
+            <itemstoshow>Elementer som skal vises</itemstoshow>
+            <loadfeedtitle>Hent tittel fra feed</loadfeedtitle>
+            <title>Tittel</title>
+          </settings>
+          <title>RSS-feedleser</title>
+        </rssgadget>
+        <search>
+          <files>
+            <category>Filer</category>
+          </files>
+          <pages>
+            <category>Sider</category>
+            <id>ID</id>
+            <linkurl>Link URL</linkurl>
+            <tooltip>
+              <changed>Endret</changed>
+              <created>Opprettet</created>
+              <id>ID</id>
+              <linkurl>Koblings-URL-adresse</linkurl>
+              <pagetype>Sidetype</pagetype>
+            </tooltip>
+          </pages>
+        </search>
+        <uploadfile>
+          <controller>
+            <noresize>Ikke endre størrelse</noresize>
+          </controller>
+          <index>
+            <alttextlabel>Alternativ tekst</alttextlabel>
+            <imagelegend>Bilde</imagelegend>
+            <imagesizelabel>Endre bildestørrelse</imagesizelabel>
+            <savetolegend>Lagre til</savetolegend>
+            <selectlabel>Velg fil</selectlabel>
+            <uploadbutton>Last opp og sett inn</uploadbutton>
+          </index>
+        </uploadfile>
+        <xformsviewer>
+          <autoupdatelevel>
+            <never>Aldri</never>
+            <normal>Normal (hvert 10. minutt)</normal>
+            <often>Ofte (hvert 60. sekund)</often>
+            <seldom>Sjelden (hvert 60. minutt)</seldom>
+          </autoupdatelevel>
+          <AutoupdateLevel>Oppdater automatisk</AutoupdateLevel>
+          <chartperiodicity>
+            <day>Per dag</day>
+            <hour>Per time</hour>
+            <minute>Per minutt</minute>
+            <month>Per måned</month>
+            <week>Per uke</week>
+          </chartperiodicity>
+          <ChartPeriodicityLabel>Diagramperiodisitet</ChartPeriodicityLabel>
+          <ChartSettings>Diagraminnstillinger</ChartSettings>
+          <DemoMode>Demomodus</DemoMode>
+          <error>
+            <fields>Felter er ikke valgt</fields>
+            <formfields>Velg skjemafelt</formfields>
+            <numberofposts>Antall elementer må være mellom 1 og 50.</numberofposts>
+            <xformid>Velg et skjema</xformid>
+          </error>
+          <GadgetTitle>Skjemavisning</GadgetTitle>
+          <NoFieldsAvailable>Ingen tilgjengelige felter</NoFieldsAvailable>
+          <NoFormsAvailable>Ingen tilgjengelige skjemaer</NoFormsAvailable>
+          <NumberOfPosts>Antall elementet som skal vises</NumberOfPosts>
+          <SelectFields>Felter som skal vises</SelectFields>
+          <SelectXForm>Velg skjema</SelectXForm>
+          <settings>Innstillinger</settings>
+          <ShowChart>Vis diagram</ShowChart>
+          <ShowDate>Vis innleggingsdato for element</ShowDate>
+          <TableColumnPostedTime>Lagt inn</TableColumnPostedTime>
+        </xformsviewer>
+      </cms>
+      <common>
+        <buttons>
+          <cancel>Avbryt</cancel>
+          <save>Lagre</save>
+        </buttons>
+      </common>
+    </shell>
+  </language>
+</languages>

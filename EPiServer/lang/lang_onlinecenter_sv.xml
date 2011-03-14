@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="Svenska" id="sv">
+    <reportcenter>
+      <report name="linkstatus">
+        <caption>Länkstatus</caption>
+        <description>Visar länkar som inte fungerar i sidors innehåll.</description>
+        <heading>Länkstatus</heading>
+        <info>
+          Den här rapporten visar länkar som inte fungerar i sidors innehåll.
+          Välj en sida i resultatlistan för att öppna den i redigeraläget.
+        </info>
+      </report>
+    </reportcenter>
+    <shell>
+      <cms>
+        <brokenlinks>
+          <controller>
+            <tooltip>Sidtyp: {0}, Sid ID: {1}</tooltip>
+            <webExceptions>
+              <fallback>Anslutningsfel</fallback>
+              <status name="1">
+                <fallback>Hittade inte adressen</fallback>
+              </status>
+              <status name="2">
+                <fallback>Fel vid anslutning</fallback>
+              </status>
+              <status name="7">
+                <fallback>Serverfel</fallback>
+                <httpStatus name="400">Felaktigt anslutningsförsök</httpStatus>
+                <httpStatus name="404">Hittades ej</httpStatus>
+                <httpStatus name="503">Gateway Timeout</httpStatus>
+              </status>
+            </webExceptions>
+          </controller>
+          <index>
+            <info>Denna rapport visar länkar som inte kunde kontaktas. Detta kan till exempel bero på att sidan är flyttad, webbplatsen är nerstängd, eller ett tillfälligt fel.</info>
+            <itemsperpage>Antal länkar per sida</itemsperpage>
+            <name>Brutna länkar</name>
+            <recheck>Uppdatera</recheck>
+            <showreport>Visa rapport</showreport>
+            <table>
+              <brokensince>Trasig sedan</brokensince>
+              <brokenurl>Trasig URL</brokenurl>
+              <lastchecked>Senast kontrollerad</lastchecked>
+              <linkstatus>Länkstatus</linkstatus>
+              <pagename>Sidnamn</pagename>
+            </table>
+            <working>Arbetar...</working>
+          </index>
+        </brokenlinks>
+        <directoryselector>
+          <directorylisting>
+            <directorytype>Katalog</directorytype>
+          </directorylisting>
+          <folderselector>
+            <emptyfolder>Katalogen är tom.</emptyfolder>
+            <favoritesheading>Favoriter</favoritesheading>
+            <startingpointsheading>Startpunkter</startingpointsheading>
+            <wherelabel>Spara till</wherelabel>
+          </folderselector>
+          <index>
+            <nameheading>Namn</nameheading>
+            <sizeheading>Storlek</sizeheading>
+            <typeheading>Typ</typeheading>
+          </index>
+        </directoryselector>
+        <externallinks>
+          <common>
+            <hits>Antal länkar</hits>
+            <host>Webb-adress</host>
+          </common>
+          <details>
+            <link>Webb-adress</link>
+            <page>Sida</page>
+          </details>
+          <errors>
+            <pagenumber>Sidnummer måste vara positivt</pagenumber>
+            <pagesize>Sidstorlek måste vara positivt</pagesize>
+          </errors>
+          <gadgettitle>Externa länkar</gadgettitle>
+          <pager>
+            <info>Objekt: {0} - {1} av {2}</info>
+            <next>&gt;&gt;</next>
+            <prev>&lt;&lt;</prev>
+            <split>... (sv)</split>
+          </pager>
+          <settings>
+            <legend>Inställningar</legend>
+            <pagesize>Antal objekt att visas</pagesize>
+            <showdetails>Visa detaljer</showdetails>
+          </settings>
+        </externallinks>
+        <hosting>
+          <fileupload>
+            <conflictingdirectory>En mapp med samma namn som den nya filen finns redan.</conflictingdirectory>
+            <fileexists>En fil med samma namn finns redan, men du har inte behörighet att ersätta filen.</fileexists>
+            <fileisnotimage>Den valda filen är ingen bild.</fileisnotimage>
+            <fileoverwriteconfirmation>En fil med samma namn finns redan. Vill du ersätta den befintliga filen?</fileoverwriteconfirmation>
+            <invaliddirectory>Den valda destinationskatalogen saknas.</invaliddirectory>
+            <permissiondenied>Du saknar behörigheter att skapa filer i den valda katalogen.</permissiondenied>
+            <targetfilecheckedout>En utcheckad file med samma namn finns redan i den valda katalogen.</targetfilecheckedout>
+          </fileupload>
+        </hosting>
+        <menu>
+          <admin>Adminläge</admin>
+          <cms>CMS</cms>
+          <cmssettings>EPiServer CMS</cmssettings>
+          <edit>Redigeraläge</edit>
+          <license>Licensavtal</license>
+          <logout>Logga ut</logout>
+          <mysettings>Mina inställningar</mysettings>
+          <reportcenter>Rapporter</reportcenter>
+          <selectasite>Välj en site för att visa i Visa-läge</selectasite>
+          <toviewmode>Till visaläge [{0}]</toviewmode>
+        </menu>
+        <mytasks>
+          <assignedto>Tilldela till</assignedto>
+          <createnewtask>Skapa i redigeraläge</createnewtask>
+          <createnewtasktitle>Skapa uppgift från redigeraläge</createnewtasktitle>
+          <description>Beskrivning</description>
+          <duedate>Förfallodatum</duedate>
+          <EmptySubjectWarning>Uppgiftsbeskrivningen är tom</EmptySubjectWarning>
+          <errors>
+            <settingsusergroupnames>Ange korrekta namn för användargrupper.</settingsusergroupnames>
+          </errors>
+          <IncorrectTaskStatusWarning>Angiven status är inte giltig för uppgiften</IncorrectTaskStatusWarning>
+          <InvalidDueDate>Ogiltigt förfallodatum</InvalidDueDate>
+          <legend>Skapa en ny uppgift</legend>
+          <mygroups>Mina grupper (åtskilda med komma)</mygroups>
+          <pagetasks>Sidaktiviteter</pagetasks>
+          <quickadd>Lägg till</quickadd>
+          <quickaddtitle>Skapa uppgift från dashboard</quickaddtitle>
+          <settingsheading>Inställningar</settingsheading>
+          <status>Status</status>
+          <subject>Ämne</subject>
+          <title>Aktiviteter</title>
+          <tooltip>
+            <created>Skapad</created>
+            <pageid>Page ID</pageid>
+            <pagepath>Sökväg</pagepath>
+          </tooltip>
+          <UnknownUserWarning>Den angivne användaren hittades ej</UnknownUserWarning>
+        </mytasks>
+        <notchangedpages>
+          <errors>
+            <monthswithoutchanges>Antalet månader måste vara ett heltal större än noll.</monthswithoutchanges>
+            <numberofitems>Antalet objekt måste vara heltal större än noll.</numberofitems>
+          </errors>
+          <gadgettitle>Oförändrade sidor</gadgettitle>
+          <indexview>
+            <changedby>Ändrad av</changedby>
+            <modified>Ändrad</modified>
+            <name>Namn</name>
+            <status>Status</status>
+          </indexview>
+          <settingsview>
+            <invertsorting>Sortera fallande</invertsorting>
+            <legend>Inställningar</legend>
+            <monthswithoutchanges>Antal månader</monthswithoutchanges>
+            <numberofitems>Antal objekt att lista</numberofitems>
+          </settingsview>
+        </notchangedpages>
+        <notesgadget>
+          <backgroundcolor>Bakgrundsfärg</backgroundcolor>
+          <backgroundcolors>
+            <blue>Blå</blue>
+            <green>Grön</green>
+            <orange>Orange</orange>
+            <pink>Rosa</pink>
+            <white>Vit</white>
+            <yellow>Gul</yellow>
+          </backgroundcolors>
+          <textsize>Textstorlek</textsize>
+          <textsizes>
+            <big>Stor</big>
+            <normal>Normal</normal>
+            <verybig>Väldigt stor</verybig>
+          </textsizes>
+          <title>Anteckningar</title>
+        </notesgadget>
+        <pageinfo>
+          <modifiedby>Uppdaterad av</modifiedby>
+          <modifieddate>Uppdaterad</modifieddate>
+          <pagelink>ID</pagelink>
+          <pagetype>Sidtyp</pagetype>
+          <path>Sökväg</path>
+        </pageinfo>
+        <quicklinks>
+          <addlink>Ny länk</addlink>
+          <cmsedit>
+            <text>Redigera</text>
+            <tooltip>Öppna redigeraläget i CMS</tooltip>
+          </cmsedit>
+          <cmslinkcategoryname>CMS</cmslinkcategoryname>
+          <contentguidecategoryname>Snabbpublicering</contentguidecategoryname>
+          <deletelink>Ta bort länk</deletelink>
+          <episerverworldforum>
+            <text>EPiServer World forum</text>
+            <tooltip>Forumet på EPiServer World</tooltip>
+          </episerverworldforum>
+          <linktitle>Titel</linktitle>
+          <linkurl>Webadress</linkurl>
+          <managelinks>Hantera länkar</managelinks>
+          <mylinkscategoryname>Mina länkar</mylinkscategoryname>
+          <nocategory>Ej kategoriserat</nocategory>
+          <title>Snabblänkar</title>
+        </quicklinks>
+        <recentlychangedpages>
+          <common>
+            <byall>Allas uppdateringar</byall>
+            <byme>Mina uppdateringar</byme>
+            <heading>Nyligen uppdaterade sidor</heading>
+          </common>
+          <configure>
+            <defaultview>Förvald vy</defaultview>
+            <heading>Inställningar</heading>
+            <numberofitems>Maximalt antal sidor</numberofitems>
+          </configure>
+          <index>
+            <changedby>Uppdaterad av</changedby>
+            <modified>Uppdaterad</modified>
+            <name>Namn</name>
+            <status>Status</status>
+          </index>
+          <rss>
+            <description>Detta är de senast ändrade sidorna på siten {0}</description>
+          </rss>
+        </recentlychangedpages>
+        <rssgadget>
+          <errors>
+            <invalidfeed>Flödet kunde inte läsas på grund av ett XML fel i innehållet från "{0}".</invalidfeed>
+            <invaliditemstoshow>Antalet poster att visa måste vara ett positivt heltal.</invaliditemstoshow>
+            <invaliduri>Felaktig address. Adressen måste vara en absolut URL som startar med http:// eller https://</invaliduri>
+            <notafeed>Den angivna adressen [{0}] innehåller inte en giltig RSS- eller Atom-källa.</notafeed>
+          </errors>
+          <loadingfeedmessage>Laddar källan ...</loadingfeedmessage>
+          <settings>
+            <feedurl>URL</feedurl>
+            <itemstoshow>Antal poster att visa</itemstoshow>
+            <loadfeedtitle>Hämta titel från källan</loadfeedtitle>
+            <title>Titel</title>
+          </settings>
+          <title>RSS Läsare</title>
+        </rssgadget>
+        <search>
+          <files>
+            <category>Filer</category>
+          </files>
+          <pages>
+            <category>Sidor</category>
+            <id>ID</id>
+            <linkurl>Link URL</linkurl>
+            <tooltip>
+              <changed>Ändrad</changed>
+              <created>Skapad</created>
+              <id>ID</id>
+              <linkurl>Länk-URL</linkurl>
+              <pagetype>Sidtyp</pagetype>
+            </tooltip>
+          </pages>
+        </search>
+        <uploadfile>
+          <controller>
+            <noresize>Ingen omskalning</noresize>
+          </controller>
+          <index>
+            <alttextlabel>Alternativ text</alttextlabel>
+            <imagelegend>Bild</imagelegend>
+            <imagesizelabel>Skala bild</imagesizelabel>
+            <savetolegend>Spara till</savetolegend>
+            <selectlabel>Välj fil</selectlabel>
+            <uploadbutton>Ladda upp och infoga</uploadbutton>
+          </index>
+        </uploadfile>
+        <xformsviewer>
+          <autoupdatelevel>
+            <never>Aldrig</never>
+            <normal>Normalt (var 10 minut)</normal>
+            <often>Ofta (var 60 sekund)</often>
+            <seldom>Sällan (var 60 minut)</seldom>
+          </autoupdatelevel>
+          <AutoupdateLevel>Uppdatera automatiskt</AutoupdateLevel>
+          <chartperiodicity>
+            <day>Per dag</day>
+            <hour>Per timme</hour>
+            <minute>Per minut</minute>
+            <month>Per månad</month>
+            <week>Per vecka</week>
+          </chartperiodicity>
+          <ChartPeriodicityLabel>Diagramperiod</ChartPeriodicityLabel>
+          <ChartSettings>Diagraminställningar</ChartSettings>
+          <DemoMode>Demo-läge</DemoMode>
+          <error>
+            <fields>Inga fält har valts</fields>
+            <formfields>Välj formulärfält</formfields>
+            <numberofposts>Antalet bör vara ett heltal mellan 1 och 50</numberofposts>
+            <xformid>Välj formulär</xformid>
+          </error>
+          <GadgetTitle>Formulärvisning</GadgetTitle>
+          <NoFieldsAvailable>Inga tillgängliga fält</NoFieldsAvailable>
+          <NoFormsAvailable>Inga tillgängliga formulär</NoFormsAvailable>
+          <NumberOfPosts>Antal poster i listan</NumberOfPosts>
+          <SelectFields>Fält att visas</SelectFields>
+          <SelectXForm>Välj formulär</SelectXForm>
+          <settings>Inställning</settings>
+          <ShowChart>Visa diagram</ShowChart>
+          <ShowDate>Visa postningsdatum för post i listan</ShowDate>
+          <TableColumnPostedTime>Postat</TableColumnPostedTime>
+        </xformsviewer>
+      </cms>
+      <common>
+        <buttons>
+          <cancel>Avbryt</cancel>
+          <save>Spara</save>
+        </buttons>
+      </common>
+    </shell>
+  </language>
+</languages>

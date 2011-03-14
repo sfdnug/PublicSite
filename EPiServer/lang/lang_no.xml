@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="norsk" id="no">
+    <document>
+      <download>Last ned:</download>
+    </document>
+    <error>
+      <document>Sideegenskapen Dokumentbane er ikke angitt.</document>
+      <mainmenucontainer>Den dynamiske egenskapen MainMenuContainer er ikke angitt.</mainmenucontainer>
+    </error>
+    <form>
+      <numberofvotes>Antall stemmer: {0}</numberofvotes>
+      <postedmessage>Takk for innlegget!</postedmessage>
+      <showform>Til skjemaet</showform>
+      <showstat>Vis statistikk</showstat>
+    </form>
+    <headings>
+      <heading name="News &amp; Calendar">
+        <description>Nyheter og kalender</description>
+      </heading>
+      <heading name="SiteConfiguration">
+        <description>Områdekonfigurasjon</description>
+      </heading>
+    </headings>
+    <login>
+      <becomemember>Registrer</becomemember>
+      <editdetails>Mine innstillinger</editdetails>
+      <email>Skriv inn e-postadressen din:</email>
+      <error>
+        <loginfail>Påloggingen mislyktes. Brukernavnet eller passordet du oppga, var feil.</loginfail>
+        <password>Du må skrive inn et passord</password>
+        <username>Du må angi et brukernavn</username>
+      </error>
+      <forgotpassword>Glemt passordet?</forgotpassword>
+      <login>Logg på</login>
+      <logout>Logg av</logout>
+      <password>Passord</password>
+    </login>
+    <navigation>
+      <help>Hjelp</help>
+      <listen>Lytt</listen>
+      <readmore>Les mer</readmore>
+      <search>Søk</search>
+      <skipnavigation>Gå til innhold</skipnavigation>
+      <startpage>Start</startpage>
+      <startpagelinktitle>Til startsiden</startpagelinktitle>
+    </navigation>
+    <news>
+      <morenews>Flere nyheter</morenews>
+      <publishdate>Publisert</publishdate>
+      <writername>Forfatter</writername>
+    </news>
+    <pagetypes>
+      <common>
+        <property name="ConfirmationMessage">
+          <caption>Bekreftelsesmelding</caption>
+          <help>Tekst som sendes i bekreftelses-e-posten.</help>
+        </property>
+        <property name="ContactPage">
+          <caption>Kontaktside</caption>
+          <help>Kobling til siden med kontaktinformasjon.</help>
+        </property>
+        <property name="Description">
+          <caption>Overskrift for RSS-kilde</caption>
+          <help>Angi en overskrift for RSS-kilde </help>
+        </property>
+        <property name="DocumentListRoot">
+          <caption>Hent dokumentliste fra</caption>
+          <help>Angi siden du vil hente dokumentlisten fra. Hvis ikke angitt, vil ikke sidelisten vises.</help>
+        </property>
+        <property name="DocumentPath">
+          <caption>Dokumentbane</caption>
+          <help>Banen til dokumentet.</help>
+        </property>
+        <property name="EmailBody">
+          <caption>Brødtekst for e-post</caption>
+          <help>Innholdet i e-posten som sendes.</help>
+        </property>
+        <property name="EmailSender">
+          <caption>Avsender av e-post</caption>
+          <help>E-postadressen som vil bli brukt som avsenderadresse.</help>
+        </property>
+        <property name="EmailSubject">
+          <caption>Emne for e-post</caption>
+          <help>Emnet til e-posten som sendes.</help>
+        </property>
+        <property name="EmbeddedObjectHeight">
+          <caption>Høyde på Flash-film</caption>
+          <help>Angi høyden på Flash-filmen i piksler.</help>
+        </property>
+        <property name="EmbeddedObjectWidth">
+          <caption>Bredde på Flash-film</caption>
+          <help>Angi bredden på Flash-filmen i piksler.</help>
+        </property>
+        <property name="EmbeddedURL">
+          <caption>Bane til Flash-film</caption>
+          <help>Angi adressen til Flash-filmen</help>
+        </property>
+        <property name="EnableStatistics">
+          <caption>Vis statistikk</caption>
+          <help>Vis resultat av postinger for besøkeren</help>
+        </property>
+        <property name="EPSUBSCRIBE">
+          <caption>Aktiver abonnement</caption>
+          <help>Aktiverer et abonnement for denne siden</help>
+        </property>
+        <property name="EPSUBSCRIBE-EXCLUDE">
+          <caption>Blokker abonnement for denne siden</caption>
+          <help>Merk av i denne boksen for å blokkere abonnementsoppdateringer for denne siden.</help>
+        </property>
+        <property name="EPSUBSCRIBEHIDDEN">
+          <caption>Ikke vis på abonnementssiden</caption>
+          <help>Skjuler denne siden på abonnementssiden</help>
+        </property>
+        <property name="EPSUBSCRIBE-ROOT">
+          <caption>Rotside for abonnement</caption>
+          <help>Angi en side i treet som abonnementet vil starte fra.</help>
+        </property>
+        <property name="EventsCount">
+          <caption>Antall hendelseselementer</caption>
+          <help>Begrenser antall elementer.</help>
+        </property>
+        <property name="EventsRoot">
+          <caption>Hendelseslisteside</caption>
+          <help>Viser til den overordnede siden for sidene som brukes til å generere hendelseslisten. Hvis ikke angitt, vises ikke hendelseslisten.</help>
+        </property>
+        <property name="Heading">
+          <caption>Overskrift</caption>
+          <help>Angi en overskrift som utgjør hovedtittelen til denne siden. Hvis denne egenskapen ikke angis, brukes sidenavnet som overskrift i stedet.</help>
+        </property>
+        <property name="Image">
+          <caption>Bilde </caption>
+          <help>Angi et bilde som skal vises på startsiden (900 * 341 piksler)</help>
+        </property>
+        <property name="IndexRoot">
+          <caption>Rotsiden for områdekartet</caption>
+          <help>Områdekartet opprettes med denne siden som utgangspunkt.</help>
+        </property>
+        <property name="IsDocumentPageType">
+          <caption>Last opp fullstendig HTML-versjon og kildedokument</caption>
+          <help>Merk av her for å kunne vise den fullstendige HTML-versjonen</help>
+        </property>
+        <property name="LoginPage">
+          <caption>Påloggingsside</caption>
+          <help>Angi påloggingsside for denne delen av området.</help>
+        </property>
+        <property name="Logotype">
+          <caption>Logotype</caption>
+          <help>URL-adressen til logotypebildet.</help>
+        </property>
+        <property name="MainBody">
+          <caption>Hoveddel</caption>
+          <help>Hovedbrødteksten vises i hovedinnholdsområdet på siden. Du kan sette inn for eksempel tekst, bilder og tabeller ved hjelp av XHTML-redigeringsprogrammet.</help>
+        </property>
+        <property name="MainIntro">
+          <caption>Innledning</caption>
+          <help>Kort versjon av nyhetsinnholdet. Denne teksten brukes i nyhetslister, hvis tilgjengelig.</help>
+        </property>
+        <property name="MainListCount">
+          <caption>Antall hovedlisteelementer i listen.</caption>
+          <help>Begrenser antall elementer.</help>
+        </property>
+        <property name="MainListRoot">
+          <caption>Hovedlisteside</caption>
+          <help>Angi siden du vil hente listen fra. Listen vises i hovedinnholdsområdet. Hvis ikke angitt, vises ikke sidelisten.</help>
+        </property>
+        <property name="MainMenuContainer">
+          <caption>Vis menyer fra</caption>
+          <help>Angi en plass i menytreet som du vil vise menyer fra på den valgte siden</help>
+        </property>
+        <property name="MetaAuthor">
+          <caption>Forfatter</caption>
+          <help>Angi forfatteren av teksten, dette brukes av søkemotorer. Hvis den ikke angis, brukes verdien i den dynamiske egenskapen i stedet.</help>
+        </property>
+        <property name="MetaDescription">
+          <caption>Beskrivelse av siden</caption>
+          <help>Angi en kort beskrivelse av sidens innhold</help>
+        </property>
+        <property name="MetaKeywords">
+          <caption>Standardsøkeord for sider</caption>
+          <help>Angi en kommaatskilt liste over søkeord som passer til denne siden</help>
+        </property>
+        <property name="NewsCount">
+          <caption>Antall nyhetselementer</caption>
+          <help>Begrenser antall elementer.</help>
+        </property>
+        <property name="NewsRoot">
+          <caption>Nyhetslisteside</caption>
+          <help>Viser til den overordnede siden for sidene som brukes til å generere nyhetslisten. Hvis ikke angitt, vises ikke nyhetslisten.</help>
+        </property>
+        <property name="PasswordChangeSuccessBody">
+          <caption>Endring av passord vellykket</caption>
+          <help>Brødtekst som vises når endring av passord er vellykket.</help>
+        </property>
+        <property name="PasswordLength">
+          <caption>Passordlengde</caption>
+          <help>Korteste tillatte passord.</help>
+        </property>
+        <property name="PrivacyPage">
+          <caption>Personvernsside</caption>
+          <help>Kobling til siden med juridisk informasjon.</help>
+        </property>
+        <property name="RootFolder">
+          <caption>Mappebane</caption>
+          <help>Mappetreet starter fra denne siden.</help>
+        </property>
+        <property name="RssContainer">
+          <caption>RSS-beholder</caption>
+          <help>Beholderen for alle RSS-kildesidene</help>
+        </property>
+        <property name="RssSource">
+          <caption>RSS-kildeside</caption>
+          <help>Angi en side i treet som er en kildeside for RSS-innhold på dette webområdet.</help>
+        </property>
+        <property name="RssUrl">
+          <caption>Søkebane til RSS-kilde</caption>
+          <help>Angi adresseinnholdet i RSS-format. Dette er vanligvis en webadresse.</help>
+        </property>
+        <property name="SearchPage">
+          <caption>Søkeside</caption>
+          <help>Kobling til søkesiden for denne delen av området.</help>
+        </property>
+        <property name="SearchRoot">
+          <caption>Rotsiden for søk</caption>
+          <help>Søk starter fra denne siden.</help>
+        </property>
+        <property name="SecondaryBody">
+          <caption>Sekundærdel</caption>
+          <help>Den sekundære brødteksten vises i høyre kolonne på siden. Du kan bruke både tekst og bilder til oppsett. Merk at bilder ikke bør være større enn det høyre området.</help>
+        </property>
+        <property name="SecondaryListCount">
+          <caption>Antall sekundærlisteelementer i listen</caption>
+          <help>Begrens antall elementer i den sekundære listen til denne verdien.</help>
+        </property>
+        <property name="SecondaryListRoot">
+          <caption>Sekundærlisteside</caption>
+          <help>Denne koblingen peker til den overordnede siden som brukes til å generere en sideliste i høyre kolonne. Hvis den ikke angis, vises ikke sidelisten.</help>
+        </property>
+        <property name="SitemapPage">
+          <caption>Områdekartside</caption>
+          <help>Kobling til områdekartsiden</help>
+        </property>
+        <property name="SortFilesBy">
+          <caption>Sorter filer etter</caption>
+          <help>Sorteringsrekkefølgen for mappetreet.</help>
+        </property>
+        <property name="SubscriptionMailBody">
+          <caption>Introduksjonstekst i abonnements-e-post</caption>
+          <help>Skriv inn teksten som vil bli meldingsteksten for abonnements-e-posten.</help>
+        </property>
+        <property name="SubscriptionMailFrom">
+          <caption>Avsenderadresse for abonnements-e-post</caption>
+          <help>E-postadresse som brukes som avsender for abonnements-e-post.</help>
+        </property>
+        <property name="SubscriptionMailReadMore">
+          <caption>Koblingstekst i abonnements-e-post</caption>
+          <help>Denne teksten brukes blir koblingsteksten som brukeren kan klikke på i abonnements-e-posten.</help>
+        </property>
+        <property name="SubscriptionMailSubject">
+          <caption>Emne for abonnements-e-post</caption>
+          <help>Dette er emnefeltet for abonnements-e-posten.</help>
+        </property>
+        <property name="Thumbnail">
+          <caption>Miniatyrbilde</caption>
+          <help>Bilde som vises i sideoppføringer, der det er aktuelt.</help>
+        </property>
+        <property name="XForm">
+          <caption>Skjema</caption>
+          <help>Angi skjemaet som skal vises på denne siden. Ved å klikke på knappen kan du lage dine egne skjemaer</help>
+        </property>
+      </common>
+      <pagetype name="[Public] Demo page">
+        <description>Denne sidetypen samler funksjoner for å vise hvordan forskjellige typer kontroller og teknologier kan virke sammen med EPiServer og vice versa.</description>
+        <name>[Offentlig] Demoside</name>
+      </pagetype>
+      <pagetype name="[Public] Document">
+        <description>Denne sidetypen brukes til å publisere dokumenter fra Microsoft Office.</description>
+        <name>[Offentlig] Dokument</name>
+      </pagetype>
+      <pagetype name="[Public] Document list">
+        <description>Denne sidetypen viser en liste over dokumenter som er publisert fra Microsoft Office.</description>
+        <name>[Offentlig] Dokumentliste</name>
+      </pagetype>
+      <pagetype name="[Public] File explorer">
+        <description>Denne sidetypen lister opp filer fra en mappe på webserveren.</description>
+        <name>[Offentlig] Fil-liste</name>
+      </pagetype>
+      <pagetype name="[Public] Login">
+        <description>Denne sidetypen brukes til å opprette en påloggingsside for webområdet.</description>
+        <name>[Offentlig] Pålogging</name>
+      </pagetype>
+      <pagetype name="[Public] News item">
+        <description>Denne sidetypen inneholder data for ett nyhetselement.</description>
+        <name>[Offentlig] Nyhetselement</name>
+      </pagetype>
+      <pagetype name="[Public] Registration">
+        <description>Denne sidetypen er den gjester kan registrere seg på webområdet med.</description>
+        <name>[Offentlig] Registrering</name>
+      </pagetype>
+      <pagetype name="[Public] RSS source">
+        <description>Denne sidetypen viser informasjon fra EPiServer i RSS-format.</description>
+        <name>[Offentlig] RSS-kilde</name>
+      </pagetype>
+      <pagetype name="[Public] Search page">
+        <description>Denne sidetypen viser søkeresultatet fra hurtigsøk-linjen og et grensesnitt for avansert søk.</description>
+        <name>[Offentlig] Søkeside</name>
+      </pagetype>
+      <pagetype name="[Public] SiteMap">
+        <description>Denne sidetypen oppretter en liste over innholdet på hele eller deler av webområdet.</description>
+        <name>[Offentlig] Områdekart</name>
+      </pagetype>
+      <pagetype name="[Public] Standard page">
+        <description>Denne sidetypen er den vanligste på webområdet. Den kan brukes til vanlige sider i tillegg til nyheter og arrangementer.</description>
+        <name>[Offentlig] Standardside</name>
+      </pagetype>
+      <pagetype name="[Public] Start page">
+        <description>Startsiden er hovedinngangen til webområdet som inneholder en hoved- og sekundærdel så vel som ulike lister over nyheter, artikler og hendelser.</description>
+        <name>[Offentlig] Startside</name>
+      </pagetype>
+      <pagetype name="[Public] Subscription">
+        <description>Denne sidetypen brukes av gjester til å velge abonnementsinformasjon.</description>
+        <name>[Offentlig] Abonnement</name>
+      </pagetype>
+      <pagetype name="[Public] XForm page">
+        <description>Denne sidetypen utvider standardsiden med et skjema.</description>
+        <name>[Offentlig] Skjemaside</name>
+      </pagetype>
+    </pagetypes>
+    <register>
+      <confirmation>Takk</confirmation>
+      <error>
+        <email>Angi e-postadresse</email>
+        <firstname>Angi fornavn</firstname>
+        <incorrectemail>E-postadressen du angav, er feil</incorrectemail>
+        <lastname>Angi etternavn</lastname>
+        <password>Angi et passord</password>
+        <passwordlength>Passordet du angav, er for kort Min. lengde: </passwordlength>
+        <passwordrepeat>Passordene du angav, samsvarer ikke</passwordrepeat>
+      </error>
+      <password>Angi passord</password>
+      <repeatpassword>Gjenta passord</repeatpassword>
+      <signupbutton>Registrer deg</signupbutton>
+    </register>
+    <search>
+      <advancedsearch>Avansert søk</advancedsearch>
+      <button>Søk</button>
+      <findsimilar>Finn liknende</findsimilar>
+      <onlywholewords>Bare hele ord</onlywholewords>
+      <percentrelevancy>% relevans</percentrelevancy>
+      <relevancy>Relevans</relevancy>
+      <searchfiles>Søk i filer</searchfiles>
+      <searchfor>Søk etter:</searchfor>
+      <searchresult>Søkeresultat:</searchresult>
+      <searchstring>Søk her</searchstring>
+    </search>
+    <subscription>
+      <daily>Daglig</daily>
+      <email>E-postadresse</email>
+      <fastaspossible>Så snart som mulig</fastaspossible>
+      <interval>Intervall</interval>
+      <monthly>Månedlig</monthly>
+      <subscribe>Abonner</subscribe>
+      <subscription>Abonnement</subscription>
+      <weekly>Hver uke</weekly>
+    </subscription>
+    <usersettings>
+      <changepassword>Endre passord</changepassword>
+      <confirmpassword>Bekreft passord</confirmpassword>
+      <email>E-postadresse</email>
+      <firstname>Fornavn</firstname>
+      <lastname>Etternavn</lastname>
+      <mysettings>Mine innstillinger</mysettings>
+      <newpassword>Nytt passord</newpassword>
+      <username>Brukernavn</username>
+    </usersettings>
+  </language>
+</languages>
